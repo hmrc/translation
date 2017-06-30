@@ -31,10 +31,19 @@ class ConvertMessages {
 //    val ui = new UI
 //    ui.visible = true
 
+  val cwd = System.getProperty("user.dir")
+
     //compares messages.en with existingTranslations.csv, to create a new, marked-up out.csv
 
-    Message2Csv.messages2csv("messages.en", "existingTranslations.csv", "out.csv")
+  val receivedTranslationsFile = s"$cwd/receivedTranslations.csv"
+  val existingTranslationsFile = s"$cwd/existingTranslations.csv"
+
+  val outFile = s"$cwd/out.csv"
+
+  val msgFile = s"$cwd/messages.cy"
+
+    Message2Csv.messages2csv2(receivedTranslationsFile, existingTranslationsFile, outFile)
 
     //creates _messages.cy, from Translations.csv
-    Csv2Message.csv2Messages("Translations.csv", "_messages.cy")
+    //Csv2Message.csv2Messages(outFile, msgFile)
 }
