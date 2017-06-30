@@ -1,0 +1,37 @@
+Key	English	Welsh	Comments
+pages.form.field.description.transferor-income	Confirm your annual income	Cadarnhau eich incwm blynyddol	English message unchanged
+title.eligibility	Your relationship		Welsh Translation Empty
+title.dateOfBirth	Your date of birth		Welsh Translation Empty
+pages.form.field.last-name.error.error.maxLength	Use up to or no more than {0} letters.	Defnyddiwch hyd at, neu ddim mwy na {0} llythrennau.	English message unchanged
+pages.form.field.description.gender	Confirm your spouse or civil partner''s gender	Cadarnhau eich priod neu eich partner sifil 'yn rhyw	English message unchanged
+coc.end-reason.SYSTEM	Ended by HMRC		Welsh Translation Empty
+pages.form.field.last-name.error.error.pattern	Use letters only.	Defnyddiwch lythrennau yn unig.	English message unchanged
+pages.form.field.name.error.error.pattern	Use letters only.	Defnyddiwch lythrennau yn unig.	English message unchanged
+coc.end-reason.RETROSPECTIVE	Applied for Marriage Allowance retrospectively		Welsh Translation Empty
+pages.form.field.description.recipient-income	Confirm your spouse or civil partner''s annual income	Cadarnhau eich priod neu eich partner sifil 'i' incwm blynyddol	English message unchanged
+pages.form.field.name.error.error.maxLength	Use up to or no more than {0} letters.	Defnyddiwch hyd at, neu ddim mwy na {0} llythrennau.	English message unchanged
+eligibility.check.span.h1	Check your eligibility	Gwiriwch eich cymhwysedd	English message unchanged
+eligibility.check.date.of.birth.h1	You and your partner''s date of birth	Chi a dyddiad eich partner geni	English message unchanged
+﻿eligibility.check.h1	Your relationship	Eich perthynas	English message unchanged
+coc.end-reason.CANCELLED	Allowance cancelled	Lwfans ganslo	English message unchanged
+coc.end-reason.DEATH	There has been a bereavement		Message changed (previous message was: Bereavement / Profedigaeth)
+eligibility.check.lower.earner.information1	To benefit from Marriage Allowance, you must be the lower earner in the relationship and earn £{0} or less a year.	Er mwyn elwa ar y Lwfans Priodas, rhaid i chi fod yn enillydd is yn y berthynas ac yn ennill £ {0} neu lai y flwyddyn.	English message unchanged
+coc.end-reason.HMRC	Ended by HMRC		Welsh Translation Empty
+pages.form.field.description.name	Confirm your spouse or civil partner''s first name	Cadarnhau eich priod neu eich enw cyntaf bartner sifil 'yn	English message unchanged
+coc.end-reason.INVALID_PARTICIPANT	Higher earner not eligible for Marriage Allowance	Uwch enillydd nad ydynt yn gymwys i gael Lwfans Priodas	English message unchanged
+coc.end-reason.CLOSED	Lower earner not eligible for Marriage Allowance		Welsh Translation Empty
+eligibility.check.date.of.birth.span.para	To benefit from Marriage Allowance, you and your partner should be born on or after 6 April 1935.	Er mwyn elwa ar y Lwfans Priodas, dylech chi a'ch partner yn cael eu geni ar neu ar ôl 6 Ebrill 1935.	English message unchanged
+pages.form.field.gender.error.error.required	Tell us your spouse or civil partner''s gender.	Dywedwch wrthym rhyw bartner sifil 'eich priod neu.	English message unchanged
+coc.end-reason.DEFAULT	Marriage Allowance Ended		Welsh Translation Empty
+coc.end-reason.MERGER	Customer accounts merged		Welsh Translation Empty
+coc.end-reason.REJECTED	Allowance cancelled		Welsh Translation Empty
+coc.end-reason.DIVORCE	Divorce or end of civil partnership	Ysgariad neu ar ddiwedd partneriaeth sifil	English message unchanged
+pages.form.field.dom.error.required	Tell us your date of marriage.	Dywedwch wrthym eich dyddiad priodas.	English message unchanged
+pages.form.field.gender.error.error.invalid	Tells us your spouse or civil partner''s gender.	Yn dweud wrthym rhyw bartner sifil 'eich priod neu.	English message unchanged
+pages.form.field.name.error.error.required	Tell us your spouse or civil partner''s first name.	Dywedwch wrthym eich priod neu eich enw cyntaf eich partner sifil 'yn.	English message unchanged
+pages.form.field.dom.error.min-date	This date is too far in the past.	Mae'r dyddiad yn rhy bell yn y gorffennol.	English message unchanged
+pages.form.field.last-name.error.error.required	Tell us your spouse or civil partner''s last name.	Dywedwch wrthym eich priod neu enw olaf bartner sifil 'yn.	English message unchanged
+coc.end-reason.INELIGIBLE_PARTICIPANT	Claiming Married Couple''s Allowance	Hawlio Lwfans Pâr Priod 'yn	English message unchanged
+eligibility.check.lower.earner.h2	Your income	Eich incwm	English message unchanged
+pages.form.field.description.last-name	Confirm your spouse or civil partner''s last name	Cadarnhau eich priod neu enw olaf bartner sifil 'yn	English message unchanged
+pages.form.field.dod.error.required	Tell us your date of divorce.	Dywedwch wrthym eich dyddiad ysgariad.	English message unchanged

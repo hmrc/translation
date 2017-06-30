@@ -1,0 +1,37 @@
+Key	English	Welsh
+pages.form.field.description.transferor-income	Confirm your annual income	Cadarnhau eich incwm blynyddol
+title.eligibility	Your relationship	
+title.dateOfBirth	Your date of birth	
+pages.form.field.last-name.error.error.maxLength	Use up to or no more than {0} letters.	Defnyddiwch hyd at, neu ddim mwy na {0} llythrennau.
+pages.form.field.description.gender	Confirm your spouse or civil partner''s gender	Cadarnhau eich priod neu eich partner sifil 'yn rhyw
+coc.end-reason.SYSTEM	Ended by HMRC	
+pages.form.field.last-name.error.error.pattern	Use letters only.	Defnyddiwch lythrennau yn unig.
+pages.form.field.name.error.error.pattern	Use letters only.	Defnyddiwch lythrennau yn unig.
+coc.end-reason.RETROSPECTIVE	Applied for Marriage Allowance retrospectively	
+pages.form.field.description.recipient-income	Confirm your spouse or civil partner''s annual income	Cadarnhau eich priod neu eich partner sifil 'i' incwm blynyddol
+pages.form.field.name.error.error.maxLength	Use up to or no more than {0} letters.	Defnyddiwch hyd at, neu ddim mwy na {0} llythrennau.
+eligibility.check.span.h1	Check your eligibility	Gwiriwch eich cymhwysedd
+eligibility.check.date.of.birth.h1	You and your partner''s date of birth	Chi a dyddiad eich partner geni
+﻿eligibility.check.h1	Your relationship	Eich perthynas
+coc.end-reason.CANCELLED	Allowance cancelled	Lwfans ganslo
+coc.end-reason.DEATH	Bereavement	Profedigaeth
+eligibility.check.lower.earner.information1	To benefit from Marriage Allowance, you must be the lower earner in the relationship and earn £{0} or less a year.	Er mwyn elwa ar y Lwfans Priodas, rhaid i chi fod yn enillydd is yn y berthynas ac yn ennill £ {0} neu lai y flwyddyn.
+coc.end-reason.HMRC	Ended by HMRC	
+pages.form.field.description.name	Confirm your spouse or civil partner''s first name	Cadarnhau eich priod neu eich enw cyntaf bartner sifil 'yn
+coc.end-reason.INVALID_PARTICIPANT	Higher earner not eligible for Marriage Allowance	Uwch enillydd nad ydynt yn gymwys i gael Lwfans Priodas
+coc.end-reason.CLOSED	Lower earner not eligible for Marriage Allowance	
+eligibility.check.date.of.birth.span.para	To benefit from Marriage Allowance, you and your partner should be born on or after 6 April 1935.	Er mwyn elwa ar y Lwfans Priodas, dylech chi a'ch partner yn cael eu geni ar neu ar ôl 6 Ebrill 1935.
+pages.form.field.gender.error.error.required	Tell us your spouse or civil partner''s gender.	Dywedwch wrthym rhyw bartner sifil 'eich priod neu.
+coc.end-reason.DEFAULT	Marriage Allowance Ended	
+coc.end-reason.MERGER	Customer accounts merged	
+coc.end-reason.REJECTED	Allowance cancelled	
+coc.end-reason.DIVORCE	Divorce or end of civil partnership	Ysgariad neu ar ddiwedd partneriaeth sifil
+pages.form.field.dom.error.required	Tell us your date of marriage.	Dywedwch wrthym eich dyddiad priodas.
+pages.form.field.gender.error.error.invalid	Tells us your spouse or civil partner''s gender.	Yn dweud wrthym rhyw bartner sifil 'eich priod neu.
+pages.form.field.name.error.error.required	Tell us your spouse or civil partner''s first name.	Dywedwch wrthym eich priod neu eich enw cyntaf eich partner sifil 'yn.
+pages.form.field.dom.error.min-date	This date is too far in the past.	Mae'r dyddiad yn rhy bell yn y gorffennol.
+pages.form.field.last-name.error.error.required	Tell us your spouse or civil partner''s last name.	Dywedwch wrthym eich priod neu enw olaf bartner sifil 'yn.
+coc.end-reason.INELIGIBLE_PARTICIPANT	Claiming Married Couple''s Allowance	Hawlio Lwfans Pâr Priod 'yn
+eligibility.check.lower.earner.h2	Your income	Eich incwm
+pages.form.field.description.last-name	Confirm your spouse or civil partner''s last name	Cadarnhau eich priod neu enw olaf bartner sifil 'yn
+pages.form.field.dod.error.required	Tell us your date of divorce.	Dywedwch wrthym eich dyddiad ysgariad.
