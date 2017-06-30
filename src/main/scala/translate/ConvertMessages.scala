@@ -27,7 +27,7 @@ class UI extends MainFrame {
 
 
 class ConvertMessages {
-  
+
 //    val ui = new UI
 //    ui.visible = true
 
@@ -45,5 +45,5 @@ class ConvertMessages {
     Message2Csv.messages2csv2(receivedTranslationsFile, existingTranslationsFile, outFile)
 
     //creates _messages.cy, from Translations.csv
-    //Csv2Message.csv2Messages(outFile, msgFile)
+    Csv2Message.csv2Messages(outFile, msgFile)
 }

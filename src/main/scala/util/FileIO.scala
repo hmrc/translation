@@ -21,11 +21,15 @@ import scala.io.Source
 
 trait KeyValueParser{
   def splitKeyValues(line:String, token:String): Map[String, (String, String)] = {
-    val cols = line.split(token).toList
-    val key = cols.headOption.getOrElse("").trim
-    val value1 = cols.tail.headOption.getOrElse("").trim
-    val value2 = cols.tail.tail.headOption.getOrElse("").trim
-    Map(key -> (value1, value2))
+    if (line.isEmpty) {
+      Map.empty
+    } else {
+      val cols = line.split(token).toList
+      val key = cols.headOption.getOrElse("").trim
+      val value1 = cols.tail.headOption.getOrElse("").trim
+      val value2 = cols.tail.tail.headOption.getOrElse("").trim
+      Map(key -> (value1, value2))
+    }
   }
 }
 
