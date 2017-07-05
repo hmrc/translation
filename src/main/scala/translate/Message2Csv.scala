@@ -61,9 +61,16 @@ trait Message2Csv extends KeyValueParser with FileReader with CsvReader with Wra
   def messages2csv2(receivedInputFileName: String, existingInputFileName: String, csvOutputFileName: String): Unit = {
     val receivedMap = readFromCsv(receivedInputFileName)
     val existingMap = readFromCsv(existingInputFileName)
+
     def outputLine(key: String, receivedEnglish: String, receivedWelsh: String, message:String) = {
       val now = LocalDate.now.toString
-      key + delimiter + receivedEnglish + delimiter + receivedWelsh + delimiter + message + " " + now
+
+      if(message == "unchanged") {
+        key + delimiter + receivedEnglish + delimiter + receivedWelsh + delimiter + message + " " + "after previous run"
+      }else {
+        key + delimiter + receivedEnglish + delimiter + receivedWelsh + delimiter + message + " " + now
+      }
+
     }
     val receivedLines = receivedMap.map(receivedItem => {
         val key = receivedItem._1

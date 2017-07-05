@@ -16,7 +16,9 @@ package translate
  * limitations under the License.
  */
 
+import util.{WrappedPrintWriter, CsvReader}
 import scala.swing._
+
 object ConvertMessages extends ConvertMessages with App {}
 
 class UI extends MainFrame {
@@ -25,8 +27,7 @@ class UI extends MainFrame {
   contents = new Label("Contents to go here!")
 }
 
-
-class ConvertMessages {
+class ConvertMessages extends CsvReader with WrappedPrintWriter{
 
 //    val ui = new UI
 //    ui.visible = true
@@ -39,7 +40,6 @@ class ConvertMessages {
   val existingTranslationsFile = s"$cwd/existingTranslations.csv"
 
   val outFile = s"$cwd/out.csv"
-
   val msgFile = s"$cwd/messages.cy"
 
     Message2Csv.messages2csv2(receivedTranslationsFile, existingTranslationsFile, outFile)
