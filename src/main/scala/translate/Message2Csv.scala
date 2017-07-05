@@ -69,7 +69,7 @@ trait Message2Csv extends KeyValueParser with FileReader with CsvReader with Wra
         val key = receivedItem._1
         val result = (receivedItem._2._1, receivedItem._2._2, existingMap.find(existingItem => receivedItem._1 == existingItem._1)) match {
           case (re, rw, None) => outputLine(key, re, rw, "added")
-          case (re, rw, Some(existing)) if existing._2._1 != re && existing._2._2 != rw => outputLine(key, re, rw, "english and welsh changed")
+          case (re, rw, Some(existing)) if existing._2._1 != re && existing._2._2 != rw && !rw.isEmpty => outputLine(key, re, rw, "english and welsh changed")
           case (re, rw, Some(existing)) if existing._2._1 != re => outputLine(key, re, rw, "english changed")
           case (re, rw, Some(existing)) if existing._2._2 != rw && !rw.isEmpty => outputLine(key, re, rw, "welsh changed")
           case (re, rw, Some(existing)) => outputLine(key, re, rw, "unchanged")
