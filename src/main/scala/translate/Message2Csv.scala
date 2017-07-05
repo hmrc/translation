@@ -68,11 +68,22 @@ trait Message2Csv extends KeyValueParser with FileReader with CsvReader with Wra
     val receivedLines = receivedMap.map(receivedItem => {
         val key = receivedItem._1
         val result = (receivedItem._2._1, receivedItem._2._2, existingMap.find(existingItem => receivedItem._1 == existingItem._1)) match {
-          case (re, rw, None) => outputLine(key, re, rw, "added")
-          case (re, rw, Some(existing)) if existing._2._1 != re && existing._2._2 != rw && !rw.isEmpty => outputLine(key, re, rw, "english and welsh changed")
-          case (re, rw, Some(existing)) if existing._2._1 != re => outputLine(key, re, rw, "english changed")
-          case (re, rw, Some(existing)) if existing._2._2 != rw && !rw.isEmpty => outputLine(key, re, rw, "welsh changed")
-          case (re, rw, Some(existing)) => outputLine(key, re, rw, "unchanged")
+          case (receivedEnglish, receivedWelsh, None) => outputLine(key, receivedEnglish, receivedWelsh, "added")
+          case (receivedEnglish, receivedWelsh, Some(existing))
+            if existing._2._1 != receivedEnglish && existing._2._2 != receivedWelsh && !receivedWelsh.isEmpty =>
+              outputLine(key, receivedEnglish, receivedWelsh, "english and welsh changed")
+          case (receivedEnglish, receivedWelsh, Some(existing))
+            if existing._2._1 != receivedEnglish && existing._2._2 != receivedWelsh && receivedWelsh.isEmpty =>
+              outputLine(key, receivedEnglish, existing._2._2, "english changed, existing welsh kept")
+          case (receivedEnglish, receivedWelsh, Some(existing))
+            if existing._2._1 != receivedEnglish =>
+              outputLine(key, receivedEnglish, receivedWelsh, "english changed")
+          case (receivedEnglish, receivedWelsh, Some(existing)) if existing._2._2 != receivedWelsh && !receivedWelsh.isEmpty =>
+              outputLine(key, receivedEnglish, receivedWelsh, "welsh changed")
+          case (receivedEnglish, receivedWelsh, Some(existing)) if existing._2._2 != receivedWelsh && receivedWelsh.isEmpty =>
+            outputLine(key, receivedEnglish, receivedWelsh, "existing welsh kept")
+          case (receivedEnglish, receivedWelsh, Some(_)) =>
+              outputLine(key, receivedEnglish, receivedWelsh, "unchanged")
         }
         result + newLine
       }
