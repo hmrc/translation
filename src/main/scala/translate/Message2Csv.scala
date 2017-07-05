@@ -71,7 +71,7 @@ trait Message2Csv extends KeyValueParser with FileReader with CsvReader with Wra
           case (re, rw, None) => outputLine(key, re, rw, "added")
           case (re, rw, Some(existing)) if existing._2._1 != re && existing._2._2 != rw => outputLine(key, re, rw, "english and welsh changed")
           case (re, rw, Some(existing)) if existing._2._1 != re => outputLine(key, re, rw, "english changed")
-          case (re, rw, Some(existing)) if existing._2._2 != rw => outputLine(key, re, rw, "welsh changed")
+          case (re, rw, Some(existing)) if existing._2._2 != rw && !rw.isEmpty => outputLine(key, re, rw, "welsh changed")
           case (re, rw, Some(existing)) => outputLine(key, re, rw, "unchanged")
         }
         result + newLine
