@@ -1,17 +1,20 @@
-Key	English	Welsh
 aaa.bbb.ccc	This is english text 1	
-ccc.aaa.bbb	This is english text 4	This is Welsh text 6 Amended
-bbb.ccc.ddd	This is english text 11	
-aaa.ccc.ddd	This is english text 2 Amended	This is Welsh text 1 Amended
+aaa.ccc.ddd	This is english text 2 Amended	
 aaa.ddd.eee	This is english text 3	
 aaa.eee.fff	This is english text 4	This is Welsh text 2
-bbb.aaa.bbb	This is english text 9	
 aaa.fff.ggg	This is english text 5	
-aaa.ggg.hhh	This is english text 6 Amended	This is Welsh text 3 Amended
-bbb.bbb.ccc	This is english text 10	
-bbb.ddd.eee	This is english text 12	This is Welsh text 4 with circumflex ystâd
+aaa.ggg.hhh	This is english text 6 Amended	
 aaa.hhh.iii	This is english text 7	
 aaa.iii.jjj	This is english text 8	
+bbb.aaa.bbb	This is english text 9	
+bbb.bbb.ccc	This is english text 10	
+bbb.ccc.ddd	This is english text 11	
+bbb.ddd.eee	This is english text 12	This is Welsh text 4 with circumflex ystâd
 bbb.eee.fff	This is english text 13	This is Welsh text 5
+ccc.aaa.bbb	This is english text 4	This is Welsh text 6 Amended
 ddd.aaa.bb	This is english text 14	This is Welsh text 7 with circumflex ystâd
 ddd.bbb.ccc	This is english text 15	This is Welsh text 8
+ggg.aaa.bbb	This is english text 15	This is Welsh text 9 Amended
+ggg.aaa.ccc	This is english text 16	This is Welsh text 10
+ggg.aaa.eee	This is english text 17	This is Welsh text 11
+ggg.aaa.fff	This is english text 18 Amended	
