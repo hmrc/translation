@@ -42,7 +42,6 @@ page.iht.registration.deceasedDateOfDeath.dateOfDeath.label 	Enter the deceased�
 page.iht.registration.deceasedDateOfDeath.dateOfDeath.hint 	For example, 21 3 2010
 page.iht.registration.deceasedPermanentHome.title 	Where was the person who has died’s permanent home?
 page.iht.registration.deceasedPermanentHome.browserTitle 	Permanent home
-iht.common.other 	Other
 page.iht.registration.deceasedDetails.title.label 	Title (optional)
 page.iht.registration.deceasedDetails.title.hint 	Enter Mr, Mrs, Miss, Ms or other title
 page.iht.registration.deceasedDetails.maritalStatus.label 	What was the relationship status of the person who has died on the date of their death?
@@ -256,18 +255,11 @@ error.partner.blank.summary 	enter a value for total assets
 error.phoneNumber.give 	Give a phone number
 error.phoneNumber.giveUsing27CharactersOrLess 	Give a phone number using 27 characters or less
 error.phoneNumber.giveUsingOnlyLettersAndNumbers 	Give a phone number only using numbers or letters
-error.positive.number 	This field must be greater than 0.
 error.postcode.blank 	Enter a postcode
 error.postcode.blank.summary 	enter a postcode
 error.postcode.incorrect 	Enter a valid postcode
 error.postcode.incorrect.summary 	enter a valid postcode
 error.postcode.invalid.character 	This line contains an invalid character. Valid characters are: A-Z a-z 0-9 space
-error.problem 	There is a problem
-error.report.redo 	Select the estate report through the Your Inheritance Tax estate reports page and send the details again.
-error.selectAnswer 	Select an answer
-error.selectAnswer.summary 	select an answer
-error.signOutLater 	Sign out and complete this service at another time.
-error.value.blank 	A value should be entered
 error.address.blank 	Enter an address
 error.address.blank.summary 	enter an address
 error.address.give 	Give an address
@@ -277,8 +269,6 @@ error.address.givePostcodeUsingNumbersAndLetters 	Give a postcode using numbers 
 error.address.giveUsing35CharsOrLess 	Give an address using 35 characters or less
 error.address.invalid.character 	This line contains an invalid character. Valid characters are: A-Z a-z 0-9 - ’ , / & space
 error.address.length 	Enter an address of less than 36 characters
-error.cannotSend 	The details you have entered could not be sent at the moment.
-error.checkCorrect 	Check the details are correct, in the right place and in the right format.
 error.country.select 	Enter a country
 error.dateOfDeath.incorrect 	Enter a valid date of death
 error.dateOfDeath.incorrect.summary 	enter a valid date of death
