@@ -71,22 +71,9 @@ page.iht.registration.applicantDetails.title.hint 	enter Mr, Mrs, Miss, Ms or ot
 page.iht.registration.applicantDetails.postcode.label 	Your postcode if the address is in the UK
 page.iht.registration.applicantDetails.phoneNo.label 	Your phone number
 page.iht.registration.applicantDetails.phoneNo.hint 	This can be a mobile or a landline. HMRC might need to contact you by telephone to talk about any details you give.
-page.iht.registration.applicantDetails.email.label 	Your email address
 page.iht.registration.applicantDetails.utr.label 	Your Unique Tax Reference (UTR) number (optional)
 page.iht.registration.applicantDetails.utr.hint 	It is a 10 digit number allocated by HMRC if you have completed a self-assessment tax return
 page.iht.registration.applicantDetails.country.label 	Select the country where you intend to apply for probate
-page.iht.registration.applicantDetails.role.label 	Your role
-page.iht.registration.applicantDetails.role.administrator.label 	Administrator
-page.iht.registration.applicantDetails.role.agent.label 	Agent
-page.iht.registration.applicantDetails.role.donee.label 	Donee
-page.iht.registration.applicantDetails.role.trustee.label 	Trustee
-page.iht.registration.applicantDetails.role.settlor.label 	Settlor
-page.iht.registration.applicantDetails.role.executor.hint 	Someone named in a will as being in charge of handling the deceased’s affairs.
-page.iht.registration.applicantDetails.role.administrator.hint 	Someone in charge of handling the deceased’s affairs when there is not a will.
-page.iht.registration.applicantDetails.role.agent.hint 	Someone who has been hired to act on behalf of an executor or an administrator.
-page.iht.registration.applicantDetails.role.donee.hint 	Someone who has received a gift from the deceased in the 7 years before they died.
-page.iht.registration.applicantDetails.role.trustee.hint 	Someone in charge of managing a trust for the deceased.
-page.iht.registration.applicantDetails.role.settlor.hint 	Someone who has placed an asset into a trust.
 page.iht.registration.applicantDetails.postcode.help 	If your address is in the UK
 page.iht.registration.applicantDetails.countrycode.help 	If your address is not in the UK
 page.iht.registration.applicantAddress.title 	Your address
@@ -119,11 +106,8 @@ page.iht.registration.others-applying-for-probate-address.address.guidance 	This
 page.iht.registration.registrationSummary.deceasedTable.title 	Deceased’s details
 page.iht.registration.registrationSummary.subTitle 	You will not be able to change these details online after you have confirmed them.
 page.iht.registration.registrationSummary.focusElement.prefix 	focusElementId
-page.iht.registration.registrationSummary.deceasedInfo.title.id 	title
 page.iht.registration.registrationSummary.deceasedInfo.name.data.screenReader 	Deceased’s name is {0}
 page.iht.registration.registrationSummary.deceasedInfo.name.link.screenReader 	Change {0}’s name
-page.iht.registration.registrationSummary.deceasedInfo.lastName.id 	lastName
-page.iht.registration.registrationSummary.deceasedInfo.dateOfDeath.id 	dateOfDeath
 page.iht.registration.registrationSummary.deceasedInfo.dateOfDeath.data.screenReader 	Deceased’s date of death is {0}
 page.iht.registration.registrationSummary.deceasedInfo.dateOfDeath.link.screenReader 	Change {0}’s date of death
 page.iht.registration.registrationSummary.deceasedInfo.dateOfBirth.data.screenReader 	Deceased’s date of birth is {0}
@@ -132,14 +116,11 @@ page.iht.registration.registrationSummary.deceasedInfo.nino.data.screenReader 	D
 page.iht.registration.registrationSummary.deceasedInfo.nino.link.screenReader 	Change {0}’s national insurance number
 page.iht.registration.registrationSummary.deceasedInfo.address.data.screenReader 	Deceased’s address is {0}
 page.iht.registration.registrationSummary.deceasedInfo.address.link.screenReader 	Change {0}’s address
-page.iht.registration.registrationSummary.deceasedInfo.location.id 	domicile
 page.iht.registration.registrationSummary.deceasedInfo.location.data.screenReader 	The location of the deceased’s permanent home is {0}
 page.iht.registration.registrationSummary.deceasedInfo.location.link.screenReader 	Change the location of {0}’s permanent home
 page.iht.registration.registrationSummary.deceasedInfo.maritalStatus.label 	Relationship status
-page.iht.registration.registrationSummary.deceasedInfo.maritalStatus.id 	maritalStatus
 page.iht.registration.registrationSummary.deceasedInfo.maritalStatus.data.screenReader 	Deceased’s relationship status is {0}
 page.iht.registration.registrationSummary.deceasedInfo.maritalStatus.link.screenReader 	Change {0}’s relationship status
-page.iht.registration.registrationSummary.deceasedInfo.countryCode.id 	ukAddress.countryCode
 page.iht.registration.registrationSummary.applicantTable.title 	Your details
 page.iht.registration.registrationSummary.applicantInfo.name.data.screenReader 	Your name is {0}. This cannot be changed
 page.iht.registration.registrationSummary.applicantInfo.dateOfBirth.link.screenReader 	date
@@ -148,18 +129,10 @@ page.iht.registration.registrationSummary.applicantInfo.nino.link.screenReader 	
 page.iht.registration.registrationSummary.applicantInfo.nino.data.screenReader 	Your national insurance number is {0}. This cannot be changed
 page.iht.registration.registrationSummary.applicantInfo.address.link.screenReader 	Change your address
 page.iht.registration.registrationSummary.applicantInfo.address.data.screenReader 	Your address is {0}
-page.iht.registration.registrationSummary.applicantInfo.phoneNumber.id 	contactDetails.phoneNo
 page.iht.registration.registrationSummary.applicantInfo.phoneNumber.link.screenReader 	Change your phone number
 page.iht.registration.registrationSummary.applicantInfo.phoneNumber.data.screenReader 	Your phone number is {0}
-page.iht.registration.registrationSummary.applicantInfo.email.link.screenReader 	Change your email address
-page.iht.registration.registrationSummary.applicantInfo.email.data.screenReader 	Your email address is {0}
-page.iht.registration.registrationSummary.applicantInfo.role.label 	Role
-page.iht.registration.registrationSummary.applicantInfo.role.id 	role
-page.iht.registration.registrationSummary.applicantInfo.role.link.screenReader 	your role
-page.iht.registration.registrationSummary.applicantInfo.role.data.screenReader 	Your role is an {0}
 page.iht.registration.registrationSummary.applicantInfo.applyingForProbate.link.screenReader 	Change whether you are applying for probate for the estate
 page.iht.registration.registrationSummary.applicantInfo.applyingForProbate.data.screenReader 	Your answer is {0}
-page.iht.registration.registrationSummary.applicantInfo.country.id 	country
 page.iht.registration.registrationSummary.applicantInfo.country.link.screenReader 	Change where you are applying for probate
 page.iht.registration.registrationSummary.applicantInfo.country.data.screenReader 	You are applying for probate in {0}
 page.iht.registration.registrationSummary.button 	Confirm details
@@ -173,11 +146,8 @@ page.iht.registration.registrationSummary.coExecutorTable.name.data.screenReader
 page.iht.registration.registrationSummary.coExecutorTable.dateOfBirth.data.screenReader 	{0}’s date of birth is {1}
 page.iht.registration.registrationSummary.coExecutorTable.nino.data.screenReader 	{0}’s national insurance number is {1}
 page.iht.registration.registrationSummary.coExecutorTable.address.data.screenReader 	{0}’s address is {1}
-page.iht.registration.registrationSummary.coExecutorTable.phoneNumber.id 	phoneNo
 page.iht.registration.registrationSummary.coExecutorTable.phoneNumber.link.screenReader 	Change {0}’s phone number
 page.iht.registration.registrationSummary.coExecutorTable.phoneNumber.data.screenReader 	{0}’s phone number is {1}
-page.iht.registration.registrationSummary.coExecutorTable.email.link.screenReader 	Change {0}’s email address
-page.iht.registration.registrationSummary.coExecutorTable.email.data.screenReader 	{0}’s email address is {1}
 page.iht.registration.completedRegistration.ref.title 	The reference for your Inheritance Tax estate report is:
 page.iht.registration.completedRegistration.ref.text 	If any of the details change, phone the Inheritance Tax helpline on 0300 123 1072. You will need the reference to change any details. If you are outside of the UK, call +44 300 123 1072.
 page.iht.registration.completedRegistration.p1 	You can start to complete the estate report by selecting it on the next page from the list of Inheritance Tax estate reports you have created.
@@ -188,11 +158,9 @@ page.iht.registration.completedRegistration.p2.bullet3 	find out what the value 
 page.iht.registration.duplicateRegistration.title 	You have already registered these details
 page.iht.registration.duplicateRegistration.ref.title 	You can start this estate report on your Inheritance Tax reports page.
 page.iht.registration.duplicateRegistration.ref.text 	If any details have changed, phone the Inheritance Tax helpline on 0300 123 1072 to make any changes. Call +44 300 123 1072 if you are outside of the UK.
-page.iht.registration.others-applying-for-probate.sectionName 	others-applying-for-probate
 page.iht.registration.others-applying-for-probate.sectionTitle 	Are there any other executors applying for probate for this estate?
 page.iht.registration.others-applying-for-probate.browserTitle 	Other probate applicants
 page.iht.registration.others-applying-for-probate.description 	If you are filling in a PA1 – Probate application form, you can add up to 3 other people on the form.
-page.iht.registration.executor-overview.sectionName 	executor-overview
 page.iht.registration.executor-overview.browserTitle 	Other applicants
 page.iht.registration.executor-overview.description 	A total of 3 other people can apply to the Probate Service with you for a grant of representation for this estate.
 page.iht.registration.executor-overview.yesnoQuestion 	Do you want to add another person who is applying for probate?
