@@ -124,7 +124,6 @@ page.iht.registration.registrationSummary.deceasedInfo.name.data.screenReader 	D
 page.iht.registration.registrationSummary.deceasedInfo.name.link.screenReader 	Change {0}’s name
 page.iht.registration.registrationSummary.deceasedInfo.lastName.id 	lastName
 page.iht.registration.registrationSummary.deceasedInfo.dateOfDeath.id 	dateOfDeath
-page.iht.registration.registrationSummary.deceasedInfo.dateOfDeath.id.container 	dateOfDeath-container
 page.iht.registration.registrationSummary.deceasedInfo.dateOfDeath.data.screenReader 	Deceased’s date of death is {0}
 page.iht.registration.registrationSummary.deceasedInfo.dateOfDeath.link.screenReader 	Change {0}’s date of death
 page.iht.registration.registrationSummary.deceasedInfo.dateOfBirth.data.screenReader 	Deceased’s date of birth is {0}
@@ -134,16 +133,13 @@ page.iht.registration.registrationSummary.deceasedInfo.nino.link.screenReader 	C
 page.iht.registration.registrationSummary.deceasedInfo.address.data.screenReader 	Deceased’s address is {0}
 page.iht.registration.registrationSummary.deceasedInfo.address.link.screenReader 	Change {0}’s address
 page.iht.registration.registrationSummary.deceasedInfo.location.id 	domicile
-page.iht.registration.registrationSummary.deceasedInfo.location.id.container 	domicile-container
 page.iht.registration.registrationSummary.deceasedInfo.location.data.screenReader 	The location of the deceased’s permanent home is {0}
 page.iht.registration.registrationSummary.deceasedInfo.location.link.screenReader 	Change the location of {0}’s permanent home
 page.iht.registration.registrationSummary.deceasedInfo.maritalStatus.label 	Relationship status
 page.iht.registration.registrationSummary.deceasedInfo.maritalStatus.id 	maritalStatus
-page.iht.registration.registrationSummary.deceasedInfo.maritalStatus.id.container 	maritalStatus-container
 page.iht.registration.registrationSummary.deceasedInfo.maritalStatus.data.screenReader 	Deceased’s relationship status is {0}
 page.iht.registration.registrationSummary.deceasedInfo.maritalStatus.link.screenReader 	Change {0}’s relationship status
 page.iht.registration.registrationSummary.deceasedInfo.countryCode.id 	ukAddress.countryCode
-page.iht.registration.registrationSummary.deceasedInfo.countryCode.id.container 	ukAddress_countryCode-container
 page.iht.registration.registrationSummary.applicantTable.title 	Your details
 page.iht.registration.registrationSummary.applicantInfo.name.data.screenReader 	Your name is {0}. This cannot be changed
 page.iht.registration.registrationSummary.applicantInfo.dateOfBirth.link.screenReader 	date
@@ -153,22 +149,17 @@ page.iht.registration.registrationSummary.applicantInfo.nino.data.screenReader 	
 page.iht.registration.registrationSummary.applicantInfo.address.link.screenReader 	Change your address
 page.iht.registration.registrationSummary.applicantInfo.address.data.screenReader 	Your address is {0}
 page.iht.registration.registrationSummary.applicantInfo.phoneNumber.id 	contactDetails.phoneNo
-page.iht.registration.registrationSummary.applicantInfo.phoneNumber.id.container 	contactDetails_phoneNo-container
 page.iht.registration.registrationSummary.applicantInfo.phoneNumber.link.screenReader 	Change your phone number
 page.iht.registration.registrationSummary.applicantInfo.phoneNumber.data.screenReader 	Your phone number is {0}
-page.iht.registration.registrationSummary.applicantInfo.email.id.container 	contactDetails_email-container
 page.iht.registration.registrationSummary.applicantInfo.email.link.screenReader 	Change your email address
 page.iht.registration.registrationSummary.applicantInfo.email.data.screenReader 	Your email address is {0}
 page.iht.registration.registrationSummary.applicantInfo.role.label 	Role
 page.iht.registration.registrationSummary.applicantInfo.role.id 	role
-page.iht.registration.registrationSummary.applicantInfo.role.id.container 	role-container
 page.iht.registration.registrationSummary.applicantInfo.role.link.screenReader 	your role
 page.iht.registration.registrationSummary.applicantInfo.role.data.screenReader 	Your role is an {0}
-page.iht.registration.registrationSummary.applicantInfo.applyingForProbate.id.container 	applyingForProbate-container
 page.iht.registration.registrationSummary.applicantInfo.applyingForProbate.link.screenReader 	Change whether you are applying for probate for the estate
 page.iht.registration.registrationSummary.applicantInfo.applyingForProbate.data.screenReader 	Your answer is {0}
 page.iht.registration.registrationSummary.applicantInfo.country.id 	country
-page.iht.registration.registrationSummary.applicantInfo.country.id.container 	country-container
 page.iht.registration.registrationSummary.applicantInfo.country.link.screenReader 	Change where you are applying for probate
 page.iht.registration.registrationSummary.applicantInfo.country.data.screenReader 	You are applying for probate in {0}
 page.iht.registration.registrationSummary.button 	Confirm details
@@ -177,18 +168,14 @@ page.iht.registration.registrationSummary.coExecutorTable.none.link.screenReader
 page.iht.registration.registrationSummary.coExecutorTable.changeOthersApplying.link 	Add or delete another person applying for probate
 page.iht.registration.registrationSummary.coExecutorTable.others-are-applying.text 	Other people are applying for probate
 page.iht.registration.registrationSummary.coExecutorTable.others-are-applying.link.screenReader 	and add or remove another person
-page.iht.registration.registrationSummary.coExecutorTable.name.id.container 	name-container
 page.iht.registration.registrationSummary.coExecutorTable.name.link.screenReader 	Change {0}’s Name
 page.iht.registration.registrationSummary.coExecutorTable.name.data.screenReader 	An additional{0}’s name is {1}
 page.iht.registration.registrationSummary.coExecutorTable.dateOfBirth.data.screenReader 	{0}’s date of birth is {1}
 page.iht.registration.registrationSummary.coExecutorTable.nino.data.screenReader 	{0}’s national insurance number is {1}
-page.iht.registration.registrationSummary.coExecutorTable.address.id.container 	ukAddress.ukAddressLine1-container
 page.iht.registration.registrationSummary.coExecutorTable.address.data.screenReader 	{0}’s address is {1}
 page.iht.registration.registrationSummary.coExecutorTable.phoneNumber.id 	phoneNo
-page.iht.registration.registrationSummary.coExecutorTable.phoneNumber.id.container 	phoneNo-container
 page.iht.registration.registrationSummary.coExecutorTable.phoneNumber.link.screenReader 	Change {0}’s phone number
 page.iht.registration.registrationSummary.coExecutorTable.phoneNumber.data.screenReader 	{0}’s phone number is {1}
-page.iht.registration.registrationSummary.coExecutorTable.email.id.container 	contactDetails.email-container
 page.iht.registration.registrationSummary.coExecutorTable.email.link.screenReader 	Change {0}’s email address
 page.iht.registration.registrationSummary.coExecutorTable.email.data.screenReader 	{0}’s email address is {1}
 page.iht.registration.completedRegistration.ref.title 	The reference for your Inheritance Tax estate report is:
