@@ -21,7 +21,7 @@ import scala.io.Source
 
 trait KeyValueParser{
   def splitKeyValues(line:String, token:String): Map[String, (String, String)] = {
-    if (line.isEmpty) {
+    if (line.trim.isEmpty || line.trim.startsWith("#")) {
       Map.empty
     } else {
       val cols = line.split(token).toList
