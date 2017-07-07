@@ -26,7 +26,7 @@ trait CompareCsv extends CsvReader with WrappedPrintWriter{
 
 
   // IHT version
-  def messages2csv2(receivedInputFileName: String, existingInputFileName: String, csvOutputFileName: String): Unit = {
+  def csv2csv(receivedInputFileName: String, existingInputFileName: String, csvOutputFileName: String): Unit = {
     val receivedMap = readFromCsv(receivedInputFileName)
     val existingMap = readFromCsv(existingInputFileName)
 
