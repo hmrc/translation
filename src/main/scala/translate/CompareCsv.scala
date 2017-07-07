@@ -17,7 +17,7 @@ package translate
 
 import util.{CsvReader, WrappedPrintWriter}
 
-object CompareCvs extends CompareCsv{}
+object CompareCsv extends CompareCsv{}
 
 trait CompareCsv extends CsvReader with WrappedPrintWriter{
 
