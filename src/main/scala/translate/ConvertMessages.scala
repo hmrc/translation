@@ -42,7 +42,7 @@ class ConvertMessages extends CsvReader with WrappedPrintWriter{
   //val outFile = s"$cwd/out.csv"
   val msgFile = s"$cwd/messages.cy"
 
-    Message2Csv.messages2csv2(receivedTranslationsFile, existingTranslationsFile, existingTranslationsFile)
+    CompareCvs.messages2csv2(receivedTranslationsFile, existingTranslationsFile, existingTranslationsFile)
 
     //creates _messages.cy, from Translations.csv
     Csv2Message.csv2Messages(existingTranslationsFile, msgFile)
