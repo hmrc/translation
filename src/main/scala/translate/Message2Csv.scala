@@ -55,39 +55,6 @@ trait Message2Csv extends KeyValueParser with FileReader with CsvReader with Wra
     writeFile(csvOutputFileName, csvHeader + newLine + csvLines.fold("")((key, value) => key + value))
   }
 
-  // IHT version
-  def messages2csv2(receivedInputFileName: String, existingInputFileName: String, csvOutputFileName: String): Unit = {
-    val receivedMap = readFromCsv(receivedInputFileName)
-    val existingMap = readFromCsv(existingInputFileName)
-
-    def outputLine(key: String, receivedEnglish: String, receivedWelsh: String, message:String) = {
-       key + delimiter + receivedEnglish + delimiter + receivedWelsh + delimiter + message
-    }
-    val receivedLines = receivedMap.map(receivedItem => {
-        val key = receivedItem._1
-        val receivedEnglish = receivedItem._2._1
-        val receivedWelsh = receivedItem._2._2
-
-        val result = existingMap.find(existingItem => receivedItem._1 == existingItem._1) match {
-          case None => outputLine(key, receivedEnglish, receivedWelsh, "Added.")
-          case Some(matchedExistingItem) =>
-            val matchedEnglish = matchedExistingItem._2._1
-            val matchedWelsh = matchedExistingItem._2._2
-            val newOutput = ChooseContent.chooseContent(receivedEnglish, receivedWelsh, matchedEnglish, matchedWelsh)
-            outputLine(key, newOutput._1, newOutput._2, newOutput._3)
-        }
-        result + newLine
-      }
-    )
-    val unaffectedItems: Map[String, (String, String)] = existingMap.filter(existingItem => !receivedMap.exists(receivedItem => receivedItem._1 == existingItem._1))
-    val existingLinesUnaffected = unaffectedItems.map( xx => outputLine( xx._1, xx._2._1, xx._2._2, "Unchanged." ) + newLine)
-
-    val ee = receivedLines.fold("")((key, value) => key + value) +
-      existingLinesUnaffected.fold("")((key, value) => key + value)
-
-    writeFile(csvOutputFileName, ee)
-  }
-
   private def checkEnglishMessageChanged(translation: translationLine, enMessage: messageLine): String = {
     if (translation._2._1 == enMessage._2) {
       if (translation._2._2 == "") {
