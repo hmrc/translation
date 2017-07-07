@@ -1,66 +1,222 @@
-error.debts.anyOther.select 	Select an answer for if there are any other debts owed from the estate
-error.debts.debtsOutsideUk.select 	Select an answer for if {0} owed any debts to anyone outside of the UK
-error.debts.funeralExpenses.select  	Select an answer for if there are any funeral expenses being paid out of the estate
-error.debts.funeralExpenses.select  	Select an answer for if there are any funeral expenses being paid out of the estate
-error.debts.trusts.select 	Select an answer for if there are any debts from a trust that {0} benefitted from
-error.debtsFromTrust.currencyValue.length.summary 	enter a value for debts owed from a trust using less than 11 numbers
-error.debtsFromTrust.currencyValue.summary 	enter a value for debts owed from a trust using only numbers
-error.debtsOutsideUk.currencyValue.length.summary 	enter a value for debts owed outside of the UK using less than 11 numbers
-error.debtsOutsideUk.currencyValue.summary 	enter a value for debts owed outside of the UK using only numbers
-error.funeralExpenses.currencyValue.summary 	enter a value for funeral costs using only numbers
-error.otherDebt.currencyValue.length.summary 	enter a value for other debts using less than 11 numbers
-error.otherDebt.currencyValue.summary 	enter a value for other debts using only numbers
-iht.estateReport.debts.debtsTrust.title 	Debts owed from a trust
-iht.estateReport.debts.debtsTrust.value 	Value of any debts owed from a trust
-iht.estateReport.debts.funeralExpenses.title 	Funeral expenses
-iht.estateReport.debts.other.title 	Any other debts not listed
-iht.estateReport.debts.owedFromEstate 	Debts owed from the estate
-iht.estateReport.debts.owedOutsideUK 	Debts owed to anyone outside of the UK
-iht.estateReport.debts.owedOutsideUK.value 	Value of debts owed to anyone outside of the UK
-iht.estateReport.debts.valueOfFuneralCosts 	Value of the funeral expenses
-iht.valueOfDebts 	Value of debts
-page.iht.application.debts.debtsOutsideUk.browserTitle 	Foreign debts
-page.iht.application.debts.debtsOutsideUk.description.p1 	This is the value of all debts owed to anyone outside of the UK including anything owed on any foreign assets.
-page.iht.application.debts.debtsOutsideUk.description.p2 	You must change the foreign value to British pounds using the exchange rate on the date of death.
-page.iht.application.debts.debtsOutsideUk.isOwned 	Are there any debts being paid out of the estate that are owed to anyone outside of the UK?
-page.iht.application.debts.debtsTrust.browserTitle 	Debts owed from trust
-page.iht.application.debts.debtsTrust.description.p1 	This is the value of any debts owed from a trust that {0} was benefitting from. If the trustees only gave you the value of a trust after deducting any debts then do not include a value here.
-page.iht.application.debts.debtsTrust.isOwned 	Are there any debts being paid out of the estate that are owed from a trust that {0} benefitted from?
-page.iht.application.debts.funeralExpenses.description.p1 	You can deduct some funeral expenses. Things that could be claimed as an expense are flowers, refreshments for mourners and any necessary expenses to cover the funeral arrangements and the cost of a headstone or plaque to mark the grave. This will come out of the estate as a debt.
-page.iht.application.debts.funeralExpenses.description.p2 	If {0} paid for a funeral plan before they died, this would not be a funeral expense. Any travelling or accommodation costs for mourners, or any flowers or refreshments that they gave, cannot be claimed as a funeral expense.
-page.iht.application.debts.funeralExpenses.isOwned 	Are there any funeral expenses being paid out of the estate?
-page.iht.application.debts.other.browserTitle 	Other debts
-page.iht.application.debts.other.description.p1 	This is the total value of any other debts that are being paid from the estate that are not included in any other section.
-page.iht.application.debts.other.description.p2 	This includes any loans {0} was paying, including those they were guaranteeing and had been asked to pay when they died.
-page.iht.application.debts.other.description.p3 	Any outstanding credit card debts and money owed on any insurance policies and household bills are included here.
-page.iht.application.debts.other.inputLabel1 	Value of any other debts
-page.iht.application.debts.other.isOwned 	Are there any other debts to be paid out of the estate?
-page.iht.application.debts.overview.debtsFromTrust.screenReader.link.moreDetail 	Give more details about debts owed from a trust
-page.iht.application.debts.overview.debtsFromTrust.screenReader.link.noValue 	Give a value for debts owed from a trust
-page.iht.application.debts.overview.debtsFromTrust.screenReader.link.value 	Change the value of debts owed from a trust
-page.iht.application.debts.overview.debtsFromTrust.screenReader.noValue 	You have not given a value for debts owed from a trust
-page.iht.application.debts.overview.debtsFromTrust.screenReader.value 	The value of debts owed from a trust is £{0}
-page.iht.application.debts.overview.debtsOutsideUk.screenReader.link.moreDetail 	Give more detail about debts owed to anyone outside of the UK
-page.iht.application.debts.overview.debtsOutsideUk.screenReader.link.noValue 	Give a value for debts owed to anyone outside of the UK
-page.iht.application.debts.overview.debtsOutsideUk.screenReader.link.value 	Change the value of debts owed to anyone outside of the UK
-page.iht.application.debts.overview.debtsOutsideUk.screenReader.noValue 	You have not given a value for debts owed to anyone outside of the UK
-page.iht.application.debts.overview.debtsOutsideUk.screenReader.value 	The value of debts owed to anyone outside of the UK is £{0}
-page.iht.application.debts.overview.funeralExpenses.screenReader.link.moreDetail 	Give more details about funeral expenses
-page.iht.application.debts.overview.funeralExpenses.screenReader.link.noValue 	Give a value for funeral expenses
-page.iht.application.debts.overview.funeralExpenses.screenReader.link.value 	Change the value of funeral expenses
-page.iht.application.debts.overview.funeralExpenses.screenReader.noValue 	You have not given a value for funeral expenses
-page.iht.application.debts.overview.funeralExpenses.screenReader.value 	The value of funeral expenses is £{0}
-page.iht.application.debts.overview.other.screenReader.link.moreDetail 	Give more detail about any other debts not listed
-page.iht.application.debts.overview.other.screenReader.link.noValue 	Give a value for any other debts not listed
-page.iht.application.debts.overview.other.screenReader.link.value 	Change the value of any other debts not listed
-page.iht.application.debts.overview.other.screenReader.noValue 	You have not given a value for any other debts not listed
-page.iht.application.debts.overview.other.screenReader.value 	The value of any other debts not listed is £{0}
-page.iht.application.debts.overview.screenReader.total 	The total value of debts owed from the estate is £{0}
-page.iht.application.debts.overview.total 	Total value of debts owed from the estate
-page.iht.application.debts.subtitle1 	A debt is anything that {0} was responsible for paying. Only include debts that are being paid out of {1}’s estate.
-page.iht.application.debts.subtitle2 	You need a grant of representation from the Probate Service to pay some debts off from the estate and sometimes the value of debts owed can be taken off the total estate value.
-pdf.debts.summary.p1 	A debt is anything that {0} was responsible for paying. Only include debts that are being paid out of {1}’s estate. You need a grant of representation from the Probate Service to pay some debts off from the estate and sometimes the value of debts owed can be taken off the total estate value.
-pdf.liabilityType.text 	Debt
-site.button.save.return.debts 	Save and return to debts owed from the estate
-site.link.return.debts 	Return to debts owed from the estate
-site.noDebts 	No debts owed
+site.link.return.exemptions 	 Return to estate exemptions
+	
+iht.valueOfExemptions 	 Value of exemptions
+	
+page.iht.exemptions.title 	 Exemptions
+page.iht.application.return.to.exemptionsOf 	 Return to {0}’s estate exemptions
+page.iht.application.exemptions.overview.screenReader.total 	 The total value of estate exemptions which are taken away from the estate value is £{0}
+iht.estateReport.exemptions.title 	 Estate exemptions
+	
+#Estate report - Exemptions Guidance	
+page.iht.application.exemptions.guidance.content1 	 You only need to claim estate exemptions if the estate value is over the Inheritance Tax threshold. If you do not know the estate value, it is recommended to only complete the assets, gifts and debts sections before you claim any exemptions.
+page.iht.application.exemptions.guidance.content2 	 If you do not want to claim any estate exemptions,
+page.iht.application.exemptions.guidance.content2.linkText 	 you can return to the estate overview page
+page.iht.application.exemptions.guidance.content3 	 Some assets might be exempt from Inheritance Tax if they are being passed to a spouse or civil partner, a charity or to another qualifying body.
+page.iht.application.exemptions.guidance.content4 	 The estate value could become less than the Inheritance Tax threshold by claiming these exemptions.
+page.iht.application.exemptions.guidance.link 	 Continue to estate exemptions
+	
+page.iht.application.exemptions.guidance.increasing.threshold.title 	 The estate value is above the Inheritance Tax threshold
+page.iht.application.exemptions.guidance.increasing.threshold.p1 	 You could bring the estate value below the threshold by claiming any estate exemptions.
+page.iht.application.exemptions.guidance.increasing.threshold.p2 	 Some of the deceased’s assets can be claimed as an exemption if they are being passed to a spouse or civil partner, a charity or to another qualifying body.
+page.iht.application.exemptions.guidance.increasing.threshold.link.text 	 Go to estate exemptions
+	
+iht.estateReport.exemptions.guidance.claimingEstateExemptions 	 Claiming estate exemptions
+iht.estateReport.exemptions.guidance.debtsSubtracted 	 If you claim any exemptions, any debts that are owed from the estate will also be taken off the estate value.
+iht.estateReport.exemptions.guidance.provideAssetsDetails 	 You will need to provide details of these assets in the estate exemptions section. You can save your progress and return to it at any time through the estate overview page.
+	
+#Estate report - Exemptions - Partner	
+page.iht.application.exemptions.partner.overview.browserTitle 	 Assets left to partner
+page.iht.application.exemptions.overview.partner.assetsLeftForPartner.screenreader.link.noValue 	 Give answer for did {0} leave anything to their spouse or civil partner
+page.iht.application.exemptions.overview.partner.assetsLeftForPartner.screenreader.link.value 	 Change the answer for did {0} leave anything to their spouse or civil partner
+page.iht.application.exemptions.overview.partner.homeInUK.screenreader.link.noValue 	 Give answer for is the spouse’s or civil partner’s permanent home in the UK
+page.iht.application.exemptions.overview.partner.homeInUK.screenreader.link.value 	 Change the answer for is the spouse’s or civil partner’s permanent home in the UK
+page.iht.application.exemptions.overview.partner.name.title 	 Name of the spouse or civil partner
+page.iht.application.exemptions.overview.partner.name.screenreader.link.noValue 	 Give the name of the spouse or civil partner
+page.iht.application.exemptions.overview.partner.name.screenreader.link.value 	 Change the name of the spouse or civil partner
+page.iht.application.exemptions.overview.partner.dob.title 	 Date of birth of the spouse or civil partner
+page.iht.application.exemptions.overview.partner.dob.screenreader.link.noValue 	 Give the date of birth of the spouse or civil partner
+page.iht.application.exemptions.overview.partner.dob.screenreader.link.value 	 Change the date of birth of the spouse or civil partner
+page.iht.application.exemptions.overview.partner.nino.title 	 National Insurance number of the spouse or civil partner
+page.iht.application.exemptions.overview.partner.nino.screenreader.link.noValue 	 Give the National Insurance number of the spouse or civil partner
+page.iht.application.exemptions.overview.partner.nino.screenreader.link.value 	 Change the National Insurance number for the spouse or civil partner
+page.iht.application.exemptions.overview.partner.totalAssets.title 	 Total value of all assets left to the spouse or civil partner
+page.iht.application.exemptions.overview.partner.totalAssets.screenreader.link.noValue 	 Give the value of all assets left to the spouse or civil partner
+page.iht.application.exemptions.overview.partner.totalAssets.screenreader.link.value 	 Change the value of all assets left to the spouse or civil partner
+page.iht.application.exemptions.partner.question1 	 Were any assets left to the deceased’s spouse or civil partner?
+	
+page.iht.application.exemptions.assetLeftToPartner.sectionName 	 asset-left-to-partner
+page.iht.application.exemptions.assetLeftToPartner.browserTitle 	 Any assets left to partner
+page.iht.application.exemptions.assetLeftToPartner.description 	 These are all of the assets that are being left to the deceased’s spouse or civil partner.
+	
+page.iht.application.exemptions.deceasedName.title 	 {0}’s estate exemptions
+page.iht.application.exemptions.title 	 estate exemptions
+page.iht.application.exemptions.deceasedName.subtitle 	 {0}’s estate return
+page.iht.application.exemptions.guidance1 	 These are assets that are exempt from Inheritance Tax and deducted from the value of the estate.
+page.iht.application.exemptions.total 	 Total value of assets taken away from the estate value
+	
+page.iht.application.exemptions.overview.partner.screenReader.value 	 The value of assets left to a spouse or civil partner is £{0}
+page.iht.application.exemptions.overview.partner.screenReader.noValue 	 You have not given a value for assets left to a spouse or civil partner
+page.iht.application.exemptions.overview.partner.screenReader.link.noValue 	 Give an answer for assets left to a spouse or civil partner
+page.iht.application.exemptions.overview.partner.screenReader.link.value 	 Change the answer for assets left to a spouse or civil partner
+page.iht.application.exemptions.overview.partner.screenReader.link.moreDetail 	 Give more details for assets left to a spouse or civil partner
+	
+page.iht.application.exemptions.partner.name.title 	 What is the spouse’s or civil partner’s name?
+page.iht.application.exemptions.partner.name.browserTitle 	 Partner’s name
+page.iht.application.exemptions.partner.name.firstName.label 	 First name of spouse or civil partner
+page.iht.application.exemptions.partner.name.lastName.label 	 Last name of spouse or civil partner
+	
+page.iht.application.exemptions.partner.dateOfBirth 	 Date of birth of spouse or civil partner
+page.iht.application.exemptions.partner.nino 	 National Insurance number of spouse or civil partner
+page.iht.application.exemptions.partner.nino.sectionTitle 	 What is the spouse’s or civil partner’s National Insurance number?
+page.iht.application.exemptions.partner.nino.browserTitle 	 Partner’s National Insurance number
+page.iht.application.exemptions.partner.totalAssets.label 	 Total value of all assets left to spouse or civil partner
+page.iht.application.exemptions.partner.totalAssets.browserTitle 	 Value of assets left to partner
+	
+page.iht.application.exemptions.partner.dateOfBirth.question.title 	 What is the spouse’s or civil partner’s date of birth?
+page.iht.application.exemptions.partner.dateOfBirth.browserTitle 	 Partner’s date of birth
+page.iht.application.exemptions.partnerPermanentHome.browserTitle 	 Partner’s residence
+	
+iht.estateReport.exemptions.partner.assetsLeftToSpouse.title 	 Assets left to a spouse or civil partner
+iht.estateReport.exemptions.partner.homeInUK.question 	 Is the spouse’s or civil partner’s permanent home in the UK?
+iht.estateReport.exemptions.partner.returnToAssetsLeftToSpouse 	 Return to assets left to a spouse or civil partner
+iht.estateReport.exemptions.spouse.assetLeftToSpouse.question 	 Did {0} leave any assets to their spouse or civil partner?
+	
+#Estate report - Exemptions - Charity	
+page.iht.application.exemptions.overview.charity.screenReader.noValue 	 You have not given a value for assets left to charities
+page.iht.application.exemptions.overview.charity.screenReader.value 	 The value of assets left to charities is £{0}
+page.iht.application.exemptions.overview.charity.screenReader.link.noValue 	 Give an answer for assets left to charities
+page.iht.application.exemptions.overview.charity.screenReader.link.value 	 Change the value for assets left to charities
+page.iht.application.exemptions.overview.charity.screenReader.link.moreDetail 	 Give more details for assets left to charities
+	
+page.iht.application.exemptions.assetLeftToCharity.browserTitle 	 Any assets left to a charity
+page.iht.application.exemptions.assetLeftToCharity.p1 	 These are all of the assets being left to a charity. The charity must have a registered charity number if they are based in the UK.
+page.iht.application.exemptions.assetLeftToCharity.p2 	 You should add each individual charity that received assets and the total value of assets they received.
+page.iht.application.exemptions.assetLeftToCharity.screenreader.ident 	 Charity {0}.
+	
+page.iht.application.exemptions.charityNumber.browserTitle 	 Charity number
+page.iht.application.exemptions.charityNumber.p1 	 You can find the registered charity number by
+page.iht.application.exemptions.charityNumber.linkText 	 searching the charity register
+page.iht.application.exemptions.charityNumber.p2 	 on the Charity Commission website
+	
+page.iht.application.exemptions.charityDelete.sectionTitle 	 Confirm that you want to delete this charity
+page.iht.application.exemptions.charityDelete.browserTitle 	 Delete charity
+	
+page.iht.application.exemptions.charityValue.sectionTitle 	 Total value of all assets left to the charity
+page.iht.application.exemptions.charityValue.browserTitle 	 Value of assets left to charity
+	
+page.iht.application.exemptions.charityName.sectionTitle 	 What is the charity’s name?
+	
+page.iht.application.exemptions.assetLeftToCharity.sectionName 	 asset-left-to-charity
+page.iht.application.exemptions.assetLeftToCharity.question1 	 Were any assets left to a charity?
+page.iht.application.exemptions.assetLeftToCharity.question1.hint 	 You should add each individual charity that received assets and tell us the total value of what they received.
+page.iht.application.exemptions.assetLeftToCharity.addCharity 	 Add a charity
+page.iht.application.exemptions.charityOverview.questionLabel.screenreader.link.value 	 Change the answer for did {0} leave any assets to a charity
+page.iht.application.exemptions.charityOverview.noCharities.text 	 You have not added any charities to this estate.
+page.iht.application.exemptions.charityOverviewTable.header 	 Charities
+	
+page.iht.application.charity.add.subtitle 	 Add the charity details and the total value of the assets received.
+page.iht.application.charity.add.name 	 Name of charity
+page.iht.application.charity.add.registerednumber.helptext.contents1 	 You can find the registered charity number by searching
+page.iht.application.charity.add.registerednumber.helptext.link 	 the charity register.
+page.iht.application.charity.add.registerednumber.helptext.contents2 	 Enter the charity’s name and you will be provided with its registered number.
+page.iht.application.charity.add.registerednumber.helptext 	 How to find out the charity number
+page.iht.application.exemptions.deleteCharity.screenReader 	 The name of the charity you may delete is {0} and it is registered charity number is {1}
+	
+page.iht.application.exemptions.overview.charity.detailsOverview.title 	 Add a UK charity
+page.iht.application.exemptions.overview.charity.detailsOverview.browserTitle 	 Add charity
+page.iht.application.exemptions.overview.charity.detailsOverview.name.screenreader.link.noValue 	 Give the charity name
+page.iht.application.exemptions.overview.charity.detailsOverview.name.screenreader.link.value 	 Change the charity name
+page.iht.application.exemptions.overview.charity.detailsOverview.number.screenreader.link.value 	 Change the registered charity number
+page.iht.application.exemptions.overview.charity.detailsOverview.value.screenreader.link.noValue 	 Give the total value of assets the charity received
+page.iht.application.exemptions.overview.charity.detailsOverview.value.screenreader.link.value 	 Change the total value of assets the charity received
+	
+page.iht.application.charity.name.screenReader 	 The name of this charity is {0}
+page.iht.application.charity.number.screenReader 	 The name of the charity is {0} and it is registered number is {1}
+page.iht.application.charity.edit.screenReader 	 Change any of the details you have given for {0} (charity {1})
+page.iht.application.charity.delete.screenReader 	 Delete {0} (charity {1}) from the list of charities
+	
+iht.estateReport.exemptions.charities.assetLeftToCharity.question 	 Did {0} leave any assets to a charity?
+iht.estateReport.exemptions.charities.assetsLeftToACharity.title 	 Assets left to a charity
+iht.estateReport.exemptions.charities.assetsLeftToCharities.title 	 Assets left to charities
+iht.estateReport.exemptions.charities.charityName.title 	 Charity name
+iht.estateReport.exemptions.charities.charityNo.question 	 What is the registered charity number?
+iht.estateReport.exemptions.charities.noNameAdded 	 No name added
+iht.estateReport.exemptions.charities.registeredCharityNo 	 Registered charity number
+iht.estateReport.exemptions.charities.returnToAddACharity 	 Return to add a charity
+iht.estateReport.exemptions.charities.returnToAssetsLeftToCharities 	 Return to assets left to charities
+iht.estateReport.exemptions.charities.totalValueOfAssetsCharityReceived 	 Total value of assets the charity received
+	
+#Estate report - Exemptions - Qualifying body	
+iht.estateReport.assets.qualifyingBodyAddAnother 	 Add another qualifying body
+iht.estateReport.assets.qualifyingBodyAdd 	 Add a qualifying body
+	
+page.iht.application.exemptions.qualifyingBody.value.sectionTitle 	 Total value of all assets left to the qualifying body
+page.iht.application.exemptions.qualifyingBody.value.browserTitle 	 Value of assets left to body
+	
+page.iht.application.exemptions.qualifyingBody.name.sectionTitle 	 What is the qualifying body’s name?
+page.iht.application.exemptions.qualifyingBody.name.browserTitle 	 Body name
+	
+page.iht.application.exemptions.qualifyingBodyOverview.screenreader.ident 	 Qualifying body {0}.
+page.iht.application.exemptions.qualifyingBodyOverview.browserTitle 	 Assets left to other bodies
+page.iht.application.exemptions.qualifyingBodyOverview.lede 	 These are all of the assets being left to a qualifying body. These will not be charities that have a registered qualifying body number.
+	
+page.iht.application.exemptions.qualifyingBodyOverview.question 	 Did {0} leave anything to a qualifying body?
+page.iht.application.exemptions.qualifyingBodyOverview.question.screenreader.link 	 Change the answer to did {0} leave anything to a qualifying body
+	
+page.iht.application.exemptions.qualifyingBodyOverviewTable.header 	 Qualifying bodies
+page.iht.application.exemptions.qualifyingBodyOverview.noQualifyingBodies.text 	 You have not added any qualifying bodies to this estate.
+	
+page.iht.application.exemptions.assetsLeftToQualifyingBody.sectionTitle 	 Did {0} leave any assets to another qualifying body?
+page.iht.application.exemptions.assetsLeftToQualifyingBody.browserTitle 	 Any assets left to other body
+page.iht.application.exemptions.assetsLeftToQualifyingBody.p1 	 These are all of the assets being left to a qualifying body.
+page.iht.application.exemptions.assetsLeftToQualifyingBody.p2 	 These are not charities with a registered charity number.
+	
+iht.estateReport.exemptions.qualifyingBodies.assetsLeftToQualifyingBody.p3 	 Other qualifying bodies could include a community amateur sports club or charities outside of the UK.
+page.iht.application.exemptions.assetsLeftToQualifyingBody.help.contents 	 You should check with the body. They will be able to tell you if assets they receive will be an Inheritance Tax exemption.
+	
+page.iht.application.exemptions.overview.qualifyingBody.screenReader.value 	 The value of assets left to other qualifying bodies is £{0}
+page.iht.application.exemptions.overview.qualifyingBody.screenReader.noValue 	 You have not given a value for assets left to other qualifying bodies
+page.iht.application.exemptions.overview.qualifyingBody.screenReader.link.value 	 Change the value for assets left to other qualifying bodies
+page.iht.application.exemptions.overview.qualifyingBody.screenReader.link.noValue 	 Give an answer for assets left to other qualifying bodies
+page.iht.application.exemptions.overview.qualifyingBody.screenReader.link.moreDetail 	 Give more details for assets left to other qualifying bodies
+	
+page.iht.application.exemptions.assetLeftToGncp.sectionName 	 asset-left-to-gncp
+page.iht.application.exemptions.assetLeftToGncp.sectionTitle 	 Assets left to another qualifying bodies
+page.iht.application.exemptions.assetLeftToGncp.description.p2 	 Other qualifying bodies might be a museum or a community amateur sports club.
+page.iht.application.exemptions.assetLeftToGncp.question1 	 Were any assets left to another qualifying body?
+page.iht.application.exemptions.assetLeftToGncp.question1.hint 	 You should add each individual body that received assets and tell us the total value of what they received.
+page.iht.application.exemptions.assetLeftToGncp.screenReader.noValue 	 No value given for assets left to another qualifying body
+page.iht.application.exemptions.assetLeftToGncp.screenReader.value 	 Value of assets left to another qualifying body is £{0}
+page.iht.application.exemptions.assetLeftToGncp.screenReader.link.noValue 	 Give a value for assets left to another qualifying body
+page.iht.application.exemptions.assetLeftToGncp.screenReader.link.value 	 Change this value for assets left to another qualifying body
+page.iht.application.exemptions.deleteGNCP.screenReader 	 The name of the qualifying body you may wish to delete is {0}
+	
+page.iht.application.qualifyingbodies.add.title 	 Assets left to another qualifying body
+page.iht.application.qualifyingbodies.add.subtitle 	 Add the name of the qualifying body and the total value of the assets received.
+page.iht.application.qualifyingbodies.add.valuetext 	 Total value of assets the qualifying body received
+page.iht.application.qualifyingbodies.name.screenReader 	 The name of this qualifying body is {0}
+page.iht.application.qualifyingbodies.edit.screenReader 	 Change any of the details you have given for {0} (qualifying body {1})
+page.iht.application.qualifyingbodies.delete.screenReader 	 Delete {0} (qualifying body {1}) from your list of qualifying bodies
+	
+page.iht.application.exemptions.qualifyingBodyDelete.browserTitle 	 Delete qualifying body
+	
+page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.browserTitle 	 Add another body
+page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.value.title 	 Total value of assets received by the qualifying body
+page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.name.link.screenreader.noValue 	 Give the name of the qualifying body
+page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.name.link.screenreader.value 	 Change the qualifying body name
+page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.value.link.screenreader.noValue 	 Give value of assets received by the qualifying body
+page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.value.link.screenreader.value 	 Change the value of assets received by the qualifying body
+	
+iht.estateReport.exemptions.qualifyingBodies.assetLeftToQualifyingBody.helptext 	 If you do not know if assets passing to another body will be exempt from Inheritance Tax, call the Inheritance Tax helpline on 0300 123 1072. If you are outside of the UK, call +44 300 123 1072. Once you have given the name of the body, you will be told if any assets left to them will be exempt from Inheritance Tax.
+iht.estateReport.exemptions.qualifyingBodies.assetsLeftToQualifyingBodies.title 	 Assets left to other qualifying bodies
+iht.estateReport.exemptions.qualifyingBodies.assetsLeftToQualifyingBodyNotCharities 	 These are all of the assets being left to a qualifying body. These will not be charities that have a registered charity number.
+iht.estateReport.exemptions.qualifyingBodies.confirmDeleteQualifyingBody 	 Confirm that you want to delete this qualifying body
+iht.estateReport.exemptions.qualifyingBodies.howFindOutQualifies 	 How to find out if another body qualifies
+iht.estateReport.exemptions.qualifyingBodies.returnToAssetsLeftToQualifyingBodies 	 Return to assets left to other qualifying bodies
+iht.estateReport.exemptions.qualifyingBodies.returnToAssetsLeftToQualifyingBody 	 Return to add another qualifying body
+	
+pdf.totalexemptions.text 	 Total Exemptions
+pdf.exemption.table.text 	 Exemption
+pdf.exemption.spouse 	 Spouse or civil partner
+pdf.exemption.charity 	 Charity
+pdf.exemption.otherQualifyingBodies 	 Other qualifying bodies
