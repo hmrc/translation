@@ -1,126 +1,132 @@
-iht.estateReport.goToEstateReports	Go to your Inheritance Tax estate reports
-iht.estateReport.changeValues	Change values
-iht.estateReport.correctiveAccountForm	Corrective Account form
-iht.estateReport.ihtThreshold	Inheritance Tax threshold
-iht.estateReport.noInheritanceTaxPayable	no Inheritance Tax is payable
-iht.inheritanceTaxEstateReport	Inheritance Tax estate report
+site.title.govuk 	 - GOV.UK
+site.button.confirm 	 Confirm
+site.button.details.correct 	 The details given are correct
+site.button.details.correct.exitToGovK 	 The details given are correct – exit to GOV.UK
+site.button.confirmDelete 	 Confirm and delete
+site.link.cancel 	 Cancel
+site.link.giveAnswer 	 Give an answer
+site.link.giveValues 	 Give values
+site.link.giveDate 	 Give date
+site.link.giveName 	 Give name
+site.link.giveNumber 	 Give number
+site.link.giveDetails 	 Give details
+site.link.giveValue 	 Give value
+site.link.giveAValue 	 Give a value
+site.noneInEstate 	 None in estate
+site.button.signOut 	 Save and sign out
+site.nameDetails 	 {0}’s details
+site.changeName 	 Change name
+site.changeDate 	 Change date
+site.noCharityNameGiven 	 No charity name given
+site.noCharityNumberGiven 	 No charity number given
+site.noCharityNameAndNumberGiven 	 No charity name or number added
+iht.notStarted 	 Not started
+iht.notStarted.screenreader 	 {0} is not started
+iht.inComplete 	 Incomplete
+iht.inComplete.screenreader 	 {0} is incomplete
+iht.complete 	 Complete
+iht.complete.screenreader 	 {0} is complete
+iht.inProgress 	 In progress
+iht.ineligibleApplication 	 Ineligible application
+iht.address.line1 	 Address line 1
+iht.address.line2 	 Address line 2
+iht.address.line3 	 Address line 3 (optional)
+iht.address.line4 	 Address line 4 (optional)
+iht.address.lowerCaseInitial 	 address
+iht.address.upperCaseInitial 	 Address
+iht.date.day 	 Day
+iht.date.month 	 Month
+iht.date.year 	 Year
+iht.back 	 Back
+iht.change 	 Change
+iht.continue 	 Continue
+iht.countries.englandOrWales 	 England or Wales
+iht.countries.northernIreland 	 Northern Ireland
+iht.countries.scotland 	 Scotland
+iht.country 	 Country
+iht.dateExample 	 For example, 31 3 1980
+iht.dateExample2 	 For example, 21 3 1990
+iht.dateOfDeath 	 Date of death
+iht.dateofbirth 	 Date of birth
+iht.delete 	 Delete
+iht.the.deceased 	 the person who has died
+iht.exitToGovUK 	 Exit to GOV.UK
+iht.firstName 	 First name
+iht.firstName.hint 	 You do not have to give any middle names
+iht.giveMoreDetails 	 Give more details
+iht.iv.contactHMRC 	 contact HMRC to get help
+iht.iv.exit 	 Exit
+iht.iv.tryAgain 	 Try again
+iht.iv.tryAgainLater 	 Please try again in 5 minutes.
+iht.iv.unableToContinue 	 This online service is unable to continue at the moment.
+iht.lastName 	 Last name
+iht.name.lowerCaseInitial 	 name
+iht.name.upperCaseInitial 	 Name
+iht.nationalInsuranceNo 	 National Insurance number
+iht.next 	 Next
+iht.nextSteps 	 Next steps
+iht.ninoExample 	 For example, QQ 12 34 56 C
+iht.no 	 No
+iht.noChangeToHowReportToHMRC 	 There is no change to how you report to HMRC
+iht.notPossibleToUseService 	 It is not possible for you to use this service
+iht.postcode 	 Postcode
+iht.returnToLastQuestion 	 Return to last question
+iht.saveAndContinue 	 Save and continue
+iht.signInAgain 	 Sign back in and return to your Inheritance Tax estate reports page
+iht.start 	 Start
+iht.startAgain 	 Start again
+iht.viewOrChange 	 View or change
+iht.value 	 Value
+iht.valueOfAssets 	 Value of assets
+iht.valueOfDebts 	 Value of debts
+iht.valueOfExemptions 	 Value of exemptions
+iht.whatDoYouWantToDo 	 What do you want to do?
+iht.yes 	 Yes
+iht.comma 	 ,
+iht.fullStop 	0
+iht.dropdown.matches 	 {0} matches found. Use arrow keys or swipe to navigate the list
+iht.dropdown.of 	 ({0} of {1})
+iht.dropdown.closed 	 Suggestions list closed
+iht.dropdown.selected 	 {0} selected
+iht.needHelp 	 Need help?
+iht.needHelp.guidance 	 If you need help with completing this estate report, contact the Inheritance Tax helpline on 0300 123 1072. If you are outside of the UK, call +44 300 123 1072.
+iht.theDeceased 	 The deceased
+error.problem 	 There is a problem
+error.cannotSend 	 The details you have entered could not be sent at the moment.
+error.checkCorrect 	 Check the details are correct, in the right place and in the right format.
+error.report.redo 	 Select the estate report through the Your Inheritance Tax estate reports page and send the details again.
+error.selectAnswer 	 Select an answer
+error.signOutLater 	 Sign out and complete this service at another time.
+error.value.blank 	 A value should be entered
 	
-site.link.startNewRegistration	Start a new registration for someone else’s estate
+global.error.InternalServerError500.heading 	 Sorry, we are experiencing technical difficulties
+global.error.InternalServerError500.link.gov-uk-iht.text 	 Continue to Inheritance Tax overview
+global.error.InternalServerError500.link.gov-uk.text 	 Explore GOV.UK.
+global.error.InternalServerError500.message 	 Please try again in a few moments.
+global.error.InternalServerError500.title 	 We are experiencing technical difficulties
+global.error.badRequest400.heading 	 Bad request
+global.error.badRequest400.title 	 Bad request - 400
+global.error.pageNotFound404.heading 	 This page cannot be found
+global.error.pageNotFound404.title 	 Page not found - 404
 	
-iht.notStarted	Not started
-iht.notStarted.screenreader	{0} is not started
-iht.inComplete	Incomplete
-iht.inComplete.screenreader	{0} is incomplete
-iht.complete	Complete
-iht.complete.screenreader	{0} is complete
-iht.inProgress	In progress
-iht.inReview	In review
-iht.closed	Closed
-iht.ineligibleApplication	Ineligible application
-	
-page.iht.home.title	Your Inheritance Tax estate reports
-page.iht.home.browserTitle	Your estate reports
-page.iht.home.applicationList.table.guidance.label	These are all the Inheritance Tax estate reports you have registered.
-page.iht.home.applicationList.table.guidance.label.empty	You have not registered to complete an Inheritance Tax estate report.
-page.iht.home.applicationList.table.guidance.p2.empty	If you have already completed a registration and the details are not listed above, call the Inheritance Tax helpline on 0300 123 1072 for help. Call +44 300 123 1072 if you are outside of the UK.
-page.iht.home.deceasedName.label	Person who has died
-page.iht.home.ihtReference.label	Reference
-page.iht.home.currentStatus	Status
-page.iht.home.button.viewApplication.label	View
-page.iht.home.button.startApplication.screenReader	Start {0}’s estate report
-page.iht.home.button.continueApplication.screenReader	Continue {0}’s estate report
-page.iht.home.button.viewApplication.screenReader	View {0}’s estate report
-	
-page.iht.application.overview.closed.helptext	When you have completed everything to do with this estate, including receiving your grant of representation from the Probate Service, you can complete clearance of this estate report.
-page.iht.application.overview.closed.warning	By completing clearance you are confirming that you have nothing left to do with this estate. HMRC will give you a certificate that you can download or print and which confirms that this estate report has been cleared.
-page.iht.application.overview.closed.clearance	Complete clearance of this estate report
-page.iht.application.overview.closed.sidebartitle	This estate report has not been cleared.
-	
-page.iht.application.overview.inreview.title	This estate report is being reviewed by HMRC
-page.iht.application.overview.inreview.helptext	It could take HMRC up to 2 months to review this estate report from the date you sent it. HMRC will contact you if they have any questions about this estate report.
-page.iht.application.overview.inreview.sidebartitle	You have sent this report to HMRC.
-	
-page.iht.application.overview.cleared.helptext1	You have confirmed that you have nothing left to do with this estate.
-page.iht.application.overview.cleared.helptext2	You can view a copy of your clearance certificate that confirms that this estate report has been cleared.
-page.iht.application.overview.cleared.sidebartitle	You have completed clearance of this estate report.
-	
-page.iht.application.overview.common.title	This estate report has been closed
-page.iht.application.overview.common.estatevalue	Based on the details you have provided, {0}’s estate is below the threshold and there is no Inheritance Tax to pay.
-page.iht.application.overview.common.helptext.part1	If you find any more assets owned by {0} that were not included in this estate report, let HMRC know by using a
-page.iht.application.overview.common.helptext.part2	Only do this if these assets increase the value of the estate over the Inheritance Tax threshold.
-page.iht.application.overview.common.return	Return to your Inheritance Tax estate reports
-page.iht.application.overview.common.viewcopy	View a copy of this estate report (PDF, <500KB)
-page.iht.application.overview.common.viewcertificate	View clearance certificate (PDF, <500KB)
-	
-page.iht.application.estateOverview.noValue	No value given
-page.iht.application.estateOverview.valueOfAssetsAndGifts	Value of assets and gifts
-page.iht.application.estateOverview.totalAddedToTheEstateValue	Total added to the estate value
-page.iht.application.estateOverview.totalValueOfTheEstate	Total value of the estate
-page.iht.application.estateOverview.exemptions.noExemptionsValue	No exemptions
-page.iht.application.estateOverview.increaseThreshold.link	I want to transfer the unused allowance from someone else’s estate
-page.iht.application.estateOverview.increaseThreshold.notAvailable	Not available
-page.iht.application.estateOverview.increaseThreshold.increased	Increased
-page.iht.application.estateOverview.otherDetailsNeeded	Other details needed
-page.iht.application.estateOverview.claimExemptions.link	I want to claim exemptions
-page.iht.application.estateOverview.declaration.allSectionsComplete.guidance.text	You can continue once you are sure you have given all of the details that you need to for this estate report. You should check each section before continuing.
-page.iht.application.estateOverview.declaration.continue.guidance.text	The estate value is over the threshold. Continue when you have given all of the estate details that you know about.
-page.iht.application.estateOverview.declaration.allSectionsNotComplete.guidance.text1	You have not given enough details to finish this estate report
-page.iht.application.estateOverview.declaration.allSectionsNotComplete.guidance.text2	You must give an answer for every part of the estate report.
-	
-page.iht.application.overview.title	Application progress for {0} is now {1}
-page.iht.application.overview.title2	{0}’s estate overview
-page.iht.application.overview.browserTitle	Estate overview
-	
-page.iht.application.overview.gifts.nonGiven	No gifts given
-page.iht.application.overview.value	Estate value
-page.iht.application.overview.submit.button.disabled	To continue you need to tick that you have checked all of the estate details that you have entered and there is nothing else to tell HMRC about.
-page.iht.application.overview.time.limit1	You have until
-page.iht.application.overview.time.limit2	to send your estate report.
-page.iht.application.overview.timeScale.guidance	If you do not send the estate report by this date, it will be deleted and you will have to start again.
-	
-page.iht.application.overview.reducingTheEstateValue.total	Total taken away from the estate value
-page.iht.application.overview.title2.screenReader	You have until {0} to send your estate report.
-	
-page.iht.application.overview.assets.screenReader	The value of assets in the estate is £{0}
-page.iht.application.overview.assets.screenReader.noValue	You have not entered any assets in the estate
-page.iht.application.overview.assets.screenReader.value.link	View or change assets in the estate
-page.iht.application.overview.assets.screenReader.noValue.link	Start giving details about assets in the estate
-page.iht.application.overview.assets.screenReader.moreDetails.link	Give more details about assets in the estate
-	
-page.iht.application.overview.gifts.screenReader	The value of gifts given away is £{0}
-page.iht.application.overview.gifts.screenReader.noValue	You have not entered any gifts given away
-page.iht.application.overview.gifts.screenReader.value.link	View or change gifts given away
-page.iht.application.overview.gifts.screenReader.noValue.link	Start giving details about gifts given away
-page.iht.application.overview.gifts.screenReader.moreDetails.link	Give more details about gifts given away
-	
-page.iht.application.overview.debts.screenReader	The value of debts owed from the estate is £{0}
-page.iht.application.overview.debts.screenReader.noValue	You have not entered any debts owed from the estate
-page.iht.application.overview.debts.screenReader.value.link	View or change debts owed from the estate
-page.iht.application.overview.debts.screenReader.noValue.link	Start giving details about debts owed from the estate
-page.iht.application.overview.debts.screenReader.moreDetails.link	Give more details about debts owed from the estate
-	
-page.iht.application.overview.exemptions.screenReader	The value of estate exemptions being claimed is £{0}
-page.iht.application.overview.exemptions.screenReader.noValue	You have not entered any estate exemptions
-page.iht.application.overview.exemptions.screenReader.value.link	View or change estate exemptions
-page.iht.application.overview.exemptions.screenReader.noValue.link	Start giving details about estate exemptions
-page.iht.application.overview.exemptions.screenReader.moreDetails.link	Give more details about estate exemptions
-	
-page.iht.application.overview.tnrb.screenReader.link	View or change details for increasing the threshold
-page.iht.application.overview.total.screenReader.value	{0}’s estate value is £{1}.
-page.iht.application.overview.threshold.screenReader.value	{0}’s inheritance tax threshold is £{1}
-page.iht.application.overview.threshold.screenReader.value.link	View or change details given to increase the threshold
-page.iht.application.overview.threshold.screenReader.moreDetails.link	Give more details to increase the threshold
-iht.estateReport.returnToEstateOverview	Return to estate overview
-	
-page.iht.sign-out.title	You have signed out
-page.iht.sign-out.p1	You have signed out from Inheritance Tax Online.
-page.iht.sign-out.p2	Use the link in your Inheritance Tax email that you were sent if you want to sign back in.
-page.iht.sign-out.button.gov-uk.text	Explore GOV.UK
-	
-page.iht.registration.timeout.p2	You will need to sign back in to Government Gateway and start to register to use Inheritance Tax Online again.
-page.iht.application.timeout.p2	You will need to sign back in to Government Gateway and then choose what you want to do next from your Inheritance Tax estate reports page.
-	
-page.iht.application.probateDetails.content2.bullet1	your IHT Identifier is
-page.iht.application.probateDetails.content2.bullet2	the gross estate figure is £{0}
-page.iht.application.probateDetails.content2.bullet3	the net estate figure is £{0}
-page.iht.application.probateDetails.yourProbateText	For your PA1 - Probate application form:
+page.iht.iv.failure.2fa.title 	 You cannot sign in to use Inheritance Tax Online
+page.iht.iv.failure.2fa.p1 	 You will not be able to use Inheritance Tax Online until you have set up 2-step verification. This is because you need to securely sign in to protect your personal details.
+page.iht.iv.failure.2fa.p2 	 When you want to sign in to securely use Inheritance Tax Online, you should set up 2-step verification.
+page.iht.iv.failure.2fa.exitLink 	 Exit to Inheritance Tax on GOV.UK
+page.iht.iv.failure.2fa.verifyLink 	 Verify your identity
+page.iht.iv.failure.failedMatching.title 	 We were unable to confirm your identity
+page.iht.iv.failure.failedMatching.p1 	 If you cannot confirm your identity and you have a query,
+page.iht.iv.failure.lockedOut.title 	 Maximum number of attempts reached
+page.iht.iv.failure.lockedOut.p1 	 You have reached the maximum number of attempts to confirm your identity.
+page.iht.iv.failure.lockedOut.p2 	 You can try again in 7 days.
+page.iht.iv.failure.userAborted.title 	 You do not have enough information to continue
+page.iht.iv.failure.userAborted.p1 	 You can try again when you have the information you need or, if you have a query,
+page.iht.iv.failure.timeout.title 	 Your session has ended due to inactivity
+page.iht.iv.failure.timeout.p1 	 Your session has ended because you have not done anything for 30 minutes.
+page.iht.iv.failure.timeout.p2 	 We have deleted all the details you have entered for your own security.
+page.iht.iv.failure.technicalIssue.title 	 There is a technical problem
+page.iht.iv.failure.technicalIssue.p1 	 This online service is experiencing technical difficulties.
+page.iht.iv.failure.technicalIssue.p3 	 If you have a query,
+page.iht.iv.failure.preconditionFailed.title 	 You are unable to sign in
+page.iht.iv.failure.preconditionFailed.p1 	 You have already registered with another account.
+page.iht.iv.failure.preconditionFailed.p1.link.text 	 Contact HMRC to get help
