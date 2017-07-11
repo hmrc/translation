@@ -15,7 +15,7 @@ page.iht.iv.failure.2fa.title	You cannot sign in to use Inheritance Tax Online		
 iht.whatDoYouWantToDo	What do you want to do?	Beth yr ydych am ei wneud?	English not updated. Welsh not updated.
 site.title.govuk	- GOV.UK		Added.
 iht.valueOfAssets	Value of assets		Added.
-iht.fullStop	0		Added.
+iht.fullStop	.		Added.
 iht.address.upperCaseInitial	Address	Cyfeiriad	English not updated. Welsh not updated.
 iht.value	Value		Added.
 error.checkCorrect	Check the details are correct, in the right place and in the right format.	Gwiriwch fod y manylion yn gywir, yn y man cywir ac yn y fformat cywir.	English not updated. Welsh not updated.
