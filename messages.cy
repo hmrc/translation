@@ -243,7 +243,6 @@ page.iht.registration.registrationSummary.coExecutorTable.nino.link.screenReader
 page.iht.registration.completedRegistration.p2.bullet2=rhoi manylion ynghylch yr hyn yr oedd yr ymadawedig yn berchen arno yn ogystal ag unrhyw ddyledion sy'n cael eu talu o'i ystâd/hystâd
 error.isJointAssetPassed.select=Dewiswch ateb ar gyfer os trosglwyddwyd yr asedion mewn perchnogaeth ar y cyd o'r ystâd i gyd i'r ymadawedig
 error.funeralExpenses.currencyValue.summary=nodwch werth ar gyfer costau angladd gan ddefnyddio rhifau'n unig
-site.link.return.mortgage.overview=Yn ôl i forgeisi
 site.changeInput=Newid gwerth
 error.isPartnerLivingInUk.select=Dewiswch ateb ar gyfer os yw cartref parhaol y priod neu bartner sifil yn y DU
 page.iht.registration.deleteExecutor.browserTitle=Dileu'r person sy'n gwneud cais
