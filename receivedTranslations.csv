@@ -1,49 +1,25 @@
-iht.estateReport.debts.owedOnJointAssets 	 Debts owed on any jointly owned assets
+iht.notPossibleToUseService 	 It is not possible for you to use this service
+page.iht.registration.deceasedDateOfDeath.kickout.date.capital.tax.summary 	 This is because the deceased died before 18 March 1986. Capital Transfer Tax or Estate Duty were used for deaths before this date.
+page.iht.registration.deceasedDateOfDeath.kickout.date.other.summary 	 This is because the deceased died between 18 March 1986 and 5 April 2011.
+page.iht.registration.deceasedDetails.kickout.location.summary 	 This is because the person who has died’s permanent home was not in England or Wales.
+page.iht.registration.applicantDetails.kickout.probate.summary 	 This is because you are not applying for probate in England or Wales.
+page.iht.registration.applicantDetails.kickout.role.summary 	 This is because you are not an executor or an administrator for the deceased’s estate.
+page.iht.registration.applicantDetails.kickout.role.p2 	 If you want to change your role, you can return to the last page you visited.
+page.iht.registration.applicantDetails.kickout.probateRole.summary 	 This is because you are not intending to apply for probate in England or Wales and you are not an executor or an administrator for the deceased’s estate.
 	
-page.iht.application.debts.jointlyOwned.browserTitle 	 Joint debts
-	
-page.iht.application.debts.jointlyOwned.description.p1 	 This is if {0} jointly owned any assets and there are debts owed on them. This does not include the mortgage on any jointly owned properties.
-	
-page.iht.application.debts.jointlyOwned.isOwned 	 Are there any debts being paid out of the estate that are owed on any jointly owned assets?
-	
-iht.estateReport.debts.owedOnJointAssets.value 	 Value of any debts owed on jointly owned assets
-	
-	
-page.iht.application.debts.jointlyOwned.description.p2 	 You should only include {0}’s share of any debts owed on jointly owned assets.
-	
-iht.saveAndContinue 	 Save and continue
-	
-site.link.return.debts 	 Return to debts owed from the estate
-error.debts.mortgage.select 	 Select an answer for if there was a mortgage on this property, building or land
-page.iht.application.debts.mortgageValue.title 	 Did {0} have a mortgage on this property?
-page.iht.application.debts.mortgageValue.browserTitle 	 Any mortgage on property
-site.link.return.mortgage.overview 	 Add a mortgage value for a property, building or land
-	
-page.iht.application.debts.mortgage.inputText.value 	 Value of mortgage
-iht.estateReport.debts.mortgage.valueOfDeceasedsShare 	 Value of deceased’s share of mortgage
-	
-error.estateReport.value.giveLessThanEleven 	 Give the value using 10 characters or less
-error.estateReport.value.giveValueUsingNumbers 	 Give the value only using numbers
-error.estateReport.value.giveCorrectNumberOfPence 	 Give the value with the correct number of pence
-error.estateReport.value.giveWithNoSpaces 	 Give the value without any spaces between numbers
-error.estateReport.value.giveWithCorrectComma 	 Give the correct value with no comma or with the comma in the right place
-error.estateReport.value.give 	 Give the value
-iht.estateReport.debts.mortgages 	 Mortgages
-page.iht.application.debts.mortgages.description.p1 	 You should use the outstanding balance remaining to pay off a mortgage as the value. Some providers might describe this differently so check with them if you are unsure of how much is outstanding on a mortgage.
-page.iht.application.debts.mortgages.description 	 If {0} had a loan secured against a property they owned, include that value here.
-page.iht.application.debts.mortgages.description.p3 	 If {0} had a mortgage protection policy which paid out after they died, you should include that value as an asset under insurance policies owned.
-page.iht.application.debts.mortgages.noProperties.description 	 You have not added any properties, buildings or land as an asset.
-page.iht.application.debts.mortgages.noProperties.warning.text 	 If you have not added a property, building or land as an asset, or the one that you want to add a mortgage against, then you will need to add it as an asset before you can give the mortgage value.
-	
-site.noMortgage 	 No mortgage
-iht.change 	 Change
-	
-page.iht.application.assets.property.address.property.change 	 Change details for property {0}
-page.iht.application.assets.deceased-permanent-home.table.header 	 Properties
-	
-site.link.giveDetails 	 Give details
-page.iht.application.debts.overview.mortgages.screenReader.value 	 The value of mortgages is £{0}
-page.iht.application.debts.overview.mortgages.screenReader.noValue 	 You have not given a value for mortgages
-page.iht.application.debts.overview.mortgages.screenReader.link.noValue 	 Give a value for mortgages
-page.iht.application.debts.overview.mortgages.screenReader.link.value 	 Change the value of mortgages
-page.iht.application.debts.overview.mortgages.screenReader.link.moreDetail 	 Give more details about mortgages
+page.iht.registration.notApplyingForProbate.kickout.summary 	 This is because you are not applying for probate for {0}’s estate.
+page.iht.registration.notApplyingForProbate.kickout.p1 	 The executor or administrator for {0}’s estate should complete an Inheritance Tax estate report.
+page.iht.registration.notApplyingForProbate.kickout.p2 	 If you want to change your answer, you can return to the last page you visited.
+iht.registration.kickout.content 	 You should complete the Inheritance Tax estate report using either an IHT-205 or IHT-400 paper form.
+iht.registration.kickout.ifWantChangeDeceasedLocation 	 If you want to change the location of the person who has died’s permanent home
+iht.registration.kickout.ifWantChangeProbateLocation 	 If you want to change the location of where you intend to apply for probate
+iht.registration.kickout.returnToTheLastPageVisited 	return to the last page you visited
+iht.registration.kickout.returnToTheDateOfDeath 	  return to the date of death
+iht.registration.kickout.message.form2 	 If you want to change this date
+iht.registration.kickout.message.phone 	 Call the Inheritance Tax helpline on 0300 123 1072. If you are outside of the UK, call +44 300 123 1072.
+iht.registration.kickout.message.phone2 	 You will be sent the correct form to use to complete the estate report.
+iht.registration.kickout.message.returnToLast 	 Return to the last page you visited
+iht.registration.kickout.probateLocation.scotland 	 You should complete the Inheritance Tax estate report using either a C1 or a C5 paper form.
+iht.registration.kickout.message.changeTheDate 	 If you want to change the date
+iht.nextSteps 	 Next steps
+site.button.details.correct 	 The details given are correct
