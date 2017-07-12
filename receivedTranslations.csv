@@ -1,132 +1,49 @@
-site.title.govuk 	 - GOV.UK
-site.button.confirm 	 Confirm
-site.button.details.correct 	 The details given are correct
-site.button.details.correct.exitToGovK 	 The details given are correct – exit to GOV.UK
-site.button.confirmDelete 	 Confirm and delete
-site.link.cancel 	 Cancel
-site.link.giveAnswer 	 Give an answer
-site.link.giveValues 	 Give values
-site.link.giveDate 	 Give date
-site.link.giveName 	 Give name
-site.link.giveNumber 	 Give number
-site.link.giveDetails 	 Give details
-site.link.giveValue 	 Give value
-site.link.giveAValue 	 Give a value
-site.noneInEstate 	 None in estate
-site.button.signOut 	 Save and sign out
-site.nameDetails 	 {0}’s details
-site.changeName 	 Change name
-site.changeDate 	 Change date
-site.noCharityNameGiven 	 No charity name given
-site.noCharityNumberGiven 	 No charity number given
-site.noCharityNameAndNumberGiven 	 No charity name or number added
-iht.notStarted 	 Not started
-iht.notStarted.screenreader 	 {0} is not started
-iht.inComplete 	 Incomplete
-iht.inComplete.screenreader 	 {0} is incomplete
-iht.complete 	 Complete
-iht.complete.screenreader 	 {0} is complete
-iht.inProgress 	 In progress
-iht.ineligibleApplication 	 Ineligible application
-iht.address.line1 	 Address line 1
-iht.address.line2 	 Address line 2
-iht.address.line3 	 Address line 3 (optional)
-iht.address.line4 	 Address line 4 (optional)
-iht.address.lowerCaseInitial 	 address
-iht.address.upperCaseInitial 	 Address
-iht.date.day 	 Day
-iht.date.month 	 Month
-iht.date.year 	 Year
-iht.back 	 Back
-iht.change 	 Change
-iht.continue 	 Continue
-iht.countries.englandOrWales 	 England or Wales
-iht.countries.northernIreland 	 Northern Ireland
-iht.countries.scotland 	 Scotland
-iht.country 	 Country
-iht.dateExample 	 For example, 31 3 1980
-iht.dateExample2 	 For example, 21 3 1990
-iht.dateOfDeath 	 Date of death
-iht.dateofbirth 	 Date of birth
-iht.delete 	 Delete
-iht.the.deceased 	 the person who has died
-iht.exitToGovUK 	 Exit to GOV.UK
-iht.firstName 	 First name
-iht.firstName.hint 	 You do not have to give any middle names
-iht.giveMoreDetails 	 Give more details
-iht.iv.contactHMRC 	 contact HMRC to get help
-iht.iv.exit 	 Exit
-iht.iv.tryAgain 	 Try again
-iht.iv.tryAgainLater 	 Please try again in 5 minutes.
-iht.iv.unableToContinue 	 This online service is unable to continue at the moment.
-iht.lastName 	 Last name
-iht.name.lowerCaseInitial 	 name
-iht.name.upperCaseInitial 	 Name
-iht.nationalInsuranceNo 	 National Insurance number
-iht.next 	 Next
-iht.nextSteps 	 Next steps
-iht.ninoExample 	 For example, QQ 12 34 56 C
-iht.no 	 No
-iht.noChangeToHowReportToHMRC 	 There is no change to how you report to HMRC
-iht.notPossibleToUseService 	 It is not possible for you to use this service
-iht.postcode 	 Postcode
-iht.returnToLastQuestion 	 Return to last question
+iht.estateReport.debts.owedOnJointAssets 	 Debts owed on any jointly owned assets
+	
+page.iht.application.debts.jointlyOwned.browserTitle 	 Joint debts
+	
+page.iht.application.debts.jointlyOwned.description.p1 	 This is if {0} jointly owned any assets and there are debts owed on them. This does not include the mortgage on any jointly owned properties.
+	
+page.iht.application.debts.jointlyOwned.isOwned 	 Are there any debts being paid out of the estate that are owed on any jointly owned assets?
+	
+iht.estateReport.debts.owedOnJointAssets.value 	 Value of any debts owed on jointly owned assets
+	
+	
+page.iht.application.debts.jointlyOwned.description.p2 	 You should only include {0}’s share of any debts owed on jointly owned assets.
+	
 iht.saveAndContinue 	 Save and continue
-iht.signInAgain 	 Sign back in and return to your Inheritance Tax estate reports page
-iht.start 	 Start
-iht.startAgain 	 Start again
-iht.viewOrChange 	 View or change
-iht.value 	 Value
-iht.valueOfAssets 	 Value of assets
-iht.valueOfDebts 	 Value of debts
-iht.valueOfExemptions 	 Value of exemptions
-iht.whatDoYouWantToDo 	 What do you want to do?
-iht.yes 	 Yes
-iht.comma 	 ,
-iht.fullStop 	0
-iht.dropdown.matches 	 {0} matches found. Use arrow keys or swipe to navigate the list
-iht.dropdown.of 	 ({0} of {1})
-iht.dropdown.closed 	 Suggestions list closed
-iht.dropdown.selected 	 {0} selected
-iht.needHelp 	 Need help?
-iht.needHelp.guidance 	 If you need help with completing this estate report, contact the Inheritance Tax helpline on 0300 123 1072. If you are outside of the UK, call +44 300 123 1072.
-iht.theDeceased 	 The deceased
-error.problem 	 There is a problem
-error.cannotSend 	 The details you have entered could not be sent at the moment.
-error.checkCorrect 	 Check the details are correct, in the right place and in the right format.
-error.report.redo 	 Select the estate report through the Your Inheritance Tax estate reports page and send the details again.
-error.selectAnswer 	 Select an answer
-error.signOutLater 	 Sign out and complete this service at another time.
-error.value.blank 	 A value should be entered
 	
-global.error.InternalServerError500.heading 	 Sorry, we are experiencing technical difficulties
-global.error.InternalServerError500.link.gov-uk-iht.text 	 Continue to Inheritance Tax overview
-global.error.InternalServerError500.link.gov-uk.text 	 Explore GOV.UK.
-global.error.InternalServerError500.message 	 Please try again in a few moments.
-global.error.InternalServerError500.title 	 We are experiencing technical difficulties
-global.error.badRequest400.heading 	 Bad request
-global.error.badRequest400.title 	 Bad request - 400
-global.error.pageNotFound404.heading 	 This page cannot be found
-global.error.pageNotFound404.title 	 Page not found - 404
+site.link.return.debts 	 Return to debts owed from the estate
+error.debts.mortgage.select 	 Select an answer for if there was a mortgage on this property, building or land
+page.iht.application.debts.mortgageValue.title 	 Did {0} have a mortgage on this property?
+page.iht.application.debts.mortgageValue.browserTitle 	 Any mortgage on property
+site.link.return.mortgage.overview 	 Add a mortgage value for a property, building or land
 	
-page.iht.iv.failure.2fa.title 	 You cannot sign in to use Inheritance Tax Online
-page.iht.iv.failure.2fa.p1 	 You will not be able to use Inheritance Tax Online until you have set up 2-step verification. This is because you need to securely sign in to protect your personal details.
-page.iht.iv.failure.2fa.p2 	 When you want to sign in to securely use Inheritance Tax Online, you should set up 2-step verification.
-page.iht.iv.failure.2fa.exitLink 	 Exit to Inheritance Tax on GOV.UK
-page.iht.iv.failure.2fa.verifyLink 	 Verify your identity
-page.iht.iv.failure.failedMatching.title 	 We were unable to confirm your identity
-page.iht.iv.failure.failedMatching.p1 	 If you cannot confirm your identity and you have a query,
-page.iht.iv.failure.lockedOut.title 	 Maximum number of attempts reached
-page.iht.iv.failure.lockedOut.p1 	 You have reached the maximum number of attempts to confirm your identity.
-page.iht.iv.failure.lockedOut.p2 	 You can try again in 7 days.
-page.iht.iv.failure.userAborted.title 	 You do not have enough information to continue
-page.iht.iv.failure.userAborted.p1 	 You can try again when you have the information you need or, if you have a query,
-page.iht.iv.failure.timeout.title 	 Your session has ended due to inactivity
-page.iht.iv.failure.timeout.p1 	 Your session has ended because you have not done anything for 30 minutes.
-page.iht.iv.failure.timeout.p2 	 We have deleted all the details you have entered for your own security.
-page.iht.iv.failure.technicalIssue.title 	 There is a technical problem
-page.iht.iv.failure.technicalIssue.p1 	 This online service is experiencing technical difficulties.
-page.iht.iv.failure.technicalIssue.p3 	 If you have a query,
-page.iht.iv.failure.preconditionFailed.title 	 You are unable to sign in
-page.iht.iv.failure.preconditionFailed.p1 	 You have already registered with another account.
-page.iht.iv.failure.preconditionFailed.p1.link.text 	 Contact HMRC to get help
+page.iht.application.debts.mortgage.inputText.value 	 Value of mortgage
+iht.estateReport.debts.mortgage.valueOfDeceasedsShare 	 Value of deceased’s share of mortgage
+	
+error.estateReport.value.giveLessThanEleven 	 Give the value using 10 characters or less
+error.estateReport.value.giveValueUsingNumbers 	 Give the value only using numbers
+error.estateReport.value.giveCorrectNumberOfPence 	 Give the value with the correct number of pence
+error.estateReport.value.giveWithNoSpaces 	 Give the value without any spaces between numbers
+error.estateReport.value.giveWithCorrectComma 	 Give the correct value with no comma or with the comma in the right place
+error.estateReport.value.give 	 Give the value
+iht.estateReport.debts.mortgages 	 Mortgages
+page.iht.application.debts.mortgages.description.p1 	 You should use the outstanding balance remaining to pay off a mortgage as the value. Some providers might describe this differently so check with them if you are unsure of how much is outstanding on a mortgage.
+page.iht.application.debts.mortgages.description 	 If {0} had a loan secured against a property they owned, include that value here.
+page.iht.application.debts.mortgages.description.p3 	 If {0} had a mortgage protection policy which paid out after they died, you should include that value as an asset under insurance policies owned.
+page.iht.application.debts.mortgages.noProperties.description 	 You have not added any properties, buildings or land as an asset.
+page.iht.application.debts.mortgages.noProperties.warning.text 	 If you have not added a property, building or land as an asset, or the one that you want to add a mortgage against, then you will need to add it as an asset before you can give the mortgage value.
+	
+site.noMortgage 	 No mortgage
+iht.change 	 Change
+	
+page.iht.application.assets.property.address.property.change 	 Change details for property {0}
+page.iht.application.assets.deceased-permanent-home.table.header 	 Properties
+	
+site.link.giveDetails 	 Give details
+page.iht.application.debts.overview.mortgages.screenReader.value 	 The value of mortgages is £{0}
+page.iht.application.debts.overview.mortgages.screenReader.noValue 	 You have not given a value for mortgages
+page.iht.application.debts.overview.mortgages.screenReader.link.noValue 	 Give a value for mortgages
+page.iht.application.debts.overview.mortgages.screenReader.link.value 	 Change the value of mortgages
+page.iht.application.debts.overview.mortgages.screenReader.link.moreDetail 	 Give more details about mortgages
