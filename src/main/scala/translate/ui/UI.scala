@@ -50,11 +50,11 @@ class UI extends MainFrame {
 
   val btnChooseCsv2Csv = new Button {
     action = Action("open"){
-      showCsv2Msg()
+      showCsv2Csv()
     }
     text = "Csv to Csv (TBD)"
     enabled = true
-    tooltip = "Takes an existing set of translations, and compares with new translations."
+    tooltip = "Takes an existing set of translations, and compares with new translations and outputs a new csv"
   }
 
   val modePanel = new FlowPanel(){
@@ -83,6 +83,16 @@ class UI extends MainFrame {
       layout(Csv2MessageUI.panelButtons) = Position.West
       layout(Csv2MessageUI.panelTextFields) = Position.Center
       layout(Csv2MessageUI.goPanel) = Position.South
+    }
+    contents = borderPanel
+  }
+
+  def showCsv2Csv(): Unit = {
+    val borderPanel = new BorderPanel {
+      layout(modePanel) = Position.North
+      layout(Csv2CsvUI.panelButtons) = Position.West
+      layout(Csv2CsvUI.panelTextFields) = Position.Center
+      layout(Csv2CsvUI.goPanel) = Position.South
     }
     contents = borderPanel
   }
