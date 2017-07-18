@@ -79,8 +79,8 @@ class UI extends MainFrame {
   }
 
   val projectAndModePanel = new BorderPanel {
-    layout(modePanel) = Position.North
-    layout(ProjectUI.projectPanel) = Position.South
+    layout(ProjectUI.projectPanel) = Position.North
+    layout(modePanel) = Position.South
   }
 
 
