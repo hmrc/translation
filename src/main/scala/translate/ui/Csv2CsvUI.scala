@@ -28,10 +28,10 @@ trait Csv2CsvUI {
 
 
   // #### Input New Csv Input file...
-  val fcReceivedCsv = new FileChooser(new File("."))
   val tfReceivedCsv = new TextField()
   val buttonReceivedCsv = new Button {
     action = Action("open"){
+      val fcReceivedCsv = new FileChooser(new File(ProjectUI.tfProject.text))
       fcReceivedCsv.showOpenDialog(tfReceivedCsv)
       tfReceivedCsv.text = fcReceivedCsv.selectedFile.toString
     }
@@ -41,10 +41,10 @@ trait Csv2CsvUI {
   }
 
   // #### Input Csv Input file...
-  val fcExistingCsv = new FileChooser(new File("."))
   val tfExistingCsv = new TextField()
   val buttonExistingCsv = new Button {
     action = Action("open"){
+      val fcExistingCsv = new FileChooser(new File(ProjectUI.tfProject.text))
       fcExistingCsv.showOpenDialog(tfExistingCsv)
       tfExistingCsv.text = fcExistingCsv.selectedFile.toString
     }
@@ -54,10 +54,10 @@ trait Csv2CsvUI {
   }
 
   // #### Output Csv Input file...
-  val fcOuputCsv = new FileChooser(new File("."))
   val tfOuputCsv = new TextField()
   val buttonOuputCsv = new Button {
     action = Action("open"){
+      val fcOuputCsv = new FileChooser(new File(ProjectUI.tfProject.text))
       fcOuputCsv.showOpenDialog(tfOuputCsv)
       tfOuputCsv.text = fcOuputCsv.selectedFile.toString
     }

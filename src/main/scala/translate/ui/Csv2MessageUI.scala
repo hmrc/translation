@@ -28,10 +28,10 @@ trait Csv2MessageUI {
 
 
   // #### Input Csv Input file...
-  val fcExistingCsv = new FileChooser(new File(".."))
   val tfExistingCsv = new TextField()
   val buttonExistingCsv = new Button {
     action = Action("open"){
+      val fcExistingCsv = new FileChooser(new File(ProjectUI.tfProject.text))
       fcExistingCsv.showOpenDialog(tfExistingCsv)
       tfExistingCsv.text = fcExistingCsv.selectedFile.toString
     }
@@ -41,16 +41,16 @@ trait Csv2MessageUI {
   }
 
   // #### Messages file...
-  val fcMessagesOut = new FileChooser(new File("."))
   val tfMessagesOut = new TextField()
   val buttonMessagesOut = new Button {
     action = Action("open"){
+      val fcMessagesOut = new FileChooser(new File(ProjectUI.tfProject.text))
       fcMessagesOut.showOpenDialog(tfMessagesOut)
       tfMessagesOut.text = fcMessagesOut.selectedFile.toString
     }
     text = "Output Message file..."
     enabled = true
-    tooltip = "Select the English nessages file you'd like to output to"
+    tooltip = "Select the English messages file you'd like to output to"
   }
 
 

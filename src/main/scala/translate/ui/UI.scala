@@ -16,6 +16,7 @@ package translate.ui
  * limitations under the License.
  */
 import java.awt.{Color, Dimension}
+import java.io.File
 
 import scala.swing.BorderPanel.Position
 import scala.swing._
@@ -24,12 +25,11 @@ import scala.swing._
 
 class UI extends MainFrame {
   title = "Messages Translation"
-  preferredSize = new Dimension(900, 160)
+  preferredSize = new Dimension(900, 180)
   visible = true
 
 
-  //Build and assemble the mode buttons.
-
+  //### Build and assemble the mode buttons.
   val btnChooseMsg2Csv = new Button {
     action = Action("select"){
       showMsg2Csv()
@@ -77,9 +77,15 @@ class UI extends MainFrame {
     contents += btnChooseCsv2Csv
   }
 
+  val projectAndModePanel = new BorderPanel {
+    layout(modePanel) = Position.North
+    layout(ProjectUI.projectPanel) = Position.South
+  }
+
+
   def showMsg2Csv(): Unit = {
     val borderPanel = new BorderPanel {
-      layout(modePanel) = Position.North
+      layout(projectAndModePanel) = Position.North
       layout(Message2CsvUI.panelButtons) = Position.West
       layout(Message2CsvUI.panelTextFields) = Position.Center
       layout(Message2CsvUI.goPanel) = Position.South
@@ -90,7 +96,7 @@ class UI extends MainFrame {
 
   def showCsv2Msg(): Unit = {
     val borderPanel = new BorderPanel {
-      layout(modePanel) = Position.North
+      layout(projectAndModePanel) = Position.North
       layout(Csv2MessageUI.panelButtons) = Position.West
       layout(Csv2MessageUI.panelTextFields) = Position.Center
       layout(Csv2MessageUI.goPanel) = Position.South
@@ -100,7 +106,7 @@ class UI extends MainFrame {
 
   def showCsv2Csv(): Unit = {
     val borderPanel = new BorderPanel {
-      layout(modePanel) = Position.North
+      layout(projectAndModePanel) = Position.North
       layout(Csv2CsvUI.panelButtons) = Position.West
       layout(Csv2CsvUI.panelTextFields) = Position.Center
       layout(Csv2CsvUI.goPanel) = Position.South
