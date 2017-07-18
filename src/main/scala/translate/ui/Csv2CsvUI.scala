@@ -17,16 +17,11 @@ package translate.ui
  */
 
 import java.io.File
-
-import translate.Csv2Message
-
 import scala.swing._
 
 object Csv2CsvUI extends Csv2CsvUI
 
 trait Csv2CsvUI {
-
-
   // #### Input New Csv Input file...
   val tfReceivedCsv = new TextField()
   val buttonReceivedCsv = new Button {
@@ -65,8 +60,6 @@ trait Csv2CsvUI {
     enabled = true
     tooltip = "Select the file to output your csv to."
   }
-
-
 
 
   // ### Assemble button and Textfield panels...

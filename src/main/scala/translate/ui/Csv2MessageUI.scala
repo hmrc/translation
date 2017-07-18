@@ -17,15 +17,12 @@ package translate.ui
  */
 
 import java.io.File
-
 import translate.Csv2Message
-
 import scala.swing._
 
 object Csv2MessageUI extends Csv2MessageUI
 
 trait Csv2MessageUI {
-
 
   // #### Input Csv Input file...
   val tfExistingCsv = new TextField()
@@ -80,7 +77,7 @@ trait Csv2MessageUI {
   }
 
   val goPanel = new FlowPanel(){
-    contents += go2MessagesButton
+  contents += go2MessagesButton
 
   }
 

@@ -36,9 +36,10 @@ class UI extends MainFrame {
       updateButons(this)
 
     }
-    foreground = Color.RED
+//    foreground = Color.RED
+
     text = "Messages to Csv"
-    enabled = true
+    enabled = false
     tooltip = "Takes English messages and an existing set of translations, in order to create a new marked-up Csv, for translation."
   }
 
@@ -63,10 +64,10 @@ class UI extends MainFrame {
   }
 
   def updateButons(current: Button):Unit = {
-    btnChooseMsg2Csv.foreground = Color.BLACK
-    btnChooseCsv2Msg.foreground = Color.BLACK
-    btnChooseCsv2Csv.foreground = Color.BLACK
-    current.foreground = Color.RED
+    btnChooseMsg2Csv.enabled = true
+    btnChooseCsv2Msg.enabled = true
+    btnChooseCsv2Csv.enabled = true
+    current.enabled = false
   }
 
 
