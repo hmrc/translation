@@ -15,7 +15,7 @@ package translate.ui
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import java.awt.Dimension
+import java.awt.{Color, Dimension}
 
 import scala.swing.BorderPanel.Position
 import scala.swing._
@@ -31,17 +31,21 @@ class UI extends MainFrame {
   //Build and assemble the mode buttons.
 
   val btnChooseMsg2Csv = new Button {
-    action = Action("open"){
+    action = Action("select"){
       showMsg2Csv()
+      updateButons(this)
+
     }
+    foreground = Color.RED
     text = "Messages to Csv"
     enabled = true
     tooltip = "Takes English messages and an existing set of translations, in order to create a new marked-up Csv, for translation."
   }
 
   val btnChooseCsv2Msg = new Button {
-    action = Action("open"){
+    action = Action("select"){
       showCsv2Msg()
+      updateButons(this)
     }
     text = "Csv to Messages"
     enabled = true
@@ -49,13 +53,22 @@ class UI extends MainFrame {
   }
 
   val btnChooseCsv2Csv = new Button {
-    action = Action("open"){
+    action = Action("select"){
       showCsv2Csv()
+      updateButons(this)
     }
     text = "Csv to Csv (TBD)"
     enabled = true
     tooltip = "Takes an existing set of translations, and compares with new translations and outputs a new csv"
   }
+
+  def updateButons(current: Button):Unit = {
+    btnChooseMsg2Csv.foreground = Color.BLACK
+    btnChooseCsv2Msg.foreground = Color.BLACK
+    btnChooseCsv2Csv.foreground = Color.BLACK
+    current.foreground = Color.RED
+  }
+
 
   val modePanel = new FlowPanel(){
     contents += new Label("Choose a mode: ")
@@ -63,8 +76,6 @@ class UI extends MainFrame {
     contents += btnChooseCsv2Msg
     contents += btnChooseCsv2Csv
   }
-
-
 
   def showMsg2Csv(): Unit = {
     val borderPanel = new BorderPanel {
