@@ -1,45 +1,434 @@
-iht.estateReport.gifts.givenAwayBy 	 Gifts given away by {0}
-page.iht.application.gifts.lastYears.givenAway.p1 	 You need to find out what gifts {0} gave away in each of the 7 tax years before they died.
-page.iht.application.gifts.lastYears.givenAway.p2 	 The tax years for this estate are:
-iht.estateReport.gifts.givenAway.title 	 Gifts given away
-site.title.govuk 	 - GOV.UK
-page.iht.application.gifts.lastYears.givenAway.question 	 Did {0} give gifts away of more than £3,000 in total in any of the 7 years before they died?
-iht.estateReport.returnToEstateOverview 	 Return to estate overview
-iht.saveAndContinue 	 Save and continue
-page.iht.application.gifts.overview.guidance1 	 A gift is something given away in the 7 years before death. The value of gifts might be added to the value of the estate.
-iht.estateReport.completeEverySection 	 You must complete every section.
-iht.estateReport.changeValues 	 Change values
-iht.estateReport.gifts.reservation.question 	 Did {0} give any gifts away that they still benefitted from?
-iht.estateReport.gifts.withReservation.title 	 Gifts given away that {0} still benefitted from
-iht.estateReport.gifts.withReservation.titleWithoutName 	 Gifts with reservation of benefit
-iht.estateReport.gifts.withReservation.p1 	 These are called gifts with reservation of benefit.
-iht.estateReport.gifts.withReservation.p2 	 These are gifts that have been given away by someone where they still had some benefit afterwards. This is for any gift given away after 18 March 1986.
-iht.estateReport.gifts.withReservation.p3 	 This could be where someone gives away their home to a family member but still lives there. Other kinds of gifts where a person still benefits from them afterwards include a caravan given away but the person still has holidays in it or a painting still being displayed in the home of the person who gave it away.
-page.iht.application.gifts.return.to.givenAwayBy 	 Return to gifts given away by {0}
-iht.estateReport.gifts.givenAwayIn7YearsBeforeDeath 	 Types of gifts given away in the 7 years before death
-page.iht.application.gifts.lastYears.description.p1 	 Gifts that can be included on this estate report are:
-page.iht.application.gifts.lastYears.description.p3 	 If {0} gave anything else away that is not listed above, you will need to give more details about those gifts on a paper form.
+page.iht.application.assets.overview.screenreader.link 	 for the {0} section
+page.iht.application.assets.overview.screenreader.link.change 	 your answer for the {0} section
+page.iht.application.assets.overview.title 	 {0}’s assets
+page.iht.application.assets.overview.guidance1 	 An asset is anything {0} owned that has a value. These are added to the estate report.
+	
+page.iht.application.assets.overview.properties.screenReader.value 	 The value of properties, buildings and land is £{0}
+page.iht.application.assets.overview.money.screenReader.value 	 The value of money is £{0}
+page.iht.application.assets.overview.household.screenReader.value 	 The value of household and personal items is £{0}
+page.iht.application.assets.overview.vehicles.screenReader.value 	 The value of motor vehicles is £{0}
+page.iht.application.assets.overview.privatePension.screenReader.value 	 The value of private pensions is £{0}
+page.iht.application.assets.overview.stockAndShare.screenReader.value 	 The value of stocks and shares is £{0}
+page.iht.application.assets.overview.insurancePolicy.screenReader.value 	 The value of insurance policies is £{0}
+page.iht.application.assets.overview.businessInterest.screenReader.value 	 The value of business interests is £{0}
+page.iht.application.assets.overview.nominated.screenReader.value 	 The value of the nominated assets is £{0}
+page.iht.application.assets.overview.heldInTrust.screenReader.value 	 The value of assets held in a trust is £{0}
+page.iht.application.assets.overview.foreign.screenReader.value 	 The value of foreign assets is £{0}
+page.iht.application.assets.overview.moneyOwed.screenReader.value 	 The value of money owed to the deceased is £{0}
+page.iht.application.assets.overview.other.screenReader.value 	 The value of any other assets not listed is £{0}
+	
+page.iht.application.assets.overview.properties.screenReader.noValue 	 You have not given a value for properties, buildings and land
+page.iht.application.assets.overview.money.screenReader.noValue 	 You have not given a value for money
+page.iht.application.assets.overview.household.screenReader.noValue 	 You have not given a value for household and personal items
+page.iht.application.assets.overview.vehicles.screenReader.noValue 	 You have not given a value for motor vehicles
+page.iht.application.assets.overview.privatePension.screenReader.noValue 	 You have not given a value for private pensions
+page.iht.application.assets.overview.stockAndShare.screenReader.noValue 	 You have not given a value for stocks and shares
+page.iht.application.assets.overview.insurancePolicy.screenReader.noValue 	 You have not given a value for insurance policies
+page.iht.application.assets.overview.businessInterest.screenReader.noValue 	 You have not given a value for business interests
+page.iht.application.assets.overview.nominated.screenReader.noValue 	 You have not given a value for nominated assets
+page.iht.application.assets.overview.heldInTrust.screenReader.noValue 	 You have not given a value for assets held in a trust
+page.iht.application.assets.overview.foreign.screenReader.noValue 	 You have not given a value for foreign assets
+page.iht.application.assets.overview.moneyOwed.screenReader.noValue 	 You have not given a value for money owed to the deceased
+page.iht.application.assets.overview.other.screenReader.noValue 	 You have not given a value for any other assets not listed
+	
+page.iht.application.assets.overview.properties.screenReader.link.value 	 Change the value for properties, buildings and land
+page.iht.application.assets.overview.money.screenReader.link.value 	 Change the value for money
+page.iht.application.assets.overview.household.screenReader.link.value 	 Change the value for household and personal items
+page.iht.application.assets.overview.vehicles.screenReader.link.value 	 Change the value for motor vehicles
+page.iht.application.assets.overview.privatePension.screenReader.link.value 	 Change the value for private pensions
+page.iht.application.assets.overview.stockAndShare.screenReader.link.value 	 Change the value for stocks and shares
+page.iht.application.assets.overview.insurancePolicy.screenReader.link.value 	 Change the value for insurance policies
+page.iht.application.assets.overview.businessInterest.screenReader.link.value 	 Change the value for business interests
+page.iht.application.assets.overview.nominated.screenReader.link.value 	 Change the value for nominated assets
+page.iht.application.assets.overview.heldInTrust.screenReader.link.value 	 Change the value for assets held in a trust
+page.iht.application.assets.overview.foreign.screenReader.link.value 	 Change the value for foreign assets
+page.iht.application.assets.overview.moneyOwed.screenReader.link.value 	 Change the value for money owed to the deceased
+page.iht.application.assets.overview.other.screenReader.link.value 	 Change the value for any other assets not listed
+	
+page.iht.application.assets.overview.properties.screenReader.link.noValue 	 Give an answer for properties, buildings and land
+page.iht.application.assets.overview.money.screenReader.link.noValue 	 Give an answer for money
+page.iht.application.assets.overview.household.screenReader.link.noValue 	 Give an answer for household and personal items
+page.iht.application.assets.overview.vehicles.screenReader.link.noValue 	 Give an answer for motor vehicles
+page.iht.application.assets.overview.privatePension.screenReader.link.noValue 	 Give an answer for private pensions
+page.iht.application.assets.overview.stockAndShare.screenReader.link.noValue 	 Give an answer for stocks and shares
+page.iht.application.assets.overview.insurancePolicy.screenReader.link.noValue 	 Give an answer for insurance policies
+page.iht.application.assets.overview.businessInterest.screenReader.link.noValue 	 Give an answer for business interests
+page.iht.application.assets.overview.nominated.screenReader.link.noValue 	 Give an answer for nominated assets
+page.iht.application.assets.overview.heldInTrust.screenReader.link.noValue 	 Give an answer for assets held in a trust
+page.iht.application.assets.overview.foreign.screenReader.link.noValue 	 Give an answer for foreign assets
+page.iht.application.assets.overview.moneyOwed.screenReader.link.noValue 	 Give an answer for money owed to the deceased
+page.iht.application.assets.overview.other.screenReader.link.noValue 	 Give an answer for any other assets not listed
+	
+page.iht.application.assets.overview.properties.screenReader.link.moreDetail 	 Give more details for properties, buildings and land
+page.iht.application.assets.overview.money.screenReader.link.moreDetail 	 Give more details for money
+page.iht.application.assets.overview.household.screenReader.link.moreDetail 	 Give more details for household and personal items
+page.iht.application.assets.overview.vehicles.screenReader.link.moreDetail 	 Give more details for motor vehicles
+page.iht.application.assets.overview.privatePension.screenReader.link.moreDetail 	 Give more details for private pensions
+page.iht.application.assets.overview.stockAndShare.screenReader.link.moreDetail 	 Give more details for stocks and shares
+page.iht.application.assets.overview.insurancePolicy.screenReader.link.moreDetail 	 Give more details for insurance policies
+page.iht.application.assets.overview.businessInterest.screenReader.link.moreDetail 	 Give more details for business interests
+page.iht.application.assets.overview.nominated.screenReader.link.moreDetail 	 Give more details for nominated assets
+page.iht.application.assets.overview.heldInTrust.screenReader.link.moreDetail 	 Give more details for assets held in a trust
+page.iht.application.assets.overview.foreign.screenReader.link.moreDetail 	 Give more details for foreign assets
+page.iht.application.assets.overview.moneyOwed.screenReader.link.moreDetail 	 Give more details for money owed to the deceased
+page.iht.application.assets.overview.other.screenReader.link.moreDetail 	 Give more details for any other assets not listed
+	
+page.iht.application.assets.overview.total 	 Total value of assets added to the estate value
+page.iht.application.assets.overview.screenReader.total 	 The total value of assets added to the estate value is £{0}
+	
+page.iht.application.assets.propertyType.deceasedHome.label 	 Home
+page.iht.application.assets.propertyType.otherResidential.label 	 Other residential building
+page.iht.application.assets.propertyType.nonResidential.label 	 Land, non-residential or business building
+	
+page.iht.application.assets.typeOfOwnership.deceasedOnly.label 	 Only by {0}
+page.iht.application.assets.typeOfOwnership.joint.label 	 Joint tenants
+page.iht.application.assets.typeOfOwnership.inCommon.label 	 Tenants in common
+	
+page.iht.application.assets.typeOfOwnership.deceasedOnly.hint 	 The property was owned in full by {0}.
+page.iht.application.assets.typeOfOwnership.joint.hint 	 {0} owned some of this property and their share automatically transfers to another joint owner. This property can not be left to anyone else in a will.
+page.iht.application.assets.typeOfOwnership.inCommon.hint 	 {0} owned some of this property but their share does not automatically transfer to another joint owner. This property can be left to someone else in a will.
+	
+page.iht.application.assets.tenure.freehold.label 	 Freehold
+page.iht.application.assets.tenure.leasehold.label 	 Leasehold
+	
+page.iht.application.assets.tenure.freehold.hint 	 {0} owned the property and the land it stands on.
+page.iht.application.assets.tenure.leasehold.hint 	 {0} owned the property but not the land it stands on. Leaseholders have a contract with the landowner. This could be a flat in a bigger building.
+	
+page.iht.application.assets.property.detailsOverview.address.screenReader.link.noValue 	 Give details for the address
+page.iht.application.assets.property.detailsOverview.address.screenReader.link.change 	 Change address details
+page.iht.application.assets.property.detailsOverview.kindOfProperty.screenReader.link.noValue 	 Give details of the kind of property
+page.iht.application.assets.property.detailsOverview.kindOfProperty.screenReader.link.change 	 Change the kind of property
+page.iht.application.assets.property.detailsOverview.owned.screenReader.link.noValue 	 Give details of how this property was owned by {0}
+page.iht.application.assets.property.detailsOverview.owned.screenReader.link.change 	 Change the details of how this property was owned by {0}
+page.iht.application.assets.property.detailsOverview.freeholdLeasehold.screenReader.link.noValue 	 Give details about whether this property was owned freehold or leasehold
+page.iht.application.assets.property.detailsOverview.freeholdLeasehold.screenReader.link.change 	 Change whether this property was owned freehold or leasehold
+page.iht.application.assets.property.detailsOverview.value.screenReader.link.noValue 	 Give a value for the property, building or land
+page.iht.application.assets.property.detailsOverview.value.screenReader.link.change 	 Change the value of the share owned in this property, building or land
+page.iht.application.assets.property.detailsOverview.returnLink 	 Return to properties, buildings and land
+page.iht.application.assets.property.detailsOverview.mortgage.text 	 If you want to add a mortgage for this property, building or land you can do this in debts owed from the estate.
+	
+page.iht.application.assets.property.address.browserTitle 	 Property address
+page.iht.application.assets.property.address.property.number 	 Property {0}
+page.iht.application.assets.property.address.property.delete 	 Delete property {0}
+page.iht.application.assets.property.address.property.change 	 Change details for property {0}
+page.iht.application.assets.property.address.property.givedetails 	 Give details for property {0}
+	
+page.iht.application.assets.property.tenure.browserTitle 	 Freehold or leasehold property
+page.iht.application.assets.property.tenure.guidance1b 	 if a property was freehold or leasehold.
+	
+page.iht.application.assets.property.type.browserTitle 	 Type of property
+page.iht.application.assets.property.type.label1 	 If {0} lived in a property that they did not own, you should choose home if this property was both the last one they lived in and owned.
+page.iht.application.assets.property.type.label2 	 This could be if {0} moved to an assisted living property owned by someone else but they still owned their old home. You would choose that old home as their home.
+	
+page.iht.application.assets.property.ownership.browserTitle 	 How property was owned
+page.iht.application.assets.property.ownership.guidance1b 	 how a property, building or land was owned.
+page.iht.application.assets.property.ownership.guidance2 	 If there was a mortgage, the provider of the mortgage is not counted as an owner.
+	
+page.iht.application.propertyDetails.deleteProperty.title 	 Confirm that you want to delete this property
+page.iht.application.propertyDetails.deleteProperty.screenReader 	 The address of this property is {0}
+page.iht.application.propertyDetails.deleteProperty.button.screenReader 	 Confirm and delete this property
+	
+page.iht.application.property.value.browserTitle 	 Property value
+page.iht.application.property.value.question.hint1 	 Give the full value of the property, building or land if {0} owned this on their own. If they owned this with someone else, only include their share of the total property, building or land value.
+page.iht.application.property.value.question.hint2 	 HMRC recommend that you get a professional valuation for this property, building or land.
+	
+page.iht.application.assets.properties.question.p1 	 These are all UK properties, buildings or land owned by {0}, either on their own or jointly with other people. This also includes any business properties, buildings or land.
+page.iht.application.assets.properties.question.question 	 Did {0} own any properties, buildings or land in the UK?
+page.iht.application.assets.properties.question.noValue 	 Give an answer for did the deceased own any properties, buildings or land in the UK
+page.iht.application.assets.properties.question.change 	 Change the answer for did the deceased own any properties, buildings or land in the UK
+	
+iht.estateReport.assets.properties.freeholdOrLeasehold 	 Was this owned freehold or leasehold?
+iht.estateReport.assets.properties.returnToAddAProperty 	 Return to add a property, building or land
+iht.estateReport.assets.properties.value.question 	 What was {0}’s share of the value of this property, building or land?
+iht.estateReport.assets.properties.whatKind.question 	 What kind of property, building or land was this?
+iht.estateReport.assets.propertiesBuildingsAndLand 	 Properties, buildings and land
+iht.estateReport.assets.property.findOutFromLandRegistry 	 find out from the Land Registry
+iht.estateReport.assets.property.whatIsAddress.question 	 What is the address?
+iht.estateReport.assets.property.youCan 	 You can
+iht.estateReport.assets.propertyAdd 	 Add a property, building or land
+	
+page.iht.application.assets.money.overview.description.p1 	 This is the value of any money that {0} had.
+page.iht.application.assets.money.overview.description.p2 	 This includes any money in banks, building societies, National Savings investments, ISAs and safety deposit boxes. You should also include any cash {0} had in notes and coins.
+page.iht.application.assets.money.overview.description.p3 	 If {0} had any foreign cash in the UK, you should change the value to British pounds using the exchange rate on the date of death and include that amount here.
+page.iht.application.assets.money.overview.deceased.isOwned.screenReader.link.noValue 	 Give an answer for money owned only by {0}
+page.iht.application.assets.money.overview.deceased.isOwned.screenReader.link.change 	 Change the answer for money owned only by {0}
+page.iht.application.assets.money.overview.deceased.isOwned.screenReader.link.value 	 Change the value of money owned only by {0}
+	
+page.iht.application.assets.money.overview.deceased.joint.screenReader.link.noValue 	 Give an answer for money jointly owned with other people
+page.iht.application.assets.money.overview.deceased.joint.screenReader.link.change 	 Change the answer for money jointly owned with other people
+page.iht.application.assets.money.overview.deceased.joint.screenReader.link.value 	 Change the value of money jointly owned with other people
+	
+page.iht.application.assets.money.deceased.browserTitle 	 Own money owned
+page.iht.application.assets.money.deceased.guidance 	 This is the value of any money that {0} had, including any in an account in the UK. This includes banks, building societies, National Savings investments, ISAs and safety deposit boxes.
+	
+page.iht.application.assets.money.description.joint.p1 	 This includes any of the deceased’s money provided into a joint account, either by them or by someone else like their employer. Only include the deceased’s share. If the deceased provided all of the money into a joint account, include the full amount.
+page.iht.application.assets.money.description.joint.p2 	 If the deceased was only named on a joint account but provided no money in, you should not include that account as part of their estate.
+page.iht.application.assets.money.inputLabel1 	 Value of money owned by the deceased in their name only
+	
+page.iht.application.assets.money.jointly.owned.browserTitle 	 Joint money owned
+page.iht.application.assets.money.jointly.owned.guidance.p1 	 This is the value of any money that {0} had which was jointly owned with any other people.
+page.iht.application.assets.money.jointly.owned.guidance.p2 	 This includes any of {0}’s money provided into a joint account, either by them or by someone else like their employer.
+page.iht.application.assets.money.jointly.owned.guidance.p3 	 Only include {0}’s share of the money. If they provided all of the money into a joint account, include the full amount. If {1} was only named on a joint account but provided no money, do not include that account as part of their estate.
+page.iht.application.assets.money.jointly.owned.question 	 Did {0} jointly own any money with any other people?
+page.iht.application.assets.money.jointly.owned.input.value.label 	 Value of {0}’s share of any jointly owned money
+	
+page.iht.application.assets.household.sectionName 	 household
+page.iht.application.assets.household.description.p1 	 These are items, such as electrical goods and furniture, along with personal items such as jewellery.
+page.iht.application.assets.household.inputLabel1 	 Value of what the deceased owned on their own
+	
+iht.estateReport.assets.money.jointlyOwned 	 Money jointly owned with other people
 iht.estateReport.assets.money.lowerCaseInitial 	 money, including any cash, cheques, bank transfers and items that the person who died spent money on
-page.iht.application.gifts.lastYears.description.e3 	 household and personal items, including jewellery, pictures and paintings
-page.iht.application.gifts.lastYears.description.e4 	 houses, land and buildings
-page.iht.application.gifts.lastYears.description.e5 	 motor vehicles, including boats and caravans
-iht.estateReport.gifts.stocksAndSharesListed 	 stocks and shares listed on the London Stock Exchange
-page.iht.application.gifts.lastYears.question 	 Did {0} give anything else away before they died that was not money, household and personal items, motor vehicles, stocks and shares, or a house, building or land?
-iht.estateReport.gifts.valueOfGiftsGivenAway 	 Value of gifts given away in the 7 years before death
-page.iht.application.gifts.sevenYears.values.browserTitle 	 Value of gifts given away
-page.iht.application.gifts.sevenYears.values.guidance1 	 Enter the total value of gifts given away in each tax year and the amount of exemptions being claimed.
-page.iht.application.gifts.sevenYears.values.guidance3 	 to reduce the amount of gifts added to the value of the estate. The difference between the total value of gifts and the amount of exemptions will be added to the value of the estate.
-page.iht.application.gifts.sevenYears.values.guidance2 	 You can claim exemptions in each tax year
-page.iht.application.gifts.lastYears.tableTitle1 	 Gifts value
-page.iht.application.gifts.lastYears.tableTitle3 	 Amount added
-page.iht.exemptions.title 	 Exemptions
-page.iht.application.giftsDetails.browserTitle 	 Value of gifts for year
-page.iht.application.giftsDetails.subtitle 	 {0} to
-page.iht.application.giftsDetails.amountAdded 	 Amount added to the estate value is £
-page.iht.application.giftsDetails.exemptions.label 	 Total value of exemptions for {0} to {1}
-page.iht.application.giftsDetails.value.label 	 Total value of gifts for {0} to {1}
-iht.estateReport.gifts.returnToGiftsGivenAwayInThe7YearsBeforeDeath 	 Return to value of gifts given away in the 7 years before death
-iht.estateReport.gifts.returnToGiftsGivenAway 	 Return to gifts given away in the 7 years before death
-iht.estateReport.gifts.givenAwayIn7YearsBeforeDeath 	 Types of gifts given away in the 7 years before death
-page.iht.application.gifts.trust.question 	 Did {0} give any property, land or buildings to anything that is not a person?
-page.iht.application.gifts.trust.question.hint 	 This could be giving a house, building or land to a trust, a company or a charity before they died.
+iht.estateReport.assets.money.ownName.question 	 Did {0} own any money in their own name?
+iht.estateReport.assets.money.upperCaseInitial 	 Money
+iht.estateReport.assets.money.valueOfMoneyOwnedInOwnName 	 Value of money owned by {0} only in their name
+iht.estateReport.assets.moneyOwed 	 Money owed to {0}
+iht.estateReport.assets.moneyOwned 	 Money owned only by {0}
+	
+page.iht.application.assets.moneyOwed.description.p1 	 This is any money owed to {0} when they died.
+page.iht.application.assets.moneyOwed.description.p2 	 This could be a loan {0} made to someone or to a business that was not paid back before they died.
+page.iht.application.assets.moneyOwed.description.p3 	 You should include the total value that was still owed to {0} and include any unpaid interest.
+page.iht.application.assets.moneyOwed.isOwned 	 Was any money owed to {0}?
+page.iht.application.assets.moneyOwed.inputLabel1 	 Value of money owed to {0} when they died
+	
+page.iht.application.assets.household.deceased.browserTitle 	 Own household items owned
+page.iht.application.assets.household.overview.deceased.isOwned.screenreader.link.noValue 	 Give an answer for household and personal items held in {0}’s name
+page.iht.application.assets.household.overview.deceased.isOwned.screenreader.link.change 	 Change the answer for household and personal items held in {0}’s name
+page.iht.application.assets.household.overview.deceased.value.screenreader.link.change 	 Change the answer for value of household and personal items held in {0}’s name
+	
+page.iht.application.assets.household.joint.browserTitle 	 Joint household items owned
+page.iht.application.assets.household.overview.joint.isOwned.screenreader.link.noValue 	 Give an answer for jointly owned household and personal items
+page.iht.application.assets.household.overview.joint.isOwned.screenreader.link.change 	 Change the answer for jointly owned household and personal items
+page.iht.application.assets.household.overview.joint.value 	 Value of {0}’s share of any jointly owned household and personal items
+page.iht.application.assets.household.overview.joint.value.screenreader.link.change 	 Change the answer for value of jointly owned household and personal items
+page.iht.application.assets.household.overview.guidance 	 These are items like electrical goods and furniture, along with personal items like jewellery.
+	
+iht.estateReport.assets.household.deceasedOwnedValue 	 Value of what {0} owned in their own name
+iht.estateReport.assets.household.joint.question 	 Did {0} jointly own any household and personal items with any other people?
+iht.estateReport.assets.household.ownName.question 	 Did {0} own any household and personal items in their own name?
+iht.estateReport.assets.household.valueOfJointlyOwned 	 Value of {0}’s share of any jointly owned items
+iht.estateReport.assets.householdAndPersonalItems.title 	 Household and personal items
+iht.estateReport.assets.householdAndPersonalItemsJointlyOwned.title 	 Household and personal items {0} owned jointly with other people
+iht.estateReport.assets.householdAndPersonalItemsOwnedByDeceased.title 	 Household and personal items owned only by {0}
+	
+page.iht.application.assets.vehicles.sectionName 	 vehicles
+page.iht.application.assets.vehicles.overview.joint.title 	 Motor vehicles {0} owned with other people
+page.iht.application.assets.vehicles.overview.guidance 	 These are all cars and motorbikes that {0} owned. You must also include any caravans or boats that {1} had.
+	
+page.iht.application.assets.vehicles.deceased.browserTitle 	 Motor vehicles owned
+page.iht.application.assets.vehicles.deceased.isOwned.screenreader.link.noValue 	 Give an answer for motor vehicles owned by {0}
+page.iht.application.assets.vehicles.deceased.isOwned.screenreader.link.change 	 Change the answer for motor vehicles owned by {0}
+page.iht.application.assets.vehicles.deceased.value 	 Value of any motor vehicles {0} owned in their own name
+page.iht.application.assets.vehicles.deceased.value.screenreader.link.change 	 Change the value of motor vehicles owned by {0}
+	
+page.iht.application.assets.vehicles.jointly.owned.title 	 Motor vehicles jointly owned with other people
+page.iht.application.assets.vehicles.jointly.owned.browserTitle 	 Motor vehicles jointly owned
+page.iht.application.assets.vehicles.jointly.owned.screenreader.link.noValue 	 Give an answer for jointly owned motor vehicles
+page.iht.application.assets.vehicles.jointly.owned.screenreader.link.change 	 Change the answer for jointly owned motor vehicles
+page.iht.application.assets.vehicles.jointly.owned.value.screenreader.link.change 	 Change the value of any jointly owned motor vehicles
+	
+iht.estateReport.assets.vehicles 	 Motor vehicles
+iht.estateReport.assets.vehicles.jointly.owned.question 	 Did {0} jointly own any motor vehicles with any other people?
+iht.estateReport.assets.vehicles.ownName.question 	 Did {0} own any motor vehicles in their own name?
+iht.estateReport.assets.vehicles.valueOfJointlyOwned 	 Value of {0}’s share of any jointly owned motor vehicles
+iht.estateReport.assets.vehiclesOwned 	 Motor vehicles owned only by {0}
+	
+page.iht.application.pensions.isOwned.title 	 Did {0} have a private pension?
+page.iht.application.pensions.isOwned.browserTitle 	 Any private pensions
+page.iht.application.assets.pensions.isOwned.p1 	 This does not include their state pension.
+page.iht.application.assets.pensions.overview.description.p1 	 These are any private pensions that {0} had. This does not include {1}’s state pension.
+page.iht.application.assets.pensions.overview.description.p2 	 A private pension could be a personal pension or a pension from {0}’s employer.
+	
+page.iht.application.assets.pensions.question 	 Did {0} have any private pensions?
+page.iht.application.assets.pensions.question.screenreader.link.noValue 	 Give an answer for any private pensions the deceased had
+page.iht.application.assets.pensions.question.screenreader.link.change 	 Change the answer for private pensions the deceased had
+page.iht.application.assets.pensions.changed.question 	 This includes a transfer of any benefits or disposing of any part of a private pension in the 2 years before they died.
+page.iht.application.assets.pensions.changed.title 	 Did {0} make any changes to their private pension in the 2 years before they died?
+page.iht.application.assets.pensions.changed.browserTitle 	 Changes to pension
+page.iht.application.assets.pensions.changed.screenreader.link.change 	 Change the answer for did the deceased make any changes to a private pension in the 2 years before they died
+page.iht.application.assets.pensions.changed.screenreader.link.noValue 	 Give an answer for did the deceased make any changes to a private pension in the 2 years before they died
+	
+page.iht.application.assets.pensions.value.browserTitle 	 Pension value
+page.iht.application.assets.pensions.value.screenreader.link.change 	 Change the answer for the value of remaining pension payments being paid to the estate
+page.iht.application.assets.pensions.value.screenreader.link.noValue 	 Give a value for the remaining pension payments being paid to the estate
+page.iht.application.assets.pensions.hint 	 The pension provider will be able to tell you how much is being paid to the estate.
+	
+iht.estateReport.assets.pensions.returnToPrivatePensions 	 Return to private pensions
+iht.estateReport.assets.pensions.valueOfRemainingPaymentsBeingPaid 	 Value of remaining pension payments being paid to the estate
+iht.estateReport.assets.privatePensions 	 Private pensions
+	
+page.iht.application.assets.stocks.sectionName 	 stocks
+page.iht.application.assets.stocks.description.p1 	 These are any UK stocks and shares that the deceased owned when they died. You will need to split any stocks and shares listed on an exchange from those that were unlisted.
+page.iht.application.assets.stocks.inputLabel1 	 Value of stocks and shares listed on the Stock Exchange
+	
+page.iht.application.assets.stocksAndShares.listed.browserTitle 	 Listed stocks and shares
+page.iht.application.assets.stocksAndShares.overview.listed.screenreader.link.change 	 Change the answer for any stocks and shares listed on an exchange
+page.iht.application.assets.stocksAndShares.overview.listed.screenreader.link.noValue 	 Give an answer for stocks and shares listed on an exchange
+page.iht.application.assets.stocksAndShares.overview.listed.screenreader.link.value 	 Change the value given for stocks and shares listed on an exchange
+	
+page.iht.application.assets.stocksAndSharesNotListed.browserTitle 	 Unlisted stocks and shares
+page.iht.application.assets.stocksAndShares.overview.notListed.screenreader.link.change 	 Change the answer for any stocks and shares not listed on an exchange
+page.iht.application.assets.stocksAndShares.overview.notListed.screenreader.link.noValue 	 Give an answer for stocks and shares not listed on an exchange
+page.iht.application.assets.stocksAndShares.overview.notListed.screenreader.link.value 	 Change the value given for stocks and shares not listed on an exchange
+	
+page.iht.application.assets.stocksAndShares.overview.guidance 	 These are any UK stocks and shares that {0} owned when they died.
+page.iht.application.assets.stocksAndShares.overview.guidance2 	 You will need to split any stocks and shares listed on an exchange from those that were unlisted.
+	
+iht.estateReport.assets.stocksAndShares 	 Stocks and shares
+iht.estateReport.assets.stocksAndShares.listed.question 	 Did {0} own any stocks and shares that were listed on an exchange?
+iht.estateReport.assets.stocksAndShares.notListed.question 	 Did {0} own any stocks and shares that were not listed on an exchange?
+iht.estateReport.assets.stocksAndShares.valueOfListed 	 Value of listed stocks and shares
+iht.estateReport.assets.stocksAndShares.valueOfNotListed 	 Value of stocks and shares not listed
+iht.estateReport.assets.stocksAndSharesListed 	 Stocks and shares listed on an exchange
+iht.estateReport.assets.stocksAndSharesNotListed 	 Stocks and shares not listed on an exchange
+	
+page.iht.application.assets.insurance.policies.overview.guidance1 	 This includes:
+page.iht.application.assets.insurance.policies.overview.guidance.bullet1 	 any life insurance policies or insurance bonds that pay out to the estate
+page.iht.application.assets.insurance.policies.overview.guidance.bullet2 	 policies held in ISAs
+page.iht.application.assets.insurance.policies.overview.guidance.bullet3 	 money paid under a mortgage protection policy
+page.iht.application.assets.insurance.policies.overview.guidance.bullet4 	 any policies on the life of another person that would pay out to {0}
+page.iht.application.assets.insurances.sectionName 	 insurances
+page.iht.application.assets.insurances.inputLabel1 	 Value of the deceased’s insurance policies held in their own name when they died
+page.iht.application.assets.insurances.isjointlyowned 	 Were any insurance policies jointly owned?
+page.iht.application.assets.insurances.isintrust 	 Was the insurance policy held in trust?
+page.iht.application.assets.insurances.coveredbyexemption 	 Are the premiums covered by the exemption for regular gifts out of income?
+page.iht.application.assets.insurances.sevenyearsbefore 	 Was the policy placed in trust more than seven years before date of death of the deceased?
+page.iht.application.assets.insurances.coveredbyexemption-guidance 	 Your premiums must be treated as gifts as cash. We will ask you to include that information as a gift.
+page.iht.application.assets.property.value.screenReader 	 The value of {0}{1} is £{2}
+	
+page.iht.application.return.to.assetsOf 	 Return to {0}’s assets
+	
+page.iht.application.assets.insurance.policies.overview.deceased.giveAnswer.screenReader.link.value 	 Give an answer for did {0} have any policies in their own name that were to pay out to them.
+page.iht.application.assets.insurance.policies.overview.deceased.yes.screenReader.link.value 	 Yes, {0} had insurance policies in their own name that were to pay out to them or there were policies paying out to their estate. Change this answer.
+page.iht.application.assets.insurance.policies.overview.deceased.no.screenReader.link.value 	 No, {0} did not have insurance policies in their own name that were to pay out to them or there were policies paying out to their estate. Change this answer.
+page.iht.application.assets.insurance.policies.overview.deceased.amount.screenReader.link.value 	 The value of all policies owned by {0} and any policies being paid to their estate is {1}. Change this value.
+page.iht.application.assets.insurance.policies.overview.deceased.amount.screenReader.link.novalue 	 Give a value for all policies owned by {0} and any policies being paid to their estate.
+	
+page.iht.application.assets.insurance.policies.overview.joint.title 	 Policies that were jointly held with someone else
+page.iht.application.assets.insurance.policies.overview.joint.giveAnswer.screenReader.link.value 	 Give an answer for did {0} have any insurance policies that were jointly held with someone else?
+page.iht.application.assets.insurance.policies.overview.joint.yes.screenReader.link.value 	 Yes, {0} jointly owned insurance policies with someone else. Change this answer.
+page.iht.application.assets.insurance.policies.overview.joint.no.screenReader.link.value 	 No, {0} did not jointly own any insurance policies with someone else. Change this answer.
+page.iht.application.assets.insurance.policies.overview.joint.amount.screenReader.link.value 	 The value of {0}’s share of the jointly owned insurance policies is {1}. Change this value.
+page.iht.application.assets.insurance.policies.overview.joint.amount.screenReader.link.novalue 	 Give a value for {0}’s share of the jointly owned insurance policies.
+	
+page.iht.application.assets.insurance.policies.overview.other.question4 	 Was any insurance policy that {0} paid for placed in trust in the 7 years before they died?
+page.iht.application.assets.insurance.policies.overview.other.giveAnswer.screenReader.link.value 	 Give an answer for insurance premiums paid by {0} for someone else.
+page.iht.application.assets.insurance.policies.overview.other.question1.no.screenReader.link.value.notMarried 	 No, {0} was not paying insurance premiums for a policy that was not due to pay out to their estate. Change this answer.
+page.iht.application.assets.insurance.policies.overview.other.question1.no.screenReader.link.value.married 	 No, {0} was not paying insurance premiums on a policy that pays out to someone who is not their spouse or civil partner. Change this answer.
+page.iht.application.assets.insurance.policies.overview.other.question2.no.screenReader.link.value 	 No, {0} did not spend over £3,000 in any year on the insurance premiums that were for a policy that was not paying out to their estate. Change this answer.
+page.iht.application.assets.insurance.policies.overview.other.question3.no.screenReader.link.value 	 No, there was not an annuity on a policy being paid for by {0}. Change this answer.
+page.iht.application.assets.insurance.policies.overview.other.question4.no.screenReader.link.value 	 No, there were not any policies paid by {0} for someone else that were held in a trust. Change this answer.
+page.iht.application.assets.insurance.policies.overview.other.question1.yes.screenReader.link.value.notMarried 	 Yes, {0} was paying insurance premiums for a policy that was not due to pay out to their estate. Change this answer.
+page.iht.application.assets.insurance.policies.overview.other.question1.yes.screenReader.link.value.married 	 Yes, {0} was paying insurance premiums on a policy that pays out to someone who is not their spouse or civil partner. Change this answer.
+page.iht.application.assets.insurance.policies.overview.other.question2.yes.screenReader.link.value 	 Yes, {0} spent over £3,000 in any year on the insurance premiums that were for a policy that was not paying out to their estate. Change this answer.
+page.iht.application.assets.insurance.policies.overview.other.question3.yes.screenReader.link.value 	 Yes, there were policies paid by {0} for someone else that were held in a trust. Change this answer.
+page.iht.application.assets.insurance.policies.overview.other.question4.yes.screenReader.link.value 	 Yes, the policies were placed in a trust more than 7 years before {0} died. Change this answer.
+page.iht.application.assets.insurance.policies.overview.other.question5.yes.screenReader.link.value 	 Yes, {0} bought an annuity on a policy that they were paying for. Change this answer.
+	
+page.iht.application.assets.insurance.policies.overview.other.question1.none.screenReader.link.value.married 	 Give an answer for did {0} ever pay insurance premiums for a policy that was not due to pay out to their estate?
+	
+page.iht.application.assets.insurance.policies.overview.other.question2.none.screenReader.link.value 	 Give an answer for did {0} spend over £3,000 in any year on the insurance premiums that were for a policy that was not paying out to their estate?
+page.iht.application.assets.insurance.policies.overview.other.question3.none.screenReader.link.value 	 Give an answer for was any insurance policy that {0} paid for placed in trust in the 7 years before they died?
+page.iht.application.assets.insurance.policies.overview.other.question4.none.screenReader.link.value 	 Give an answer for was a policy placed in a trust more than 7 years before {0} died?
+page.iht.application.assets.insurance.policies.overview.other.question5.none.screenReader.link.value 	 Give an answer for did {0} buy an annuity at any time in their life?
+	
+page.iht.application.insurance.policies.section1.browserTitle 	 Own insurance policies
+page.iht.application.insurance.policies.section1.guidance 	 These are all of the insurance policies that were owned in {0}’s own name and were paying out to them. You should also include any policies that anyone else had and were paying out only to {1}.
+page.iht.application.insurance.policies.section2.title 	 Policies that were jointly held with other people
+page.iht.application.insurance.policies.section2.browserTitle 	 Joint insurance policies
+page.iht.application.insurance.policies.section2.guidance 	 These are all of the policies that were jointly in the names of {0} and any other person. This could be a life assurance policy or a mortgage protection policy on a house that {1} jointly owned.
+page.iht.application.insurance.policies.section2.guidance2 	 Only include {0}’s share of the policy value. You will need to take the total value of the insurance policy and work out how much of that the deceased owned.
+page.iht.application.insurance.policies.section3.browserTitle 	 Premiums paid for someone else
+page.iht.application.insurance.policies.section4.title 	 Was an insurance policy that {0} was paying for placed in trust in the 7 years before they died?
+page.iht.application.insurance.policies.section4.browserTitle 	 Policies placed in trust
+page.iht.application.insurance.policies.section5.title 	 Was a policy placed in a trust more than 7 years before the deceased died?
+page.iht.application.insurance.policies.section5.question 	 Was an insurance policy placed in the trust more than 7 years before the deceased died?
+page.iht.application.insurance.policies.section6.browserTitle 	 Any annuities bought
+page.iht.application.insurance.policies.section6.guidance 	 An annuity pays out through a number of regular payments. Sometimes this could be from an insurance company where someone receives a regular payment instead of one single payment. You should take your time to check with different financial providers to check if an annuity was bought.
+page.iht.application.insurance.policies.section7.guidance 	 The insurance premiums paid by {0} on a policy that pays out to someone else was a gift to that person.
+page.iht.application.insurance.policies.section7.guidance2 	 Include these values in the gifts section.
+page.iht.application.insurance.policies.section8.browserTitle 	 Value of gifted policies
+page.iht.application.insurance.policies.validation.summary.endLine 	 If you do not want to answer at this time, you can choose to return to insurance policies.
+	
+iht.estateReport.assets.insurancePolicies 	 Insurance policies
+iht.estateReport.assets.insurancePolicies.buyAnnuity.question 	 Did {0} buy an annuity at any time in their life?
+iht.estateReport.assets.insurancePolicies.payingOutToDeceased 	 Policies that are paying out to {0}
+iht.estateReport.assets.insurancePolicies.premiumsPaidByOther 	 Insurance premiums paid by {0} for someone else
+iht.estateReport.assets.insurancePolicies.totalValueOfDeceasedsShare 	 Total value of {0}’s share of all jointly held policies
+iht.estateReport.assets.insurancePolicies.totalValueOwnedAndPayingOut 	 Total value of all policies owned by {0} and any policies paying out to their estate
+iht.estateReport.insurancePolicies.jointlyHeld.question 	 Did {0} have any insurance policies that were jointly held with someone else?
+iht.estateReport.insurancePolicies.overLimitNotOwnEstate.question 	 Did {0} spend over £3,000 in any year on the insurance premiums that were for a policy that was not paying out to their estate?
+iht.estateReport.insurancePolicies.ownName.question 	 Did {0} have any policies in their own name that were to pay out to them or are there any policies that were paying out to their estate?
+iht.estateReport.insurancePolicies.premiumsNotPayingOut.question 	 Did {0} ever pay insurance premiums for a policy that was not due to pay out to their estate?
+iht.estateReport.insurancePolicies.premiumsNotPayingOut.question.hintText1 	 This could have been at any point in their life and the insurance policy would not have been due to pay out to {0} or to their estate.
+iht.estateReport.insurancePolicies.premiumsNotPayingOut.question.hintText2 	 You can answer no if the policy was due to pay out to {0}’s spouse or civil partner.
+	
+iht.estateReport.assets.businessInterests.title 	 Business interests
+page.iht.application.assets.businessInterest.browserTitle 	 Business interests owned
+page.iht.application.assets.businessInterest.description.p1 	 This should include the value of {0}’s business interests.
+page.iht.application.assets.businessInterest.description.p2 	 If {0} owned any business properties, buildings or land, you should give these details in the properties, buildings and land section.
+page.iht.application.assets.businessInterest.isOwned 	 Did {0} own any businesses or have any other business interests when they died?
+page.iht.application.assets.businessInterest.inputLabel1 	 Value of {0}’s business interests when they died
+page.iht.application.assets.businessInterest.hint 	 Do not include any business properties, buildings or land that were owned.
+	
+iht.estateReport.assets.nominated 	 Nominated assets
+page.iht.application.assets.nominated.sectionName 	 nominated
+page.iht.application.assets.nominated.browserTitle 	 Nominated assets owned
+page.iht.application.assets.nominated.description.p1 	 These are assets that {0} had nominated to pass to someone when they died. These should not be confused with an asset being left to someone in a will. If something is left to someone in a will, this is not a nominated asset.
+page.iht.application.assets.nominated.description.p2 	 Nominated assets could have been set up when an account was opened with friendly societies, or industrial and provident societies. Before 1 March 1981, National Savings certificates and accounts could also be nominated to pass to someone.
+page.iht.application.assets.nominated.description.p3 	 The provider will be able to tell you if the asset was nominated to pass to someone.
+page.iht.application.assets.nominated.description.p4 	 Do not include pension benefits that were nominated to pass to someone. You should include that value with private pensions.
+page.iht.application.assets.nominated.inputLabel1 	 Value of the nominated assets when {0} died
+page.iht.application.assets.nominated.question 	 Did {0} have any nominated assets?
+	
+page.iht.application.assets.held-in-trust.sectionName 	 held-in-trust
+page.iht.application.assets.held-in-trust.description.p1 	 If the deceased benefitted from a trust during their lifetime, such as regular payments being received or dividends from shares, these need to be included in the value of their estate. This includes assets in a trust that the deceased benefitted from during their lifetime, or was entitled to benefit from.
+page.iht.application.assets.held-in-trust.description.p2 	 If the deceased had the right to live in a house that was held in a trust during their lifetime, the value of that property should be included.
+	
+page.iht.application.assets.trusts.isOwned.browserTitle 	 Any assets in trust
+page.iht.application.assets.trusts.moreThanOne.browserTitle 	 How many trusts benefitted from
+page.iht.application.assets.trusts.value.browserTitle 	 Trust value
+	
+page.iht.application.assets.trusts.question.screenreader.link.noValue 	 Give an answer for did the deceased benefit from, or have the right to benefit from, a trust during their lifetime
+page.iht.application.assets.trusts.question.screenreader.link.value 	 Change the answer for did the deceased benefit from, or have the right to benefit from, a trust during their lifetime
+page.iht.application.assets.trusts.moreThanOne.question.screenreader.link.noValue 	 Give an answer for was the deceased benefitting from, or have the right to benefit from, more than 1 trust
+page.iht.application.assets.trusts.moreThanOne.question.screenreader.link.value 	 Change the answer for was the deceased benefitting from, or have the right to benefit from, more than 1 trust
+page.iht.application.assets.trusts.value.screenreader.link.noValue 	 Give the value of the trust that the deceased benefitted from when they died
+page.iht.application.assets.trusts.value.screenreader.link.value 	 Change the value of the trust that the deceased benefitted from when they died
+	
+iht.estateReport.assets.heldInATrust.title 	 Assets held in a trust
+iht.estateReport.assets.heldInTrust.needInclusion 	 If {0} had the right to live in a house that was held in trust during their lifetime, the value of that property should also be included.
+iht.estateReport.assets.heldInTrust.title 	 Assets held in trust
+iht.estateReport.assets.heldInTrust.valueOfTrust 	 Value of the trust that {0} benefitted from when they died
+	
+iht.estateReport.assets.trusts.benefittedFromHeldInTrust 	 These are all the assets that {0} benefitted from, or had the right to benefit from, that were held in trust.
+iht.estateReport.assets.trusts.moreThanOne.question 	 Was {0} benefitting from, or have the right to benefit from, more than 1 trust?
+iht.estateReport.assets.trusts.needInclusion 	 If {0} benefitted from a trust during their lifetime, such as getting regular payments or dividends from shares, these need to be included in the value of the estate.
+iht.estateReport.assets.trusts.question 	 Did {0} benefit from, or have the right to benefit from, a trust during their lifetime?
+	
+iht.estateReport.assets.foreign.title 	 Foreign assets
+page.iht.application.assets.foreign.sectionName 	 foreign
+page.iht.application.assets.foreign.description.p1 	 If {0} owned any assets outside of the UK, you should change the value into British pounds. The Isle of Man and the Channel Islands are not part of the UK.
+page.iht.application.assets.foreign.inputLabel1 	 Value in British pounds of {0}’s foreign assets when they died
+page.iht.application.assets.foreign.deceasedOwned.question 	 Did {0} own any foreign assets?
+	
+page.iht.application.assets.deceased-permanent-home.editOrDelete.screenReader 	 the address for {0} {1}
+page.iht.application.assets.deceased-permanent-home.value.input-footer-label 	 If the other joint owner was not {0}’s spouse or civil partner, you should reduce the value of their share by 10%.
+page.iht.application.assets.deceased-permanent-home.sectionName 	 property
+page.iht.application.assets.deceased-permanent-home.sectionTitle 	 Properties, buildings and land owned
+page.iht.application.assets.deceased-permanent-home.description.p1 	 This includes {0}’s main address before they died if they owned that property and any other properties that they owned.
+page.iht.application.assets.deceased-permanent-home.description.p2 	 These could also be any non-residential buildings or any land owned by {0}. This could be business properties such as a shop or a farm. You should also include the value of anything attached to land, such as fishing or shooting rights.
+page.iht.application.assets.deceased-permanent-home.typeofownership.label 	 How was this owned?
+page.iht.application.assets.deceased-permanent-home.question2.hint 	 You can find out how a property was owned from the Land Registry. Joint tenants and tenants in common are names that describe how a property is owned with another person.
+page.iht.application.assets.deceased-permanent-home.question3.hint 	 You can find out from the Land Registry if a property was freehold or leasehold.
+page.iht.application.assets.deceased-permanent-home.question4.hint 	 If the deceased did not live at a property that they owned, you should choose deceased’s home if this was the last property that they owned and also lived at.
+page.iht.application.assets.deceased-permanent-home.table.header 	 Properties
+page.iht.application.assets.deceased-permanent-home.table.emptyRow.text 	 You have not added any properties to this estate.
+page.iht.application.assets.deceased-permanent-home.table.emptyAddress.text 	 No address added
+page.iht.application.assets.property.question.mortgage.text 	 If there are no properties, buildings or land owned by {0} then there will be no mortgages owed as a debt from the estate.
+	
+iht.estateReport.assets.other.title 	 Any other assets not listed
+page.iht.application.assets.other.browserTitle 	 Other assets owned
+page.iht.application.assets.other.description.p1 	 This is the total value of any other assets that are not included in any other section.
+page.iht.application.assets.other.description.p2 	 This could be any money owed in salary or wages, pension arrears, rents owed to {0}, or refunds from utility bills.
+page.iht.application.assets.other.isOwned 	 Did {0} own any other assets?
+page.iht.application.assets.other.inputLabel1 	 Value of any other assets owned by {0} when they died
