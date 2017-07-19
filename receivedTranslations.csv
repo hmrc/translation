@@ -1,4 +1,50 @@
-iht.estateReport.declaration.checkedEverything.question	Have you finished finding out what was in {0}’s estate?
-iht.estateReport.declaration.checkedEverything.browserTitle	Have you finished finding out what was in the deceased’s estate?
-iht.estateReport.declaration.checkedEverything.p1	If you are still waiting to hear back from anyone, like a bank or a family member, select no to go to estate overview.
-iht.estateReport.declaration.checkedEverything.p2	If you have made all of the checks that you can and are happy that you have given everything in the estate report, select yes to go to the declaration.
+iht.estateReport.tnrb.increasingThreshold	Increasing the threshold
+iht.estateReport.tnrb.increasingIHTThreshold	Increasing the Inheritance Tax threshold
+page.iht.application.tnrb.guidance.p1	It might be possible to increase the Inheritance Tax threshold if {0} had a spouse or civil partner who died before them. This is done by transferring any unused allowance from the estate of that spouse or civil partner.
+page.iht.application.tnrb.guidance.panelIndent.text	This is only needed if the estate value is over the Inheritance Tax threshold.
+page.iht.application.tnrb.guidance.p2	If you do not know if the estate value is over the Inheritance Tax threshold, it is not recommended for you to increase the threshold at the moment. You will be able to do this once the assets, gifts, debts and estate exemptions sections have been completed.
+page.iht.application.tnrb.guidance.p3	If you already know that you need to transfer any unused allowance from another person’s estate, you can increase the threshold.
+page.iht.application.tnrb.guidance.continueLink.text	Continue to increasing the threshold
+	
+iht.estateReport.tnrb.partner.married	Was {0} {1} at any point in their life and their {2} died?
+iht.estateReport.tnrb.partner.hint	If {0} was {1} more than once in their lifetime and their {2} died first both times, you must choose one estate to transfer the unused threshold from.
+	
+page.iht.application.tnrbEligibilty.overview.partner.dod.question	Date when {0} died
+	
+iht.registration.deceased.locationOfPermanentHome	Location of permanent home
+iht.estateReport.tnrb.permanentHome.question	Did {0} have their permanent home in the UK?
+	
+page.iht.application.TnrbEligibilty.partnerName.label	Name of the {0}
+page.iht.application.TnrbEligibilty.partnerName.hint	This is their name when they died in {0}
+	
+	
+iht.estateReport.tnrb.dateOfMarriage	Date of {0}
+iht.estateReport.tnrb.dateOfMarriage.hint	This is the date of {0} between {1} and {2}
+	
+page.iht.application.tnrb.estatePassedToDeceasedOrCharity.browserTitle	Fully exempt estate
+page.iht.application.tnrb.estatePassedToDeceasedOrCharity.question	Did all of the estate pass to {0}, a charity or another qualifying body?
+	
+page.iht.application.tnrb.jointlyOwnedAssets.browserTitle	Joint assets in estate
+page.iht.application.tnrb.jointlyOwnedAssets.question	Did all of the jointly owned assets in the estate pass to {0}?
+	
+page.iht.application.tnrb.stateClaim.browserTitle	Any relief claimed in estate
+iht.estateReport.tnrb.stateClaim.question	Did the estate claim any business or agricultural relief?
+	
+page.iht.application.tnrb.benefitFromTrust.browserTitle	Any trust benefitted from in estate
+iht.estateReport.tnrb.benefitFromTrust.question	Did {0} have the right to benefit from a trust during their lifetime?
+	
+page.iht.application.tnrb.giftsMadeBeforeDeath.browserTitle	Any non-exempt gifts given away
+iht.estateReport.tnrb.giftsMadeBeforeDeath.question	Were any gifts that were not exempt given away in the 7 years before {0} died?
+page.iht.application.tnrb.giftsMadeBeforeDeath.question.hint1	On {0}’s estate report, IHT-205 or 400, you need to check the value of gifts given away in each year and the amount of exemptions claimed against those gifts.
+page.iht.application.tnrb.spouseOrCivilPartner.hint	{0}’s spouse’s or civil partner
+page.iht.application.tnrb.giftsMadeBeforeDeath.question.hint2	Answer yes if the value of gifts is more than the amount of exemptions that were claimed.
+	
+page.iht.application.tnrb.giftsWithReservationOfBenefit.browserTitle	Type of gifts given away
+iht.estateReport.tnrb.giftsWithReservationOfBenefit.question	Were any gifts with the reservation of benefit given to anyone apart from {0}?
+page.iht.application.tnrb.giftsWithReservationOfBenefit.question.hint	Answer yes if {0} gave a gift with reservation of benefit to anyone apart from {1}. This could have been a house given to a child that {2} continued to live in free of charge.
+iht.estateReport.tnrb.thSouseAndCivilPartner	the spouse or civil partner
+	
+page.iht.application.tnrbEligibilty.increasedTnrbThreshold.browserTitle	Threshold increased
+page.iht.application.tnrbEligibilty.increasedTnrbThreshold.title	The threshold has been increased
+page.iht.application.tnrbEligibilty.increasedTnrbThreshold.paragraph1	{0}’s Inheritance Tax threshold has increased to £650,000.00 because of the transfer of {1}’s unused threshold.
+page.iht.application.tnrbEligibilty.increasedTnrbThreshold.paragraph2	The estate value is now under the Inheritance Tax threshold and there is no Inheritance Tax to pay.

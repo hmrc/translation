@@ -1,7 +1,40 @@
-iht.estateReport.declaration.checkedEverything.question	Have you finished finding out what was in {0}’s estate?		English not updated. Welsh not updated.
-iht.estateReport.declaration.checkedEverything.browserTitle	Have you finished finding out what was in the deceased’s estate?		English not updated. Welsh not updated.
-iht.estateReport.declaration.checkedEverything.p1	If you are still waiting to hear back from anyone, like a bank or a family member, select no to go to estate overview.		English not updated. Welsh not updated.
-iht.estateReport.declaration.checkedEverything.p2	If you have made all of the checks that you can and are happy that you have given everything in the estate report, select yes to go to the declaration.		English not updated. Welsh not updated.
+page.iht.application.TnrbEligibilty.partnerName.hint	This is their name when they died in {0}		Added.
+page.iht.application.tnrb.giftsWithReservationOfBenefit.question.hint	Answer yes if {0} gave a gift with reservation of benefit to anyone apart from {1}. This could have been a house given to a child that {2} continued to live in free of charge.		Added.
+page.iht.application.tnrb.giftsMadeBeforeDeath.browserTitle	Any non-exempt gifts given away		Added.
+page.iht.application.tnrbEligibilty.increasedTnrbThreshold.paragraph2	The estate value is now under the Inheritance Tax threshold and there is no Inheritance Tax to pay.		Added.
+page.iht.application.tnrb.guidance.continueLink.text	Continue to increasing the threshold		Added.
+page.iht.application.tnrbEligibilty.overview.partner.dod.question	Date when {0} died		Added.
+page.iht.application.tnrb.estatePassedToDeceasedOrCharity.browserTitle	Fully exempt estate		Added.
+iht.estateReport.tnrb.benefitFromTrust.question	Did {0} have the right to benefit from a trust during their lifetime?		Added.
+iht.estateReport.tnrb.partner.hint	If {0} was {1} more than once in their lifetime and their {2} died first both times, you must choose one estate to transfer the unused threshold from.		Added.
+page.iht.application.tnrb.stateClaim.browserTitle	Any relief claimed in estate		Added.
+iht.estateReport.tnrb.partner.married	Was {0} {1} at any point in their life and their {2} died?		Added.
+page.iht.application.tnrb.guidance.panelIndent.text	This is only needed if the estate value is over the Inheritance Tax threshold.		Added.
+page.iht.application.tnrb.spouseOrCivilPartner.hint	{0}’s spouse’s or civil partner		Added.
+page.iht.application.tnrbEligibilty.increasedTnrbThreshold.paragraph1	{0}’s Inheritance Tax threshold has increased to £650,000.00 because of the transfer of {1}’s unused threshold.		Added.
+iht.estateReport.tnrb.increasingThreshold	Increasing the threshold		Added.
+page.iht.application.tnrb.guidance.p3	If you already know that you need to transfer any unused allowance from another person’s estate, you can increase the threshold.		Added.
+page.iht.application.tnrb.giftsMadeBeforeDeath.question.hint1	On {0}’s estate report, IHT-205 or 400, you need to check the value of gifts given away in each year and the amount of exemptions claimed against those gifts.		Added.
+iht.estateReport.tnrb.dateOfMarriage	Date of {0}		Added.
+iht.estateReport.tnrb.giftsWithReservationOfBenefit.question	Were any gifts with the reservation of benefit given to anyone apart from {0}?		Added.
+page.iht.application.tnrb.benefitFromTrust.browserTitle	Any trust benefitted from in estate		Added.
+page.iht.application.tnrb.jointlyOwnedAssets.browserTitle	Joint assets in estate		Added.
+iht.estateReport.tnrb.thSouseAndCivilPartner	the spouse or civil partner		Added.
+page.iht.application.tnrb.jointlyOwnedAssets.question	Did all of the jointly owned assets in the estate pass to {0}?		Added.
+page.iht.application.tnrb.guidance.p2	If you do not know if the estate value is over the Inheritance Tax threshold, it is not recommended for you to increase the threshold at the moment. You will be able to do this once the assets, gifts, debts and estate exemptions sections have been completed.		Added.
+iht.estateReport.tnrb.stateClaim.question	Did the estate claim any business or agricultural relief?		Added.
+page.iht.application.tnrb.giftsMadeBeforeDeath.question.hint2	Answer yes if the value of gifts is more than the amount of exemptions that were claimed.		Added.
+page.iht.application.tnrb.estatePassedToDeceasedOrCharity.question	Did all of the estate pass to {0}, a charity or another qualifying body?		Added.
+iht.registration.deceased.locationOfPermanentHome	Location of permanent home	Lleoliad y cartref parhaol	English not updated. Welsh not updated.
+page.iht.application.tnrb.giftsWithReservationOfBenefit.browserTitle	Type of gifts given away		Added.
+page.iht.application.tnrbEligibilty.increasedTnrbThreshold.browserTitle	Threshold increased		Added.
+iht.estateReport.tnrb.permanentHome.question	Did {0} have their permanent home in the UK?		Added.
+iht.estateReport.tnrb.giftsMadeBeforeDeath.question	Were any gifts that were not exempt given away in the 7 years before {0} died?		Added.
+iht.estateReport.tnrb.increasingIHTThreshold	Increasing the Inheritance Tax threshold		Added.
+iht.estateReport.tnrb.dateOfMarriage.hint	This is the date of {0} between {1} and {2}		Added.
+page.iht.application.tnrbEligibilty.increasedTnrbThreshold.title	The threshold has been increased		Added.
+page.iht.application.TnrbEligibilty.partnerName.label	Name of the {0}		Added.
+page.iht.application.tnrb.guidance.p1	It might be possible to increase the Inheritance Tax threshold if {0} had a spouse or civil partner who died before them. This is done by transferring any unused allowance from the estate of that spouse or civil partner.		Added.
 page.iht.application.assets.insurance.policies.overview.other.question4.yes.screenReader.link.value	Yes, the policies were placed in a trust more than 7 years before {0} died. Change this answer.		Unchanged.
 page.iht.application.overview.common.viewcopy	View a copy of this estate report (PDF, <500KB)		Unchanged.
 page.iht.application.assets.property.detailsOverview.address.screenReader.link.noValue	Give details for the address		Unchanged.
@@ -303,6 +336,7 @@ iht.lastName	Last name	Enw olaf	Unchanged.
 page.iht.home.button.viewApplication.label	View		Unchanged.
 page.iht.application.qualifyingbodies.add.title	Assets left to another qualifying body		Unchanged.
 page.iht.application.assets.stocksAndShares.overview.listed.screenreader.link.value	Change the value given for stocks and shares listed on an exchange		Unchanged.
+iht.estateReport.declaration.checkedEverything.question	Have you finished finding out what was in {0}’s estate?		Unchanged.
 site.application.title	Complete an estate report	Llenwi adroddiad ystâd	Unchanged.
 page.iht.application.overview.inreview.helptext	It could take HMRC up to 2 months to review this estate report from the date you sent it. HMRC will contact you if they have any questions about this estate report.		Unchanged.
 page.iht.application.assets.money.overview.description.p1	This is the value of any money that {0} had.		Unchanged.
@@ -540,6 +574,7 @@ iht.estateReport.assets.stocksAndShares.listed.question	Did {0} own any stocks a
 iht.estateReport.assets.vehiclesOwned	Motor vehicles owned only by {0}		Unchanged.
 page.iht.application.assets.overview.vehicles.screenReader.value	The value of motor vehicles is £{0}		Unchanged.
 page.iht.application.assets.insurance.policies.overview.other.question4	Was any insurance policy that {0} paid for placed in trust in the 7 years before they died?		Unchanged.
+iht.estateReport.declaration.checkedEverything.browserTitle	Have you finished finding out what was in the deceased’s estate?		Unchanged.
 site.link.return.stocksAndShares	Return to stocks and shares	Yn ôl i stociau a chyfranddaliadau	Unchanged.
 error.dateOfDeath.giveCorrectDayMonth	Give a correct day and month for date of death	Rhowch ddiwrnod cywir a mis cywir ar gyfer dyddiad y farwolaeth	Unchanged.
 page.iht.iv.failure.preconditionFailed.p1	You have already registered with another account.		Unchanged.
@@ -720,6 +755,7 @@ page.iht.application.exemptions.partner.name.lastName.label	Last name of spouse 
 iht.estateReport.exemptions.qualifyingBodies.confirmDeleteQualifyingBody	Confirm that you want to delete this qualifying body		Unchanged.
 iht.estateReport.exemptions.charities.returnToAddACharity	Return to add a charity		Unchanged.
 iht.estateReport.assets.vehicles.valueOfJointlyOwned	Value of {0}’s share of any jointly owned motor vehicles		Unchanged.
+iht.estateReport.declaration.checkedEverything.p2	If you have made all of the checks that you can and are happy that you have given everything in the estate report, select yes to go to the declaration.		Unchanged.
 page.iht.application.assets.nominated.question	Did {0} have any nominated assets?		Unchanged.
 iht.estateReport.goToEstateReports	Go to your Inheritance Tax estate reports		Unchanged.
 page.iht.registration.checklist.applicant.reveal.label1	The location where you are planning to apply to the Probate Service is where you are sending your PA1 - Probate application form. There are different places throughout the UK but you can only use this service if you are planning to apply in England or Wales.	Y lleoliad lle rydych yn bwriadu gwneud cais i'r Gwasanaeth Profiant yw'r man lle rydych yn anfon eich PA1 - ffurflen gais ar gyfer Profiant. Mae gwahanol lefydd ar draws y DU ond gallwch ond ddefnyddio'r gwasanaeth hwn os ydych yn bwriadu gwneud cais yng Nghymru neu Loegr.	Unchanged.
@@ -937,6 +973,7 @@ error.dateOfMarriage.giveCorrectDay	Give a correct day of marriage using numbers
 page.iht.registration.registrationSummary.coExecutorTable.dateOfBirth.link.screenReader	Change {0}'s date of birth	Newid dyddiad geni {0}	Unchanged.
 page.iht.application.assets.money.overview.deceased.joint.screenReader.link.noValue	Give an answer for money jointly owned with other people		Unchanged.
 page.iht.application.estateOverview.increaseThreshold.link	I want to transfer the unused allowance from someone else’s estate		Unchanged.
+iht.estateReport.declaration.checkedEverything.p1	If you are still waiting to hear back from anyone, like a bank or a family member, select no to go to estate overview.		Unchanged.
 page.iht.application.assets.property.tenure.browserTitle	Freehold or leasehold property		Unchanged.
 page.iht.application.debts.overview.debtsOutsideUk.screenReader.link.moreDetail	Give more detail about debts owed to anyone outside of the UK		Unchanged.
 site.changeDate	Change date	Newid dyddiad	Unchanged.
@@ -1096,7 +1133,6 @@ page.iht.application.probateDetails.guidance	What do these figures mean?		Unchan
 iht.estateReport.declaration.completedAllReasonableEnquiries	you have completed all reasonable enquiries into {0}’s estate		Unchanged.
 page.iht.application.exemptions.qualifyingBodyOverviewTable.header	Qualifying bodies		Unchanged.
 page.iht.application.assets.pensions.changed.screenreader.link.noValue	Give an answer for did the deceased make any changes to a private pension in the 2 years before they died		Unchanged.
-iht.registration.deceased.locationOfPermanentHome	Location of permanent home	Lleoliad y cartref parhaol	Unchanged.
 error.selectAnswer.summary	select an answer	dewiswch ateb	Unchanged.
 page.iht.application.overview.common.helptext.part1	If you find any more assets owned by {0} that were not included in this estate report, let HMRC know by using a		Unchanged.
 iht.valueOfDebts	Value of debts		Unchanged.
