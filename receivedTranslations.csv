@@ -1,60 +1,45 @@
-iht.estateReport.tnrb.increasingIHTThreshold	Increasing the Inheritance Tax threshold
-iht.estateReport.tnrb.increasingThreshold	Increasing the threshold
-page.iht.application.tnrbEligibilty.overview.guidance1	Based upon the details you have provided, it might be possible to increase the threshold.
-page.iht.application.tnrbEligibilty.overview.guidance2	All of the details you give on this page should be about {0} who died in {1}
-page.iht.application.tnrbEligibilty.partner.additional.label.the.deceased	{0}’s
-iht.estateReport.completeEverySection	You must complete every section.
-page.iht.application.tnrbEligibilty.partner.additional.label.the	the
+page.iht.filter.agent.content 	 There is no change to how agents report estate values to HMRC. You must continue to use either an IHT-205 or an IHT-400 paper form.
 	
-iht.estateReport.tnrb.partner.married	Was {0} {1} at any point in their life and their {2} died?
-page.iht.application.tnrbEligibilty.overview.partner.maritalStatus.question.screenReader.text.yes	Yes, {0} had been married or in a civil partnership at a point in their life and their spouse or civil partner died. Change this answer.
+page.iht.filter.filter.choice.main.continue 	 I want to continue an estate report that I have already started
+page.iht.filter.filter.choice.main.register 	 I want to register so I can tell HMRC about a person’s estate
+page.iht.filter.filter.choice.main.register.hint 	 You will be asked a couple of questions first to make sure you are using the right service.
+page.iht.filter.filter.choice.main.alreadyStarted 	 I have already started registration and want to continue
+page.iht.filter.filter.choice.main.agent 	 I am an agent and reporting on behalf of a client
 	
-page.iht.application.tnrbEligibilty.overview.partner.dod.question	Date when {0} died
-page.iht.application.tnrbEligibilty.overview.partner.dod.question.screenReader.text	The date when {1}’s spouse or civil partner died was {2}. Change this date.
+page.iht.filter.domicile.choice.other 	 Other country
+page.iht.filter.domicile.return.link 	 Return to what do you want to do
 	
-page.iht.application.tnrbEligibilty.overview.partner.personalDetails.heading	Personal details of {0}
+page.iht.filter.estimate.choice.under 	 Under £325,000
+page.iht.filter.estimate.choice.between 	 Between £325,000 and £1 million
+page.iht.filter.estimate.choice.over 	 More than £1 million
 	
-page.iht.application.tnrbEligibilty.partner.additional.label.name.of.the	Name of the
-page.iht.application.tnrbEligibilty.overview.partner.name.question.screenReader.text.none	Give the name of {1}’s spouse or civil partner.
-page.iht.application.tnrbEligibilty.overview.partner.name.question.screenReader.text.some	The name of {1}’s spouse or civil partner was {2}. Change this name.
+page.iht.filter.previous.answers 	 Previous answers
 	
-iht.estateReport.tnrb.dateOfMarriage	Date of {0}
-page.iht.application.tnrbEligibilty.overview.partner.marriageDate.question.screenReader.text.none	Give the date of marriage between {1} and their spouse or civil partner.
-page.iht.application.tnrbEligibilty.overview.partner.marriageDate.question.screenReader.text.some	The date of marriage or civil partnership between {1} and their spouse or civil partner was {2}. Change this date.
+page.iht.filter.paperform.scotland.p1 	 Reporting the estate value in Scotland is completed by using a paper form.
+page.iht.filter.paperform.scotland.p2.start 	 You can read the
+page.iht.filter.paperform.scotland.p2.end 	 to find out what forms to use in Scotland.
+page.iht.filter.paperform.scotland.link.text 	 Scottish Courts and Tribunals guidance
 	
-iht.estateReport.tnrb.permanentHome.question	Did {0} have their permanent home in the UK?
-page.iht.application.tnrbEligibilty.overview.homeInUk.question.screenReader.text.yes	Yes, the spouse or civil partner had their permanent home in the UK. Change this answer.
-page.iht.application.tnrbEligibilty.overview.homeInUk.question.screenReader.text.no	No, the spouse or civil partner did not have their permanent home in the UK. Change this answer.
-page.iht.application.tnrbEligibilty.overview.homeInUk.question.screenReader.text.none	Did {0} have their permanent home in the UK? Give an answer.
+page.iht.filter.paperform.northern.ireland.p1 	 Reporting the estate value in Northern Ireland is completed by using a paper form.
+page.iht.filter.paperform.northern.ireland.p2.sentence1.start 	 If you already know that the estate has Inheritance Tax to pay, complete the
+page.iht.filter.paperform.northern.ireland.p2.sentence2.start 	 If you are not sure of the estate value, start filling in the
+page.iht.filter.paperform.northern.ireland.p2.sentence2.end 	 first.
+page.iht.filter.paperform.northern.ireland.p3 	 You can read more about applying for probate in Northern Ireland on
+page.iht.filter.paperform.northern.ireland.iht205.link.text 	 IHT-205 form
+page.iht.filter.paperform.northern.ireland.nidirect.link.text 	 NIDIRECT.GOV.UK
 	
-page.iht.application.tnrbEligibilty.overview.partnerEstate.questions.heading	Questions about the estate of {0} who died in {1}
+page.iht.filter.paperform.other.country.p1.sentence1.start 	 Reporting the estate value when the deceased had their permanent home outside of the UK is done by filling in an
+page.iht.filter.paperform.other.country.p1.sentence2.start 	 You must also fill in an
+page.iht.filter.paperform.other.country.p2 	 Only assets that are in the UK should be included. This includes any UK property or bank accounts.
+page.iht.filter.paperform.other.country.iht401.link.text 	 IHT-401 paper form
 	
-page.iht.application.tnrbEligibilty.overview.charity.question	Did all of the estate pass to {1}, a charity or another qualifying body?
-page.iht.application.tnrbEligibilty.overview.charity.question.screenReader.text.yes	Yes, all of the estate passed to {1}, a charity or another qualifying body. Change this answer.
-page.iht.application.tnrbEligibilty.overview.charity.question.screenReader.text.no	No, all of the estate did not pass to {1}, a charity or another qualifying body. Change this answer.
-page.iht.application.tnrbEligibilty.overview.charity.question.screenReader.text.none	Did all of the estate pass to {1}, a charity or another qualifying body? Give an answer.
+page.iht.filter.paperform.million.p1 	 Because you think the person who has died’s estate might be worth more than £1 million, you will need to report their estate value by filling in an
+page.iht.filter.paperform.million.p2 	 This form is used when the estate value is more than £1 million. The form will guide you through what details you need to give and will tell you if there is any Inheritance Tax to pay.
+page.iht.filter.paperform.million.exit 	 Exit to the IHT-400 form
 	
-page.iht.application.tnrbEligibilty.overview.jointlyOwned.question	Did all of the jointly owned assets in the estate pass to {1}?
-page.iht.application.tnrbEligibilty.overview.jointlyOwned.question.screenReader.text.yes	Yes, all of the jointly owned assets in the estate passed to {1}. Change this answer.
-page.iht.application.tnrbEligibilty.overview.jointlyOwned.question.screenReader.text.no	No, all of the jointly owned assets in the estate did not pass to {1}. Change this answer.
-page.iht.application.tnrbEligibilty.overview.jointlyOwned.question.screenReader.text.none	Did all of the jointly owned assets in the estate pass to {1}? Give an answer.
+page.iht.filter.paperform.iht400.link.text 	 IHT-400 form
 	
-iht.estateReport.tnrb.stateClaim.question	Did the estate claim any business or agricultural relief?
-page.iht.application.tnrbEligibilty.overview.stateClaimAnyBusiness.question.screenReader.text.yes	Yes, the estate claimed business or agricultural relief. Change this answer.
-page.iht.application.tnrbEligibilty.overview.stateClaimAnyBusiness.question.screenReader.text.no	No, the estate did not claim any business or agricultural relief. Change this answer.
-page.iht.application.tnrbEligibilty.overview.stateClaimAnyBusiness.question.screenReader.text.none	Did the estate claim any business or agricultural relief? Give an answer.
-	
-iht.estateReport.tnrb.benefitFromTrust.question	Did {0} have the right to benefit from a trust during their lifetime? Give an answer.
-page.iht.application.tnrbEligibilty.overview.benefitFromTrust.question.screenReader.text.yes	Yes, {0} had the right to benefit from a trust during their lifetime. Change this answer.
-page.iht.application.tnrbEligibilty.overview.benefitFromTrust.question.screenReader.text.no	No, {0} did not have the right to benefit from a trust during their lifetime. Change this answer.
-page.iht.application.tnrbEligibilty.overview.benefitFromTrust.question.screenReader.text.none	Did {0} have the right to benefit from a trust during their lifetime? Give an answer.
-	
-iht.estateReport.tnrb.giftsMadeBeforeDeath.question	Were any gifts that were not exempt given away in the 7 years before {0} died?
-page.iht.application.tnrbEligibilty.overview.giftsGivenAway.question.screenReader.text.yes	Yes, gifts that were not exempt were given away in the 7 years before the spouse or civil partner died. Change this answer.
-page.iht.application.tnrbEligibilty.overview.giftsGivenAway.question.screenReader.text.no	No gifts that were exempt were given away in the 7 years before the spouse or civil partner died. Change this answer.
-page.iht.application.tnrbEligibilty.overview.giftsGivenAway.question.screenReader.text.none	Were any gifts that were not exempt given away in the 7 years before {0} died? Give an answer.
-	
-page.iht.application.tnrbEligibilty.overview.giftsWithReservation.question	Were any gifts with the reservation of benefit given to anyone apart from {1}?
-page.iht.application.tnrbEligibilty.overview.giftsWithReservation.question.screenReader.text.yes	Yes, gifts with the reservation of benefit were given to someone apart from {1}. Change this answer.
-page.iht.application.tnrbEligibilty.overview.giftsWithReservation.question.screenReader.text.no	No gifts with the reservation of benefit were given to someone apart from {1}. Change this answer.
-page.iht.application.tnrbEligibilty.overview.giftsWithReservation.question.screenReader.text.none	Were any gifts with the reservation of benefit given to anyone apart from {1}? Give an answer.
+page.iht.filter.useService.under325000.paragraph0 	 Because you think the estate might be worth less than £325,000, you can use the online service to report the estate value to HMRC.
+page.iht.filter.useService.paragraphFinal 	 You will need to register to use the service first, but before that, you will need to confirm who you are with HMRC.
+page.iht.filter.useService.between325000And1Million.paragraph0 	 Because you think the estate might be worth between £325,000 and £1 million, you can use the online service to report the estate value to HMRC.
+page.iht.filter.useService.between325000And1Million.paragraph1 	 The service will work out the estate value for you. If the value is above £325,000, you will be able to claim any estate exemptions or transfer the unused threshold if there was a spouse or civil partner whose death was before the person who has died.
