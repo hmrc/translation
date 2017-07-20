@@ -1,45 +1,60 @@
-page.iht.filter.agent.content 	 There is no change to how agents report estate values to HMRC. You must continue to use either an IHT-205 or an IHT-400 paper form.
-	
-page.iht.filter.filter.choice.main.continue 	 I want to continue an estate report that I have already started
-page.iht.filter.filter.choice.main.register 	 I want to register so I can tell HMRC about a person’s estate
-page.iht.filter.filter.choice.main.register.hint 	 You will be asked a couple of questions first to make sure you are using the right service.
-page.iht.filter.filter.choice.main.alreadyStarted 	 I have already started registration and want to continue
-page.iht.filter.filter.choice.main.agent 	 I am an agent and reporting on behalf of a client
-	
-page.iht.filter.domicile.choice.other 	 Other country
-page.iht.filter.domicile.return.link 	 Return to what do you want to do
-	
-page.iht.filter.estimate.choice.under 	 Under £325,000
-page.iht.filter.estimate.choice.between 	 Between £325,000 and £1 million
-page.iht.filter.estimate.choice.over 	 More than £1 million
-	
-page.iht.filter.previous.answers 	 Previous answers
-	
-page.iht.filter.paperform.scotland.p1 	 Reporting the estate value in Scotland is completed by using a paper form.
-page.iht.filter.paperform.scotland.p2.start 	 You can read the
-page.iht.filter.paperform.scotland.p2.end 	 to find out what forms to use in Scotland.
-page.iht.filter.paperform.scotland.link.text 	 Scottish Courts and Tribunals guidance
-	
-page.iht.filter.paperform.northern.ireland.p1 	 Reporting the estate value in Northern Ireland is completed by using a paper form.
-page.iht.filter.paperform.northern.ireland.p2.sentence1.start 	 If you already know that the estate has Inheritance Tax to pay, complete the
-page.iht.filter.paperform.northern.ireland.p2.sentence2.start 	 If you are not sure of the estate value, start filling in the
-page.iht.filter.paperform.northern.ireland.p2.sentence2.end 	 first.
-page.iht.filter.paperform.northern.ireland.p3 	 You can read more about applying for probate in Northern Ireland on
-page.iht.filter.paperform.northern.ireland.iht205.link.text 	 IHT-205 form
-page.iht.filter.paperform.northern.ireland.nidirect.link.text 	 NIDIRECT.GOV.UK
-	
-page.iht.filter.paperform.other.country.p1.sentence1.start 	 Reporting the estate value when the deceased had their permanent home outside of the UK is done by filling in an
-page.iht.filter.paperform.other.country.p1.sentence2.start 	 You must also fill in an
-page.iht.filter.paperform.other.country.p2 	 Only assets that are in the UK should be included. This includes any UK property or bank accounts.
-page.iht.filter.paperform.other.country.iht401.link.text 	 IHT-401 paper form
-	
-page.iht.filter.paperform.million.p1 	 Because you think the person who has died’s estate might be worth more than £1 million, you will need to report their estate value by filling in an
-page.iht.filter.paperform.million.p2 	 This form is used when the estate value is more than £1 million. The form will guide you through what details you need to give and will tell you if there is any Inheritance Tax to pay.
-page.iht.filter.paperform.million.exit 	 Exit to the IHT-400 form
-	
-page.iht.filter.paperform.iht400.link.text 	 IHT-400 form
-	
-page.iht.filter.useService.under325000.paragraph0 	 Because you think the estate might be worth less than £325,000, you can use the online service to report the estate value to HMRC.
-page.iht.filter.useService.paragraphFinal 	 You will need to register to use the service first, but before that, you will need to confirm who you are with HMRC.
-page.iht.filter.useService.between325000And1Million.paragraph0 	 Because you think the estate might be worth between £325,000 and £1 million, you can use the online service to report the estate value to HMRC.
-page.iht.filter.useService.between325000And1Million.paragraph1 	 The service will work out the estate value for you. If the value is above £325,000, you will be able to claim any estate exemptions or transfer the unused threshold if there was a spouse or civil partner whose death was before the person who has died.
+iht.application.TnrbEligibilty.kickout.message 	 Not eligible for TNRB.
+iht.estateReport.assets.insurancePolicies.kickout.returnToInsurancePolicies.linkText 	 return to insurance policies
+iht.estateReport.assets.kickout.assetsSingleSectionMoreThanMax.returnLinkText 	 return to the last page you were on
+iht.estateReport.assets.kickOut.foreignAssetsValueMoreThanMax.returnLinkText 	  return to foreign assets
+iht.estateReport.assets.kickout.MoreThan1Million 	 This is because the estate value is more than £1 million.
+iht.estateReport.assets.kickout.pensionDisposedLastTwoYears.returnLinkText 	 return to private pensions
+iht.estateReport.assets.trusts.kickout.returnToHeldInTrust.linkText 	 return to assets held in a trust
+iht.estateReport.exemptions.kickout.homeNotInUK.returnLinkText 	 return to assets left to a spouse or civil partner
+iht.estateReport.gifts.kickout.givenInPreviousYears.returnToGiftsGivenAway.linkText 	 return to gifts given away in the 7 years before death
+iht.estateReport.gifts.kickout.maxValue.returnLinkText 	 return to value of gifts given away in the 7 years before death
+iht.estateReport.gifts.kickout.withReservationOfBenefit.returnLinkText 	 return to gifts with reservation of benefit
+iht.estateReport.kickout.nextSteps 	 You must complete the Inheritance Tax estate report by using an IHT-400 form. When you finish this service, you will be given a copy of the form.
+iht.estateReport.kickout.returnToEstateOverview 	 If you want to change any value
+iht.estateReport.kickout.returnToEstateOverview.linkText 	 return to estate overview
+iht.estateReport.tnrb.kickout.nextSteps 	 You should complete the Inheritance Tax estate report by completing an IHT-400 form. You will also need to complete an IHT-402 form to increase the threshold. When you finish this service, you will be given a copy of the form.
+iht.estateReport.tnrb.kickout.partnerDiedBeforeMinDateOPC.returnLinkText 	 go back to that last question
+iht.estateReport.tnrb.kickout.returnToIHTThreshold.linkText 	 return to increasing the Inheritance Tax threshold
+page.iht.application.assets.kickout.annuitiesOnInsurance.summary 	 This is because {0} bought an annuity during their lifetime.
+page.iht.application.assets.kickout.assetsSingleSectionMoreThanMax.nextSteps2 	 If you want to change this value
+page.iht.application.assets.kickout.assetsTotalValueMoreThanMax.nextSteps1 	 You should complete the Inheritance Tax estate report by completing an IHT-400 paper form. This is because you need to provide more details about the estate.
+page.iht.application.assets.kickout.foreignAssetsValueMoreThanMax.summary 	 This is because the value of {0}’s foreign assets was more than £100,000.
+page.iht.application.assets.kickout.insuranceMoreThanMax.summary 	 This is because the value of the insurance premiums paid by {0} for a policy that was not paying to their estate was more than £3,000 in any year.
+page.iht.application.assets.kickout.pensionDisposedLastTwoYears.summary 	 This is because {0}’s private pension was changed or disposed of in the 2 years before they died.
+page.iht.application.assets.kickout.premiumsPaidForOtherPersonsPolicy.nextSteps1 	 You should complete the Inheritance Tax estate report by completing an IHT-400 paper form. This is because you need to provide more details about the insurance policy and who it paid out to.
+page.iht.application.assets.kickout.premiumsPaidForOtherPersonsPolicy.summary 	 It is not possible to use Inheritance Tax Online because {0}’s insurance policy paid out to someone else
+page.iht.application.assets.kickout.trustlessthansevenyears.summary 	 This is because {0} was paying insurance premiums on a policy that pays out to someone else and was placed in a trust in the 7 years before they died.
+page.iht.application.assets.kickout.trustsMoreThanOne.summary 	 This is because {0} was able to benefit from more than 1 trust.
+page.iht.application.assets.kickout.trustValueMoreThanMax.summary 	 This is because the value of the trust that {0} was able to benefit from was worth more than £150,000.
+page.iht.application.exemptions.kickout.homeNotInUK.summary 	 This is because {0}’s spouse or civil partner did not have their permanent home in the UK.
+page.iht.application.gifts.kickout.givenInPast.summary 	 This is because {0} gave away a gift that was not:
+page.iht.application.gifts.kickout.givenInPast.summary.bullet3 	 a household or personal item, including jewellery, pictures and paintings
+page.iht.application.gifts.kickout.givenInPast.summary.bullet4 	 a house, land or a building
+page.iht.application.gifts.kickout.givenInPast.summary.bullet5 	 a motor vehicle, including a boat or a caravan
+page.iht.application.gifts.kickout.maxValue.nextSteps2 	 If you want to change the value of gifts
+page.iht.application.gifts.kickout.maxValue.summary 	 This is because {0} gave gifts away worth more than £150,000 in the 7 years before they died.
+page.iht.application.gifts.kickout.toTrust.summary 	 This is because {0} gave away a house, building or land to anything that is not a person.
+page.iht.application.gifts.kickout.withReservationOfBenefit.summary 	 This is because {0} gave away gifts with the reservation of benefit.
+page.iht.application.kickout.back.tnrb 	 Return to increasing the Inheritance Tax threshold
+page.iht.application.kickout.final.browserTitle 	 The details you have given will be deleted for security reasons
+page.iht.application.kickout.final.getCopy.guidance1 	 You will not be able to get a copy of the estate report when you finish.
+page.iht.application.kickout.final.getCopy.guidance2.saveAndPrint 	 save or print a copy of the estate report (PDF, size is less than 500KB)
+page.iht.application.kickout.final.getCopy.guidance2.youShould 	 You should
+page.iht.application.kickout.final.getCopy.guidance3 	 This will have all of the details you have entered so that you can write them on the IHT-400 form. If you are not able to save or print a copy at the moment, return to the estate overview and come back when you are able to do this.
+page.iht.application.kickout.final.getCopy.title 	 Get a copy of the estate report
+page.iht.application.kickout.final.guidance.onFinish 	 By selecting finish you will be given a copy of the IHT-400 form and this estate report will be deleted.
+page.iht.application.kickout.final.summary 	 Because you cannot use Inheritance Tax Online, the details you have given in this estate report will be deleted for security reasons.
+page.iht.application.tnrb.estateValue.screenReader 	 The estate value is £{0}
+page.iht.application.tnrb.kickout.estateBelowIhtThresholdApplied.summary 	 This is because {0}’s estate did not all pass to {1}, a charity or another qualifying body.
+page.iht.application.tnrb.kickout.estateMoreThanThreshold.summary 	 This is because the estate value is over the Inheritance Tax threshold.
+page.iht.application.tnrb.kickout.estateValueNotInLimit.nextSteps 	 You should complete the Inheritance Tax return using an IHT-400 paper form.
+page.iht.application.tnrb.kickout.estateValueNotInLimit.summary 	 It is not possible to use the Inheritance Tax Online Service because Estate value is more than the limit.
+page.iht.application.tnrb.kickout.giftMadeBeforeDeath.summary 	 This is because {0} gave gifts that were not exempt.
+page.iht.application.tnrb.kickout.jointAssetPassed.summary 	 This is because {0}’s jointly owned assets did not all pass to {1}.
+page.iht.application.tnrb.kickout.kickOutNonJavaScript.summary 	 It is not possible to use the Inheritance Tax Online Service because HMRC need more details about {0}’s or civil partner’s estate.
+page.iht.application.tnrb.kickout.partnerBenFromTrust.summary 	 This is because {0} had the right to benefit from a trust during their lifetime.
+page.iht.application.tnrb.kickout.partnerDiedBeforeMinDateOPC.nextSteps2 	 If you want to change the last answer you gave
+page.iht.application.tnrb.kickout.partnerGiftWithResToOther.summary 	 This is because {0} gave a gift with the reservation of benefit.
+page.iht.application.tnrb.kickout.partnerNotLivingInUk.summary 	 This is because {0} did not have their permanent home in the UK.
+page.iht.application.tnrb.kickout.stateClaimAnyBusiness.summary 	 This is because {0} had claimed relief against their estate.
+page.iht.application.tnrb.threshold.screenReader 	 The inheritance tax threshold is £{0}
