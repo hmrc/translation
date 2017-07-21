@@ -1,5 +1,54 @@
-page.iht.application.tnrb.guidance.system.title	The value of the estate is above the Inheritance Tax threshold		Added.
-page.iht.application.tnrb.guidance.system.p1	It might be possible to increase the Inheritance Tax threshold up to £650,000 if {0} was married or in a civil partnership at any time and their spouse or civil partner died.		Added.
+page.iht.iv.failure.userAborted.p1	You can try again when you have the information you need or, if you have a query,	Gallwch roi cynnig arall arni pan fydd gennych yr wybodaeth sydd ei hangen arnoch, neu os oes gennych ymholiad,	English not updated. Welsh updated.
+iht.notPossibleToUseService	It is not possible for you to use this service	Nid yw'n bosibl i chi ddefnyddio'r gwasanaeth hwn	English not updated. Welsh updated.
+iht.dropdown.of	({0} of {1})	({0} o {1})	English not updated. Welsh updated.
+error.problem	There is a problem	Mae problem wedi codi	English not updated. Welsh updated.
+page.iht.iv.failure.2fa.verifyLink	Verify your identity	Gwireddwch pwy ydych	English not updated. Welsh updated.
+iht.firstName.hint	You do not have to give any middle names	Nid oes rhaid i chi roi unrhyw enwau canol	English not updated. Welsh updated.
+page.iht.iv.failure.2fa.title	You cannot sign in to use Inheritance Tax Online	Ni allwch fewngofnodi i ddefnyddio Treth Etifeddiant Ar-lein	English not updated. Welsh updated.
+site.title.govuk	- GOV.UK	- GOV.UK	English not updated. Welsh updated.
+iht.valueOfAssets	Value of assets	Swm yr asedion	English not updated. Welsh updated.
+iht.value	Value	Swm	English not updated. Welsh updated.
+page.iht.iv.failure.technicalIssue.p1	This online service is experiencing technical difficulties.	Mae problemau technegol wedi codi gyda''r gwasanaeth ar-lein hwn.	English not updated. Welsh updated.
+page.iht.iv.failure.preconditionFailed.p1.link.text	Contact HMRC to get help	Cysylltwch â CThEM i gael help	English not updated. Welsh updated.
+page.iht.iv.failure.lockedOut.title	Maximum number of attempts reached	Wedi cyrraedd uchafswm y cynigion	English not updated. Welsh updated.
+site.noCharityNameAndNumberGiven	No charity name or number added	Heb ychwanegu enw neu rif elusen	English not updated. Welsh updated.
+page.iht.iv.failure.2fa.p1	You will not be able to use Inheritance Tax Online until you have set up 2-step verification. This is because you need to securely sign in to protect your personal details.	Ni fyddwch yn gallu defnyddio'r gwasanaeth Treth Etifeddiant Ar-lein hyd nes eich bod wedi sefydlu'r dull gwirio 2-gam. Y rheswm dros hynny yw bod angen i chi fewngofnodi'n ddiogel er mwyn gwarchod eich manylion personol.	English not updated. Welsh updated.
+iht.valueOfExemptions	Value of exemptions	Swm yr eithriadau	English not updated. Welsh updated.
+iht.dropdown.closed	Suggestions list closed	Rhestr o awgrymiadau wedi'i chau	English not updated. Welsh updated.
+page.iht.iv.failure.preconditionFailed.p1	You have already registered with another account.	Rydych wedi cofrestru gyda chyfrif arall yn barod.	English not updated. Welsh updated.
+page.iht.iv.failure.technicalIssue.title	There is a technical problem	Mae problem dechnegol wedi codi	English not updated. Welsh updated.
+page.iht.iv.failure.userAborted.title	You do not have enough information to continue	Nid oes gennych ddigon o wybodaeth i fynd ymlaen	English not updated. Welsh updated.
+iht.noChangeToHowReportToHMRC	There is no change to how you report to HMRC	Nid oes newid i'r modd rydych yn hysbysu CThEM	English not updated. Welsh updated.
+page.iht.iv.failure.2fa.exitLink	Exit to Inheritance Tax on GOV.UK	Gadael, ac ymlaen i'r gwasanaeth Treth Etifeddiant ar GOV.UK	English not updated. Welsh updated.
+page.iht.iv.failure.failedMatching.p1	If you cannot confirm your identity and you have a query,	Os na allwch gadarnhau pwy ydych a bod gennych ymholiad,	English not updated. Welsh updated.
+site.nameDetails	{0}’s details	Manylion {0}	English not updated. Welsh updated.
+page.iht.iv.failure.timeout.p2	We have deleted all the details you have entered for your own security.	Rydym wedi dileu'r holl fanylion a nodwyd gennych, er eich diogelwch chi eich hun.	English not updated. Welsh updated.
+iht.needHelp	Need help?	Angen help?	English not updated. Welsh updated.
+page.iht.iv.failure.timeout.title	Your session has ended due to inactivity	Mae'ch sesiwn wedi dod i ben o ganlyniad i anweithgarwch	English not updated. Welsh updated.
+page.iht.iv.failure.2fa.p2	When you want to sign in to securely use Inheritance Tax Online, you should set up 2-step verification.	Pan fyddwch eisiau mewngofnodi i ddefnyddio Treth Etifeddiant Ar-lein yn ddiogel, dylech sefydlu'r dull gwirio 2-gam.	English not updated. Welsh updated.
+iht.dropdown.selected	{0} selected	Dewiswyd {0}	English not updated. Welsh updated.
+iht.dropdown.matches	{0} matches found. Use arrow keys or swipe to navigate the list	Wedi canfod {0}. Defnyddiwch fysellau saeth, neu llithrwch er mwyn llywio drwy'r rhestr	English not updated. Welsh updated.
+iht.date.year	Year	Blwyddyn	English not updated. Welsh updated.
+global.error.pageNotFound404.heading	This page cannot be found	Ni ellir dod o hyd i'r dudalen hon	English not updated. Welsh updated.
+iht.inProgress	In progress	Ar y gweill	English not updated. Welsh updated.
+page.iht.iv.failure.technicalIssue.p3	If you have a query,	Os oes gennych gŵyn,	English not updated. Welsh updated.
+global.error.InternalServerError500.title	We are experiencing technical difficulties	Rydym yn profi anawsterau technegol	English not updated. Welsh updated.
+iht.date.day	Day	Diwrnod	English not updated. Welsh updated.
+iht.date.month	Month	Mis	English not updated. Welsh updated.
+page.iht.iv.failure.failedMatching.title	We were unable to confirm your identity	Nid oeddem yn gallu cadarnhau pwy ydych.	English not updated. Welsh updated.
+iht.signInAgain	Sign back in and return to your Inheritance Tax estate reports page	Mewngofnodwch eto ac ewch yn ôl i'ch tudalen adroddiad Treth Etifeddiant	English not updated. Welsh updated.
+page.iht.iv.failure.timeout.p1	Your session has ended because you have not done anything for 30 minutes.	Mae'ch sesiwn wedi dod i ben gan nad ydych wedi gwneud unrhyw beth am 30 munud.	English not updated. Welsh updated.
+iht.valueOfDebts	Value of debts	Swm y dyledion	English not updated. Welsh not updated.
+iht.theDeceased	The deceased	Yr ymadawedig	English not updated. Welsh updated.
+site.button.details.correct.exitToGovK	The details given are correct – exit to GOV.UK	Mae'r manylion a roddwyd yn gywir – gadael, ac ymlaen i GOV.UK	English not updated. Welsh updated.
+global.error.InternalServerError500.heading	Sorry, we are experiencing technical difficulties	Mae'n ddrwg gennym, rydym yn profi anawsterau technegol	English not updated. Welsh updated.
+iht.the.deceased	the person who has died	y person a fu farw	English not updated. Welsh updated.
+page.iht.iv.failure.lockedOut.p1	You have reached the maximum number of attempts to confirm your identity.	Rydych wedi cyrraedd uchafswm nifer y cynigion i roi prawf o bwy ydych.	English not updated. Welsh updated.
+page.iht.iv.failure.lockedOut.p2	You can try again in 7 days.	Gallwch roi cynnig arall arni ar ôl 7 diwrnod.	English not updated. Welsh updated.
+iht.comma	,	,	English not updated. Welsh updated.
+page.iht.iv.failure.preconditionFailed.title	You are unable to sign in	Nid ydych yn gallu mewngofnodi	English not updated. Welsh updated.
+iht.needHelp.guidance	If you need help with completing this estate report, contact the Inheritance Tax helpline on 0300 123 1072. If you are outside of the UK, call +44 300 123 1072.	Os oes angen help arnoch i lenwi'r adroddiad hwn ynghylch yr ystâd, ffoniwch y llinell gymorth Treth Etifeddiant ar 0300 123 1072. Os ydych y tu allan i'r DU, ffoniwch +44 300 123 1072.	English not updated. Welsh updated.
+iht.ineligibleApplication	Ineligible application	Cais anghymwys	English not updated. Welsh updated.
 page.iht.application.assets.insurance.policies.overview.other.question4.yes.screenReader.link.value	Yes, the policies were placed in a trust more than 7 years before {0} died. Change this answer.		Unchanged.
 page.iht.application.overview.common.viewcopy	View a copy of this estate report (PDF, <500KB)		Unchanged.
 page.iht.application.assets.property.detailsOverview.address.screenReader.link.noValue	Give details for the address		Unchanged.
@@ -34,7 +83,6 @@ global.error.InternalServerError500.message	Please try again in a few moments.	R
 page.iht.application.assets.deceased-permanent-home.question2.hint	You can find out how a property was owned from the Land Registry. Joint tenants and tenants in common are names that describe how a property is owned with another person.		Unchanged.
 page.iht.application.exemptions.partner.name.browserTitle	Partner’s name		Unchanged.
 error.length.assets.policies	Enter a value using less than 11 numbers	Nodwch werth gan ddefnyddio llai nag 11 rhif	Unchanged.
-page.iht.iv.failure.userAborted.p1	You can try again when you have the information you need or, if you have a query,		Unchanged.
 page.iht.application.assets.overview.stockAndShare.screenReader.link.moreDetail	Give more details for stocks and shares		Unchanged.
 page.iht.application.assets.overview.insurancePolicy.screenReader.link.noValue	Give an answer for insurance policies		Unchanged.
 iht.estateReport.assets.stocksAndShares.valueOfNotListed	Value of stocks and shares not listed		Unchanged.
@@ -49,7 +97,6 @@ page.iht.application.assets.overview.insurancePolicy.screenReader.noValue	You ha
 page.iht.registration.completedRegistration.p2.bullet3	find out what the value of the estate is when you have given all of the details about what was owned and owed – this will tell you if there is any Inheritance Tax to pay	canfod gwerth yr ystâd pan fyddwch wedi rhoi'r holl fanylion ynghylch yr hyn a feddwyd, yn ogystal â dyledion – bydd hynny'n dangos i chi a oes unrhyw Dreth Etifeddiant i'w thalu	Unchanged.
 page.iht.application.declaration_received.paragraph2	HMRC might also check the valuation of any properties that you have entered – if they do this, the Valuation Office might call you.		Unchanged.
 site.fullName	Full name	Enw llawn	Unchanged.
-iht.notPossibleToUseService	It is not possible for you to use this service		Unchanged.
 page.iht.application.tnrb.giftsWithReservationOfBenefit.question.hint	Answer yes if {0} gave a gift with reservation of benefit to anyone apart from {1}. This could have been a house given to a child that {2} continued to live in free of charge.		Unchanged.
 iht.registration.deceasedDetails.title	About the person who has died	Ynglŷn â'r person a fu farw	Unchanged.
 page.iht.registration.applicantTellUsAboutYourself.question.label	Do you live in the UK?	A ydych yn byw yn y DU?	Unchanged.
@@ -66,7 +113,6 @@ page.iht.application.exemptions.assetLeftToCharity.browserTitle	Any assets left 
 page.iht.registration.deceasedDateOfDeath.kickout.date.capital.tax.summary	This is because the deceased died before 18 March 1986. Capital Transfer Tax or Estate Duty were used for deaths before this date.	Mae hyn oherwydd bod yr ymadawedig wedi marw cyn 18 Mawrth 1986. Defnyddiwyd Treth Trosglwyddo Cyfalaf neu Dreth Ystâd ar gyfer marwolaethau cyn y dyddiad hwn.	Unchanged.
 page.iht.application.overview.closed.helptext	When you have completed everything to do with this estate, including receiving your grant of representation from the Probate Service, you can complete clearance of this estate report.		Unchanged.
 site.changeName	Change name	Newid enw	Unchanged.
-iht.dropdown.of	({0} of {1})		Unchanged.
 page.iht.application.exemptions.guidance.link	Continue to estate exemptions		Unchanged.
 page.iht.application.assets.properties.question.question	Did {0} own any properties, buildings or land in the UK?		Unchanged.
 error.moneyOwed.currencyValue.length.summary	enter a value for money owed using less than 11 numbers	nodwch werth ar gyfer arian sy'n ddyledus gan ddefnyddio llai nag 11 rhif	Unchanged.
@@ -92,7 +138,6 @@ page.iht.application.assets.kickout.assetsTotalValueMoreThanMax.nextSteps1	You s
 error.estateReport.value.giveWithNoSpaces	Give the value without any spaces between numbers	Rhowch y gwerth heb unrhyw fylchau rhwng rhifau	Unchanged.
 error.isGiftMadeBeforeDeath.select	Select an answer for if the deceased's spouse or civil partner gave any gifts away that were not exempt in the 7 years before they died	Dewiswch ateb ar gyfer os roddodd priod neu bartner sifil yr ymadawedig unrhyw roddion i ffwrdd nad oeddent wedi'u heithrio yn ystod y 7 mlynedd cyn y farwolaeth	Unchanged.
 iht.estateReport.assets.stocksAndShares	Stocks and shares		Unchanged.
-error.problem	There is a problem		Unchanged.
 page.iht.registration.deceasedDetails.maritalStatus.widowed.hint	The deceased’s spouse or civil partner died before them and they never remarried.	Bu farw ei briod neu ei bartner sifil cyn yr ymadawedig, ac ni wnaeth ailbriodi.	Unchanged.
 page.iht.application.estateOverview.noValue	No value given		Unchanged.
 error.foreign.currencyValue.summary	enter a value for foreign assets using only numbers	nodwch werth ar gyfer asedion o dramor gan ddefnyddio rhifau'n unig	Unchanged.
@@ -151,7 +196,6 @@ page.iht.application.assets.household.overview.guidance	These are items like ele
 page.iht.application.tnrb.estatePassedToDeceasedOrCharity.browserTitle	Fully exempt estate		Unchanged.
 error.country.select	Enter a country	Nodwch wlad	Unchanged.
 page.iht.registration.applicantDetails.title	Tell us about yourself	Rhowch eich manylion i ni	Unchanged.
-page.iht.iv.failure.2fa.verifyLink	Verify your identity		Unchanged.
 page.iht.application.assets.property.tenure.guidance1b	if a property was freehold or leasehold.		Unchanged.
 page.iht.registration.registrationSummary.applicantInfo.role.data.screenReader	Your role is an {0}	{0} yw'ch swyddogaeth	Unchanged.
 page.iht.application.assets.nominated.sectionName	nominated		Unchanged.
@@ -170,7 +214,6 @@ page.iht.application.assets.household.sectionName	household		Unchanged.
 page.iht.application.gifts.trust.question	Did {0} give any property, land or buildings to anything that is not a person?		Unchanged.
 page.iht.registration.applicantDetails.role.agent.hint	Someone who has been hired to act on behalf of an executor or an administrator.	Rhywun a huriwyd i weithredu ar ran ysgutor neu weinyddwr.	Unchanged.
 site.link.giveName	Give name	Rhowch enw	Unchanged.
-iht.firstName.hint	You do not have to give any middle names		Unchanged.
 error.assets.money.jointlyOwned.select	Select an answer for whether there is any jointly owned money in the estate	Dewiswch ateb ar gyfer a oes unrhyw arian mewn perchenogaeth ar y cyd yn yr ystâd	Unchanged.
 iht.inComplete.screenreader	{0} is incomplete	Mae {0} heb ei gyflawni	Unchanged.
 page.iht.application.assets.overview.vehicles.screenReader.link.moreDetail	Give more details for motor vehicles		Unchanged.
@@ -183,7 +226,6 @@ pdf.exemption.table.text	Exemption		Unchanged.
 page.iht.application.kickout.back.tnrb	Return to increasing the Inheritance Tax threshold		Unchanged.
 page.iht.application.declaration_received.probate.paragraph1	HMRC will review your Inheritance Tax estate report – this might take up to 2 months. HMRC might be in touch with you during this time if they have any queries. Once the review has been completed, the estate report status will be changed to closed.		Unchanged.
 page.iht.registration.applicantDetails.role.executor.hint	Someone named in a will as being in charge of handling the deceased's affairs.	Rhywun a enwir mewn ewyllys fel bod yn gyfrifol am ddelio â materion yr ymadawedig.	Unchanged.
-page.iht.iv.failure.2fa.title	You cannot sign in to use Inheritance Tax Online		Unchanged.
 pdf.inheritance.tax.application.summary.p1	This is a copy of {0}’s Inheritance Tax estate report completed by {1}. HMRC recommend that you keep a copy of this report for your personal use.		Unchanged.
 page.iht.registration.deceasedDateOfDeath.kickout.date.other.summary	This is because the deceased died between 18 March 1986 and 5 April 2011.	Mae hyn oherwydd y bu'r ymadawedig farw rhwng 18 Mawrth 1986 a 5 Ebrill 2011.	Unchanged.
 iht.signedOut	You’ve been signed out	Mae'r system wedi'ch allgofnodi	Unchanged.
@@ -205,9 +247,7 @@ page.iht.application.assets.overview.heldInTrust.screenReader.link.noValue	Give 
 iht.whatDoYouWantToDo	What do you want to do?	Beth yr ydych am ei wneud?	Unchanged.
 error.dateOfDeath.giveCorrectMonthYear	Give a correct month and year for date of death	Rhowch fis cywir a blwyddyn gywir ar gyfer dyddiad y farwolaeth	Unchanged.
 page.iht.application.charity.add.registerednumber.helptext.contents2	Enter the charity’s name and you will be provided with its registered number.		Unchanged.
-site.title.govuk	- GOV.UK		Unchanged.
 iht.estateReport.tnrb.kickout.partnerDiedBeforeMinDateOPC.returnLinkText	go back to that last question		Unchanged.
-iht.valueOfAssets	Value of assets		Unchanged.
 page.iht.application.exemptions.overview.charity.detailsOverview.name.screenreader.link.noValue	Give the charity name		Unchanged.
 page.iht.filter.paperform.million.p1	Because you think the person who has died’s estate might be worth more than £1 million, you will need to report their estate value by filling in an		Unchanged.
 page.iht.application.assets.insurance.policies.overview.other.question5.none.screenReader.link.value	Give an answer for did {0} buy an annuity at any time in their life?		Unchanged.
@@ -240,7 +280,6 @@ page.iht.registration.others-applying-for-probate-address.address.guidance	This 
 page.iht.application.assets.kickout.foreignAssetsValueMoreThanMax.summary	This is because the value of {0}’s foreign assets was more than £100,000.		Unchanged.
 page.iht.registration.deceasedDetails.maritalStatus.widowed.label	Widowed or a surviving civil partner	Yn weddw neu'n bartner sifil sy'n goroesi	Unchanged.
 page.iht.application.assets.overview.nominated.screenReader.value	The value of the nominated assets is £{0}		Unchanged.
-iht.value	Value		Unchanged.
 page.iht.application.assets.insurance.policies.overview.other.question1.none.screenReader.link.value.married	Give an answer for did {0} ever pay insurance premiums for a policy that was not due to pay out to their estate?		Unchanged.
 iht.estateReport.exemptions.qualifyingBodies.howFindOutQualifies	How to find out if another body qualifies		Unchanged.
 error.checkCorrect	Check the details are correct, in the right place and in the right format.	Gwiriwch fod y manylion yn gywir, yn y man cywir ac yn y fformat cywir.	Unchanged.
@@ -310,7 +349,6 @@ iht.estateReport.assets.vehicles	Motor vehicles		Unchanged.
 page.iht.application.qualifyingbodies.delete.screenReader	Delete {0} (qualifying body {1}) from your list of qualifying bodies		Unchanged.
 iht.estateReport.declaration.coExecutors.confirmationText	I confirm that I have a copy of the signed declaration		Unchanged.
 page.iht.application.assets.insurance.policies.overview.other.question1.yes.screenReader.link.value.married	Yes, {0} was paying insurance premiums on a policy that pays out to someone who is not their spouse or civil partner. Change this answer.		Unchanged.
-page.iht.iv.failure.technicalIssue.p1	This online service is experiencing technical difficulties.		Unchanged.
 pdf.totalTrusts.text	Total of Trusts		Unchanged.
 page.iht.application.overview.gifts.nonGiven	No gifts given		Unchanged.
 iht.registration.ninoNotOnPayslip	Their National Insurance number can be found on a payslip, a P45 or a P60 form.	Gallwch ddod o hyd i'w rif Yswiriant Gwladol ar slip cyflog, ffurflen P45 neu ffurflen P60.	Unchanged.
@@ -327,7 +365,6 @@ page.iht.registration.registrationSummary.applicantInfo.country.link.screenReade
 page.iht.application.debts.debtsTrust.isOwned	Are there any debts being paid out of the estate that are owed from a trust that {0} benefitted from?	A oes unrhyw ddyledion sy'n cael eu talu allan o'r ystâd sy'n ddyledus o ymddiriedolaeth yr oedd {0} yn elwa ohoni?	Unchanged.
 iht.countries.englandOrWales	England or Wales	Cymru neu Lloegr	Unchanged.
 iht.estateReport.debts.debtsTrust.title	Debts owed from a trust	Dyledion sy'n ddyledus o ymddiriedolaeth	Unchanged.
-page.iht.iv.failure.preconditionFailed.p1.link.text	Contact HMRC to get help		Unchanged.
 iht.lastName	Last name	Enw olaf	Unchanged.
 page.iht.home.button.viewApplication.label	View		Unchanged.
 page.iht.filter.paperform.northern.ireland.p2.sentence2.end	first.		Unchanged.
@@ -351,7 +388,6 @@ page.iht.application.debts.overview.mortgages.screenReader.link.noValue	Give a v
 page.iht.application.overview.helptext.part2	. Only do this if these assets increase the estate value over the Inheritance Tax threshold.		Unchanged.
 page.iht.application.exemptions.guidance.increasing.threshold.title	The estate value is above the Inheritance Tax threshold		Unchanged.
 error.dateOfDeath.giveCorrectDateUsingOnlyNumbers	Give a correct date of death only using numbers	Rhowch ddyddiad cywir ar gyfer y farwolaeth gan ddefnyddio rhifau'n unig	Unchanged.
-page.iht.iv.failure.lockedOut.title	Maximum number of attempts reached		Unchanged.
 page.iht.registration.checklist.revealText	How to find these details	Sut i ddod o hyd i'r manylion hyn	Unchanged.
 iht.estateReport.declaration.correctAndComplete	the information you have supplied, including all valuations, is correct and complete to the best of your knowledge and belief		Unchanged.
 iht.estateReport.gifts.kickout.maxValue.returnLinkText	return to value of gifts given away in the 7 years before death		Unchanged.
@@ -433,13 +469,10 @@ iht.shouldUseOnlineService	You must use the online service	Mae'n rhaid i chi dde
 error.lastName.giveUsingXCharsOrLess	Give a last name using 40 characters or less	Rhowch enw olaf gan ddefnyddio hyd at 40 o gymeriadau	Unchanged.
 pdf.total.text	Total		Unchanged.
 page.iht.application.exemptions.charityOverview.questionLabel.screenreader.link.value	Change the answer for did {0} leave any assets to a charity		Unchanged.
-site.noCharityNameAndNumberGiven	No charity name or number added		Unchanged.
 page.iht.registration.applicantDetails.role.donee.hint	Someone who has received a gift from the deceased in the 7 years before they died.	Rhywun sydd wedi cael rhodd oddi wrth yr ymadawedig yn y 7 mlynedd cyn y bu farw.	Unchanged.
-page.iht.iv.failure.2fa.p1	You will not be able to use Inheritance Tax Online until you have set up 2-step verification. This is because you need to securely sign in to protect your personal details.		Unchanged.
 page.iht.application.tnrbEligibilty.overview.giftsGivenAway.question.screenReader.text.yes	Yes, gifts that were not exempt were given away in the 7 years before the spouse or civil partner died. Change this answer.		Unchanged.
 site.link.return.household	Return to household and personal items	Yn ôl i eitemau i'r tŷ ac eitemau personol	Unchanged.
 page.iht.application.tnrbEligibilty.partner.additional.label.the	the		Unchanged.
-iht.valueOfExemptions	Value of exemptions		Unchanged.
 page.iht.application.kickout.final.browserTitle	The details you have given will be deleted for security reasons		Unchanged.
 error.assets.property.ownership.select	Select how this property, building or land was owned	Dewiswch sut y perchenogwyd yr eiddo, yr adeilad neu'r tir	Unchanged.
 error.applicant.selectIfAnyoneElseApplyingForProbate	Select if anyone else is applying for probate	Dewiswch os oes unrhyw un arall yn gwneud cais am brofiant	Unchanged.
@@ -550,7 +583,6 @@ page.iht.application.debts.overview.debtsOutsideUk.screenReader.noValue	You have
 error.assets.other.select	Select an answer for whether there are any other assets not listed in the estate	Dewiswch ateb ar gyfer os oes unrhyw asedion nas restrwyd yn yr ystâd	Unchanged.
 iht.estateReport.assets.nominated	Nominated assets		Unchanged.
 page.iht.application.exemptions.charityValue.sectionTitle	Total value of all assets left to the charity		Unchanged.
-iht.dropdown.closed	Suggestions list closed		Unchanged.
 page.iht.application.assets.overview.moneyOwed.screenReader.link.value	Change the value for money owed to the deceased		Unchanged.
 page.iht.application.debts.mortgages.description.p1	You should use the outstanding balance remaining to pay off a mortgage as the value. Some providers might describe this differently so check with them if you are unsure of how much is outstanding on a mortgage.		Unchanged.
 page.iht.registration.checklist.label2	There is no way to save your progress until you have given all of these details, so only start once you have everything you will need.	Nid yw'n bosibl i chi gadw'ch gwaith hyd nes eich bod wedi rhoi'r holl fanylion hyn. Felly, dylech ond ddechrau arni pan fydd gennych bopeth sydd eu hangen arnoch.	Unchanged.
@@ -605,7 +637,6 @@ site.link.return.stocksAndShares	Return to stocks and shares	Yn ôl i stociau a 
 error.dateOfDeath.giveCorrectDayMonth	Give a correct day and month for date of death	Rhowch ddiwrnod cywir a mis cywir ar gyfer dyddiad y farwolaeth	Unchanged.
 pdf.gifts.total.title	Total of all gifts given away		Unchanged.
 page.iht.application.tnrb.giftsMadeBeforeDeath.question.hint1	On {0}’s estate report, IHT-205 or 400, you need to check the value of gifts given away in each year and the amount of exemptions claimed against those gifts.		Unchanged.
-page.iht.iv.failure.preconditionFailed.p1	You have already registered with another account.		Unchanged.
 page.iht.registration.registrationSummary.deceasedInfo.location.link.screenReader	Change the location of {0}’s permanent home	Newid lleoliad cartref parhaol {0}	Unchanged.
 page.iht.application.assets.insurance.policies.overview.other.question3.no.screenReader.link.value	No, there was not an annuity on a policy being paid for by {0}. Change this answer.		Unchanged.
 page.iht.application.assets.property.question.mortgage.text	If there are no properties, buildings or land owned by {0} then there will be no mortgages owed as a debt from the estate.		Unchanged.
@@ -626,7 +657,6 @@ page.iht.application.assets.other.description.p1	This is the total value of any 
 iht.estateReport.tnrb.dateOfMarriage	Date of {0}		Unchanged.
 error.dateOfBirth.giveCorrectMonth	Give a correct month of birth using numbers 1 to 12	Rhowch fis geni cywir gan ddefnyddio'r rhifau 1 i 12	Unchanged.
 page.iht.application.assets.property.address.property.givedetails	Give details for property {0}		Unchanged.
-page.iht.iv.failure.technicalIssue.title	There is a technical problem		Unchanged.
 page.iht.application.assets.tenure.freehold.label	Freehold		Unchanged.
 page.iht.application.overview.inreview.sidebartitle	You have sent this report to HMRC.		Unchanged.
 error.dateOfBirth.giveCorrectDay	Give a correct day of birth using numbers 1 to 31	Rhowch ddiwrnod geni cywir gan ddefnyddio'r rhifau 1 i 31	Unchanged.
@@ -656,10 +686,8 @@ iht.iv.tryAgain	Try again	Rhowch gynnig arall arni	Unchanged.
 page.iht.application.tnrb.benefitFromTrust.browserTitle	Any trust benefitted from in estate		Unchanged.
 page.iht.registration.checklist.deceased.label7	relationship status	statws priodasol	Unchanged.
 site.link.return.exemptions	Return to estate exemptions	Yn ôl i eithriadau ystâd	Unchanged.
-page.iht.iv.failure.userAborted.title	You do not have enough information to continue		Unchanged.
 page.iht.application.gifts.kickout.maxValue.nextSteps2	If you want to change the value of gifts		Unchanged.
 page.iht.application.assets.moneyOwed.inputLabel1	Value of money owed to {0} when they died		Unchanged.
-iht.noChangeToHowReportToHMRC	There is no change to how you report to HMRC		Unchanged.
 page.iht.registration.registrationSummary.deceasedTable.title	Deceased’s details	Manylion yr ymadawedig	Unchanged.
 error.blank.assets.properties.typeOfOwnership	Select how this property was owned	Dewiswch sut y perchenogwyd yr eiddo	Unchanged.
 page.iht.registration.registrationSummary.deceasedInfo.nino.data.screenReader	Deceased’s national insurance number is {0}	Rhif Yswiriant Gwladol yr ymadawedig yw {0}	Unchanged.
@@ -667,7 +695,6 @@ page.iht.application.tnrb.jointlyOwnedAssets.browserTitle	Joint assets in estate
 page.iht.application.exemptions.overview.charity.detailsOverview.value.screenreader.link.noValue	Give the total value of assets the charity received		Unchanged.
 iht.estateReport.assets.money.lowerCaseInitial	money, including any cash, cheques, bank transfers and items that the person who died spent money on		Unchanged.
 page.iht.application.tnrbEligibilty.overview.giftsWithReservation.question.screenReader.text.none	Were any gifts with the reservation of benefit given to anyone apart from {1}? Give an answer.		Unchanged.
-page.iht.iv.failure.2fa.exitLink	Exit to Inheritance Tax on GOV.UK		Unchanged.
 page.iht.registration.registrationSummary.coExecutorTable.address.data.screenReader	{0}’s address is {1}	Cyfeiriad {0} yw {1}	Unchanged.
 iht.estateReport.assets.insurancePolicies	Insurance policies		Unchanged.
 page.iht.filter.useService.paragraphFinal	You will need to register to use the service first, but before that, you will need to confirm who you are with HMRC.		Unchanged.
@@ -719,7 +746,6 @@ error.foreign.currencyValue.length.summary	enter a value for foreign assets usin
 error.household.currencyValue.summary	enter a value for household and personal items using only numbers	nodwch werth ar gyfer nwyddau'r tŷ a nwyddau personol gan ddefnyddio rhifau'n unig	Unchanged.
 iht.estateReport.assets.heldInTrust.needInclusion	If {0} had the right to live in a house that was held in trust during their lifetime, the value of that property should also be included.		Unchanged.
 site.link.giveValues	Give values	Rhowch werthoedd	Unchanged.
-page.iht.iv.failure.failedMatching.p1	If you cannot confirm your identity and you have a query,		Unchanged.
 page.iht.application.assets.deceased-permanent-home.table.emptyRow.text	You have not added any properties to this estate.		Unchanged.
 page.iht.application.overview.gifts.screenReader.moreDetails.link	Give more details about gifts given away		Unchanged.
 iht.no	No	Na	Unchanged.
@@ -861,7 +887,6 @@ error.currencyValue.length.summary	enter a value using less than 11 numbers	nodw
 page.iht.application.tnrbEligibilty.overview.partner.marriageDate.question.screenReader.text.some	The date of marriage or civil partnership between {1} and their spouse or civil partner was {2}. Change this date.		Unchanged.
 page.iht.application.assets.money.jointly.owned.guidance.p2	This includes any of {0}’s money provided into a joint account, either by them or by someone else like their employer.		Unchanged.
 iht.estateReport.declaration.declaringThat	By sending this estate report you are declaring that:		Unchanged.
-site.nameDetails	{0}’s details		Unchanged.
 page.iht.registration.co-executor-personal-details.title	Personal details for the other executor	Manylion personol ar gyfer yr ysgutor arall	Unchanged.
 iht.estateReport.exemptions.title	Estate exemptions		Unchanged.
 iht.estateReport.exemptions.charities.assetsLeftToACharity.title	Assets left to a charity		Unchanged.
@@ -882,7 +907,6 @@ page.iht.registration.deleteExecutor.browserTitle	Delete applicant	Dileu'r sawl 
 page.iht.registration.checklist.applicant.label4	choice of country for where you are applying to the Probate Service – only people applying in England and Wales can use this service	eich dewis gwlad ar gyfer gwneud cais i'r Gwasanaeth Profiant – dim ond pobl sy'n gwneud cais yng Nghymru a Lloegr all ddefnyddio'r gwasanaeth hwn	Unchanged.
 page.iht.application.debts.mortgageValue.browserTitle	Any mortgage on property		Unchanged.
 iht.country	Country	Gwlad	Unchanged.
-page.iht.iv.failure.timeout.p2	We have deleted all the details you have entered for your own security.		Unchanged.
 error.dateOfBirth.giveNoneFuture	Give a date of birth that is not in the future	Rhowch ddyddiad geni nad yw yn y dyfodol	Unchanged.
 page.iht.application.assets.typeOfOwnership.inCommon.label	Tenants in common		Unchanged.
 page.iht.registration.executor-overview.sectionName	executor-overview	executor-overview	Unchanged.
@@ -918,7 +942,6 @@ page.iht.registration.others-applying-for-probate-address.browserTitle	Other per
 page.iht.application.exemptions.assetLeftToGncp.screenReader.noValue	No value given for assets left to another qualifying body		Unchanged.
 page.iht.application.tnrbEligibilty.overview.guidance2	All of the details you give on this page should be about {0} who died in {1}		Unchanged.
 site.button.signOut	Save and sign out	Cadw ac allgofnodi	Unchanged.
-iht.needHelp	Need help?		Unchanged.
 page.iht.application.assets.stocksAndShares.overview.listed.screenreader.link.change	Change the answer for any stocks and shares listed on an exchange		Unchanged.
 page.iht.registration.notApplyingForProbate.kickout.summary	This is because you are not applying for probate for {0}’s estate.		Unchanged.
 page.iht.application.assets.property.ownership.browserTitle	How property was owned		Unchanged.
@@ -932,18 +955,15 @@ page.iht.application.assets.insurance.policies.overview.joint.amount.screenReade
 page.iht.application.debts.funeralExpenses.description.p2	If {0} paid for a funeral plan before they died, this would not be a funeral expense. Any travelling or accommodation costs for mourners, or any flowers or refreshments that they gave, cannot be claimed as a funeral expense.	Os talodd {0} am gynllun angladd cyn iddo/iddi farw, ni fyddai hwn yn draul angladd. Ni ellir hawlio costau teithio na chostau llety ar gyfer galarwyr, nac ychwaith unrhyw flodau neu luniaeth a roddwyd ganddynt, fel traul angladd.	Unchanged.
 page.iht.registration.registrationSummary.coExecutorTable.others-are-applying.link.screenReader	and add or remove another person	ac ychwanegu neu ddileu person arall	Unchanged.
 iht.estateReport.correctiveAccountForm	Corrective Account form		Unchanged.
-page.iht.iv.failure.timeout.title	Your session has ended due to inactivity		Unchanged.
 iht.estateReport.assets.money.valueOfMoneyOwnedInOwnName	Value of money owned by {0} only in their name		Unchanged.
 page.iht.registration.checklist.deceased.title	You will need the person who has died’s:	Bydd angen y manylion canlynol arnoch am y person a fu farw:	Unchanged.
 page.iht.registration.deceasedDetails.maritalStatus.single.label	Never married or in a civil partnership	Heb fod yn briod nac mewn partneriaeth sifil	Unchanged.
-page.iht.iv.failure.2fa.p2	When you want to sign in to securely use Inheritance Tax Online, you should set up 2-step verification.		Unchanged.
 iht.estateReport.gifts.withReservation.p1	These are called gifts with reservation of benefit.		Unchanged.
 iht.estateReport.assets.propertiesBuildingsAndLand	Properties, buildings and land		Unchanged.
 page.iht.application.assets.pensions.changed.screenreader.link.change	Change the answer for did the deceased make any changes to a private pension in the 2 years before they died		Unchanged.
 page.iht.application.exemptions.overview.charity.detailsOverview.browserTitle	Add charity		Unchanged.
 error.moneyOwed.currencyValue.summary	enter a value for money owed using only numbers	nodwch werth ar gyfer arian sy'n ddyledus gan ddefnyddio rhifau'n unig	Unchanged.
 page.iht.registration.registrationSummary.focusElement.prefix	focusElementId	focusElementId	Unchanged.
-iht.dropdown.selected	{0} selected		Unchanged.
 page.iht.application.assets.insurances.isjointlyowned	Were any insurance policies jointly owned?		Unchanged.
 iht.back	Back	Nôl	Unchanged.
 page.iht.application.exemptions.partner.nino.sectionTitle	What is the spouse’s or civil partner’s National Insurance number?		Unchanged.
@@ -989,7 +1009,6 @@ page.iht.application.exemptions.overview.charity.screenReader.link.moreDetail	Gi
 page.iht.filter.estimate.choice.under	Under £325,000		Unchanged.
 iht.inReview	In review		Unchanged.
 page.iht.application.exemptions.overview.partner.homeInUK.screenreader.link.value	Change the answer for is the spouse’s or civil partner’s permanent home in the UK		Unchanged.
-iht.dropdown.matches	{0} matches found. Use arrow keys or swipe to navigate the list		Unchanged.
 iht.estateReport.exemptions.partner.assetsLeftToSpouse.title	Assets left to a spouse or civil partner		Unchanged.
 page.iht.application.overview.common.helptext.part2	Only do this if these assets increase the value of the estate over the Inheritance Tax threshold.		Unchanged.
 page.iht.registration.checklist.applicant.reveal.label3	The phone number you give is one that HMRC can contact you on. This might happen after you have finished the estate report and it is being reviewed.	Y rhif ffôn a rowch yw un y gall CThEM ei ddefnyddio er mwyn cysylltu â chi. Gall hyn ddigwydd ar ôl i chi orffen yr adroddiad ynghylch yr ystâd a bod hwnnw'n cael ei adolygu.	Unchanged.
@@ -1035,7 +1054,6 @@ page.iht.application.assets.property.address.browserTitle	Property address		Unch
 error.giftsDetails.noValue	You must give the total value of gifts given away during this period	Mae'n rhaid i chi roi cyfanswm gwerth y rhoddion a roddwyd i ffwrdd yn ystod y cyfnod hwn	Unchanged.
 page.iht.application.assets.property.detailsOverview.address.screenReader.link.change	Change address details		Unchanged.
 iht.estateReport.assets.properties.value.question	What was {0}’s share of the value of this property, building or land?		Unchanged.
-iht.date.year	Year		Unchanged.
 page.iht.application.tnrbEligibilty.overview.jointlyOwned.question.screenReader.text.no	No, all of the jointly owned assets in the estate did not pass to {1}. Change this answer.		Unchanged.
 page.iht.application.exemptions.partner.totalAssets.browserTitle	Value of assets left to partner		Unchanged.
 page.iht.filter.filter.choice.main.agent	I am an agent and reporting on behalf of a client		Unchanged.
@@ -1072,6 +1090,7 @@ global.error.pageNotFound404.title	Page not found - 404	Heb ddod o hyd i'r dudal
 site.link.giveDetails	Give details	Rhowch fanylion	Unchanged.
 page.iht.filter.useService.between325000And1Million.paragraph0	Because you think the estate might be worth between £325,000 and £1 million, you can use the online service to report the estate value to HMRC.		Unchanged.
 page.iht.application.debts.mortgage.inputText.value	Value of mortgage		Unchanged.
+page.iht.application.tnrb.guidance.system.title	The value of the estate is above the Inheritance Tax threshold		Unchanged.
 site.copyApplication.link	copy of the application	copi o'r cais	Unchanged.
 page.iht.application.exemptions.qualifyingBody.value.sectionTitle	Total value of all assets left to the qualifying body		Unchanged.
 page.iht.application.debts.subtitle2	You need a grant of representation from the Probate Service to pay some debts off from the estate and sometimes the value of debts owed can be taken off the total estate value.	Mae angen grant cynrychiolaeth arnoch oddi wrth y Gwasanaeth Profiant i dalu rhai dyledion o'r ystâd. Weithiau, gall swm y dyledion gael eu didynnu o gyfanswm gwerth yr ystâd.	Unchanged.
@@ -1125,13 +1144,11 @@ iht.estateReport.assets.kickOut.foreignAssetsValueMoreThanMax.returnLinkText	ret
 error.address.give	Give an address	Rhowch gyfeiriad	Unchanged.
 page.iht.application.assets.insurances.sevenyearsbefore	Was the policy placed in trust more than seven years before date of death of the deceased?		Unchanged.
 page.iht.application.exemptions.guidance.content4	The estate value could become less than the Inheritance Tax threshold by claiming these exemptions.		Unchanged.
-global.error.pageNotFound404.heading	This page cannot be found		Unchanged.
 page.iht.application.assets.money.jointly.owned.input.value.label	Value of {0}’s share of any jointly owned money		Unchanged.
 page.iht.home.applicationList.table.guidance.label.empty	You have not registered to complete an Inheritance Tax estate report.		Unchanged.
 page.iht.registration.applicant.applyingForProbate.p1	If you are applying for probate, you will also be filling in a PA1 - Probate application form.	Os ydych yn gwneud cais am brofiant, byddwch hefyd yn llenwi PA1 - ffurflen gais ar gyfer Profiant.	Unchanged.
 page.iht.application.assets.insurance.policies.overview.joint.amount.screenReader.link.novalue	Give a value for {0}’s share of the jointly owned insurance policies.		Unchanged.
 error.isEstateBelowIhtThresholdApplied.select	Select an answer for if all of the estate passed to the deceased. a charity or another qualifying body	Dewiswch ateb ar gyfer os trosglwyddwyd yr ystâd i gyd i'r ymadawedig, elusen neu gorff cymwys arall	Unchanged.
-iht.inProgress	In progress		Unchanged.
 page.iht.application.assets.property.type.browserTitle	Type of property		Unchanged.
 page.iht.application.assets.typeOfOwnership.deceasedOnly.label	Only by {0}		Unchanged.
 page.iht.application.assets.overview.privatePension.screenReader.link.moreDetail	Give more details for private pensions		Unchanged.
@@ -1159,7 +1176,6 @@ page.iht.application.assets.overview.businessInterest.screenReader.value	The val
 page.iht.registration.registrationSummary.deceasedInfo.dateOfDeath.link.screenReader	Change {0}’s date of death	Newid dyddiad marwolaeth {0}	Unchanged.
 site.return.inheritance.tax.estate.report.link	Return to Your Inheritance Tax estate reports	Yn ôl i'ch adroddiadau ystâd o ran Treth Etifeddiant	Unchanged.
 page.iht.application.tnrbEligibilty.partner.additional.label.name.of.the	Name of the		Unchanged.
-page.iht.iv.failure.technicalIssue.p3	If you have a query,		Unchanged.
 page.iht.filter.filter.choice.main.register	I want to register so I can tell HMRC about a person’s estate		Unchanged.
 page.iht.application.exemptions.overview.partner.nino.title	National Insurance number of the spouse or civil partner		Unchanged.
 error.estateReport.value.giveLessThanEleven	Give the value using 10 characters or less	Rhowch y gwerth gan ddefnyddio 10 cymeriad neu lai	Unchanged.
@@ -1177,7 +1193,6 @@ error.address.blank	Enter an address	Nodwch gyfeiriad	Unchanged.
 error.length.giftsDetails.value	Enter a value using less than 11 numbers	Nodwch werth gan ddefnyddio llai nag 11 rhif	Unchanged.
 site.noCharityNameGiven	No charity name given	Ni roddwyd enw elusen	Unchanged.
 page.iht.registration.applicantAddress.title	Your address	Eich cyfeiriad	Unchanged.
-global.error.InternalServerError500.title	We are experiencing technical difficulties		Unchanged.
 page.iht.registration.co-executor-personal-details.isAddressInUk	Is their address in the UK?	A yw ei gyfeiriad yn y DU?	Unchanged.
 page.iht.application.tnrb.threshold.screenReader	The inheritance tax threshold is £{0}		Unchanged.
 error.postcode.invalid.character	This line contains an invalid character. Valid characters are: A-Z a-z 0-9 space	Mae'r llinell hon yn cynnwys cymeriad annilys. Dyma'r cymeriadau dilys: A-Z a-z 0-9 - ’ , / & bwlch	Unchanged.
@@ -1196,7 +1211,6 @@ pdf.clearanceCertificate.lastParagraph.line2	. In particular, the issue of the c
 page.iht.registration.deceasedPermanentHome.title	Where was the person who has died’s permanent home?	Ble oedd cartref parhaol y person a fu farw?	Unchanged.
 page.iht.application.assets.household.overview.joint.value	Value of {0}’s share of any jointly owned household and personal items		Unchanged.
 page.iht.application.assets.pensions.question	Did {0} have any private pensions?		Unchanged.
-iht.date.day	Day		Unchanged.
 iht.address.line4	Address line 4 (optional)	Cyfeiriad – llinell 4 (dewisol)	Unchanged.
 page.iht.application.exemptions.assetsLeftToQualifyingBody.p2	These are not charities with a registered charity number.		Unchanged.
 page.iht.application.assets.money.overview.deceased.joint.screenReader.link.change	Change the answer for money jointly owned with other people		Unchanged.
@@ -1214,11 +1228,9 @@ error.dateOfBirth.giveCorrectDayForMonth	Give the correct date of birth using th
 error.dateOfDeath.giveCorrectDay	Give a correct day of death using numbers 1 to 31	Rhowch ddiwrnod cywir ar gyfer y farwolaeth gan ddefnyddio'r rhifau 1 i 31	Unchanged.
 page.iht.application.assets.overview.other.screenReader.value	The value of any other assets not listed is £{0}		Unchanged.
 page.iht.application.assets.deceased-permanent-home.sectionTitle	Properties, buildings and land owned		Unchanged.
-iht.date.month	Month		Unchanged.
 page.iht.registration.deceasedDetails.postcode.help	If the deceased’s contact address is in the UK	Os yw cyfeiriad cyswllt yr ymadawedig yn y DU	Unchanged.
 iht.registration.applicant.applyingForProbate	Are you applying for probate for the estate?	A ydych yn gwneud cais am brofiant ar gyfer yr ystâd?	Unchanged.
 error.estateReport.value.give	Give the value	Rhowch y gwerth	Unchanged.
-page.iht.iv.failure.failedMatching.title	We were unable to confirm your identity		Unchanged.
 page.iht.registration.registrationSummary.applicantInfo.applyingForProbate.data.screenReader	Your answer is {0}	Eich ateb yw {0}	Unchanged.
 iht.countries.scotland	Scotland	Yr Alban	Unchanged.
 page.iht.application.assets.vehicles.jointly.owned.value.screenreader.link.change	Change the value of any jointly owned motor vehicles		Unchanged.
@@ -1234,8 +1246,6 @@ page.iht.registration.registrationSummary.coExecutorTable.none	You are the only 
 page.iht.application.assets.deceased-permanent-home.sectionName	property		Unchanged.
 page.iht.application.assets.insurance.policies.overview.deceased.no.screenReader.link.value	No, {0} did not have insurance policies in their own name that were to pay out to them or there were policies paying out to their estate. Change this answer.		Unchanged.
 page.iht.registration.registrationSummary.applicantInfo.role.label	Role	Swyddogaeth	Unchanged.
-iht.signInAgain	Sign back in and return to your Inheritance Tax estate reports page		Unchanged.
-page.iht.iv.failure.timeout.p1	Your session has ended because you have not done anything for 30 minutes.		Unchanged.
 error.phoneNumber.give	Give a phone number	Rhowch rif ffôn	Unchanged.
 page.iht.application.probateDetails.guidance	What do these figures mean?		Unchanged.
 iht.estateReport.declaration.completedAllReasonableEnquiries	you have completed all reasonable enquiries into {0}’s estate		Unchanged.
@@ -1244,9 +1254,7 @@ page.iht.application.assets.pensions.changed.screenreader.link.noValue	Give an a
 iht.registration.deceased.locationOfPermanentHome	Location of permanent home	Lleoliad y cartref parhaol	Unchanged.
 error.selectAnswer.summary	select an answer	dewiswch ateb	Unchanged.
 page.iht.application.overview.common.helptext.part1	If you find any more assets owned by {0} that were not included in this estate report, let HMRC know by using a		Unchanged.
-iht.valueOfDebts	Value of debts	Swm y dyledion	Unchanged.
 error.nominated.currencyValue.summary	enter a value for nominated assets using only numbers	nodwch werth ar gyfer asedion enwebedig gan ddefnyddio rhifau'n unig	Unchanged.
-iht.theDeceased	The deceased		Unchanged.
 page.iht.registration.registrationSummary.coExecutorTable.changeOthersApplying.link	Add or delete another person applying for probate	Ychwanegu neu ddileu person arall sy'n gwneud cais am brofiant	Unchanged.
 iht.estateReport.assets.insurancePolicies.payingOutToDeceased	Policies that are paying out to {0}		Unchanged.
 page.iht.application.exemptions.partner.nino.browserTitle	Partner’s National Insurance number		Unchanged.
@@ -1255,7 +1263,6 @@ page.iht.application.exemptions.overview.charity.screenReader.link.noValue	Give 
 page.iht.application.assets.money.jointly.owned.question	Did {0} jointly own any money with any other people?		Unchanged.
 iht.estateReport.debts.mortgage.valueOfDeceasedsShare	Value of deceased’s share of mortgage		Unchanged.
 page.iht.application.assets.vehicles.jointly.owned.title	Motor vehicles jointly owned with other people		Unchanged.
-site.button.details.correct.exitToGovK	The details given are correct – exit to GOV.UK		Unchanged.
 page.iht.application.assets.money.overview.description.p2	This includes any money in banks, building societies, National Savings investments, ISAs and safety deposit boxes. You should also include any cash {0} had in notes and coins.		Unchanged.
 page.iht.application.assets.pensions.isOwned.p1	This does not include their state pension.		Unchanged.
 page.iht.application.declaration_received.subtitle	What happens next		Unchanged.
@@ -1297,7 +1304,6 @@ error.dateOfDeath.giveCorrectYear	Give a correct year of death	Rhowch flwyddyn g
 site.date-hint-text	For example, 31 12 2014	Er enghraifft, 31 12 2014	Unchanged.
 site.noCharityNumberGiven	No charity number given	Ni roddwyd rhif elusen	Unchanged.
 iht.estateReport.exemptions.charities.returnToAssetsLeftToCharities	Return to assets left to charities		Unchanged.
-global.error.InternalServerError500.heading	Sorry, we are experiencing technical difficulties		Unchanged.
 page.iht.application.insurance.policies.section7.guidance	The insurance premiums paid by {0} on a policy that pays out to someone else was a gift to that person.		Unchanged.
 iht.estateReport.exemptions.guidance.provideAssetsDetails	You will need to provide details of these assets in the estate exemptions section. You can save your progress and return to it at any time through the estate overview page.		Unchanged.
 page.iht.application.assets.overview.privatePension.screenReader.noValue	You have not given a value for private pensions		Unchanged.
@@ -1331,7 +1337,6 @@ page.iht.application.kickout.final.summary	Because you cannot use Inheritance Ta
 page.iht.application.overview.title2.screenReader	You have until {0} to send your estate report.		Unchanged.
 iht.estateReport.assets.heldInATrust.title	Assets held in a trust		Unchanged.
 error.dateOfMarriage.giveNoneFuture	Give a date of marriage that is not in the future	Rhowch ddyddiad priodi nad yw yn y dyfodol	Unchanged.
-iht.the.deceased	the person who has died		Unchanged.
 page.iht.registration.deleteExecutor.title	Confirm that you want to delete this person	Cadarnhau'ch bod eisiau dileu'r person hwn	Unchanged.
 site.backToLastPage.link	Return to last page	Yn ôl i'r dudalen olaf	Unchanged.
 page.iht.application.exemptions.charityOverview.noCharities.text	You have not added any charities to this estate.		Unchanged.
@@ -1342,6 +1347,7 @@ iht.estateReport.tnrb.permanentHome.question	Did {0} have their permanent home i
 page.iht.application.assets.nominated.description.p4	Do not include pension benefits that were nominated to pass to someone. You should include that value with private pensions.		Unchanged.
 page.iht.application.assets.overview.money.screenReader.noValue	You have not given a value for money		Unchanged.
 page.iht.filter.domicile.return.link	Return to what do you want to do		Unchanged.
+page.iht.application.tnrb.guidance.system.p1	It might be possible to increase the Inheritance Tax threshold up to £650,000 if {0} was married or in a civil partnership at any time and their spouse or civil partner died.		Unchanged.
 pdf.signature.signature.text	Signature:		Unchanged.
 page.iht.application.tnrbEligibilty.overview.charity.question.screenReader.text.yes	Yes, all of the estate passed to {1}, a charity or another qualifying body. Change this answer.		Unchanged.
 page.iht.application.assets.overview.vehicles.screenReader.link.value	Change the value for motor vehicles		Unchanged.
@@ -1402,7 +1408,6 @@ page.iht.application.assets.property.address.property.delete	Delete property {0}
 pdf.debts.summary.p1	A debt is anything that {0} was responsible for paying. Only include debts that are being paid out of {1}’s estate. You need a grant of representation from the Probate Service to pay some debts off from the estate and sometimes the value of debts owed can be taken off the total estate value.	Dyled yw unrhyw beth yr oedd {0} yn gyfrifol am ei dalu. Dylech ond gynnwys dyledion sy'n cael eu talu allan o ystâd {1}. Mae angen grant cynrychiolaeth arnoch oddi wrth y Gwasanaeth Profiant i dalu rhai dyledion o'r ystâd. Weithiau, gall swm y dyledion gael eu didynnu o gyfanswm gwerth yr ystâd.	Unchanged.
 page.iht.registration.registrationSummary.applicantInfo.applyingForProbate.link.screenReader	Change whether you are applying for probate for the estate	Newid a ydych yn gwneud cais am brofiant ar gyfer yr ystâd	Unchanged.
 page.iht.sign-out.button.gov-uk.text	Explore GOV.UK		Unchanged.
-page.iht.iv.failure.lockedOut.p1	You have reached the maximum number of attempts to confirm your identity.		Unchanged.
 page.iht.application.gifts.lastYears.description.p1	Gifts that can be included on this estate report are:		Unchanged.
 page.iht.filter.paperform.other.country.p1.sentence2.start	You must also fill in an		Unchanged.
 page.iht.application.debts.other.description.p1	This is the total value of any other debts that are being paid from the estate that are not included in any other section.	Dyma gyfanswm unrhyw ddyledion eraill sy'n cael eu talu o'r ystâd sydd heb eu cynnwys mewn adran arall.	Unchanged.
@@ -1449,7 +1454,6 @@ error.address.givePostcode	Give a postcode	Rhowch god post	Unchanged.
 page.iht.application.exemptions.overview.charity.screenReader.value	The value of assets left to charities is £{0}		Unchanged.
 page.iht.application.assets.kickout.premiumsPaidForOtherPersonsPolicy.summary	It is not possible to use Inheritance Tax Online because {0}’s insurance policy paid out to someone else		Unchanged.
 page.iht.application.assets.overview.privatePension.screenReader.link.value	Change the value for private pensions		Unchanged.
-page.iht.iv.failure.lockedOut.p2	You can try again in 7 days.		Unchanged.
 pdf.exemption.charity	Charity		Unchanged.
 error.mortgages.currencyValue.summary	enter a mortgage value using only numbers	Nodwch werth morgais gan ddefnyddio llai nag 11 rhif	Unchanged.
 page.iht.application.kickout.final.guidance.onFinish	By selecting finish you will be given a copy of the IHT-400 form and this estate report will be deleted.		Unchanged.
@@ -1535,8 +1539,6 @@ iht.registration.applicant.tellUsAboutYourself	Your contact details	Eich manylio
 iht.estateReport.exemptions.qualifyingBodies.assetLeftToQualifyingBody.helptext	If you do not know if assets passing to another body will be exempt from Inheritance Tax, call the Inheritance Tax helpline on 0300 123 1072. If you are outside of the UK, call +44 300 123 1072. Once you have given the name of the body, you will be told if any assets left to them will be exempt from Inheritance Tax.		Unchanged.
 page.iht.application.insurance.policies.section5.question	Was an insurance policy placed in the trust more than 7 years before the deceased died?		Unchanged.
 page.iht.application.debts.jointlyOwned.isOwned	Are there any debts being paid out of the estate that are owed on any jointly owned assets?		Unchanged.
-iht.comma	,		Unchanged.
-page.iht.iv.failure.preconditionFailed.title	You are unable to sign in		Unchanged.
 iht.estateReport.assets.trusts.question	Did {0} benefit from, or have the right to benefit from, a trust during their lifetime?		Unchanged.
 page.iht.application.kickout.final.getCopy.guidance2.saveAndPrint	save or print a copy of the estate report (PDF, size is less than 500KB)		Unchanged.
 page.iht.application.overview.gifts.screenReader.noValue.link	Start giving details about gifts given away		Unchanged.
@@ -1561,10 +1563,8 @@ page.iht.application.assets.propertyType.otherResidential.label	Other residentia
 page.iht.application.assets.overview.nominated.screenReader.noValue	You have not given a value for nominated assets		Unchanged.
 site.button.save.return.properties	Save and return to properties, buildings and land owned	Cadw ac yn ôl i eiddo, adeiladau a thir yr ydych yn berchen arnynt	Unchanged.
 page.iht.application.TnrbEligibilty.partnerName.label	Name of the {0}		Unchanged.
-iht.needHelp.guidance	If you need help with completing this estate report, contact the Inheritance Tax helpline on 0300 123 1072. If you are outside of the UK, call +44 300 123 1072.		Unchanged.
 page.iht.application.assets.deceased-permanent-home.editOrDelete.screenReader	the address for {0} {1}		Unchanged.
 site.link.go.to.giftsGivenAwaySection	Go to the gifts given away section	Ewch i'r adran rhoddion a roddwyd i ffwrdd	Unchanged.
-iht.ineligibleApplication	Ineligible application		Unchanged.
 error.dateOfDeath.giveAfterDateOfBirth	Give a date of death that is after the date of birth	Rhowch ddyddiad ar gyfer y farwolaeth sydd ar ôl y dyddiad geni	Unchanged.
 page.iht.registration.registrationSummary.applicantTable.title	Your details	Eich manylion	Unchanged.
 iht.estateReport.assets.moneyOwed	Money owed to {0}		Unchanged.

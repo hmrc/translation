@@ -1,2 +1,52 @@
-page.iht.application.tnrb.guidance.system.title 	 The value of the estate is above the Inheritance Tax threshold
-page.iht.application.tnrb.guidance.system.p1 	 It might be possible to increase the Inheritance Tax threshold up to £650,000 if {0} was married or in a civil partnership at any time and their spouse or civil partner died.
+error.problem	There is a problem	Mae problem wedi codi
+global.error.InternalServerError500.heading	Sorry, we are experiencing technical difficulties	Mae'n ddrwg gennym, rydym yn profi anawsterau technegol
+global.error.InternalServerError500.title	We are experiencing technical difficulties	Rydym yn profi anawsterau technegol
+global.error.pageNotFound404.heading	This page cannot be found	Ni ellir dod o hyd i'r dudalen hon
+iht.comma	,	,
+iht.date.day	Day	Diwrnod
+iht.date.month	Month	Mis
+iht.date.year	Year	Blwyddyn
+iht.dropdown.closed	Suggestions list closed	Rhestr o awgrymiadau wedi'i chau
+iht.dropdown.matches	{0} matches found. Use arrow keys or swipe to navigate the list	Wedi canfod {0}. Defnyddiwch fysellau saeth, neu llithrwch er mwyn llywio drwy'r rhestr
+iht.dropdown.of	({0} of {1})	({0} o {1})
+iht.dropdown.selected	{0} selected	Dewiswyd {0}
+iht.firstName.hint	You do not have to give any middle names	Nid oes rhaid i chi roi unrhyw enwau canol
+iht.ineligibleApplication	Ineligible application	Cais anghymwys
+iht.inProgress	In progress	Ar y gweill
+iht.needHelp	Need help?	Angen help?
+iht.needHelp.guidance	If you need help with completing this estate report, contact the Inheritance Tax helpline on 0300 123 1072. If you are outside of the UK, call +44 300 123 1072.	Os oes angen help arnoch i lenwi'r adroddiad hwn ynghylch yr ystâd, ffoniwch y llinell gymorth Treth Etifeddiant ar 0300 123 1072. Os ydych y tu allan i'r DU, ffoniwch +44 300 123 1072.
+iht.noChangeToHowReportToHMRC	There is no change to how you report to HMRC	Nid oes newid i'r modd rydych yn hysbysu CThEM
+iht.notPossibleToUseService	It is not possible for you to use this service	Nid yw'n bosibl i chi ddefnyddio'r gwasanaeth hwn
+iht.signInAgain	Sign back in and return to your Inheritance Tax estate reports page	Mewngofnodwch eto ac ewch yn ôl i'ch tudalen adroddiad Treth Etifeddiant
+iht.the.deceased	the person who has died	y person a fu farw
+iht.theDeceased	The deceased	Yr ymadawedig
+iht.value	Value	Swm
+iht.valueOfAssets	Value of assets	Swm yr asedion
+iht.valueOfDebts	Value of debts	Swm y dyledion
+iht.valueOfExemptions	Value of exemptions	Swm yr eithriadau
+page.iht.iv.failure.2fa.exitLink	Exit to Inheritance Tax on GOV.UK	Gadael, ac ymlaen i'r gwasanaeth Treth Etifeddiant ar GOV.UK
+page.iht.iv.failure.2fa.p1	You will not be able to use Inheritance Tax Online until you have set up 2-step verification. This is because you need to securely sign in to protect your personal details.	Ni fyddwch yn gallu defnyddio'r gwasanaeth Treth Etifeddiant Ar-lein hyd nes eich bod wedi sefydlu'r dull gwirio 2-gam. Y rheswm dros hynny yw bod angen i chi fewngofnodi'n ddiogel er mwyn gwarchod eich manylion personol.
+page.iht.iv.failure.2fa.p2	When you want to sign in to securely use Inheritance Tax Online, you should set up 2-step verification.	Pan fyddwch eisiau mewngofnodi i ddefnyddio Treth Etifeddiant Ar-lein yn ddiogel, dylech sefydlu'r dull gwirio 2-gam.
+page.iht.iv.failure.2fa.title	You cannot sign in to use Inheritance Tax Online	Ni allwch fewngofnodi i ddefnyddio Treth Etifeddiant Ar-lein
+page.iht.iv.failure.2fa.verifyLink	Verify your identity	Gwireddwch pwy ydych
+page.iht.iv.failure.failedMatching.p1	If you cannot confirm your identity and you have a query,	Os na allwch gadarnhau pwy ydych a bod gennych ymholiad,
+page.iht.iv.failure.failedMatching.title	We were unable to confirm your identity	Nid oeddem yn gallu cadarnhau pwy ydych.
+page.iht.iv.failure.lockedOut.p1	You have reached the maximum number of attempts to confirm your identity.	Rydych wedi cyrraedd uchafswm nifer y cynigion i roi prawf o bwy ydych.
+page.iht.iv.failure.lockedOut.p2	You can try again in 7 days.	Gallwch roi cynnig arall arni ar ôl 7 diwrnod.
+page.iht.iv.failure.lockedOut.title	Maximum number of attempts reached	Wedi cyrraedd uchafswm y cynigion
+page.iht.iv.failure.preconditionFailed.p1	You have already registered with another account.	Rydych wedi cofrestru gyda chyfrif arall yn barod.
+page.iht.iv.failure.preconditionFailed.p1.link.text	Contact HMRC to get help	Cysylltwch â CThEM i gael help
+page.iht.iv.failure.preconditionFailed.title	You are unable to sign in	Nid ydych yn gallu mewngofnodi
+page.iht.iv.failure.technicalIssue.p1	This online service is experiencing technical difficulties.	Mae problemau technegol wedi codi gyda''r gwasanaeth ar-lein hwn.
+page.iht.iv.failure.technicalIssue.p3	If you have a query,	Os oes gennych gŵyn,
+page.iht.iv.failure.technicalIssue.title	There is a technical problem	Mae problem dechnegol wedi codi
+page.iht.iv.failure.timeout.p1	Your session has ended because you have not done anything for 30 minutes.	Mae'ch sesiwn wedi dod i ben gan nad ydych wedi gwneud unrhyw beth am 30 munud.
+page.iht.iv.failure.timeout.p2	We have deleted all the details you have entered for your own security.	Rydym wedi dileu'r holl fanylion a nodwyd gennych, er eich diogelwch chi eich hun.
+page.iht.iv.failure.timeout.title	Your session has ended due to inactivity	Mae'ch sesiwn wedi dod i ben o ganlyniad i anweithgarwch
+page.iht.iv.failure.userAborted.p1	You can try again when you have the information you need or, if you have a query,	Gallwch roi cynnig arall arni pan fydd gennych yr wybodaeth sydd ei hangen arnoch, neu os oes gennych ymholiad,
+page.iht.iv.failure.userAborted.title	You do not have enough information to continue	Nid oes gennych ddigon o wybodaeth i fynd ymlaen
+site.button.details.correct.exitToGovK	The details given are correct – exit to GOV.UK	Mae'r manylion a roddwyd yn gywir – gadael, ac ymlaen i GOV.UK
+site.nameDetails	{0}’s details	Manylion {0}
+site.noCharityNameAndNumberGiven	No charity name or number added	Heb ychwanegu enw neu rif elusen
+site.title.govuk	- GOV.UK	- GOV.UK
+
