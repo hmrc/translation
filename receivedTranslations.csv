@@ -1,176 +1,127 @@
-iht.estateReport.exemptions.charities.assetLeftToCharity.question	Did {0} leave any assets to a charity?	A adawodd {0} unrhyw asedion i elusen?
-iht.estateReport.exemptions.charities.assetsLeftToACharity.title	Assets left to a charity	Asedion a adawyd i elusen
-iht.estateReport.exemptions.charities.assetsLeftToCharities.title	Assets left to charities	Asedion a adawyd i elusennau
-iht.estateReport.exemptions.charities.charityName.title	Charity name	Enw'r elusen
-iht.estateReport.exemptions.charities.charityNo.question	What is the registered charity number?	Beth yw rhif yr elusen gofrestredig?
-iht.estateReport.exemptions.charities.noNameAdded	No name added	Dim enw wedi'i ychwanegu
-iht.estateReport.exemptions.charities.registeredCharityNo	Registered charity number	Rhif elusen gofrestredig
-iht.estateReport.exemptions.charities.returnToAddACharity	Return to add a charity	Yn ôl i ychwanegu elusen
-iht.estateReport.exemptions.charities.returnToAssetsLeftToCharities	Return to assets left to charities	Yn ôl i asedion a adawyd i elusennau
-iht.estateReport.exemptions.charities.totalValueOfAssetsCharityReceived	Total value of assets the charity received	Cyfanswm yr asedion a gafodd yr elusen
-page.iht.application.charity.add.name	Name of charity	Enw'r elusen
-page.iht.application.charity.add.registerednumber.helptext	How to find out the charity number	Sut i gael gwybod rhif yr elusen
-page.iht.application.charity.add.registerednumber.helptext.contents1	You can find the registered charity number by searching	Cewch hyd i rif yr elusen gofrestredig drwy chwilio
-page.iht.application.charity.add.registerednumber.helptext.contents2	Enter the charity’s name and you will be provided with its registered number.	Nodwch enw'r elusen ac fe gewch ei rhif cofrestredig.
-page.iht.application.charity.add.registerednumber.helptext.link	the charity register.	y gofrestr elusennau.
-page.iht.application.charity.add.subtitle	Add the charity details and the total value of the assets received.	Ychwanegwch fanylion yr elusen a chyfanswm yr asedion a gafwyd.
-page.iht.application.charity.delete.screenReader	Delete {0} (charity {1}) from the list of charities	Dilëwch {0} (elusen {1}) o'r rhestr o elusennau
-page.iht.application.charity.edit.screenReader	Change any of the details you have given for {0} (charity {1})	Newidiwch unrhyw fanylion a roddwyd gennych ar gyfer {0} (elusen {1})
-page.iht.application.charity.name.screenReader	The name of this charity is {0}	Enw'r elusen hon yw {0}
-page.iht.application.charity.number.screenReader	The name of the charity is {0} and it is registered number is {1}	Enw'r elusen yw {0} a'i rhif cofrestredig yw {1}
-page.iht.application.exemptions.assetLeftToCharity.addCharity	Add a charity	Ychwanegwch elusen
-page.iht.application.exemptions.assetLeftToCharity.browserTitle	Any assets left to a charity	Unrhyw asedion a adawyd i elusen
-page.iht.application.exemptions.assetLeftToCharity.p1	These are all of the assets being left to a charity. The charity must have a registered charity number if they are based in the UK.	Dyma'r holl asedion sy'n cael eu gadael i elusen. Mae'n rhaid bod gan yr elusen rif elusen gofrestredig os yw wedi ei lleoli yn y DU.
-page.iht.application.exemptions.assetLeftToCharity.p2	You should add each individual charity that received assets and the total value of assets they received.	Dylech ychwanegu bob elusen unigol a gafodd asedion a chyfanswm yr asedion a gawsant.
-page.iht.application.exemptions.assetLeftToCharity.question1.hint	You should add each individual charity that received assets and tell us the total value of what they received.	Dylech ychwanegu bob elusen unigol a gafodd asedion a rhoi gwybod i ni beth yw cyfanswm yr hyn a gawsant.
-page.iht.application.exemptions.assetLeftToCharity.screenreader.ident	Charity {0}.	Elusen {0}.
-page.iht.application.exemptions.assetLeftToCharity.sectionName	asset-left-to-charity	asedion-a-adawyd-i-elusen
-page.iht.application.exemptions.charityDelete.browserTitle	Delete charity	Dileu elusen
-page.iht.application.exemptions.charityDelete.sectionTitle	Confirm that you want to delete this charity	Cadarnhewch eich bod am ddileu'r elusen hon
-page.iht.application.exemptions.charityName.sectionTitle	What is the charity’s name?	Beth yw enw'r elusen?
-page.iht.application.exemptions.charityNumber.browserTitle	Charity number	Rhif yr elusen
-page.iht.application.exemptions.charityNumber.linkText	searching the charity register	chwilio'r gofrestr elusennau
-page.iht.application.exemptions.charityNumber.p1	You can find the registered charity number by	Cewch hyd i rif yr elusen gofrestredig drwy
-page.iht.application.exemptions.charityNumber.p2	on the Charity Commission website	ar wefan y Comisiwn Elusennau
-page.iht.application.exemptions.charityOverview.noCharities.text	You have not added any charities to this estate.	Nid ydych wedi ychwanegu unrhyw elusennau i'r ystâd hon.
-page.iht.application.exemptions.charityOverview.questionLabel.screenreader.link.value	Change the answer for did {0} leave any assets to a charity	Newidiwch yr ateb ar gyfer a adawodd {0} unrhyw asedion i elusen
-page.iht.application.exemptions.charityOverviewTable.header	Charities	Elusennau
-page.iht.application.exemptions.charityValue.browserTitle	Value of assets left to charity	Swm yr asedion a adawyd i elusen
-page.iht.application.exemptions.charityValue.sectionTitle	Total value of all assets left to the charity	Cyfanswm yr holl asedion a adawyd i'r elusen
-page.iht.application.exemptions.deleteCharity.screenReader	The name of the charity you may delete is {0} and it is registered charity number is {1}	Enw'r elusen y gallwch ei dileu yw {0} a'i rhif elusen gofrestredig yw {1}
-page.iht.application.exemptions.overview.charity.detailsOverview.browserTitle	Add charity	Ychwanegwch elusen
-page.iht.application.exemptions.overview.charity.detailsOverview.name.screenreader.link.noValue	Give the charity name	Rhowch enw'r elusen
-page.iht.application.exemptions.overview.charity.detailsOverview.name.screenreader.link.value	Change the charity name	Newidiwch enw'r elusen
-page.iht.application.exemptions.overview.charity.detailsOverview.number.screenreader.link.value	Change the registered charity number	Newidiwch rif yr elusen gofrestredig
-page.iht.application.exemptions.overview.charity.detailsOverview.title	Add a UK charity	Ychwanegwch elusen yn y DU
-page.iht.application.exemptions.overview.charity.detailsOverview.value.screenreader.link.noValue	Give the total value of assets the charity received	Rhowch gyfanswm yr asedion a gafodd yr elusen
-page.iht.application.exemptions.overview.charity.detailsOverview.value.screenreader.link.value	Change the total value of assets the charity received	Newidiwch gyfanswm yr asedion a gafodd yr elusen
-page.iht.application.exemptions.overview.charity.screenReader.link.moreDetail	Give more details for assets left to charities	Rhowch ragor o fanylion ar gyfer asedion a adawyd i elusennau
-page.iht.application.exemptions.overview.charity.screenReader.link.noValue	Give an answer for assets left to charities	Rhowch ateb ar gyfer asedion a adawyd i elusennau
-page.iht.application.exemptions.overview.charity.screenReader.link.value	Change the value for assets left to charities	Newidiwch y swm ar gyfer asedion a adawyd i elusennau
-page.iht.application.exemptions.overview.charity.screenReader.noValue	You have not given a value for assets left to charities	Nid ydych wedi rhoi swm ar gyfer asedion a adawyd i elusennau
-page.iht.application.exemptions.overview.charity.screenReader.value	The value of assets left to charities is £{0}	Swm yr asedion a adawyd i elusennau yw £{0}
-iht.estateReport.exemptions.guidance.claimingEstateExemptions	Claiming estate exemptions	Gwneud cais am eithriadau'r ystâd
-iht.estateReport.exemptions.guidance.debtsSubtracted	If you claim any exemptions, any debts that are owed from the estate will also be taken off the estate value.	Os ydych yn gwneud cais am unrhyw eithriadau, caiff unrhyw ddyled sydd ar yr ystâd ei didynnu o werth yr ystâd hefyd.
-iht.estateReport.exemptions.guidance.provideAssetsDetails	You will need to provide details of these assets in the estate exemptions section. You can save your progress and return to it at any time through the estate overview page.	Bydd rhaid i chi roi manylion yr asedion hyn yn yr adran ynghylch eithriadau'r ystâd. Gallwch gadw'r manylion yr ydych wedi eu nodi a dychwelyd iddynt ar unrhyw adeg drwy'r dudalen drosolwg ar gyfer yr ystâd.
-page.iht.application.exemptions.guidance.content1	You only need to claim estate exemptions if the estate value is over the Inheritance Tax threshold. If you do not know the estate value, it is recommended to only complete the assets, gifts and debts sections before you claim any exemptions.	Does dim ond angen i chi wneud cais am eithriadau'r ystâd os yw gwerth yr ystâd yn uwch na'r trothwy Treth Etifeddiant. Os nad ydych yn gwybod beth yw gwerth yr ystâd, fe argymhellir y dylid ond llenwi'r adrannau asedion, rhoddion a dyledion cyn i chi wneud cais am unrhyw eithriadau.
-page.iht.application.exemptions.guidance.content2	If you do not want to claim any estate exemptions,	Os nad ydych am wneud cais am eithriadau'r ystâd,
-page.iht.application.exemptions.guidance.content2.linkText	you can return to the estate overview page	gallwch fynd yn ôl i'r dudalen drosolwg ar gyfer yr ystâd
-page.iht.application.exemptions.guidance.content3	Some assets might be exempt from Inheritance Tax if they are being passed to a spouse or civil partner, a charity or to another qualifying body.	Mae'n bosibl y bydd rhai asedion wedi'u heithrio rhag Treth Etifeddiant os ydynt yn cael eu trosglwyddo i briod neu bartner sifil, elusen neu i gorff cymwys arall.
-page.iht.application.exemptions.guidance.content4	The estate value could become less than the Inheritance Tax threshold by claiming these exemptions.	Gallai gwerth yr ystâd ddisgyn yn is na'r trothwy Treth Etifeddiant drwy wneud cais am yr eithriadau hyn.
-page.iht.application.exemptions.guidance.increasing.threshold.link.text	Go to estate exemptions	Ewch i eithriadau'r ystâd
-page.iht.application.exemptions.guidance.increasing.threshold.p1	You could bring the estate value below the threshold by claiming any estate exemptions.	Gallech leihau gwerth yr ystâd yn is na'r trothwy drwy wneud cais am unrhyw eithriadau'r ystâd.
-page.iht.application.exemptions.guidance.increasing.threshold.p2	Some of the deceased’s assets can be claimed as an exemption if they are being passed to a spouse or civil partner, a charity or to another qualifying body.	Gellir gwneud cais am eithriad ar gyfer rhai o asedion yr ymadawedig os ydynt yn cael eu trosglwyddo i briod neu bartner sifil, elusen neu i gorff cymwys arall.
-page.iht.application.exemptions.guidance.increasing.threshold.title	The estate value is above the Inheritance Tax threshold	Mae gwerth yr ystâd yn uwch na'r trothwy Treth Etifeddiant
-page.iht.application.exemptions.guidance.link	Continue to estate exemptions	Ymlaen i eithriadau'r ystâd
-page.iht.application.exemptions.guidance1	These are assets that are exempt from Inheritance Tax and deducted from the value of the estate.	Mae'r rhain yn asedion sydd wedi eu heithrio rhag Treth Etifeddiant ac wedi'u didynnu o werth yr ystâd.
-iht.estateReport.exemptions.partner.assetsLeftToSpouse.title	Assets left to a spouse or civil partner	Asedion a adawyd i'r priod neu'r partner sifil
-iht.estateReport.exemptions.partner.homeInUK.question	Is the spouse’s or civil partner’s permanent home in the UK?	A yw cartref parhaol y priod neu'r partner sifil yn y DU?
-iht.estateReport.exemptions.partner.returnToAssetsLeftToSpouse	Return to assets left to a spouse or civil partner	Yn ôl i asedion a adawyd i'r priod neu'r partner sifil
-iht.estateReport.exemptions.spouse.assetLeftToSpouse.question	Did {0} leave any assets to their spouse or civil partner?	A adawodd {0} unrhyw asedion i'w briod neu bartner sifil?
-page.iht.application.exemptions.assetLeftToPartner.browserTitle	Any assets left to partner	Unrhyw asedion a adawyd i bartner
-page.iht.application.exemptions.assetLeftToPartner.description	These are all of the assets that are being left to the deceased’s spouse or civil partner.	Dyma'r holl asedion sy'n cael eu gadael i briod neu bartner sifil yr ymadawedig.
-page.iht.application.exemptions.deceasedName.subtitle	{0}’s estate return	Ffurflen Dreth ystâd {0}
-page.iht.application.exemptions.deceasedName.title	{0}’s estate exemptions	Eithriadau ystâd {0}
-page.iht.application.exemptions.overview.partner.assetsLeftForPartner.screenreader.link.noValue	Give answer for did {0} leave anything to their spouse or civil partner	Rhowch ateb ar gyfer a adawodd {0} unrhyw beth i'w briod neu bartner sifil
-page.iht.application.exemptions.overview.partner.assetsLeftForPartner.screenreader.link.value	Change the answer for did {0} leave anything to their spouse or civil partner	Newidiwch yr ateb ar gyfer a adawodd {0} unrhyw beth i'w briod neu bartner sifil
-page.iht.application.exemptions.overview.partner.dob.screenreader.link.noValue	Give the date of birth of the spouse or civil partner	Rhowch ddyddiad geni'r priod neu'r partner sifil
-page.iht.application.exemptions.overview.partner.dob.screenreader.link.value	Change the date of birth of the spouse or civil partner	Newidiwch ddyddiad geni'r priod neu'r partner sifil
-page.iht.application.exemptions.overview.partner.dob.title	Date of birth of the spouse or civil partner	Dyddiad geni'r priod neu'r partner sifil
-page.iht.application.exemptions.overview.partner.homeInUK.screenreader.link.noValue	Give answer for is the spouse’s or civil partner’s permanent home in the UK	Rhowch ateb ar gyfer a yw cartref parhaol y priod neu'r partner sifil yn y DU
-page.iht.application.exemptions.overview.partner.homeInUK.screenreader.link.value	Change the answer for is the spouse’s or civil partner’s permanent home in the UK	Newidiwch yr ateb ar gyfer a yw cartref parhaol y priod neu'r partner sifil yn y DU
-page.iht.application.exemptions.overview.partner.name.screenreader.link.noValue	Give the name of the spouse or civil partner	Rhowch enw'r priod neu'r partner sifil
-page.iht.application.exemptions.overview.partner.name.screenreader.link.value	Change the name of the spouse or civil partner	Newidiwch enw'r priod neu'r partner sifil
-page.iht.application.exemptions.overview.partner.name.title	Name of the spouse or civil partner	Enw'r priod neu'r partner sifil
-page.iht.application.exemptions.overview.partner.nino.screenreader.link.noValue	Give the National Insurance number of the spouse or civil partner	Rhowch rif Yswiriant Gwladol y priod neu'r partner sifil
-page.iht.application.exemptions.overview.partner.nino.screenreader.link.value	Change the National Insurance number for the spouse or civil partner	Newidiwch rif Yswiriant Gwladol y priod neu'r partner sifil
-page.iht.application.exemptions.overview.partner.nino.title	National Insurance number of the spouse or civil partner	Rhif Yswiriant Gwladol y priod neu'r partner sifil
-page.iht.application.exemptions.overview.partner.screenReader.link.moreDetail	Give more details for assets left to a spouse or civil partner	Rhowch ragor o fanylion ar gyfer asedion a adawyd i briod neu bartner sifil
-page.iht.application.exemptions.overview.partner.screenReader.link.noValue	Give an answer for assets left to a spouse or civil partner	Rhowch ateb ar gyfer asedion a adawyd i briod neu bartner sifil
-page.iht.application.exemptions.overview.partner.screenReader.link.value	Change the answer for assets left to a spouse or civil partner	Newidiwch yr ateb ar gyfer asedion a adawyd i briod neu bartner sifil
-page.iht.application.exemptions.overview.partner.screenReader.noValue	You have not given a value for assets left to a spouse or civil partner	Nid ydych wedi rhoi swm ar gyfer asedion a adawyd i briod neu bartner sifil
-page.iht.application.exemptions.overview.partner.screenReader.value	The value of assets left to a spouse or civil partner is £{0}	Cyfanswm yr asedion a adawyd i briod neu bartner sifil yw £{0}
-page.iht.application.exemptions.overview.partner.totalAssets.screenreader.link.noValue	Give the value of all assets left to the spouse or civil partner	Rhowch swm yr holl asedion a adawyd i'r priod neu'r partner sifil
-page.iht.application.exemptions.overview.partner.totalAssets.screenreader.link.value	Change the value of all assets left to the spouse or civil partner	Newidiwch swm yr holl asedion a adawyd i'r priod neu'r partner sifil
-page.iht.application.exemptions.overview.partner.totalAssets.title	Total value of all assets left to the spouse or civil partner	Cyfanswm yr holl asedion a adawyd i'r priod neu'r partner sifil
-page.iht.application.exemptions.overview.screenReader.total	The total value of estate exemptions which are taken away from the estate value is £{0}	Cyfanswm eithriadau'r ystâd a ddidynnwyd o werth yr ystâd yw £{0}
-page.iht.application.exemptions.partner.dateOfBirth	Date of birth of spouse or civil partner	Dyddiad geni'r priod neu'r partner sifil
-page.iht.application.exemptions.partner.dateOfBirth.browserTitle	Partner’s date of birth	Dyddiad geni'r partner
-page.iht.application.exemptions.partner.dateOfBirth.question.title	What is the spouse’s or civil partner’s date of birth?	Beth yw dyddiad geni'r priod neu'r partner sifil?
-page.iht.application.exemptions.partner.name.browserTitle	Partner’s name	Enw'r partner
-page.iht.application.exemptions.partner.name.firstName.label	First name of spouse or civil partner	Enw cyntaf y priod neu'r partner sifil
-page.iht.application.exemptions.partner.name.lastName.label	Last name of spouse or civil partner	Enw olaf y priod neu'r partner sifil
-page.iht.application.exemptions.partner.name.title	What is the spouse’s or civil partner’s name?	Beth yw enw'r priod neu'r partner sifil?
-page.iht.application.exemptions.partner.nino	National Insurance number of spouse or civil partner	Rhif Yswiriant Gwladol y priod neu'r partner sifil
-page.iht.application.exemptions.partner.nino.browserTitle	Partner’s National Insurance number	Rhif Yswiriant Gwladol y partner
-page.iht.application.exemptions.partner.nino.sectionTitle	What is the spouse’s or civil partner’s National Insurance number?	Beth yw rhif Yswiriant Gwladol y priod neu'r partner sifil?
-page.iht.application.exemptions.partner.overview.browserTitle	Assets left to partner	Asedion a adawyd i bartner
-page.iht.application.exemptions.partner.question1	Were any assets left to the deceased’s spouse or civil partner?	A adawyd unrhyw asedion i briod neu bartner sifil yr ymadawedig?
-page.iht.application.exemptions.partner.totalAssets.browserTitle	Value of assets left to partner	Swm yr asedion a adawyd i'r partner
-page.iht.application.exemptions.partner.totalAssets.label	Total value of all assets left to spouse or civil partner	Cyfanswm yr holl asedion a adawyd i'r priod neu'r partner sifil
-page.iht.application.exemptions.partnerPermanentHome.browserTitle	Partner’s residence	Preswylfa'r partner
-iht.estateReport.exemptions.title	Estate exemptions	Eithriadau'r ystâd
-iht.valueOfExemptions	Value of exemptions	Gwerth yr eithriadau
-pdf.exemption.charity	Charity	Elusen
-pdf.exemption.otherQualifyingBodies	Other qualifying bodies	Cyrff cymwys eraill
-pdf.exemption.spouse	Spouse or civil partner	Priod neu bartner sifil
-pdf.exemption.table.text	Exemption	Eithriad
-pdf.totalexemptions.text	Total Exemptions	Cyfanswm yr Eithriadau
-page.iht.exemptions.title	Exemptions	Eithriadau
-page.iht.application.return.to.exemptionsOf	Return to {0}’s estate exemptions	Yn ôl i eithriadau ystâd {0}
-page.iht.application.exemptions.title	estate exemptions	eithriadau ystâd
-page.iht.application.exemptions.total	Total value of assets taken away from the estate value	Cyfanswm gwerth yr asedion a ddidynnwyd o werth yr ystâd
-iht.estateReport.assets.qualifyingBodyAdd	Add a qualifying body	Ychwanegwch gorff cymwys
-iht.estateReport.assets.qualifyingBodyAddAnother	Add another qualifying body	Ychwanegwch gorff cymwys arall
-iht.estateReport.exemptions.qualifyingBodies.assetLeftToQualifyingBody.helptext	If you do not know if assets passing to another body will be exempt from Inheritance Tax, call the Inheritance Tax helpline on 0300 123 1072. If you are outside of the UK, call +44 300 123 1072. Once you have given the name of the body, you will be told if any assets left to them will be exempt from Inheritance Tax.	Os nad ydych yn gwybod a fydd asedion sy'n mynd i gorff arall wedi eu heithrio rhag Treth Etifeddiant, ffoniwch y llinell gymorth Treth Etifeddiant ar 0300 123 1072. Os ydych y tu allan i'r DU, ffoniwch +44 300 123 1072. Unwaith eich bod wedi rhoi enw'r corff, cewch wybod a fydd unrhyw asedion a adawyd iddo wedi eu heithrio rhag Treth Etifeddiant.
-iht.estateReport.exemptions.qualifyingBodies.assetsLeftToQualifyingBodies.title	Assets left to other qualifying bodies	Asedion a adawsyd i gyrff cymwys eraill
-iht.estateReport.exemptions.qualifyingBodies.assetsLeftToQualifyingBody.p3	Other qualifying bodies could include a community amateur sports club or charities outside of the UK.	Gallai cyrff cymwys eraill gynnwys clwb chwaraeon amatur cymunedol neu elusennau y tu allan i'r DU.
-iht.estateReport.exemptions.qualifyingBodies.assetsLeftToQualifyingBodyNotCharities	These are all of the assets being left to a qualifying body. These will not be charities that have a registered charity number.	Dyma'r holl asedion sy'n cael eu gadael i gorff cymwys. Ni fydd y rhain yn elusennau sydd â rhif elusen gofrestredig.
-iht.estateReport.exemptions.qualifyingBodies.confirmDeleteQualifyingBody	Confirm that you want to delete this qualifying body	Cadarnhewch eich bod am ddileu'r corff cymwys
-iht.estateReport.exemptions.qualifyingBodies.howFindOutQualifies	How to find out if another body qualifies	Sut i gael gwybod a yw corff arall yn gymwys
-iht.estateReport.exemptions.qualifyingBodies.returnToAssetsLeftToQualifyingBodies	Return to assets left to other qualifying bodies	Yn ôl i asedion a adawyd i gyrff cymwys eraill
-iht.estateReport.exemptions.qualifyingBodies.returnToAssetsLeftToQualifyingBody	Return to add another qualifying body	Yn ôl i ychwanegwch gorff cymwys arall
-page.iht.application.exemptions.assetLeftToGncp.description.p2	Other qualifying bodies might be a museum or a community amateur sports club.	Mae'n bosibl i gyrff cymwys eraill fod yn amgueddfa neu glwb chwaraeon amatur cymunedol.
-page.iht.application.exemptions.assetLeftToGncp.question1	Were any assets left to another qualifying body?	A adawyd unrhyw asedion i gorff cymwys arall?
-page.iht.application.exemptions.assetLeftToGncp.question1.hint	You should add each individual body that received assets and tell us the total value of what they received.	Dylech ychwanegu bob corff unigol a gafodd asedion a rhoi gwybod i ni beth yw cyfanswm yr hyn a gawsant.
-page.iht.application.exemptions.assetLeftToGncp.screenReader.link.noValue	Give a value for assets left to another qualifying body	Rhowch swm ar gyfer asedion a adawyd i gorff cymwys arall
-page.iht.application.exemptions.assetLeftToGncp.screenReader.link.value	Change this value for assets left to another qualifying body	Newidiwch y swm hwn ar gyfer asedion a adawyd i gorff cymwys arall
-page.iht.application.exemptions.assetLeftToGncp.screenReader.noValue	No value given for assets left to another qualifying body	Ni roddwyd swm ar gyfer asedion a adawyd i gorff cymwys arall
-page.iht.application.exemptions.assetLeftToGncp.screenReader.value	Value of assets left to another qualifying body is £{0}	Swm yr asedion a adawyd i gorff cymwys arall yw £{0}
-page.iht.application.exemptions.assetLeftToGncp.sectionName	asset-left-to-gncp	asedion-a-adawyd-i-gncp
-page.iht.application.exemptions.assetLeftToGncp.sectionTitle	Assets left to another qualifying bodies	Asedion a adawyd i gyrff cymwys eraill
-page.iht.application.exemptions.assetsLeftToQualifyingBody.browserTitle	Any assets left to other body	Unrhyw asedion a adawyd i gorff arall
-page.iht.application.exemptions.assetsLeftToQualifyingBody.help.contents	You should check with the body. They will be able to tell you if assets they receive will be an Inheritance Tax exemption.	Dylech wirio hyn gyda'r corff. Gall roi gwybod i chi a fydd yr asedion y mae'n eu cael wedi eu heithrio rhag Treth Etifeddiant.
-page.iht.application.exemptions.assetsLeftToQualifyingBody.p1	These are all of the assets being left to a qualifying body.	Dyma'r holl asedion sy'n cael eu gadael i gorff cymwys.
-page.iht.application.exemptions.assetsLeftToQualifyingBody.p2	These are not charities with a registered charity number.	Nid yw'r rhain yn elusennau sydd â rhif elusen gofrestredig.
-page.iht.application.exemptions.assetsLeftToQualifyingBody.sectionTitle	Did {0} leave any assets to another qualifying body?	A adawodd {0} unrhyw asedion i gorff cymwys arall?
-page.iht.application.exemptions.deleteGNCP.screenReader	The name of the qualifying body you may wish to delete is {0}	Enw'r corff cymwys y mae'n bosibl y byddwch am ei ddileu yw {0}
-page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.browserTitle	Add another body	Ychwanegwch gorff arall
-page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.name.link.screenreader.noValue	Give the name of the qualifying body	Rhowch enw'r corff cymwys
-page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.name.link.screenreader.value	Change the qualifying body name	Newidiwch enw'r corff cymwys
-page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.value.link.screenreader.noValue	Give value of assets received by the qualifying body	Rhowch swm yr asedion a gafwyd gan y corff cymwys
-page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.value.link.screenreader.value	Change the value of assets received by the qualifying body	Newidiwch swm yr asedion a gafwyd gan y corff cymwys
-page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.value.title	Total value of assets received by the qualifying body	Cyfanswm yr asedion a gafwyd gan y corff cymwys
-page.iht.application.exemptions.overview.qualifyingBody.screenReader.link.moreDetail	Give more details for assets left to other qualifying bodies	Rhowch ragor o fanylion ar gyfer asedion a adawyd i gyrff cymwys eraill
-page.iht.application.exemptions.overview.qualifyingBody.screenReader.link.noValue	Give an answer for assets left to other qualifying bodies	Rhowch ateb ar gyfer asedion a adawyd i gyrff cymwys eraill
-page.iht.application.exemptions.overview.qualifyingBody.screenReader.link.value	Change the value for assets left to other qualifying bodies	Newidiwch y swm ar gyfer asedion a adawyd i gyrff cymwys eraill
-page.iht.application.exemptions.overview.qualifyingBody.screenReader.noValue	You have not given a value for assets left to other qualifying bodies	Nid ydych wedi rhoi swm ar gyfer asedion a adawyd i gyrff cymwys eraill
-page.iht.application.exemptions.overview.qualifyingBody.screenReader.value	The value of assets left to other qualifying bodies is £{0}	Swm yr asedion a adawyd i gyrff cymwys eraill yw £{0}
-page.iht.application.exemptions.qualifyingBody.name.browserTitle	Body name	Enw'r corff
-page.iht.application.exemptions.qualifyingBody.name.sectionTitle	What is the qualifying body’s name?	Beth yw enw'r corff cymwys?
-page.iht.application.exemptions.qualifyingBody.value.browserTitle	Value of assets left to body	Swm yr asedion a adawyd i'r corff
-page.iht.application.exemptions.qualifyingBody.value.sectionTitle	Total value of all assets left to the qualifying body	Cyfanswm yr holl asedion a adawyd i'r corff cymwys
-page.iht.application.exemptions.qualifyingBodyDelete.browserTitle	Delete qualifying body	Dilëwch gorff cymwys
-page.iht.application.exemptions.qualifyingBodyOverview.browserTitle	Assets left to other bodies	Asedion a adawyd i gyrff eraill
-page.iht.application.exemptions.qualifyingBodyOverview.lede	These are all of the assets being left to a qualifying body. These will not be charities that have a registered qualifying body number.	Dyma'r holl asedion sy'n cael eu gadael i gorff cymwys. Ni fydd y rhain yn elusennau sydd â rhif corff cymwys cofrestredig.
-page.iht.application.exemptions.qualifyingBodyOverview.noQualifyingBodies.text	You have not added any qualifying bodies to this estate.	Nid ydych wedi ychwanegu unrhyw gyrff cymwys i'r ystâd hon.
-page.iht.application.exemptions.qualifyingBodyOverview.question	Did {0} leave anything to a qualifying body?	A adawodd {0} unrhyw beth i gorff cymwys?
-page.iht.application.exemptions.qualifyingBodyOverview.question.screenreader.link	Change the answer to did {0} leave anything to a qualifying body	Newidiwch yr ateb ar gyfer a adawodd {0} unrhyw beth i gorff cymwys
-page.iht.application.exemptions.qualifyingBodyOverview.screenreader.ident	Qualifying body {0}.	Corff cymwys {0}.
-page.iht.application.exemptions.qualifyingBodyOverviewTable.header	Qualifying bodies	Cyrff cymwys
-page.iht.application.qualifyingbodies.add.subtitle	Add the name of the qualifying body and the total value of the assets received.	Ychwanegwch enw'r corff cymwys a chyfanswm yr asedion a gafwyd.
-page.iht.application.qualifyingbodies.add.title	Assets left to another qualifying body	Asedion a adawyd i gorff cymwys arall
-page.iht.application.qualifyingbodies.add.valuetext	Total value of assets the qualifying body received	Cyfanswm yr asedion a gafodd y corff cymwys
-page.iht.application.qualifyingbodies.delete.screenReader	Delete {0} (qualifying body {1}) from your list of qualifying bodies	Dilëwch {0} (corff cymwys {1}) o'ch rhestr o gyrff cymwys
-page.iht.application.qualifyingbodies.edit.screenReader	Change any of the details you have given for {0} (qualifying body {1})	Newidiwch unrhyw fanylion a roddwyd gennych ar gyfer {0} (corff cymwys {1})
-page.iht.application.qualifyingbodies.name.screenReader	The name of this qualifying body is {0}	Enw'r corff cymwys hwn yw {0}
+date.months	months	mis
+iht.closed	Closed	Wedi cau
+iht.estateReport.assets.inEstate	Assets in the estate	Asedion yn yr ystâd
+iht.estateReport.changeValues	Change values	Newid gwerthoedd
+iht.estateReport.correctiveAccountForm	Corrective Account form	Ffurflen Cyfrif Unioni
+iht.estateReport.debts.owedFromEstate	Debts owed from the estate	Dyledion sy'n ddyledus o'r ystâd
+iht.estateReport.gifts.givenAway.title	Gifts given away	Rhoddion a roddwyd i ffwrdd
+iht.estateReport.goToEstateReports	Go to your Inheritance Tax estate reports	Ewch i'ch adroddiadau Treth Etifeddiant ynghylch yr ystâd
+iht.estateReport.ihtThreshold	Inheritance Tax threshold	Trothwy Treth Etifeddiant
+iht.estateReport.returnToEstateOverview	Return to estate overview	Yn ôl i drosolwg o'r ystâd
+iht.ineligibleApplication	Ineligible application	Cais anghymwys
+iht.inheritanceTaxEstateReport	Inheritance Tax estate report	Adroddiad Treth Etifeddiant ynghylch yr ystâd
+iht.inProgress	In progress	Ar y gweill
+iht.inReview	In review	O dan adolygiad
+page.iht.application.estateOverview.claimExemptions.link	I want to claim exemptions	Rwyf am wneud cais am eithriadau
+page.iht.application.estateOverview.declaration.allSectionsComplete.guidance.text	You can continue once you are sure you have given all of the details that you need to for this estate report. You should check each section before continuing.	Gallwch fynd yn eich blaen unwaith y byddwch yn siŵr eich bod wedi rhoi'r holl fanylion sydd angen i chi eu rhoi ar gyfer yr adroddiad hwn ynghylch yr ystâd. Dylech wirio bob adran cyn mynd ymlaen.
+page.iht.application.estateOverview.declaration.allSectionsNotComplete.guidance.text1	You have not given enough details to finish this estate report	Nid ydych wedi rhoi digon o fanylion i orffen yr adroddiad hwn ynghylch yr ystâd
+page.iht.application.estateOverview.declaration.allSectionsNotComplete.guidance.text2	You must give an answer for every part of the estate report.	Mae'n rhaid i chi roi ateb ar gyfer pob rhan o'r adroddiad ynghylch yr ystâd.
+page.iht.application.estateOverview.declaration.continue.guidance.text	The estate value is over the threshold. Continue when you have given all of the estate details that you know about.	Mae gwerth yr ystâd yn uwch na'r trothwy. Ewch yn eich blaen pan fyddwch wedi rhoi holl fanylion yr ystâd a wyddoch amdanynt.
+page.iht.application.estateOverview.exemptions.noExemptionsValue	No exemptions	Dim eithriadau
+page.iht.application.estateOverview.increaseThreshold.increased	Increased	Wedi cynyddu
+page.iht.application.estateOverview.increaseThreshold.link	I want to transfer the unused allowance from someone else’s estate	Rwyf am drosglwyddo'r lwfans nas defnyddiwyd o ystâd rhywun arall
+page.iht.application.estateOverview.increaseThreshold.notAvailable	Not available	Ddim ar gael
+page.iht.application.estateOverview.noValue	No value given	Dim gwerth wedi'i roi
+page.iht.application.estateOverview.otherDetailsNeeded	Other details needed	Manylion eraill sydd eu hangen
+page.iht.application.estateOverview.totalAddedToTheEstateValue	Total added to the estate value	Cyfanswm a ychwanegwyd i werth yr ystâd
+page.iht.application.estateOverview.totalValueOfTheEstate	Total value of the estate	Cyfanswm gwerth yr ystâd
+page.iht.application.estateOverview.valueOfAssetsAndGifts	Value of assets and gifts	Swm asedion a rhoddion
+page.iht.application.overview.assets.screenReader	The value of assets in the estate is £{0}	Swm yr asedion yn yr ystâd yw £{0}
+page.iht.application.overview.assets.screenReader.moreDetails.link	Give more details about assets in the estate	Rhowch ragor o fanylion ar gyfer asedion yn yr ystâd
+page.iht.application.overview.assets.screenReader.noValue	You have not entered any assets in the estate	Nid ydych wedi nodi unrhyw asedion yn yr ystâd
+page.iht.application.overview.assets.screenReader.noValue.link	Start giving details about assets in the estate	Dechreuwch roi fanylion ar gyfer asedion yn yr ystâd
+page.iht.application.overview.assets.screenReader.value.link	View or change assets in the estate	Bwrw golwg ar, neu newid asedion yn yr ystâd
+page.iht.application.overview.browserTitle	Estate overview	Trosolwg o'r ystâd
+page.iht.application.overview.cleared.helptext1	You have confirmed that you have nothing left to do with this estate.	Rydych wedi cadarnhau nad oes gennych unrhyw beth ar ôl sy'n ymwneud â'r ystâd hon.
+page.iht.application.overview.cleared.helptext2	You can view a copy of your clearance certificate that confirms that this estate report has been cleared.	Gallwch fwrw golwg ar gopi o'ch tystysgrif clirio sy'n cadarnhau bod yr adroddiad hwn ynghylch yr ystâd wedi'i glirio.
+page.iht.application.overview.cleared.sidebartitle	You have completed clearance of this estate report.	Rydych wedi cwblhau'r broses o glirio'r adroddiad hwn ynghylch yr ystâd.
+page.iht.application.overview.closed.clearance	Complete clearance of this estate report	Cliriad llwyr o'r adroddiad hwn ynghylch yr ystâd
+page.iht.application.overview.closed.helptext	When you have completed everything to do with this estate, including receiving your grant of representation from the Probate Service, you can complete clearance of this estate report.	Pan fyddwch wedi cwblhau pob dim sy'n ymwneud â'r ystâd hon, yn cynnwys eich grant cynrychiolaeth oddi wrth y Gwasanaeth Profiant, gallwch gwblhau'r broses o glirio'r adroddiad hwn ynghylch yr ystâd.
+page.iht.application.overview.closed.sidebartitle	This estate report has not been cleared.	Nid yw'r adroddiad hwn ynghylch yr ystâd wedi'i glirio.
+page.iht.application.overview.closed.warning	By completing clearance you are confirming that you have nothing left to do with this estate. HMRC will give you a certificate that you can download or print and which confirms that this estate report has been cleared.	Drwy gwblhau'r broses glirio rydych yn cadarnhau nad oes gennych unrhyw beth ar ôl sy'n ymwneud â'r ystâd hon. Bydd CThEM yn rhoi tystysgrif i chi y gallwch ei lawrlwytho neu argraffu ac sy'n cadarnhau bod yr adroddiad hwn ynghylch yr ystâd wedi'i glirio.
+page.iht.application.overview.common.estatevalue	Based on the details you have provided, {0}’s estate is below the threshold and there is no Inheritance Tax to pay.	Yn seiliedig ar y manylion yr ydych wedi'u rhoi, mae ystâd {0} yn is na'r trothwy ac nid oes Treth Etifeddiant i'w thalu.
+page.iht.application.overview.common.helptext.part1	If you find any more assets owned by {0} that were not included in this estate report, let HMRC know by using a	Os ydych yn canfod rhagor o asedion y mae {0} yn berchen arnynt, na chawsant eu cynnwys yn yr adroddiad hwn ynghylch yr ystâd, rhowch wybod i CThEM drwy ddefnyddio
+page.iht.application.overview.common.helptext.part2	Only do this if these assets increase the value of the estate over the Inheritance Tax threshold.	Dylech wneud hynny dim ond os yw'r asedion hynny'n cynyddu gwerth yr ystâd dros y trothwy Treth Etifeddiant.
+page.iht.application.overview.common.return	Return to your Inheritance Tax estate reports	Yn ôl i'ch adroddiadau Treth Etifeddiant ynghylch yr ystâd
+page.iht.application.overview.common.title	This estate report has been closed	Mae'r adroddiad hwn ynghylch yr ystâd wedi'i gau
+page.iht.application.overview.common.viewcertificate	View clearance certificate (PDF, <500KB)	Bwrw golwg ar dystysgrif clirio (PDF, <500KB)
+page.iht.application.overview.common.viewcopy	View a copy of this estate report (PDF, <500KB)	Bwrw golwg ar gopi o'r adroddiad hwn ynghylch yr ystâd (PDF, <500KB)
+page.iht.application.overview.debts.screenReader	The value of debts owed from the estate is £{0}	£{0} yw swm y dyledion sy'n ddyledus o'r ystâd
+page.iht.application.overview.debts.screenReader.moreDetails.link	Give more details about debts owed from the estate	Rhowch ragor o fanylion am ddyledion sy'n ddyledus o'r ystâd
+page.iht.application.overview.debts.screenReader.noValue	You have not entered any debts owed from the estate	Nid ydych wedi rhoi unrhyw ddyledion sy'n ddyledus o'r ystâd
+page.iht.application.overview.debts.screenReader.noValue.link	Start giving details about debts owed from the estate	Dechreuwch roi fanylion am ddyledion sy'n ddyledus o'r ystâd
+page.iht.application.overview.debts.screenReader.value.link	View or change debts owed from the estate	Bwrw golwg ar neu newid y dyledion sy'n ddyledus o'r ystâd
+page.iht.application.overview.exemptions.screenReader	The value of estate exemptions being claimed is £{0}	Swm y cais am eithriadau'r ystâd yw £{0}
+page.iht.application.overview.exemptions.screenReader.moreDetails.link	Give more details about estate exemptions	Rhowch ragor o fanylion ynghylch eithriadau'r ystâd
+page.iht.application.overview.exemptions.screenReader.noValue	You have not entered any estate exemptions	Nid ydych wedi nodi unrhyw eithriadau'r ystâd
+page.iht.application.overview.exemptions.screenReader.noValue.link	Start giving details about estate exemptions	Dechrau rhoi rhagor o fanylion ynghylch eithriadau'r ystâd
+page.iht.application.overview.exemptions.screenReader.value.link	View or change estate exemptions	Bwrw golwg ar neu newid eithriadau'r ystâd
+page.iht.application.overview.gifts.nonGiven	No gifts given	Dim rhoddion wedi'u rhoi
+page.iht.application.overview.gifts.screenReader	The value of gifts given away is £{0}	£{0} yw swm y rhoddion a roddwyd i ffwrdd
+page.iht.application.overview.gifts.screenReader.moreDetails.link	Give more details about gifts given away	Rhowch ragor o fanylion am roddion a roddwyd i ffwrdd
+page.iht.application.overview.gifts.screenReader.noValue	You have not entered any gifts given away	Nid ydych wedi nodi unrhyw roddion a roddwyd i ffwrdd
+page.iht.application.overview.gifts.screenReader.noValue.link	Start giving details about gifts given away	Dechreuwch roi fanylion ar gyfer rhoddion a rhoddwyd i ffwrdd
+page.iht.application.overview.gifts.screenReader.value.link	View or change gifts given away	Bwrw golwg ar neu newid rhoddion a roddwyd i ffwrdd
+page.iht.application.overview.inreview.helptext	It could take HMRC up to 2 months to review this estate report from the date you sent it. HMRC will contact you if they have any questions about this estate report.	Gallai gymryd hyd ar 2 fis i CThEM adolygu'r adroddiad ynghylch yr ystâd o'r dyddiad y gwnaethoch ei anfon. Bydd CThEM yn cysylltu â chi os oes ganddynt gwestiynau ynglŷn â'r adroddiad hwn ynghylch yr ystâd.
+page.iht.application.overview.inreview.sidebartitle	You have sent this report to HMRC.	Rydych wedi anfon yr adroddiad hwn i CThEM.
+page.iht.application.overview.inreview.title	This estate report is being reviewed by HMRC	Mae'r adroddiad hwn ynghylch yr ystâd yn cael ei adolygu gan CThEM
+page.iht.application.overview.reducingTheEstateValue.total	Total taken away from the estate value	Cyfanswm a ddidynnwyd o werth yr ystâd
+page.iht.application.overview.submit.button.disabled	To continue you need to tick that you have checked all of the estate details that you have entered and there is nothing else to tell HMRC about.	I fynd ymlaen bydd angen i chi rhoi tic eich bod wedi gwirio holl fanylion yr ystâd yr ydych wedi rhoi ac nid oes unrhyw beth arall i roi gwybod i CThEM yn ei gylch.
+page.iht.application.overview.threshold.screenReader.moreDetails.link	Give more details to increase the threshold	Rhowch ragor o fanylion er mwyn cynyddu'r trothwy
+page.iht.application.overview.threshold.screenReader.value	{0}’s inheritance tax threshold is £{1}	Trothwy treth etifeddiant {0} yw £{1}
+page.iht.application.overview.threshold.screenReader.value.link	View or change details given to increase the threshold	Bwrw golwg ar neu newid manylion a roddwyd er mwyn cynyddu'r trothwy
+page.iht.application.overview.time.limit1	You have until	Mae gennych tan
+page.iht.application.overview.time.limit1.months	You have	Mae gennych
+page.iht.application.overview.time.limit2	to send your estate report.	i anfon eich adroddiad ynghylch yr ystâd.
+page.iht.application.overview.timeScale.guidance	If you do not send the estate report by this date, it will be deleted and you will have to start again.	Os na fyddwch yn anfon yr adroddiad ynghylch yr ystâd erbyn y dyddiad hwn, caiff ei ddileu a bydd yn rhaid i chi ddechrau o'r dechrau.
+page.iht.application.overview.timeScale.guidance.months	If you do not send the estate report by this time, it will be deleted and you will have to start again.	Os na fyddwch yn anfon yr adroddiad ynghylch yr ystâd erbyn yr adeg hon, caiff ei ddileu a bydd yn rhaid i chi ddechrau o'r newydd.
+page.iht.application.overview.title	Application progress for {0} is now {1}	Mae'r broses o wneud cais ar gyfer {0} nawr yn {1}
+page.iht.application.overview.title2	{0}’s estate overview	Trosolwg o ystâd {0}
+page.iht.application.overview.tnrb.screenReader.link	View or change details for increasing the threshold	Bwrw golwg ar neu newid manylion ar gyfer cynyddu'r trothwy
+page.iht.application.overview.total.screenReader.value	{0}’s estate value is £{1}.	Gwerth ystâd {0} yw £{1}.
+page.iht.application.overview.value	Estate value	Gwerth yr ystâd
+page.iht.application.probateDetails.content2.bullet1	your IHT Identifier is	eich Dynodydd IHT yw
+page.iht.application.probateDetails.content2.bullet2	the gross estate figure is £{0}	ffigur gros yr ystâd yw £{0}
+page.iht.application.probateDetails.content2.bullet3	the net estate figure is £{0}	ffigur net yr ystâd yw £{0}
+page.iht.application.probateDetails.yourProbateText	For your PA1 - Probate application form:	Ar gyfer eich PA1 - ffurflen gais ar gyfer Profiant:
+page.iht.application.timeout.p2	You will need to sign back in to Government Gateway and then choose what you want to do next from your Inheritance Tax estate reports page.	Bydd angen i chi fewngofnodi eto i Borth y Llywodraeth ac yna dewis yr hyn yr ydych am ei wneud nesaf o'ch tudalen adroddiad Treth Etifeddiant ynghylch ystâd.
+page.iht.estateReport.allDetailsSaved	All of your details have been saved.	Mae'ch holl fanylion wedi'u cadw.
+page.iht.home.applicationList.table.guidance.label	These are all the Inheritance Tax estate reports you have registered.	Dyma'r holl adroddiadau Treth Etifeddiant ynghylch yr ystâd rydych wedi'u cofrestru.
+page.iht.home.applicationList.table.guidance.label.empty	You have not registered to complete an Inheritance Tax estate report.	Nid ydych wedi cofrestru er mwyn llenwi adroddiad Treth Etifeddiant ynghylch yr ystâd.
+page.iht.home.applicationList.table.guidance.p2.empty	If you have already completed a registration and the details are not listed above, call the Inheritance Tax helpline on 0300 123 1072 for help. Call +44 300 123 1072 if you are outside of the UK.	Os ydych eisoes wedi cwblhau cofrestriad ac nid yw'r manylion wedi rhestru uchod, ffoniwch y llinell gymorth Treth Etifeddiant ar 0300 123 1072 i gael help. Ffoniwch +44 300 123 1072 os ydych y tu allan i'r DU.
+page.iht.home.browserTitle	Your estate reports	Eich adroddiadau ynghylch yr ystâd
+page.iht.home.button.continueApplication.screenReader	Continue {0}’s estate report	Parhau ag adroddiad ystâd {0}
+page.iht.home.button.startApplication.screenReader	Start {0}’s estate report	Dechrau adroddiad ystâd {0}
+page.iht.home.button.viewApplication.label	View	Bwrw golwg
+page.iht.home.button.viewApplication.screenReader	View {0}’s estate report	Bwrw golwg ar adroddiad ystâd {0}
+page.iht.home.currentStatus	Status	Statws
+page.iht.home.deceasedName.label	Person who has died	Y person a fu farw
+page.iht.home.ihtReference.label	Reference	Cyfeirnod
+page.iht.home.title	Your Inheritance Tax estate reports	Eich adroddiadau Treth Etifeddiant ynghylch yr ystâd
+page.iht.questionnaire.button.submit-and-signout	Send feedback and exit	Anfon adborth a gadael
+page.iht.questionnaire.completeSurvey	Please complete this short survey to help us improve the service	Llenwch yr arolwg byr hwn er mwyn ein helpu i wella'r gwasanaeth
+page.iht.questionnaire.easy-to-use.difficult	Difficult	Anodd
+page.iht.questionnaire.easy-to-use.easy	Easy	Hawdd
+page.iht.questionnaire.easy-to-use.neither	Neither easy or difficult	Ddim yn hawdd nac yn anodd
+page.iht.questionnaire.easy-to-use.question	How easy was it to do what you wanted?	Pa mor hawdd oedd hi i wneud yr hyn yr oeddech eisiau'i wneud?
+page.iht.questionnaire.easy-to-use.very-difficult	Very difficult	Anodd iawn
+page.iht.questionnaire.easy-to-use.very-easy	Very easy	Hawdd iawn
+page.iht.questionnaire.feelingAboutExperience.dissatisfied	Dissatisfied	Anfodlon
+page.iht.questionnaire.feelingAboutExperience.neither	Neither satisfied or dissatisfied	Ddim yn fodlon nac yn anfodlon
+page.iht.questionnaire.feelingAboutExperience.question	How do you feel about your experience using this service today?	Sut ydych yn teimlo am eich profiad o ddefnyddio'r gwasanaeth hwn heddiw?
+page.iht.questionnaire.feelingAboutExperience.satisfied	Satisfied	Bodlon
+page.iht.questionnaire.feelingAboutExperience.veryDissatisfied	Very dissatisfied	Anfodlon iawn
+page.iht.questionnaire.feelingAboutExperience.verySatisfied	Very satisfied	Bodlon iawn
+page.iht.questionnaire.fullName.p1	We are looking for people to help us with user research.	Rydym yn chwilio am bobl i'n helpu gydag ymchwil defnyddwyr.
+page.iht.questionnaire.fullName.p2 	This will help improve the service. If you would like to be contacted with more details about the user research, enter your name below.	Bydd hyn yn helpu i wella'r gwasanaeth. Os hoffech i ni gysylltu â chi gyda rhagor o fanylion am yr ymchwil defnyddwyr, nodwch eich enw isod.
+page.iht.questionnaire.improve.p1	(Limit is 1200 characters)	(Y terfyn yw 1,200 o gymeriadau)
+page.iht.questionnaire.improve.p2	Please do not include any personal or financial details, like your National Insurance or credit card numbers.	Peidiwch â chynnwys unrhyw fanylion personol neu ariannol, er enghraifft, eich rhif Yswiriant Gwladol neu gerdyn credyd.
+page.iht.questionnaire.improve.question	How could we improve this service?	Sut allwn wella'r gwasanaeth hwn?
+page.iht.registration.questionnaire.p1	Any details you have entered have not been saved. You need to complete registration in one go.	Nid oes unrhyw fanylion a roddwyd gennych wedi'u cadw. Mae angen i chi gwblhau'r broses gofrestru mewn un tro.
+page.iht.registration.questionnaire.startAgain	Sign back in and start registration again	Mewngofnodi eto, a dechrau'r broses gofrestru eto
+page.iht.registration.timeout.p2	You will need to sign back in to Government Gateway and start to register to use Inheritance Tax Online again.	Bydd angen i chi fewngofnodi eto i Borth y Llywodraeth a dechrau cofrestru i ddefnyddio Treth Etifeddiant Ar-lein eto.
+page.iht.sign-out.button.gov-uk.text	Explore GOV.UK	Chwilio drwy GOV.UK
+page.iht.sign-out.p1	You have signed out from Inheritance Tax Online.	Rydych wedi allgofnodi o Dreth Etifeddiant Ar-lein.
+page.iht.sign-out.p2	Use the link in your Inheritance Tax email that you were sent if you want to sign back in.	Os ydych am fewngofnodi eto, defnyddiwch y cysylltiad yn yr e-bost Treth Etifeddiant a anfonwyd atoch.
+page.iht.sign-out.title	You have signed out	Rydych wedi allgofnodi
+site.link.startNewRegistration	Start a new registration for someone else’s estate	Dechrau cofrestriad newydd ar gyfer ystâd rhywun arall
