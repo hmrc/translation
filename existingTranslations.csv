@@ -5,7 +5,7 @@ page.iht.application.overview.closed.helptext	When you have completed everything
 page.iht.application.overview.debts.screenReader.noValue	You have not entered any debts owed from the estate	Nid ydych wedi rhoi unrhyw ddyledion sy'n ddyledus o'r ystâd	English not updated. Welsh updated.
 iht.estateReport.returnToEstateOverview	Return to estate overview	Yn ôl i drosolwg o'r ystâd	English not updated. Welsh updated.
 page.iht.home.currentStatus	Status	Statws	English not updated. Welsh updated.
-date.months	months	mis	Added.
+iht.date.months	months	mis	Added.
 page.iht.questionnaire.feelingAboutExperience.neither	Neither satisfied or dissatisfied	Ddim yn fodlon nac yn anfodlon	Added.
 page.iht.application.estateOverview.noValue	No value given	Dim gwerth wedi'i roi	English not updated. Welsh updated.
 page.iht.application.overview.exemptions.screenReader.moreDetails.link	Give more details about estate exemptions	Rhowch ragor o fanylion ynghylch eithriadau'r ystâd	English not updated. Welsh updated.
@@ -319,7 +319,7 @@ page.iht.application.exemptions.assetLeftToGncp.screenReader.link.value	Change t
 pdf.clearanceCertificate.firstParagraph.part2	’s will and/or the rules of intestacy and reported to HMRC on the above date.		Unchanged.
 iht.estateReport.assets.vehicles.jointly.owned.question	Did {0} jointly own any motor vehicles with any other people?		Unchanged.
 page.iht.application.assets.overview.properties.screenReader.link.moreDetail	Give more details for properties, buildings and land		Unchanged.
-iht.fullStop	.		Unchanged.
+iht.fullStop	0		Unchanged.
 page.iht.registration.applicantDetails.postcode.label	Your postcode if the address is in the UK	Eich cod post os yw'r cyfeiriad yn y DU	Unchanged.
 page.iht.application.assets.insurance.policies.overview.other.question1.no.screenReader.link.value.notMarried	No, {0} was not paying insurance premiums for a policy that was not due to pay out to their estate. Change this answer.		Unchanged.
 error.lastName.blank	Enter a last name	Nodwch enw olaf	Unchanged.
@@ -1652,4 +1652,3 @@ error.address.giveInLine1And2	Give an address in both address lines 1 and 2	Rhow
 page.iht.application.assets.propertyType.nonResidential.label	Land, non-residential or business building		Unchanged.
 page.iht.application.tnrbEligibilty.partner.additional.label.the.deceased	{0}’s		Unchanged.
 page.iht.registration.checklist.startRegistrationButton	Start registration	Dechrau'r broses gofrestru	Unchanged.
-
