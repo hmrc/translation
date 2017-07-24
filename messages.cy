@@ -661,7 +661,7 @@ page.iht.application.exemptions.overview.qualifyingBody.detailsOverview.name.lin
 page.iht.application.qualifyingbodies.edit.screenReader=Newidiwch unrhyw fanylion a roddwyd gennych ar gyfer {0} (corff cymwys {1})
 iht.inComplete=Heb ei gyflawni
 iht.useIHT400PaperForm=Mae'n rhaid i chi ddefnyddio ffurflen bapur IHT-400
-page.iht.application.declaration_received.paragraph4=Unwaith eich bod wedi cael hwnnw a chwblhau popeth sydd angen i chi wneud ynghylch ystâd {0), gallwch gael tystysgrif rhyddhau statudol (statutory certificate of discharge) oddi wrth CThEM drwy glirio'r adroddiad hwn ynghylch yr ystâd. Er mwyn gwneud hynny, dylech fwrw golwg ar yr adroddiad hwn ynghylch yr ystâd o'ch tudalen adroddiadau ynghylch Treth Etifeddiant.
+page.iht.application.declaration_received.paragraph4=Unwaith eich bod wedi cael hwnnw a chwblhau popeth sydd angen i chi wneud ynghylch ystâd {0}, gallwch gael tystysgrif rhyddhau statudol (statutory certificate of discharge) oddi wrth CThEM drwy glirio'r adroddiad hwn ynghylch yr ystâd. Er mwyn gwneud hynny, dylech fwrw golwg ar yr adroddiad hwn ynghylch yr ystâd o'ch tudalen adroddiadau ynghylch Treth Etifeddiant.
 page.iht.registration.deceasedDetails.maritalStatus.hint=Dewiswch y statws perthnasol ar gyfer yr ymadawedig dim ond pan fu farw
 page.iht.application.overview.tnrb.screenReader.link=Bwrw golwg ar neu newid manylion ar gyfer cynyddu'r trothwy
 error.dateOfBirth.incorrect=Nodwch ddyddiad geni dilys
