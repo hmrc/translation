@@ -1,127 +1,26 @@
-date.months	months	mis
-iht.closed	Closed	Wedi cau
-iht.estateReport.assets.inEstate	Assets in the estate	Asedion yn yr ystâd
-iht.estateReport.changeValues	Change values	Newid gwerthoedd
-iht.estateReport.correctiveAccountForm	Corrective Account form	Ffurflen Cyfrif Unioni
-iht.estateReport.debts.owedFromEstate	Debts owed from the estate	Dyledion sy'n ddyledus o'r ystâd
-iht.estateReport.gifts.givenAway.title	Gifts given away	Rhoddion a roddwyd i ffwrdd
-iht.estateReport.goToEstateReports	Go to your Inheritance Tax estate reports	Ewch i'ch adroddiadau Treth Etifeddiant ynghylch yr ystâd
-iht.estateReport.ihtThreshold	Inheritance Tax threshold	Trothwy Treth Etifeddiant
-iht.estateReport.returnToEstateOverview	Return to estate overview	Yn ôl i drosolwg o'r ystâd
-iht.ineligibleApplication	Ineligible application	Cais anghymwys
-iht.inheritanceTaxEstateReport	Inheritance Tax estate report	Adroddiad Treth Etifeddiant ynghylch yr ystâd
-iht.inProgress	In progress	Ar y gweill
-iht.inReview	In review	O dan adolygiad
-page.iht.application.estateOverview.claimExemptions.link	I want to claim exemptions	Rwyf am wneud cais am eithriadau
-page.iht.application.estateOverview.declaration.allSectionsComplete.guidance.text	You can continue once you are sure you have given all of the details that you need to for this estate report. You should check each section before continuing.	Gallwch fynd yn eich blaen unwaith y byddwch yn siŵr eich bod wedi rhoi'r holl fanylion sydd angen i chi eu rhoi ar gyfer yr adroddiad hwn ynghylch yr ystâd. Dylech wirio bob adran cyn mynd ymlaen.
-page.iht.application.estateOverview.declaration.allSectionsNotComplete.guidance.text1	You have not given enough details to finish this estate report	Nid ydych wedi rhoi digon o fanylion i orffen yr adroddiad hwn ynghylch yr ystâd
-page.iht.application.estateOverview.declaration.allSectionsNotComplete.guidance.text2	You must give an answer for every part of the estate report.	Mae'n rhaid i chi roi ateb ar gyfer pob rhan o'r adroddiad ynghylch yr ystâd.
-page.iht.application.estateOverview.declaration.continue.guidance.text	The estate value is over the threshold. Continue when you have given all of the estate details that you know about.	Mae gwerth yr ystâd yn uwch na'r trothwy. Ewch yn eich blaen pan fyddwch wedi rhoi holl fanylion yr ystâd a wyddoch amdanynt.
-page.iht.application.estateOverview.exemptions.noExemptionsValue	No exemptions	Dim eithriadau
-page.iht.application.estateOverview.increaseThreshold.increased	Increased	Wedi cynyddu
-page.iht.application.estateOverview.increaseThreshold.link	I want to transfer the unused allowance from someone else’s estate	Rwyf am drosglwyddo'r lwfans nas defnyddiwyd o ystâd rhywun arall
-page.iht.application.estateOverview.increaseThreshold.notAvailable	Not available	Ddim ar gael
-page.iht.application.estateOverview.noValue	No value given	Dim gwerth wedi'i roi
-page.iht.application.estateOverview.otherDetailsNeeded	Other details needed	Manylion eraill sydd eu hangen
-page.iht.application.estateOverview.totalAddedToTheEstateValue	Total added to the estate value	Cyfanswm a ychwanegwyd i werth yr ystâd
-page.iht.application.estateOverview.totalValueOfTheEstate	Total value of the estate	Cyfanswm gwerth yr ystâd
-page.iht.application.estateOverview.valueOfAssetsAndGifts	Value of assets and gifts	Swm asedion a rhoddion
-page.iht.application.overview.assets.screenReader	The value of assets in the estate is £{0}	Swm yr asedion yn yr ystâd yw £{0}
-page.iht.application.overview.assets.screenReader.moreDetails.link	Give more details about assets in the estate	Rhowch ragor o fanylion ar gyfer asedion yn yr ystâd
-page.iht.application.overview.assets.screenReader.noValue	You have not entered any assets in the estate	Nid ydych wedi nodi unrhyw asedion yn yr ystâd
-page.iht.application.overview.assets.screenReader.noValue.link	Start giving details about assets in the estate	Dechreuwch roi fanylion ar gyfer asedion yn yr ystâd
-page.iht.application.overview.assets.screenReader.value.link	View or change assets in the estate	Bwrw golwg ar, neu newid asedion yn yr ystâd
-page.iht.application.overview.browserTitle	Estate overview	Trosolwg o'r ystâd
-page.iht.application.overview.cleared.helptext1	You have confirmed that you have nothing left to do with this estate.	Rydych wedi cadarnhau nad oes gennych unrhyw beth ar ôl sy'n ymwneud â'r ystâd hon.
-page.iht.application.overview.cleared.helptext2	You can view a copy of your clearance certificate that confirms that this estate report has been cleared.	Gallwch fwrw golwg ar gopi o'ch tystysgrif clirio sy'n cadarnhau bod yr adroddiad hwn ynghylch yr ystâd wedi'i glirio.
-page.iht.application.overview.cleared.sidebartitle	You have completed clearance of this estate report.	Rydych wedi cwblhau'r broses o glirio'r adroddiad hwn ynghylch yr ystâd.
-page.iht.application.overview.closed.clearance	Complete clearance of this estate report	Cliriad llwyr o'r adroddiad hwn ynghylch yr ystâd
-page.iht.application.overview.closed.helptext	When you have completed everything to do with this estate, including receiving your grant of representation from the Probate Service, you can complete clearance of this estate report.	Pan fyddwch wedi cwblhau pob dim sy'n ymwneud â'r ystâd hon, yn cynnwys eich grant cynrychiolaeth oddi wrth y Gwasanaeth Profiant, gallwch gwblhau'r broses o glirio'r adroddiad hwn ynghylch yr ystâd.
-page.iht.application.overview.closed.sidebartitle	This estate report has not been cleared.	Nid yw'r adroddiad hwn ynghylch yr ystâd wedi'i glirio.
-page.iht.application.overview.closed.warning	By completing clearance you are confirming that you have nothing left to do with this estate. HMRC will give you a certificate that you can download or print and which confirms that this estate report has been cleared.	Drwy gwblhau'r broses glirio rydych yn cadarnhau nad oes gennych unrhyw beth ar ôl sy'n ymwneud â'r ystâd hon. Bydd CThEM yn rhoi tystysgrif i chi y gallwch ei lawrlwytho neu argraffu ac sy'n cadarnhau bod yr adroddiad hwn ynghylch yr ystâd wedi'i glirio.
-page.iht.application.overview.common.estatevalue	Based on the details you have provided, {0}’s estate is below the threshold and there is no Inheritance Tax to pay.	Yn seiliedig ar y manylion yr ydych wedi'u rhoi, mae ystâd {0} yn is na'r trothwy ac nid oes Treth Etifeddiant i'w thalu.
-page.iht.application.overview.common.helptext.part1	If you find any more assets owned by {0} that were not included in this estate report, let HMRC know by using a	Os ydych yn canfod rhagor o asedion y mae {0} yn berchen arnynt, na chawsant eu cynnwys yn yr adroddiad hwn ynghylch yr ystâd, rhowch wybod i CThEM drwy ddefnyddio
-page.iht.application.overview.common.helptext.part2	Only do this if these assets increase the value of the estate over the Inheritance Tax threshold.	Dylech wneud hynny dim ond os yw'r asedion hynny'n cynyddu gwerth yr ystâd dros y trothwy Treth Etifeddiant.
-page.iht.application.overview.common.return	Return to your Inheritance Tax estate reports	Yn ôl i'ch adroddiadau Treth Etifeddiant ynghylch yr ystâd
-page.iht.application.overview.common.title	This estate report has been closed	Mae'r adroddiad hwn ynghylch yr ystâd wedi'i gau
-page.iht.application.overview.common.viewcertificate	View clearance certificate (PDF, <500KB)	Bwrw golwg ar dystysgrif clirio (PDF, <500KB)
-page.iht.application.overview.common.viewcopy	View a copy of this estate report (PDF, <500KB)	Bwrw golwg ar gopi o'r adroddiad hwn ynghylch yr ystâd (PDF, <500KB)
-page.iht.application.overview.debts.screenReader	The value of debts owed from the estate is £{0}	£{0} yw swm y dyledion sy'n ddyledus o'r ystâd
-page.iht.application.overview.debts.screenReader.moreDetails.link	Give more details about debts owed from the estate	Rhowch ragor o fanylion am ddyledion sy'n ddyledus o'r ystâd
-page.iht.application.overview.debts.screenReader.noValue	You have not entered any debts owed from the estate	Nid ydych wedi rhoi unrhyw ddyledion sy'n ddyledus o'r ystâd
-page.iht.application.overview.debts.screenReader.noValue.link	Start giving details about debts owed from the estate	Dechreuwch roi fanylion am ddyledion sy'n ddyledus o'r ystâd
-page.iht.application.overview.debts.screenReader.value.link	View or change debts owed from the estate	Bwrw golwg ar neu newid y dyledion sy'n ddyledus o'r ystâd
-page.iht.application.overview.exemptions.screenReader	The value of estate exemptions being claimed is £{0}	Swm y cais am eithriadau'r ystâd yw £{0}
-page.iht.application.overview.exemptions.screenReader.moreDetails.link	Give more details about estate exemptions	Rhowch ragor o fanylion ynghylch eithriadau'r ystâd
-page.iht.application.overview.exemptions.screenReader.noValue	You have not entered any estate exemptions	Nid ydych wedi nodi unrhyw eithriadau'r ystâd
-page.iht.application.overview.exemptions.screenReader.noValue.link	Start giving details about estate exemptions	Dechrau rhoi rhagor o fanylion ynghylch eithriadau'r ystâd
-page.iht.application.overview.exemptions.screenReader.value.link	View or change estate exemptions	Bwrw golwg ar neu newid eithriadau'r ystâd
-page.iht.application.overview.gifts.nonGiven	No gifts given	Dim rhoddion wedi'u rhoi
-page.iht.application.overview.gifts.screenReader	The value of gifts given away is £{0}	£{0} yw swm y rhoddion a roddwyd i ffwrdd
-page.iht.application.overview.gifts.screenReader.moreDetails.link	Give more details about gifts given away	Rhowch ragor o fanylion am roddion a roddwyd i ffwrdd
-page.iht.application.overview.gifts.screenReader.noValue	You have not entered any gifts given away	Nid ydych wedi nodi unrhyw roddion a roddwyd i ffwrdd
-page.iht.application.overview.gifts.screenReader.noValue.link	Start giving details about gifts given away	Dechreuwch roi fanylion ar gyfer rhoddion a rhoddwyd i ffwrdd
-page.iht.application.overview.gifts.screenReader.value.link	View or change gifts given away	Bwrw golwg ar neu newid rhoddion a roddwyd i ffwrdd
-page.iht.application.overview.inreview.helptext	It could take HMRC up to 2 months to review this estate report from the date you sent it. HMRC will contact you if they have any questions about this estate report.	Gallai gymryd hyd ar 2 fis i CThEM adolygu'r adroddiad ynghylch yr ystâd o'r dyddiad y gwnaethoch ei anfon. Bydd CThEM yn cysylltu â chi os oes ganddynt gwestiynau ynglŷn â'r adroddiad hwn ynghylch yr ystâd.
-page.iht.application.overview.inreview.sidebartitle	You have sent this report to HMRC.	Rydych wedi anfon yr adroddiad hwn i CThEM.
-page.iht.application.overview.inreview.title	This estate report is being reviewed by HMRC	Mae'r adroddiad hwn ynghylch yr ystâd yn cael ei adolygu gan CThEM
-page.iht.application.overview.reducingTheEstateValue.total	Total taken away from the estate value	Cyfanswm a ddidynnwyd o werth yr ystâd
-page.iht.application.overview.submit.button.disabled	To continue you need to tick that you have checked all of the estate details that you have entered and there is nothing else to tell HMRC about.	I fynd ymlaen bydd angen i chi rhoi tic eich bod wedi gwirio holl fanylion yr ystâd yr ydych wedi rhoi ac nid oes unrhyw beth arall i roi gwybod i CThEM yn ei gylch.
-page.iht.application.overview.threshold.screenReader.moreDetails.link	Give more details to increase the threshold	Rhowch ragor o fanylion er mwyn cynyddu'r trothwy
-page.iht.application.overview.threshold.screenReader.value	{0}’s inheritance tax threshold is £{1}	Trothwy treth etifeddiant {0} yw £{1}
-page.iht.application.overview.threshold.screenReader.value.link	View or change details given to increase the threshold	Bwrw golwg ar neu newid manylion a roddwyd er mwyn cynyddu'r trothwy
-page.iht.application.overview.time.limit1	You have until	Mae gennych tan
-page.iht.application.overview.time.limit1.months	You have	Mae gennych
-page.iht.application.overview.time.limit2	to send your estate report.	i anfon eich adroddiad ynghylch yr ystâd.
-page.iht.application.overview.timeScale.guidance	If you do not send the estate report by this date, it will be deleted and you will have to start again.	Os na fyddwch yn anfon yr adroddiad ynghylch yr ystâd erbyn y dyddiad hwn, caiff ei ddileu a bydd yn rhaid i chi ddechrau o'r dechrau.
-page.iht.application.overview.timeScale.guidance.months	If you do not send the estate report by this time, it will be deleted and you will have to start again.	Os na fyddwch yn anfon yr adroddiad ynghylch yr ystâd erbyn yr adeg hon, caiff ei ddileu a bydd yn rhaid i chi ddechrau o'r newydd.
-page.iht.application.overview.title	Application progress for {0} is now {1}	Mae'r broses o wneud cais ar gyfer {0} nawr yn {1}
-page.iht.application.overview.title2	{0}’s estate overview	Trosolwg o ystâd {0}
-page.iht.application.overview.tnrb.screenReader.link	View or change details for increasing the threshold	Bwrw golwg ar neu newid manylion ar gyfer cynyddu'r trothwy
-page.iht.application.overview.total.screenReader.value	{0}’s estate value is £{1}.	Gwerth ystâd {0} yw £{1}.
-page.iht.application.overview.value	Estate value	Gwerth yr ystâd
+page.iht.application.declaration_received.continuelink	Continue to your Inheritance Tax estate reports	Ymlaen i'ch adroddiadau Treth Etifeddiant ynghylch yr ystâd
+page.iht.application.declaration_received.hint	What happens if you find assets that you have not included in this estate report	Beth fydd yn digwydd os dewch o hyd i asedion nad ydych wedi eu cynnwys yn yr adroddiad hwn ynghylch yr ystâd
+page.iht.application.declaration_received.paragraph2	HMRC might also check the valuation of any properties that you have entered – if they do this, the Valuation Office might call you.	Mae'n bosibl y bydd CThEM hefyd yn gwirio prisiad unrhyw eiddo a nodwyd gennych – os byddant yn gwneud hynny, mae'n bosibl y bydd y Swyddfa Brisio yn rhoi galwad i chi.
+page.iht.application.declaration_received.paragraph3	When you have sent off your Probate Application form (PA1), you will be told by the Probate Service what to do next to receive your grant of representation.	Pan fyddwch wedi anfon eich PA1 - ffurflen gais ar gyfer Profiant, cewch wybod gan y Gwasanaeth Profiant beth i'w wneud nesaf er mwyn cael eich grant cynrychiolaeth.
+page.iht.application.declaration_received.paragraph4	Once you have received this and completed everything you need to do with {0}’s estate, you can get a statutory certificate of discharge from HMRC by clearing this estate report. To do this, view this estate report from your Inheritance Tax estate reports page.	Unwaith eich bod wedi cael hwnnw a chwblhau popeth sydd angen i chi wneud ynghylch ystâd {0), gallwch gael tystysgrif rhyddhau statudol (statutory certificate of discharge) oddi wrth CThEM drwy glirio'r adroddiad hwn ynghylch yr ystâd. Er mwyn gwneud hynny, dylech fwrw golwg ar yr adroddiad hwn ynghylch yr ystâd o'ch tudalen adroddiadau ynghylch Treth Etifeddiant.
+page.iht.application.declaration_received.paragraph5.link	You can save a copy of this estate report by downloading it (PDF,<500KB)	Gallwch gadw copi o'r adroddiad hwn ynghylch yr ystâd drwy ei lawrlwytho (PDF, <500KB)
+page.iht.application.declaration_received.paragraph5.part2	HMRC recommend that you keep a copy for your own use along with anything you have used to give any details about what {0} owned or owed. You should keep these for 5 years in case anyone asks to see these details.	Mae CThEM yn awgrymu'ch bod yn cadw copi ar gyfer eich defnydd eich hun, ynghyd ag unrhyw beth a ddefnyddiwyd gennych i roi unrhyw fanylion o'r hyn roedd {0} yn berchen arnynt, neu a oedd yn ddyledus arno. Dylech gadw'r rhain am 5 mlynedd rhag ofn bod rhywun yn gofyn am gael gweld y manylion hynny.
+page.iht.application.declaration_received.probate.paragraph1	HMRC will review your Inheritance Tax estate report – this might take up to 2 months. HMRC might be in touch with you during this time if they have any queries. Once the review has been completed, the estate report status will be changed to closed.	Bydd CThEM yn adolygu eich adroddiadau Treth Etifeddiant ynghylch yr ystâd – gallai hynny gymryd hyd at 2 fis. Mae'n bosibl y bydd CThEM yn cysylltu â chi yn ystod yr adeg hon os oes ganddynt ymholiadau. Unwaith y bydd yr adolygiad wedi'i gwblhau, caiff statws yr adroddiad ynghylch yr ystâd ei newid i fod wedi'i gau.
+page.iht.application.declaration_received.subheading1	HMRC will review this estate report	Bydd CThEM yn adolygu'r adroddiad hwn ynghylch yr ystâd
+page.iht.application.declaration_received.subheading2	Getting your statutory certificate of discharge	Cael eich tystysgrif rhyddhau statudol (statutory certificate of discharge)
+page.iht.application.declaration_received.subheading3	Keeping records for the future	Cadw cofnodion ar gyfer y dyfodol
+page.iht.application.declaration_received.subtitle	What happens next	Yr hyn sy'n digwydd nesaf
+page.iht.application.declaration_received.title	Your estate report has been sent to HMRC	Mae'ch adroddiad ynghylch yr ystâd wedi'i anfon i CThEM
+page.iht.application.probateDetails.content2	You will need the following details to write on your PA1 – Probate application form:	Bydd angen y manylion canlynol arnoch i'w rhoi ar eich PA1 – ffurflen gais ar gyfer Profiant:
 page.iht.application.probateDetails.content2.bullet1	your IHT Identifier is	eich Dynodydd IHT yw
 page.iht.application.probateDetails.content2.bullet2	the gross estate figure is £{0}	ffigur gros yr ystâd yw £{0}
 page.iht.application.probateDetails.content2.bullet3	the net estate figure is £{0}	ffigur net yr ystâd yw £{0}
+page.iht.application.probateDetails.content4	If you have not got your PA1 – Probate application form handy, you can	Os nad yw eich PA1 – ffurflen gais ar gyfer Profiant, gennych wrth law, gallwch
+page.iht.application.probateDetails.content4.print	download or print this page	lawrlwytho neu argraffu'r dudalen hon
+page.iht.application.probateDetails.content5	or write these details down to fill in on your probate form at another time. You will still be able to see these details by choosing this estate report from your Inheritance Tax estate reports page.	neu rhowch y manylion hynny ar bapur, i'w rhoi ar eich ffurflen brofiant rhyw dro arall. Byddwch yn dal i allu gweld y manylion hynny drwy ddewis yr adroddiad hwn ynghylch yr ystâd o'ch tudalen adroddiadau Treth Etifeddiant.
+page.iht.application.probateDetails.guidance	What do these figures mean?	Beth mae'r ffigurau hyn yn eu golygu?
+page.iht.application.probateDetails.guidance.bullet1	the IHT identifier is a reference that can be used by probate to link this estate report	cyfeirnod yw'r Dynodydd IHT y gellir ei ddefnyddio gan brofiant i gysylltu'r adroddiad hen ynghylch yr ystâd
+page.iht.application.probateDetails.guidance.bullet2	the gross estate figure is the total of assets and gifts in the estate	ffigur gros yr ystâd yw cyfanswm yr asedion a'r rhoddion yn yr ystâd
+page.iht.application.probateDetails.guidance.bullet3	the net estate figure is the value of assets and gifts in the estate after any debts and estate exemptions have been taken off	ffigur net yr ystâd yw gwerth yr asedion a'r rhoddion ar ôl didynnu unrhyw ddyledion ac eithriadau'r ystâd
+page.iht.application.probateDetails.probateDetailsNotAvailableText	You will need to complete your Probate Application form (PA1) with some details from the estate report before you post it off. You can find these details by viewing this estate report on your Inheritance Tax estate reports page.	Bydd angen i chi lenwi'ch PA1 - ffurflen gais ar gyfer Profiant, gyda rhai manylion o'r adroddiad ynghylch yr ystâd, cyn eich bod yn ei phostio. Gallwch ddod o hyd i'r manylion hynny drwy fwrw golwg ar yr adroddiad hwn ynghylch yr ystâd ar eich tudalen adroddiadau Treth Etifeddiant ynghylch yr ystâd.
 page.iht.application.probateDetails.yourProbateText	For your PA1 - Probate application form:	Ar gyfer eich PA1 - ffurflen gais ar gyfer Profiant:
-page.iht.application.timeout.p2	You will need to sign back in to Government Gateway and then choose what you want to do next from your Inheritance Tax estate reports page.	Bydd angen i chi fewngofnodi eto i Borth y Llywodraeth ac yna dewis yr hyn yr ydych am ei wneud nesaf o'ch tudalen adroddiad Treth Etifeddiant ynghylch ystâd.
-page.iht.estateReport.allDetailsSaved	All of your details have been saved.	Mae'ch holl fanylion wedi'u cadw.
-page.iht.home.applicationList.table.guidance.label	These are all the Inheritance Tax estate reports you have registered.	Dyma'r holl adroddiadau Treth Etifeddiant ynghylch yr ystâd rydych wedi'u cofrestru.
-page.iht.home.applicationList.table.guidance.label.empty	You have not registered to complete an Inheritance Tax estate report.	Nid ydych wedi cofrestru er mwyn llenwi adroddiad Treth Etifeddiant ynghylch yr ystâd.
-page.iht.home.applicationList.table.guidance.p2.empty	If you have already completed a registration and the details are not listed above, call the Inheritance Tax helpline on 0300 123 1072 for help. Call +44 300 123 1072 if you are outside of the UK.	Os ydych eisoes wedi cwblhau cofrestriad ac nid yw'r manylion wedi rhestru uchod, ffoniwch y llinell gymorth Treth Etifeddiant ar 0300 123 1072 i gael help. Ffoniwch +44 300 123 1072 os ydych y tu allan i'r DU.
-page.iht.home.browserTitle	Your estate reports	Eich adroddiadau ynghylch yr ystâd
-page.iht.home.button.continueApplication.screenReader	Continue {0}’s estate report	Parhau ag adroddiad ystâd {0}
-page.iht.home.button.startApplication.screenReader	Start {0}’s estate report	Dechrau adroddiad ystâd {0}
-page.iht.home.button.viewApplication.label	View	Bwrw golwg
-page.iht.home.button.viewApplication.screenReader	View {0}’s estate report	Bwrw golwg ar adroddiad ystâd {0}
-page.iht.home.currentStatus	Status	Statws
-page.iht.home.deceasedName.label	Person who has died	Y person a fu farw
-page.iht.home.ihtReference.label	Reference	Cyfeirnod
-page.iht.home.title	Your Inheritance Tax estate reports	Eich adroddiadau Treth Etifeddiant ynghylch yr ystâd
-page.iht.questionnaire.button.submit-and-signout	Send feedback and exit	Anfon adborth a gadael
-page.iht.questionnaire.completeSurvey	Please complete this short survey to help us improve the service	Llenwch yr arolwg byr hwn er mwyn ein helpu i wella'r gwasanaeth
-page.iht.questionnaire.easy-to-use.difficult	Difficult	Anodd
-page.iht.questionnaire.easy-to-use.easy	Easy	Hawdd
-page.iht.questionnaire.easy-to-use.neither	Neither easy or difficult	Ddim yn hawdd nac yn anodd
-page.iht.questionnaire.easy-to-use.question	How easy was it to do what you wanted?	Pa mor hawdd oedd hi i wneud yr hyn yr oeddech eisiau'i wneud?
-page.iht.questionnaire.easy-to-use.very-difficult	Very difficult	Anodd iawn
-page.iht.questionnaire.easy-to-use.very-easy	Very easy	Hawdd iawn
-page.iht.questionnaire.feelingAboutExperience.dissatisfied	Dissatisfied	Anfodlon
-page.iht.questionnaire.feelingAboutExperience.neither	Neither satisfied or dissatisfied	Ddim yn fodlon nac yn anfodlon
-page.iht.questionnaire.feelingAboutExperience.question	How do you feel about your experience using this service today?	Sut ydych yn teimlo am eich profiad o ddefnyddio'r gwasanaeth hwn heddiw?
-page.iht.questionnaire.feelingAboutExperience.satisfied	Satisfied	Bodlon
-page.iht.questionnaire.feelingAboutExperience.veryDissatisfied	Very dissatisfied	Anfodlon iawn
-page.iht.questionnaire.feelingAboutExperience.verySatisfied	Very satisfied	Bodlon iawn
-page.iht.questionnaire.fullName.p1	We are looking for people to help us with user research.	Rydym yn chwilio am bobl i'n helpu gydag ymchwil defnyddwyr.
-page.iht.questionnaire.fullName.p2 	This will help improve the service. If you would like to be contacted with more details about the user research, enter your name below.	Bydd hyn yn helpu i wella'r gwasanaeth. Os hoffech i ni gysylltu â chi gyda rhagor o fanylion am yr ymchwil defnyddwyr, nodwch eich enw isod.
-page.iht.questionnaire.improve.p1	(Limit is 1200 characters)	(Y terfyn yw 1,200 o gymeriadau)
-page.iht.questionnaire.improve.p2	Please do not include any personal or financial details, like your National Insurance or credit card numbers.	Peidiwch â chynnwys unrhyw fanylion personol neu ariannol, er enghraifft, eich rhif Yswiriant Gwladol neu gerdyn credyd.
-page.iht.questionnaire.improve.question	How could we improve this service?	Sut allwn wella'r gwasanaeth hwn?
-page.iht.registration.questionnaire.p1	Any details you have entered have not been saved. You need to complete registration in one go.	Nid oes unrhyw fanylion a roddwyd gennych wedi'u cadw. Mae angen i chi gwblhau'r broses gofrestru mewn un tro.
-page.iht.registration.questionnaire.startAgain	Sign back in and start registration again	Mewngofnodi eto, a dechrau'r broses gofrestru eto
-page.iht.registration.timeout.p2	You will need to sign back in to Government Gateway and start to register to use Inheritance Tax Online again.	Bydd angen i chi fewngofnodi eto i Borth y Llywodraeth a dechrau cofrestru i ddefnyddio Treth Etifeddiant Ar-lein eto.
-page.iht.sign-out.button.gov-uk.text	Explore GOV.UK	Chwilio drwy GOV.UK
-page.iht.sign-out.p1	You have signed out from Inheritance Tax Online.	Rydych wedi allgofnodi o Dreth Etifeddiant Ar-lein.
-page.iht.sign-out.p2	Use the link in your Inheritance Tax email that you were sent if you want to sign back in.	Os ydych am fewngofnodi eto, defnyddiwch y cysylltiad yn yr e-bost Treth Etifeddiant a anfonwyd atoch.
-page.iht.sign-out.title	You have signed out	Rydych wedi allgofnodi
-site.link.startNewRegistration	Start a new registration for someone else’s estate	Dechrau cofrestriad newydd ar gyfer ystâd rhywun arall
