@@ -32,6 +32,10 @@ trait ProjectUI {
       fcProject.fileSelectionMode = FileChooser.SelectionMode.DirectoriesOnly
       fcProject.showOpenDialog(tfProject)
       tfProject.text = fcProject.selectedFile.toString
+
+      Csv2CsvUI.projectUpdated(fcProject.selectedFile.toString)
+      Csv2MessageUI.projectUpdated(fcProject.selectedFile.toString)
+      Message2CsvUI.projectUpdated(fcProject.selectedFile.toString)
     }
     text = "Project dir..."
     enabled = true

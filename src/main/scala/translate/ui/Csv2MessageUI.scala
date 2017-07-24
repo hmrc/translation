@@ -81,4 +81,9 @@ trait Csv2MessageUI {
 
   }
 
+  def projectUpdated(projDir: String):Unit = {
+    tfExistingCsv.text = projDir+"/conf/existingMessages.csv"
+    tfMessagesOut.text = projDir+"/conf/messages_created.cy"
+  }
+
 }

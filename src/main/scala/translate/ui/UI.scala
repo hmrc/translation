@@ -25,7 +25,7 @@ import scala.swing._
 
 class UI extends MainFrame {
   title = "Messages Translation"
-  preferredSize = new Dimension(900, 180)
+  preferredSize = new Dimension(900, 190)
   visible = true
 
 

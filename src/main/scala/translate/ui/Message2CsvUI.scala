@@ -94,4 +94,10 @@ trait Message2CsvUI {
     contents += go2CsvButton
   }
 
+  def projectUpdated(projDir: String):Unit = {
+    tfMessagesIn.text = projDir+"/conf/messages"
+    tfExistingCsv.text = projDir+"/conf/existingMessages.csv"
+    tfOuputCsv.text = projDir+"/conf/newMessages.csv"
+  }
+
 }

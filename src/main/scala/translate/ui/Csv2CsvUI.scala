@@ -89,7 +89,12 @@ trait Csv2CsvUI {
 
   val goPanel = new FlowPanel(){
     contents += go2MessagesButton
+  }
 
+  def projectUpdated(projDir: String):Unit = {
+    tfExistingCsv.text = projDir+"/conf/existingMessages.csv"
+    tfReceivedCsv.text = projDir+"/conf/newMessages.csv"
+    tfOuputCsv.text = projDir+"/conf/difference.csv"
   }
 
 }
