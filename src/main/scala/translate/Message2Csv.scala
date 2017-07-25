@@ -33,8 +33,8 @@ trait Message2Csv extends KeyValueParser with FileReader with CsvReader with Wra
   val englishChangedEnd = ")"
   val newLine = "\n"
 
-  type translationLine = (String,(String, String))
-  type messageLine = (String, String)
+  type TranslationLine = (String,(String, String))
+  type MessageLine = (String, String)
 
 
 
@@ -57,7 +57,7 @@ trait Message2Csv extends KeyValueParser with FileReader with CsvReader with Wra
     writeFile(csvOutputFileName, csvHeader + newLine + csvLines.fold("")((key,value) => key + value))
   }
 
-  private def checkEnglishMessageChanged(translation: translationLine, enMessage: messageLine): String = {
+  private def checkEnglishMessageChanged(translation: TranslationLine, enMessage: MessageLine): String = {
     if(translation._2._1 == enMessage._2){
       if(translation._2._2 == ""){
         translation._1 + delimiter + enMessage._2 + delimiter + delimiter + noWelshFound
