@@ -14,6 +14,11 @@ The tool may then be used to cross-reference the latest English messages file ag
 
 > sbt run
 
+1. Select your project directory
+2. Select Mode, to covert from messages to csv, or csv to messages
+3. Check the input and output files. (NB: the application will overwrite files, without confirmation)
+4. Click the button at the bottom, to create the desired output file type.
+
 
 # Example Output csv
 
