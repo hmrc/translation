@@ -88,11 +88,15 @@ trait WrappedPrintWriter{
 
 trait PathParser {
   def extractPath(fileName: String): String = {
-    val slashIndex = fileName.lastIndexOf("/")
-    val lastSlash = if(slashIndex < 0) 0 else slashIndex
-    val dir = fileName.substring(0, lastSlash)
-    val file = new File(dir)
-    if(file.exists()){dir}
-    else{"."}
+    val maybeDir = new File(fileName)
+    if (maybeDir.isDirectory) {fileName}
+    else {
+      val slashIndex = fileName.lastIndexOf("/")
+      val lastSlash = if (slashIndex < 0) 0 else slashIndex
+      val dir = fileName.substring(0, lastSlash)
+      val file = new File(dir)
+      if (file.exists()) {dir}
+      else {"."}
+    }
   }
 }

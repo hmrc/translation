@@ -18,24 +18,27 @@ package translate.ui
 
 import java.io.File
 
+import util.PathParser
+
 import scala.swing.BorderPanel.Position
 import scala.swing._
 
 
 object ProjectUI extends ProjectUI
 
-trait ProjectUI {
+trait ProjectUI extends PathParser{
   val tfProject = new TextField(".")
   val btnProject = new Button {
     action = Action("open") {
-      val fcProject = new FileChooser(new File("."))
+      val fcProject = new FileChooser(new File(extractPath(tfProject.text)))
       fcProject.fileSelectionMode = FileChooser.SelectionMode.DirectoriesOnly
       fcProject.showOpenDialog(tfProject)
-      if(fcProject.selectedFile != null) {tfProject.text = fcProject.selectedFile.toString}
-
-      Csv2CsvUI.projectUpdated(fcProject.selectedFile.toString)
-      Csv2MessageUI.projectUpdated(fcProject.selectedFile.toString)
-      Message2CsvUI.projectUpdated(fcProject.selectedFile.toString)
+      if(fcProject.selectedFile != null) {
+        tfProject.text = fcProject.selectedFile.toString
+        Csv2CsvUI.projectUpdated(fcProject.selectedFile.toString)
+        Csv2MessageUI.projectUpdated(fcProject.selectedFile.toString)
+        Message2CsvUI.projectUpdated(fcProject.selectedFile.toString)
+      }
     }
     text = "Project dir..."
     enabled = true
