@@ -16,13 +16,15 @@ The tool may then be used to cross-reference the latest English messages file ag
 
 
 # Example Output csv
+
 | Key | English | Welsh | Comments |
+| ----------|----------|----------|----------|
 | pages.form.field.description.transferor-income	| Confirm your annual income	| Cadarnhau eich incwm blynyddol	| English message unchanged |
 | title.eligibility |	Your relationship	| |	No Welsh translation found |
 | title.dateOfBirth	| Your date of birth	| |	No Welsh translation found |
-| pages.form.field.last-name.error.error.maxLength	| Use up to or no more than {0} letters. |	Defnyddiwch hyd at, neu ddim mwy na {0} llythrennau.	| English message unchanged|
-|pages.form.field.description.gender |	Confirm your spouse or civil partner''s gender	| Cadarnhau eich priod neu eich partner sifil 'yn rhyw	| English message unchanged|
-|coc.end-reason.SYSTEM	| Ended by HMRC	|	| No Welsh translation found|
+| pages.form.field.last-name.error.error.maxLength	| Use up to or no more than {0} letters. |	Defnyddiwch hyd at, neu ddim mwy na {0} llythrennau.	| English message unchanged |
+| pages.form.field.description.gender |	Confirm your spouse or civil partner''s gender	| Cadarnhau eich priod neu eich partner sifil 'yn rhyw	| English message unchanged |
+| coc.end-reason.SYSTEM	| Ended by HMRC	|	| No Welsh translation found |
 
 
 
