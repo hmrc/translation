@@ -1,22 +1,28 @@
 # translation
 
-This tool is intended to make translation of English Play! Fraemwork messages files to other languages (specifically Welsh), simpler.
-On first run, it will extract English messages (key/value pairs) into a csv file, for translation.
+This tool is intended to make translation of English Play! Framework messages files to other languages (specifically Welsh), simpler.
+It will extract English messages (key/value pairs) into a csv file, for translation.
 
-Once the translations have been populated and returned, the tool can extract the Welsh key/value pairs into a messages.cy file.
-The tool may then be used to cross-reference the latest English messages file against a translated csv file, to ensure sychnonisation. It will apply comments against each line, to indicate:
+Once the csv translatiofile has been populated and returned, the tool can extract the Welsh key/value pairs into a messages.cy file.
+
+The tool may then be used to cross-reference the latest English messages file against the previously translated csv file, to ensure sychnonisation. It will apply comments against each line, to indicate:
  - a new, untranslated English message
  - an existing, changed English message
  - an existing, unchanged English message, which already has a Welsh translation
 
 # Executing
-At the moment, just performs both conversions from hardcoded filenames:
-- takes messages.en & existingTranslations.csv to create a marked-up out.csv
-- takes Translations.csv and creates _messages.cy for use in a Play! application
-
-These input files need to be in the project home directory. Plans is to create a UI, so that all files can be specified at runtime.
 
 > sbt run
+
+
+# Example Output csv
+| Key | English | Welsh | Comments |
+| pages.form.field.description.transferor-income	| Confirm your annual income	| Cadarnhau eich incwm blynyddol	| English message unchanged |
+| title.eligibility |	Your relationship	| |	No Welsh translation found |
+| title.dateOfBirth	| Your date of birth	| |	No Welsh translation found |
+| pages.form.field.last-name.error.error.maxLength	| Use up to or no more than {0} letters. |	Defnyddiwch hyd at, neu ddim mwy na {0} llythrennau.	| English message unchanged|
+|pages.form.field.description.gender |	Confirm your spouse or civil partner''s gender	| Cadarnhau eich priod neu eich partner sifil 'yn rhyw	| English message unchanged|
+|coc.end-reason.SYSTEM	| Ended by HMRC	|	| No Welsh translation found|
 
 
 
@@ -34,5 +40,5 @@ These input files need to be in the project home directory. Plans is to create a
 # Notes:
  1. Messages.en is the definitive hand-crafted list of messages in the project, so never auto generated.
  2. csv file is generated from messages.en, plus matched cy content, from tracked csv file (when available).
- 3. When generating new csv, if cy line is found in old csv?, compare line in csv with line in messages.en. Outcome: [New message / Message changed / Already translated]
+ 3. When generating new csv, if cy line is found in old csv?, it will compare the English message in csv with line in messages.en. This will result in the one of the outcomes: Message changed / Already translated.
  4. Messages.cy is always a straight generation from a csv file. New/Untranslated En messages are ignored (for now).
