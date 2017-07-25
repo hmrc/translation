@@ -27,7 +27,7 @@ import scala.swing._
 object ProjectUI extends ProjectUI
 
 trait ProjectUI extends PathParser{
-  val tfProject = new TextField(".")
+  val tfProject = new TextField("")
   val btnProject = new Button {
     action = Action("open") {
       val fcProject = new FileChooser(new File(extractPath(tfProject.text)))
@@ -40,7 +40,7 @@ trait ProjectUI extends PathParser{
         Message2CsvUI.projectUpdated(fcProject.selectedFile.toString)
       }
     }
-    text = "Project dir..."
+    text = "Project directory..."
     enabled = true
     tooltip = "Select the working directory, for the files below."
   }
