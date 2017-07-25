@@ -1,5 +1,4 @@
-page.iht.application.overview.time.limit1.year	You have 1 year to send this estate report.		Added.
-page.iht.application.overview.time.limit2	to send this estate report.		English updated. Welsh blanked.
+page.iht.application.debts.other.description.p2	This includes any loans {0} was paying, including those they were guaranteeing and had been asked to pay when they died.	Mae hwn yn cynnwys unrhyw fenthyciadau yr oedd {0} yn eu talu, gan gynnwys y rheiny a sicrhawyd ac y bu rhaid eu talu pan fu farw.	English not updated. Welsh updated.
 page.iht.application.assets.insurance.policies.overview.other.question4.yes.screenReader.link.value	Yes, the policies were placed in a trust more than 7 years before {0} died. Change this answer.		Unchanged.
 page.iht.application.overview.common.viewcopy	View a copy of this estate report (PDF, <500KB)	Bwrw golwg ar gopi o'r adroddiad hwn ynghylch yr ystâd (PDF, <500KB)	Unchanged.
 page.iht.application.assets.property.detailsOverview.address.screenReader.link.noValue	Give details for the address		Unchanged.
@@ -309,6 +308,7 @@ page.iht.registration.checklist.exec.title	If anyone else is applying to the Pro
 page.iht.registration.registrationSummary.applicantInfo.email.data.screenReader	Your email address is {0}	{0} yw eich cyfeiriad e-bost	Unchanged.
 page.iht.registration.registrationSummary.applicantInfo.address.data.screenReader	Your address is {0}	Eich cyfeiriad yw {0}	Unchanged.
 error.nino.blank.summary	enter a National Insurance number	nodwch rif Yswiriant Gwladol	Unchanged.
+page.iht.application.overview.time.limit1.year	You have 1 year to send this estate report.		Unchanged.
 page.iht.application.assets.overview.businessInterest.screenReader.noValue	You have not given a value for business interests		Unchanged.
 page.iht.registration.checklist.exec.reveal.label3	The phone number given is one that HMRC can contact this person on. This might happen after you have finished the estate report and it is being reviewed.	Y rhif ffôn a roddir yw un y gall CThEM ei ddefnyddio er mwyn cysylltu â'r person hwn. Gall hyn ddigwydd ar ôl i chi orffen yr adroddiad ynghylch yr ystâd a bod hwnnw'n cael ei adolygu.	Unchanged.
 error.jointlyOwned.currencyValue.length.summary	enter a value for debts owed on joint assets using less than 11 numbers	nodwch werth ar gyfer dyledion sy'n ddyledus ar asedion ar y cyd gan ddefnyddio llai nag 11 rhif	Unchanged.
@@ -700,7 +700,6 @@ page.iht.application.exemptions.guidance.content3	Some assets might be exempt fr
 page.iht.application.assets.money.deceased.browserTitle	Own money owned		Unchanged.
 page.iht.application.assets.overview.privatePension.screenReader.value	The value of private pensions is £{0}		Unchanged.
 page.iht.registration.registrationSummary.applicantInfo.dateOfBirth.link.screenReader	date	dyddiad	Unchanged.
-page.iht.application.debts.other.description.p2	This includes any loans {0} was paying, including those they were guaranteeing and had been asked to pay when they died.	Mae hwn yn cynnwys unrhyw fenthyciadau yr oedd {0} yn eu talu, gan gynnwys y rheiny a sicrhawyd ganddo/ganddi ac y gofynnwyd iddo/iddi eu talu pan fu farw.	Unchanged.
 page.iht.application.exemptions.overview.screenReader.total	The total value of estate exemptions which are taken away from the estate value is £{0}	Cyfanswm eithriadau'r ystâd a ddidynnwyd o werth yr ystâd yw £{0}	Unchanged.
 page.iht.registration.multipleExecutors.warning.p1.executor	This means that you have been named in the deceased’s will as an executor of their estate.	Mae hyn yn golygu eich bod wedi'ch enwi yn ewyllys yr ymadawedig fel ysgutor ei ystâd.	Unchanged.
 page.iht.registration.checklist.exec.reveal.label2	Their name should be given as it is shown on their passport or birth certificate. This might be different to the name that you know them by.	Dylid rhoi ei enw fel y mae'n ymddangos ar ei basbort neu ei dystysgrif geni. Gallai hwnnw fod yn enw gwahanol i'r un yr ydych yn ei alw.	Unchanged.
@@ -1023,6 +1022,7 @@ iht.estateReport.tnrb.stateClaim.question	Did the estate claim any business or a
 iht.estateReport.insurancePolicies.ownName.question	Did {0} have any policies in their own name that were to pay out to them or are there any policies that were paying out to their estate?		Unchanged.
 error.assets.household.deceasedOwned.select	Select an answer for whether there are any household and personal items in the estate	Dewiswch ateb ar gyfer a oes nwyddau'r tŷ a nwyddau personol yn yr ystâd	Unchanged.
 error.cannotSend	The details you have entered could not be sent at the moment.	Ar hyn o bryd ni ellir anfon y manylion yr ydych wedi'u nodi.	Unchanged.
+page.iht.application.overview.time.limit2	to send this estate report.		Unchanged.
 page.iht.application.assets.typeOfOwnership.joint.hint	{0} owned some of this property and their share automatically transfers to another joint owner. This property can not be left to anyone else in a will.		Unchanged.
 page.iht.application.debts.mortgages.description	If {0} had a loan secured against a property they owned, include that value here.		Unchanged.
 page.iht.application.assets.insurance.policies.overview.guidance.bullet2	policies held in ISAs		Unchanged.
