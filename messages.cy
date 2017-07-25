@@ -619,7 +619,6 @@ error.charityName.enterName=Nodwch enw'r elusen
 iht.estateReport.declaration.didntUseAnyOfThreshold=ni wnaeth y priod neu'r partner sifil blaenorol ddefnyddio unrhyw faint o'i drothwy Treth Etifeddiant
 error.assets.household.deceasedOwned.select=Dewiswch ateb ar gyfer a oes nwyddau'r tŷ a nwyddau personol yn yr ystâd
 error.cannotSend=Ar hyn o bryd ni ellir anfon y manylion yr ydych wedi'u nodi.
-page.iht.application.overview.time.limit2=i anfon eich adroddiad ynghylch yr ystâd.
 site.headers.overview.action=Gweithred
 page.iht.registration.executor-overview.othersApplyingStatement.are=Mae pobl eraill yn gwneud cais am brofiant
 page.iht.application.debts.overview.other.screenReader.value=£{0} yw swm unrhyw ddyledion eraill sydd heb eu rhestru
