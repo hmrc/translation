@@ -75,7 +75,7 @@ trait Message2Csv extends KeyValueParser with FileReader with CsvReader with Wra
   def fetchMessages(lang:String):Map[String, String] = {
     val lines = for (line <- linesFromFile(lang)) yield line
     lines.flatMap{ line =>
-      splitKeyValues(line, token).map(line => line._1 -> line._2._1)
+      splitKeyValue(line, token).map(line => line._1 -> line._2)
     }.toMap
   }
 }

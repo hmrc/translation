@@ -17,18 +17,21 @@ package translate.ui
  */
 
 import java.io.File
+
+import util.PathParser
+
 import scala.swing._
 
 object Csv2CsvUI extends Csv2CsvUI
 
-trait Csv2CsvUI {
+trait Csv2CsvUI extends PathParser{
   // #### Input New Csv Input file...
   val tfReceivedCsv = new TextField()
   val buttonReceivedCsv = new Button {
     action = Action("open"){
-      val fcReceivedCsv = new FileChooser(new File(ProjectUI.tfProject.text))
+      val fcReceivedCsv = new FileChooser(new File(extractPath(tfReceivedCsv.text)))
       fcReceivedCsv.showOpenDialog(tfReceivedCsv)
-      tfReceivedCsv.text = fcReceivedCsv.selectedFile.toString
+      if(fcReceivedCsv.selectedFile !=null) {tfReceivedCsv.text = fcReceivedCsv.selectedFile.toString}
     }
     text = "Received Input Csv file..."
     enabled = true
@@ -39,9 +42,9 @@ trait Csv2CsvUI {
   val tfExistingCsv = new TextField()
   val buttonExistingCsv = new Button {
     action = Action("open"){
-      val fcExistingCsv = new FileChooser(new File(ProjectUI.tfProject.text))
+      val fcExistingCsv = new FileChooser(new File(extractPath(tfExistingCsv.text)))
       fcExistingCsv.showOpenDialog(tfExistingCsv)
-      tfExistingCsv.text = fcExistingCsv.selectedFile.toString
+      if(fcExistingCsv.selectedFile != null) {tfExistingCsv.text = fcExistingCsv.selectedFile.toString}
     }
     text = "Existing Input Csv file..."
     enabled = true
@@ -52,9 +55,9 @@ trait Csv2CsvUI {
   val tfOuputCsv = new TextField()
   val buttonOuputCsv = new Button {
     action = Action("open"){
-      val fcOuputCsv = new FileChooser(new File(ProjectUI.tfProject.text))
+      val fcOuputCsv = new FileChooser(new File(extractPath(tfOuputCsv.text)))
       fcOuputCsv.showOpenDialog(tfOuputCsv)
-      tfOuputCsv.text = fcOuputCsv.selectedFile.toString
+      if(fcOuputCsv.selectedFile != null) {tfOuputCsv.text = fcOuputCsv.selectedFile.toString}
     }
     text = "Ouput Csv file..."
     enabled = true

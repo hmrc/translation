@@ -36,7 +36,6 @@ class UI extends MainFrame {
       updateButons(this)
 
     }
-//    foreground = Color.RED
 
     text = "Messages to Csv"
     enabled = false
@@ -75,7 +74,9 @@ class UI extends MainFrame {
     contents += new Label("Choose a mode: ")
     contents += btnChooseMsg2Csv
     contents += btnChooseCsv2Msg
-    contents += btnChooseCsv2Csv
+
+    //Disabled until IHT merge in their branch
+    //    contents += btnChooseCsv2Csv
   }
 
   val projectAndModePanel = new BorderPanel {

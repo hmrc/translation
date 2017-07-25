@@ -31,7 +31,7 @@ trait ProjectUI {
       val fcProject = new FileChooser(new File("."))
       fcProject.fileSelectionMode = FileChooser.SelectionMode.DirectoriesOnly
       fcProject.showOpenDialog(tfProject)
-      tfProject.text = fcProject.selectedFile.toString
+      if(fcProject.selectedFile != null) {tfProject.text = fcProject.selectedFile.toString}
 
       Csv2CsvUI.projectUpdated(fcProject.selectedFile.toString)
       Csv2MessageUI.projectUpdated(fcProject.selectedFile.toString)

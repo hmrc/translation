@@ -13,3 +13,4 @@ lazy val root = (project in file(".")).
   )
 
 mainClass in Compile := Some("translate.ConvertMessages")
+fork in run := true

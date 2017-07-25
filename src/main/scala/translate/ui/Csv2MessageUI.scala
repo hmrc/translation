@@ -17,20 +17,23 @@ package translate.ui
  */
 
 import java.io.File
+
 import translate.Csv2Message
+import util.PathParser
+
 import scala.swing._
 
 object Csv2MessageUI extends Csv2MessageUI
 
-trait Csv2MessageUI {
+trait Csv2MessageUI extends PathParser{
 
   // #### Input Csv Input file...
   val tfExistingCsv = new TextField()
   val buttonExistingCsv = new Button {
     action = Action("open"){
-      val fcExistingCsv = new FileChooser(new File(ProjectUI.tfProject.text))
+      val fcExistingCsv = new FileChooser(new File(extractPath(tfExistingCsv.text)))
       fcExistingCsv.showOpenDialog(tfExistingCsv)
-      tfExistingCsv.text = fcExistingCsv.selectedFile.toString
+      if(fcExistingCsv.selectedFile != null){tfExistingCsv.text = fcExistingCsv.selectedFile.toString}
     }
     text = "Input Csv file..."
     enabled = true
@@ -41,9 +44,9 @@ trait Csv2MessageUI {
   val tfMessagesOut = new TextField()
   val buttonMessagesOut = new Button {
     action = Action("open"){
-      val fcMessagesOut = new FileChooser(new File(ProjectUI.tfProject.text))
+      val fcMessagesOut = new FileChooser(new File(extractPath(tfMessagesOut.text)))
       fcMessagesOut.showOpenDialog(tfMessagesOut)
-      tfMessagesOut.text = fcMessagesOut.selectedFile.toString
+      if(fcMessagesOut.selectedFile != null) {tfMessagesOut.text = fcMessagesOut.selectedFile.toString}
     }
     text = "Output Message file..."
     enabled = true
