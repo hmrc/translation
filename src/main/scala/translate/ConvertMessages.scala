@@ -28,7 +28,11 @@ class ConvertMessages {
 
   SwingUtilities.invokeLater(new Runnable(){
     def run(): Unit = {
-      new UI
+
+
+
+//      GitMessage2Csv.messages2csv("myCsvOut.csv")
+      //      new UI
     }
   })
 }

@@ -1,0 +1,102 @@
+package translate
+
+/*
+ * Copyright 2015-2017 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+import java.io.File
+
+import util._
+
+object GitMessage2Csv extends GitMessage2Csv{}
+
+trait GitMessage2Csv extends Message2Csv with KeyValueParser with FileReader with WrappedPrintWriter with Commands{
+
+  val currentEnglishMessages = "current_messages"
+  val currentWelshMessages = "current_messages.cy"
+  val oldEnglishMessages = "old_messages"
+  val oldWelshMessages = "old_messages.cy"
+
+  def messages2csv(csvOutputFileName: String):Unit = {
+
+    val enMap = fetchMessages(currentEnglishMessages)
+    val cyMap = fetchMessages(currentWelshMessages)
+    val oldEnMap = fetchMessages(oldEnglishMessages)
+
+
+    val outputCsvLines = enMap.map{ enMessage =>
+
+      val oOldEnMsg = oldEnMap.find(oldEnMessage => enMessage._1 == oldEnMessage._1)
+      val oCyMsg = cyMap.find(cyMessage => enMessage._1 == cyMessage._1).map(cyMsg => cyMsg._2)
+
+      oOldEnMsg.fold(enMessage._1 + delimiter + enMessage._2 + delimiter + delimiter + noWelshFound)
+      {oldEnMsg =>
+        checkEnglishMessageChanged(enMessage._1, enMessage._2, oldEnMsg._2, oCyMsg.getOrElse(""))
+      } + newLine
+    }
+
+    writeFile(csvOutputFileName, csvHeader + newLine + outputCsvLines.fold("")((key,value) => key + value))
+  }
+
+  private def checkEnglishMessageChanged(key: String, enMessage: String, oldEnMsg: String, cyMsg: String): String = {
+
+    if(oldEnMsg == enMessage){
+      if(cyMsg == ""){
+        key + delimiter + enMessage + delimiter + delimiter + noWelshFound
+      }
+      else {
+        key + delimiter + enMessage + delimiter + cyMsg  + delimiter + englishUnchanged
+      }
+    }
+    else{
+      key + "\t" + enMessage + delimiter + delimiter + englishChanged+ oldEnMsg + separator + cyMsg + englishChangedEnd
+    }
+  }
+
+
+  private def fetchGitFiles(projectDir: String, gitCloneRef: String, gitCommitRef: String):Unit = {
+
+    val pr = System.getProperties()
+    println("----->" + pr.get("os.name"))  // Windows / Linux / MacOS / Other
+
+    val projectDir = "tcr-frontend"
+    val gitCloneRef = "git@github.tools.tax.service.gov.uk:HMRC/tcr-frontend.git"
+    val gitCommitRef = "8f80f65"
+
+
+    val f = new File(".")
+    val p = new File(f.getCanonicalPath)
+    val hmrcPath = p.getParent
+
+    val tempDir = "translation_temp"
+    val tempPath = hmrcPath + "/" + tempDir
+    val projectPath = tempPath + "/" + projectDir
+
+    executeCommand("mkdir " + tempDir, hmrcPath)
+
+    executeCommand("git clone " + gitCloneRef, tempPath)
+    executeCommand("cp " + projectPath + "/conf/messages " + currentEnglishMessages, ".")
+    executeCommand("cp " + projectPath + "/conf/messages.cy " + currentWelshMessages, ".")
+
+    executeCommand("git checkout " + gitCommitRef, projectPath)
+    executeCommand("cp " + projectPath + "/conf/messages " + oldEnglishMessages, ".")
+    executeCommand("cp " + projectPath + "/conf/messages.cy " + oldWelshMessages, ".")
+
+
+    executeCommand("rm -rf " + tempDir, hmrcPath)
+
+  }
+
+}
