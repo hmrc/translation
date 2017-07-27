@@ -1,1 +1,44 @@
-page.iht.application.debts.other.description.p2		Mae hwn yn cynnwys unrhyw fenthyciadau yr oedd {0} yn eu talu, gan gynnwys y rheiny a sicrhawyd ac y bu rhaid eu talu pan fu farw.
+iht.estateReport.gifts.valueOfGiftsGivenAway	Value of gifts given away in the 7 years before death	Gwerth y rhoddion a roddwyd i ffwrdd yn ystod y 7 mlynedd cyn marwolaeth
+page.iht.application.gifts.sevenYears.values.browserTitle	Value of gifts given away	Gwerth y rhoddion a roddwyd i ffwrdd
+page.iht.application.gifts.sevenYears.values.guidance1	Enter the total value of gifts given away in each tax year and the amount of exemptions being claimed.	Nodwch gyfanswm gwerth y rhoddion a roddwyd i ffwrdd ym mhob blwyddyn dreth a swm yr eithriadau a wnaed cais amdanynt.
+page.iht.application.gifts.sevenYears.values.guidance3	to reduce the amount of gifts added to the value of the estate. The difference between the total value of gifts and the amount of exemptions will be added to the value of the estate.	er mwyn gostwng swm y rhoddion a ychwanegir i werth yr ystâd. Bydd y gwahaniaeth rhwng cyfanswm gwerth y rhoddion a swm yr eithriadau'n cael ei ychwanegu i werth yr ystâd.
+page.iht.application.gifts.sevenYears.values.guidance2	You can claim exemptions in each tax year	Gallwch wneud cais am eithriadau ym mhob blwyddyn dreth
+page.iht.application.gifts.lastYears.tableTitle1	Gifts value	Gwerth rhoddion
+page.iht.application.gifts.lastYears.tableTitle3	Amount added	Swm a ychwanegwyd
+page.iht.exemptions.title	Exemptions	Eithriadau
+iht.estateReport.gifts.givenAwayIn7YearsBeforeDeath	Types of gifts given away in the 7 years before death	Mathau o roddion a roddwyd i ffwrdd yn ystod y 7 mlynedd cyn marwolaeth
+page.iht.application.gifts.lastYears.description.p1	Gifts that can be included on this estate report are:	Mae'r canlynol yn rhoddion y gellir eu cynnwys ar yr adroddiad hwn ynghylch yr ystâd:
+page.iht.application.gifts.lastYears.description.p3	If {0} gave anything else away that is not listed above, you will need to give more details about those gifts on a paper form.	Os rhoddodd {0} unrhyw beth arall i ffwrdd sydd heb ei restru uchod, bydd angen i chi roi rhagor o fanylion am y rhoddion hynny ar ffurflen bapur.
+iht.estateReport.assets.money.lowerCaseInitial	money, including any cash, cheques, bank transfers and items that the person who died spent money on	arian, gan gynnwys unrhyw arian parod, sieciau, trosglwyddiadau banc ac eitemau y bu'r person a fu farw wario arian arnynt
+page.iht.application.gifts.lastYears.description.e3	household and personal items, including jewellery, pictures and paintings	eitemau i'r tŷ ac eitemau personol, gan gynnwys gemwaith, lluniau a phaentiadau
+page.iht.application.gifts.lastYears.description.e4	houses, land and buildings	tai, tir ac adeiladau
+page.iht.application.gifts.lastYears.description.e5	motor vehicles, including boats and caravans	cerbydau modur, gan gynnwys cychod a charafannau
+iht.estateReport.gifts.stocksAndSharesListed	stocks and shares listed on the London Stock Exchange	stociau a chyfranddaliadau a restrir ar Gyfnewidfa Stoc Llundain
+page.iht.application.gifts.lastYears.question	Did {0} give anything else away before they died that was not money, household and personal items, motor vehicles, stocks and shares, or a house, building or land?	A roddodd {0} unrhyw beth arall i ffwrdd cyn marw nad oedd yn arian, eitemau i'r tŷ ac eitemau personol, cerbydau modur, stociau a chyfranddaliadau, neu dŷ, adeilad neu dir?
+iht.estateReport.gifts.reservation.question	Did {0} give any gifts away that they still benefitted from?	A roddodd {0} unrhyw roddion i ffwrdd yr oedd yn dal i gael budd ohonynt?
+iht.estateReport.gifts.withReservation.title	Gifts with reservation of benefit	Rhoddion â budd wedi'i gadw
+iht.estateReport.gifts.withReservation.titleWithoutName	Gifts with reservation of benefit	Rhoddion â budd wedi'i gadw
+iht.estateReport.gifts.withReservation.p1	These are called gifts with reservation of benefit.	Gelwir y rhain yn rhoddion â budd wedi'i gadw.
+iht.estateReport.gifts.withReservation.p2	These are gifts that have been given away by someone where they still had some benefit afterwards. This is for any gift given away after 18 March 1986.	Rhoddion yw'r rhain sydd wedi'u rhoi i ffwrdd gan rywun a oedd yn derbyn budd ohonynt o hyd ar ôl gwneud hynny. Mae hyn ar gyfer unrhyw rodd a roddwyd i ffwrdd ar ôl 18 Mawrth 1986.
+iht.estateReport.gifts.withReservation.p3	This could be where someone gives away their home to a family member but still lives there. Other kinds of gifts where a person still benefits from them afterwards include a caravan given away but the person still has holidays in it or a painting still being displayed in the home of the person who gave it away.	Gall hyn fod pan mae rhywun yn rhoi ei gartref i aelod o'r teulu ond yn parhau i fyw ynddo. Mae mathau eraill o roddion pan fo person yn cael budd ohonynt ar ol eu rhoi i ffwrdd yn cynnwys carafán a roddir i ffwrdd ond mae'r person yn parhau i'w defnyddio ar gyfer gwyliau neu baentiad sy'n dal ar ddangos yng nghartref y person a'i rhoddodd i ffwrdd.
+page.iht.application.gifts.return.to.givenAwayBy	Return to gifts given away by {0}	Yn ôl i roddion a roddwyd i ffwrdd gan {0}
+iht.estateReport.gifts.givenAwayBy	Gifts given away by {0}	Rhoddion a roddwyd i ffwrdd gan {0}
+page.iht.application.gifts.lastYears.givenAway.p1	You need to find out what gifts {0} gave away in each of the 7 tax years before they died.	Mae angen i chi gael gwybod pa roddion a rodd {0} i ffwrdd ymhob un o'r 7 mlynedd cyn marw.
+page.iht.application.gifts.lastYears.givenAway.p2	The tax years for this estate are:	Y blynyddoedd treth ar gyfer yr ystâd hon yw:
+iht.estateReport.gifts.givenAway.title	Gifts given away	Rhoddion a roddwyd i ffwrdd
+site.title.govuk	- GOV.UK	- GOV.UK
+page.iht.application.gifts.lastYears.givenAway.question	Did {0} give gifts away of more than £3,000 in total in any of the 7 years before they died?	A roddodd {0} roddion i ffwrdd a oedd werth mwy na £3,000 mewn cyfanswm yn ystod unrhyw un o'r 7 mlynedd cyn marw?
+iht.estateReport.returnToEstateOverview	Return to estate overview	Yn ôl i drosolwg o'r ystâd
+page.iht.application.giftsDetails.browserTitle	Value of gifts for year	Gwerth rhoddion ar gyfer y flwyddyn
+page.iht.application.giftsDetails.subtitle	{0} to	{0} i
+page.iht.application.giftsDetails.amountAdded	Amount added to the estate value is £	Y swm a ychwanegwyd i werth yr ystâd yw £
+page.iht.application.giftsDetails.exemptions.label	Total value of exemptions for {0} to {1}	Cyfanswm gwerth yr eithriadau ar gyfer {0} i {1}
+page.iht.application.giftsDetails.value.label	Total value of gifts for {0} to {1}	Cyfanswm gwerth y rhoddion ar gyfer {0} i {1}
+iht.estateReport.gifts.returnToGiftsGivenAwayInThe7YearsBeforeDeath	Return to value of gifts given away in the 7 years before death	Yn ôl i werth y rhoddion a roddwyd i ffwrdd yn ystod y 7 mlynedd cyn marwolaeth
+iht.estateReport.gifts.returnToGiftsGivenAway	Return to gifts given away in the 7 years before death	Yn ôl i roddion a roddwyd i ffwrdd yn ystod y 7 mlynedd cyn marwolaeth
+iht.estateReport.gifts.givenAwayIn7YearsBeforeDeath	Types of gifts given away in the 7 years before death	Mathau o roddion a roddwyd i ffwrdd yn ystod y 7 mlynedd cyn marwolaeth
+page.iht.application.gifts.trust.question	You must complete every section.	Mae'n rhaid i chi lenwi pob adran.
+page.iht.application.gifts.trust.question.hint	This could be giving a house, building or land to a trust, a company or a charity before they died.	Gall hyn fod yn rhoi tŷ, adeilad neu dir i ymddiriedolaeth, cwmni neu elusen cyn iddynt farw.
+page.iht.application.gifts.overview.guidance1	A gift is something given away in the 7 years before death. The value of gifts might be added to the value of the estate.	Rhodd yw rhywbeth a roddwyd i ffwrdd yn ystod y 7 mlynedd cyn marwolaeth. Mae'n bosibl i werth rhoddion gael eu hychwanegu at werth yr ystâd.
+iht.estateReport.completeEverySection	You must complete every section.	Mae'n rhaid i chi lenwi pob adran.
+iht.estateReport.changeValues	Change values	Newid gwerthoedd
