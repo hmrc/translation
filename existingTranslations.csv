@@ -1,4 +1,4 @@
-page.iht.application.debts.other.description.p2	This includes any loans {0} was paying, including those they were guaranteeing and had been asked to pay when they died.	Mae hwn yn cynnwys unrhyw fenthyciadau yr oedd {0} yn eu talu, gan gynnwys y rheiny a sicrhawyd ac y bu rhaid eu talu pan fu farw.	English not updated. Welsh updated.
+page.iht.application.debts.other.description.p2	This includes any loans {0} was paying, including those they were guaranteeing and had been asked to pay when they died.	Mae hyn yn cynnwys unrhyw fenthyciadau yr oedd {0} yn eu talu, gan gynnwys y rheiny y gwnaeth eu sicrhau ac a oedd i'w talu.	English not updated. Welsh updated.
 page.iht.application.assets.insurance.policies.overview.other.question4.yes.screenReader.link.value	Yes, the policies were placed in a trust more than 7 years before {0} died. Change this answer.		Unchanged.
 page.iht.application.overview.common.viewcopy	View a copy of this estate report (PDF, <500KB)	Bwrw golwg ar gopi o'r adroddiad hwn ynghylch yr ystâd (PDF, <500KB)	Unchanged.
 page.iht.application.assets.property.detailsOverview.address.screenReader.link.noValue	Give details for the address		Unchanged.
@@ -1653,4 +1653,3 @@ error.address.giveInLine1And2	Give an address in both address lines 1 and 2	Rhow
 page.iht.application.assets.propertyType.nonResidential.label	Land, non-residential or business building		Unchanged.
 page.iht.application.tnrbEligibilty.partner.additional.label.the.deceased	{0}’s		Unchanged.
 page.iht.registration.checklist.startRegistrationButton	Start registration	Dechrau'r broses gofrestru	Unchanged.
-
