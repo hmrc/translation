@@ -72,6 +72,7 @@ trait GitMessage2Csv extends Message2Csv with KeyValueParser with FileReader wit
     // Windows / Linux / MacOS / Other
     pr.get("os.name") match {
       case "Linux" => executeCommand(s"./gitRetrieve.sh $projectDir $gitCloneRef $gitCommitRef")
+      case "MacOS" => executeCommand(s"./gitRetrieve.sh $projectDir $gitCloneRef $gitCommitRef")
       case "Windows" => println("Only bash/Linux script created so far. Windows bat file will be added, or please feel free to add it! :)")
       case _ => println("Only bash/Linux script created so far. ")
     }
