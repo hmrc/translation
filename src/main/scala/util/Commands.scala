@@ -20,6 +20,10 @@ import java.io.{BufferedReader, File, IOException, InputStreamReader}
 
 trait Commands {
 
+  def executeCommand(cmd: String):Unit = {
+    executeCommand(cmd, ".")
+  }
+
   def executeCommand(cmd: String, dir:String):Unit = {
     executeCommand(cmd, null, dir)
   }
@@ -29,22 +33,30 @@ trait Commands {
     println("Running " + cmd)
     try {
       val dir = new File(strDir)
-      val p: Process = Runtime.getRuntime().exec(cmd, params, dir)
-      p.waitFor()
-      val reader: BufferedReader = new BufferedReader(new InputStreamReader(p.getInputStream()))
+      val p: Process = Runtime.getRuntime.exec(cmd, params, dir)
+      val reader: BufferedReader = new BufferedReader(new InputStreamReader(p.getInputStream))
 
-
+//      readLines(reader)
       var line: String = reader.readLine()
       while (line != null) {
         println(line)
         line = reader.readLine()
       }
+      p.waitFor()
     }
     catch {
       case e1: IOException =>
       case e2: InterruptedException =>
     }
     println("-------> Done.")
+  }
+
+  def readLines(reader: BufferedReader):Unit = {
+    val line = reader.readLine()
+    if (line != null){
+      println(line)
+      readLines(reader)
+    }
   }
 
 }

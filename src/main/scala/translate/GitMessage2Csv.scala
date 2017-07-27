@@ -41,9 +41,9 @@ trait GitMessage2Csv extends Message2Csv with KeyValueParser with FileReader wit
       val oOldEnMsg = oldEnMap.find(oldEnMessage => enMessage._1 == oldEnMessage._1)
       val oCyMsg = cyMap.find(cyMessage => enMessage._1 == cyMessage._1).map(cyMsg => cyMsg._2)
 
-      oOldEnMsg.fold(enMessage._1 + delimiter + enMessage._2 + delimiter + delimiter + noWelshFound)
-      {oldEnMsg =>
-        checkEnglishMessageChanged(enMessage._1, enMessage._2, oldEnMsg._2, oCyMsg.getOrElse(""))
+      oCyMsg.fold(enMessage._1 + delimiter + enMessage._2 + delimiter + delimiter + noWelshFound)
+      {cyMsg =>
+        checkEnglishMessageChanged(enMessage._1, enMessage._2, oOldEnMsg.getOrElse(("",""))._2, cyMsg)
       } + newLine
     }
 
@@ -66,36 +66,40 @@ trait GitMessage2Csv extends Message2Csv with KeyValueParser with FileReader wit
   }
 
 
-  private def fetchGitFiles(projectDir: String, gitCloneRef: String, gitCommitRef: String):Unit = {
+  def fetchGitFiles(projectDir: String, gitCloneRef: String, gitCommitRef: String):Unit = {
 
     val pr = System.getProperties()
-    println("----->" + pr.get("os.name"))  // Windows / Linux / MacOS / Other
-
-    val projectDir = "tcr-frontend"
-    val gitCloneRef = "git@github.tools.tax.service.gov.uk:HMRC/tcr-frontend.git"
-    val gitCommitRef = "8f80f65"
-
-
-    val f = new File(".")
-    val p = new File(f.getCanonicalPath)
-    val hmrcPath = p.getParent
-
-    val tempDir = "translation_temp"
-    val tempPath = hmrcPath + "/" + tempDir
-    val projectPath = tempPath + "/" + projectDir
-
-    executeCommand("mkdir " + tempDir, hmrcPath)
-
-    executeCommand("git clone " + gitCloneRef, tempPath)
-    executeCommand("cp " + projectPath + "/conf/messages " + currentEnglishMessages, ".")
-    executeCommand("cp " + projectPath + "/conf/messages.cy " + currentWelshMessages, ".")
-
-    executeCommand("git checkout " + gitCommitRef, projectPath)
-    executeCommand("cp " + projectPath + "/conf/messages " + oldEnglishMessages, ".")
-    executeCommand("cp " + projectPath + "/conf/messages.cy " + oldWelshMessages, ".")
-
-
-    executeCommand("rm -rf " + tempDir, hmrcPath)
+    // Windows / Linux / MacOS / Other
+    pr.get("os.name") match {
+      case "Linux" => executeCommand(s"./gitRetrieve.sh $projectDir $gitCloneRef $gitCommitRef")
+      case _ =>
+    }
+//
+//    val projectDir = "tcr-frontend"
+//    val gitCloneRef = "git@github.tools.tax.service.gov.uk:HMRC/tcr-frontend.git"
+//    val gitCommitRef = "8f80f65"
+//
+//
+//    val f = new File(".")
+//    val p = new File(f.getCanonicalPath)
+//    val hmrcPath = p.getParent
+//
+//    val tempDir = "translation_temp"
+//    val tempPath = hmrcPath + "/" + tempDir
+//    val projectPath = tempPath + "/" + projectDir
+//
+//    executeCommand("mkdir " + tempDir, hmrcPath)
+//
+//    executeCommand("git clone " + gitCloneRef, tempPath)
+//    executeCommand("cp " + projectPath + "/conf/messages " + currentEnglishMessages, ".")
+//    executeCommand("cp " + projectPath + "/conf/messages.cy " + currentWelshMessages, ".")
+//
+//    executeCommand("git checkout " + gitCommitRef, projectPath)
+//    executeCommand("cp " + projectPath + "/conf/messages " + oldEnglishMessages, ".")
+//    executeCommand("cp " + projectPath + "/conf/messages.cy " + oldWelshMessages, ".")
+//
+//
+//    executeCommand("rm -rf " + tempDir, hmrcPath)
 
   }
 

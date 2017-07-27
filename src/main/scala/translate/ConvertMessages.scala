@@ -30,9 +30,9 @@ class ConvertMessages {
     def run(): Unit = {
 
 
-
+//        GitMessage2Csv.fetchGitFiles("tcr-frontend", "git@github.tools.tax.service.gov.uk:HMRC/tcr-frontend.git", "8f80f65")
 //      GitMessage2Csv.messages2csv("myCsvOut.csv")
-      //      new UI
+      new UI
     }
   })
 }

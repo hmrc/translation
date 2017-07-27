@@ -54,7 +54,7 @@ trait Message2CsvUI extends PathParser{
   }
 
 
-  // #### Output Csv Input file...
+  // #### Output Csv Output file...
   val tfOuputCsv = new TextField()
   val buttonOuputCsv = new Button {
     action = Action("open"){
