@@ -72,35 +72,9 @@ trait GitMessage2Csv extends Message2Csv with KeyValueParser with FileReader wit
     // Windows / Linux / MacOS / Other
     pr.get("os.name") match {
       case "Linux" => executeCommand(s"./gitRetrieve.sh $projectDir $gitCloneRef $gitCommitRef")
-      case _ =>
+      case "Windows" => println("Only bash/Linux script created so far. Windows bat file will be added, or please feel free to add it! :)")
+      case _ => println("Only bash/Linux script created so far. ")
     }
-//
-//    val projectDir = "tcr-frontend"
-//    val gitCloneRef = "git@github.tools.tax.service.gov.uk:HMRC/tcr-frontend.git"
-//    val gitCommitRef = "8f80f65"
-//
-//
-//    val f = new File(".")
-//    val p = new File(f.getCanonicalPath)
-//    val hmrcPath = p.getParent
-//
-//    val tempDir = "translation_temp"
-//    val tempPath = hmrcPath + "/" + tempDir
-//    val projectPath = tempPath + "/" + projectDir
-//
-//    executeCommand("mkdir " + tempDir, hmrcPath)
-//
-//    executeCommand("git clone " + gitCloneRef, tempPath)
-//    executeCommand("cp " + projectPath + "/conf/messages " + currentEnglishMessages, ".")
-//    executeCommand("cp " + projectPath + "/conf/messages.cy " + currentWelshMessages, ".")
-//
-//    executeCommand("git checkout " + gitCommitRef, projectPath)
-//    executeCommand("cp " + projectPath + "/conf/messages " + oldEnglishMessages, ".")
-//    executeCommand("cp " + projectPath + "/conf/messages.cy " + oldWelshMessages, ".")
-//
-//
-//    executeCommand("rm -rf " + tempDir, hmrcPath)
-
   }
 
 }

@@ -4,7 +4,7 @@ if [ $# -lt 3 ]
   then
     echo "Not enough arguments supplied"
     echo "Usage: git-retrieve.sh [project name] [git clone ref] [git commit ref]"
-    echo "example: git-retrieve.sh tcr-frontend git@github.tools.tax.service.gov.uk:HMRC/tcr-frontend.git 8g80f22"
+    echo "example: git-retrieve.sh pertax-frontend https://github.com/hmrc/pertax-frontend.git 8g80f22"
     exit 1
 fi
 
