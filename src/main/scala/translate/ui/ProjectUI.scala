@@ -50,4 +50,8 @@ trait ProjectUI extends PathParser{
     layout(tfProject) = Position.Center
   }
 
+  def enable(enable: Boolean): Unit = {
+    btnProject.enabled = enable
+    tfProject.enabled = enable
+  }
 }

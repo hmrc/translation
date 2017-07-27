@@ -34,11 +34,11 @@ class UI extends MainFrame {
     action = Action("select"){
       showMsg2Csv()
       updateButons(this)
-
+      ProjectUI.enable(true)
     }
 
     text = "Messages to Csv"
-    enabled = false
+    enabled = true
     tooltip = "Takes English messages and an existing set of translations, in order to create a new marked-up Csv, for translation."
   }
 
@@ -46,16 +46,29 @@ class UI extends MainFrame {
     action = Action("select"){
       showCsv2Msg()
       updateButons(this)
+      ProjectUI.enable(true)
     }
     text = "Csv to Messages"
     enabled = true
     tooltip = "Takes English messages and an existing set of translations, in order to create a new marked-up Csv, for translation."
   }
 
+  val btnChooseGitMsg2Csv = new Button {
+    action = Action("select"){
+      showGitMsg2Csv()
+      updateButons(this)
+      ProjectUI.enable(false)
+    }
+    text = "Git Msg to Csv"
+    enabled = false
+    tooltip = "Takes an existing set of translations, and compares with new translations and outputs a new csv"
+  }
+
   val btnChooseCsv2Csv = new Button {
     action = Action("select"){
       showCsv2Csv()
       updateButons(this)
+      ProjectUI.enable(true)
     }
     text = "Csv to Csv (TBD)"
     enabled = true
@@ -65,6 +78,7 @@ class UI extends MainFrame {
   def updateButons(current: Button):Unit = {
     btnChooseMsg2Csv.enabled = true
     btnChooseCsv2Msg.enabled = true
+    btnChooseGitMsg2Csv.enabled = true
     btnChooseCsv2Csv.enabled = true
     current.enabled = false
   }
@@ -72,8 +86,10 @@ class UI extends MainFrame {
 
   val modePanel = new FlowPanel(){
     contents += new Label("Choose a mode: ")
-    contents += btnChooseMsg2Csv
+    contents += btnChooseGitMsg2Csv
     contents += btnChooseCsv2Msg
+    contents += btnChooseMsg2Csv
+
 
     //Disabled until IHT merge in their branch
     //    contents += btnChooseCsv2Csv
@@ -106,6 +122,16 @@ class UI extends MainFrame {
     contents = borderPanel
   }
 
+  def showGitMsg2Csv(): Unit = {
+    val borderPanel = new BorderPanel {
+      layout(projectAndModePanel) = Position.North
+      layout(GitMessage2CsvUI.panelButtons) = Position.West
+      layout(GitMessage2CsvUI.panelTextFields) = Position.Center
+      layout(GitMessage2CsvUI.goPanel) = Position.South
+    }
+    contents = borderPanel
+  }
+
   def showCsv2Csv(): Unit = {
     val borderPanel = new BorderPanel {
       layout(projectAndModePanel) = Position.North
@@ -116,5 +142,6 @@ class UI extends MainFrame {
     contents = borderPanel
   }
 
-  showMsg2Csv()
+  showGitMsg2Csv()
+  ProjectUI.enable(false)
 }
