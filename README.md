@@ -1,5 +1,6 @@
 # translation
 
+
 This tool is intended to make translation of English Play! Framework messages files to other languages (specifically Welsh), simpler.
 It will extract English messages (key/value pairs) into a csv file, for translation.
 
@@ -49,7 +50,7 @@ The tool may then be used to cross-reference the latest English messages file ag
  2. Run **Message to Csv** conversion, to create a csv file, from the English Messages file.
  3. Send csv file to translators.
  4. Receive csv back, with translations populated.
- 5. Extract the (Welsh) translations from the file, using this tool.
+ 5. Extract the (Welsh) translations from the file, using **Csv to Messages**.
  7. In future, Run **Git Msg to Csv** against the current code, and the git commit ref, where the Welsh translations were last updated. If the newly created csv highlights any changes, this indicates that additional translations are required. I.e. the English file has changed since the specified git commit.
  
  
