@@ -15,7 +15,8 @@ The tool may then be used to cross-reference the latest English messages file ag
 > sbt run
 
 
-![Messages Translation Screenshot](Screenshot.png)
+![Messages Translation Screenshot](Screenshot_msg2csv.png)
+![Messages Translation Screenshot](Screenshot_csv2msg.png)
 ![Messages Translation with Git Screenshot](Screenshot_Git.png)
 
 ## Csv to Messages || Messages -> Csv
