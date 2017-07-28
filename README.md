@@ -2,11 +2,12 @@
 
 
 This tool is intended to make translation of English Play! Framework messages files to other languages (specifically Welsh), simpler.
-It will extract English messages (key/value pairs) into a csv file, for translation.
 
-Once the csv translatiofile has been populated and returned, the tool can extract the Welsh key/value pairs into a messages.cy file.
+It will extract English messages, and any existing Welsh translations into a csv file, for translation.
 
-The tool may then be used to cross-reference the latest English messages file against the previously translated csv file, or against a specified git commit, to ensure sychnonisation. It will apply comments against each line, to indicate:
+Once the translation file has been populated and returned, the tool can extract the Welsh key/value pairs into a messages.cy file.
+
+The tool may then be used to cross-reference the latest English messages file against a previous messages, within a specified git commit, to ensure sychnonisation. It will apply comments against each line, to indicate:
  - a new, untranslated English message
  - an existing, changed English message
  - an existing, unchanged English message, which already has a Welsh translation
