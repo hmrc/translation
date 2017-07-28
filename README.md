@@ -50,7 +50,7 @@ The tool may then be used to cross-reference the latest English messages file ag
  5. Receive spreadsheet back, with translations populated.
  6. Using your favourite spreadsheet application, export the spreadsheet to csv, using __TABs__ to separate fields.
  7. Extract the (Welsh) translations from the csv file, using **Csv to Messages**.
- 8. In future, Run **Message to Csv** against the __head__, and the git commit ref, where the Welsh translations were last updated. If the newly created csv highlights any changes, this indicates that additional translations are required. I.e. the English file has changed since the specified git commit.
+ 8. In future, Run **Message to Csv** against the git commit ref, where the Welsh translations were last updated. If the newly created csv highlights any changes, this indicates that additional translations are required. I.e. the English file has changed since the specified git commit.
  
  
 # Notes:
