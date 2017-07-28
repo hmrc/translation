@@ -16,10 +16,6 @@ The tool may then be used to cross-reference the latest English messages file ag
 > sbt run
 
 
-![Messages Translation Screenshot](Screenshot_msg2csv.png)
-![Messages Translation Screenshot](Screenshot_csv2msg.png)
-![Messages Translation with Git Screenshot](Screenshot_Git.png)
-
 ## Csv to Messages || Messages to Csv
 1. Select your project directory
 2. Select Mode, to covert from messages to csv, or csv to messages

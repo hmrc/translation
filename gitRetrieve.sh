@@ -63,7 +63,7 @@ fi
 cp $projectPath/conf/messages.cy $translationDir/$currentWelshMessages
 
 
-echo Checking out previous build $gitCommitRef ...
+echo Checking out previous build: $gitCommitRef ...
 git checkout $gitCommitRef
 
 

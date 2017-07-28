@@ -37,7 +37,7 @@ trait Csv2MessageUI extends PathParser{
     }
     text = "Input Csv file..."
     enabled = true
-    tooltip = "Select the previously converted csv file, for comparison with your Messages File"
+    tooltip = "Select the csv with Welsh translations, to extract the messages from"
   }
 
   // #### Messages file...
@@ -50,7 +50,7 @@ trait Csv2MessageUI extends PathParser{
     }
     text = "Output Message file..."
     enabled = true
-    tooltip = "Select the English messages file you'd like to output to"
+    tooltip = "Select the Welsh messages file you'd like to output to"
   }
 
 

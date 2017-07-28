@@ -22,7 +22,18 @@ import util._
 
 object GitMessage2Csv extends GitMessage2Csv{}
 
-trait GitMessage2Csv extends Message2Csv with KeyValueParser with FileReader with WrappedPrintWriter with Commands{
+trait GitMessage2Csv extends KeyValueParser with FileReader with WrappedPrintWriter with Commands{
+
+  val csvHeader = "Key\tEnglish\tWelsh\tComments"
+  val delimiter = "\t"
+  val token = "="
+  val noWelshFound = "No Welsh translation found"
+  val noEnglishFound = "No English messages found"
+  val englishUnchanged = "English message unchanged"
+  val englishChanged = "Message changed (previous message was: "
+  val separator = " / "
+  val englishChangedEnd = ")"
+  val newLine = "\n"
 
   val currentEnglishMessages = "current_messages"
   val currentWelshMessages = "current_messages.cy"
@@ -73,9 +84,16 @@ trait GitMessage2Csv extends Message2Csv with KeyValueParser with FileReader wit
     pr.get("os.name") match {
       case "Linux" => executeCommand(s"./gitRetrieve.sh $projectDir $gitCloneRef $gitCommitRef")
       case "MacOS" => executeCommand(s"./gitRetrieve.sh $projectDir $gitCloneRef $gitCommitRef")
-      case "Windows" => println("Only bash/Linux script created so far. Windows bat file will be added, or please feel free to add it! :)")
-      case _ => println("Only bash/Linux script created so far. ")
+      case "Windows" => println("Only Bash script created so far. Windows bat file will be added, or please feel free to add it! :)")
+      case _ => println("Only Bash script created so far. ")
     }
+  }
+
+  def fetchMessages(lang:String):Map[String, String] = {
+    val lines = for (line <- linesFromFile(lang)) yield line
+    lines.flatMap{ line =>
+      splitKeyValue(line, token).map(line => line._1 -> line._2)
+    }.toMap
   }
 
 }

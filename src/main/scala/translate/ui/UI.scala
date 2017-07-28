@@ -29,57 +29,30 @@ class UI extends MainFrame {
   visible = true
 
 
-  //### Build and assemble the mode buttons.
-  val btnChooseMsg2Csv = new Button {
-    action = Action("select"){
-      showMsg2Csv()
-      updateButons(this)
-      ProjectUI.enable(true)
-    }
-
-    text = "Messages to Csv"
-    enabled = true
-    tooltip = "Takes English messages and an existing set of translations, in order to create a new marked-up Csv, for translation."
-  }
-
   val btnChooseCsv2Msg = new Button {
     action = Action("select"){
       showCsv2Msg()
       updateButons(this)
-      ProjectUI.enable(true)
     }
     text = "Csv to Messages"
     enabled = true
-    tooltip = "Takes English messages and an existing set of translations, in order to create a new marked-up Csv, for translation."
+    tooltip = "Takes translated csv file, and creates a messages messages file."
   }
 
   val btnChooseGitMsg2Csv = new Button {
     action = Action("select"){
       showGitMsg2Csv()
       updateButons(this)
-      ProjectUI.enable(false)
     }
-    text = "Git Msg to Csv"
+    text = "Messages to Csv"
     enabled = false
-    tooltip = "Takes an existing set of translations, and compares with new translations and outputs a new csv"
+    tooltip = "Compares previous messages files with with current message files, to create a csv report, for possible translation"
   }
 
-  val btnChooseCsv2Csv = new Button {
-    action = Action("select"){
-      showCsv2Csv()
-      updateButons(this)
-      ProjectUI.enable(true)
-    }
-    text = "Csv to Csv (TBD)"
-    enabled = true
-    tooltip = "Takes an existing set of translations, and compares with new translations and outputs a new csv"
-  }
 
   def updateButons(current: Button):Unit = {
-    btnChooseMsg2Csv.enabled = true
     btnChooseCsv2Msg.enabled = true
     btnChooseGitMsg2Csv.enabled = true
-    btnChooseCsv2Csv.enabled = true
     current.enabled = false
   }
 
@@ -88,28 +61,12 @@ class UI extends MainFrame {
     contents += new Label("Choose a mode: ")
     contents += btnChooseGitMsg2Csv
     contents += btnChooseCsv2Msg
-    contents += btnChooseMsg2Csv
-
-
-    //Disabled until IHT merge in their branch
-    //    contents += btnChooseCsv2Csv
   }
 
   val projectAndModePanel = new BorderPanel {
-    layout(ProjectUI.projectPanel) = Position.North
     layout(modePanel) = Position.South
   }
 
-
-  def showMsg2Csv(): Unit = {
-    val borderPanel = new BorderPanel {
-      layout(projectAndModePanel) = Position.North
-      layout(Message2CsvUI.panelButtons) = Position.West
-      layout(Message2CsvUI.panelTextFields) = Position.Center
-      layout(Message2CsvUI.goPanel) = Position.South
-    }
-    contents = borderPanel
-  }
 
 
   def showCsv2Msg(): Unit = {
@@ -132,16 +89,7 @@ class UI extends MainFrame {
     contents = borderPanel
   }
 
-  def showCsv2Csv(): Unit = {
-    val borderPanel = new BorderPanel {
-      layout(projectAndModePanel) = Position.North
-      layout(Csv2CsvUI.panelButtons) = Position.West
-      layout(Csv2CsvUI.panelTextFields) = Position.Center
-      layout(Csv2CsvUI.goPanel) = Position.South
-    }
-    contents = borderPanel
-  }
+
 
   showGitMsg2Csv()
-  ProjectUI.enable(false)
 }
