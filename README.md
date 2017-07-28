@@ -55,4 +55,6 @@ The tool may then be used to cross-reference the latest English messages file ag
  
 # Notes:
  1. Messages.en is the definitive hand-crafted list of messages in the project, so never auto generated.
- 4. Messages.cy is a straight generation from a csv/spreadsheet file.
+ 2. Messages.cy is a straight generation from a csv/spreadsheet file.
+ 3. This application uses some native code. To date it has only been tested on Linux. It should work with any Bash shell, but does not yet support Windoze.
+ 
