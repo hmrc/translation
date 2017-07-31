@@ -380,6 +380,8 @@ iht.timeout.signBackToGG	Sign back in to Government Gateway	Mewngofnodwch yn ôl
 iht.estateReport.exemptions.guidance.claimingEstateExemptions	Claiming estate exemptions	Gwneud cais am eithriadau'r ystâd	Unchanged.
 page.iht.application.debts.overview.funeralExpenses.screenReader.value	The value of funeral expenses is £{0}	£{0} yw swm y treuliau angladd	Unchanged.
 global.error.badRequest400.title	Bad request - 400	Cais drwg – 400	Unchanged.
+global.error.badRequest400.message  Please check that you have entered the correct web address. Gwiriwch eich bod wedi nodi''r cyfeiriad gwe cywir.
+global.error.pageNotFound404.message  Please check that you have entered the correct web address. Gwiriwch eich bod wedi nodi''r cyfeiriad gwe cywir.
 page.iht.application.exemptions.assetLeftToGncp.screenReader.value	Value of assets left to another qualifying body is £{0}	Swm yr asedion a adawyd i gorff cymwys arall yw £{0}	Unchanged.
 page.iht.application.assets.vehicles.deceased.value	Value of any motor vehicles {0} owned in their own name		Unchanged.
 page.iht.application.debts.debtsOutsideUk.description.p1	This is the value of all debts owed to anyone outside of the UK including anything owed on any foreign assets.	Dyma swm yr holl ddyledion sy'n ddyledus i unrhyw un y tu allan i'r DU, gan gynnwys unrhyw beth sy'n ddyledus ar asedion tramor.	Unchanged.
