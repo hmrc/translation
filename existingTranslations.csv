@@ -1,4 +1,3 @@
-iht.fullStop	.		English updated. Welsh blanked.
 iht.estateReport.exemptions.qualifyingBodies.assetsLeftToQualifyingBodies.title	Assets left to other qualifying bodies	Asedion a adawyd i gyrff cymwys eraill	English not updated. Welsh updated.
 iht.estateReport.exemptions.spouse.assetLeftToSpouse.question	Did {0} leave any assets to their spouse or civil partner?	A adawodd {0} unrhyw asedion I briod neu bartner sifil?	English not updated. Welsh updated.
 iht.estateReport.exemptions.charities.returnToAddACharity	Return to add a charity	Yn ôl i ychwanegwch elusen	English not updated. Welsh updated.
@@ -1645,8 +1644,8 @@ page.iht.application.assets.propertyType.nonResidential.label	Land, non-resident
 page.iht.application.tnrbEligibilty.partner.additional.label.the.deceased	{0}’s		Unchanged.
 page.iht.registration.checklist.startRegistrationButton	Start registration	Dechrau'r broses gofrestru	Unchanged.
 global.error.badRequest400.title	Bad request - 400	Cais drwg – 400	Unchanged.
-global.error.badRequest400.message  Please check that you have entered the correct web address. Gwiriwch eich bod wedi nodi'r cyfeiriad gwe cywir.
-global.error.pageNotFound404.message  Please check that you have entered the correct web address. Gwiriwch eich bod wedi nodi'r cyfeiriad gwe cywir.
+global.error.badRequest400.message	Please check that you have entered the correct web address.	Gwiriwch eich bod wedi nodi'r cyfeiriad gwe cywir.	
+global.error.pageNotFound404.message	Please check that you have entered the correct web address.	Gwiriwch eich bod wedi nodi'r cyfeiriad gwe cywir.	
 global.error.InternalServerError500.message	Please try again in a few moments.	Rhowch gynnig arall arni mewn ychydig.	Unchanged.
 global.error.badRequest400.heading	Bad request	Cais drwg	Unchanged.
 global.error.pageNotFound404.title	Page not found - 404	Heb ddod o hyd i'r dudalen – 404	Unchanged.
