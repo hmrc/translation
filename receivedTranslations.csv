@@ -1,5 +1,35 @@
-iht.fullStop	.	.
-page.iht.application.return.to.exemptionsOf	Return to {0}’s estate exemptions	Yn ôl i eithriadau ystâd {0}
-iht.estateReport.exemptions.qualifyingBodies.assetsLeftToQualifyingBodies.title	Assets left to other qualifying bodies	Asedion a adawyd i gyrff cymwys eraill
-iht.estateReport.exemptions.charities.returnToAddACharity	Return to add a charity	Yn ôl i ychwanegwch elusen
-iht.estateReport.exemptions.spouse.assetLeftToSpouse.question	Did {0} leave any assets to their spouse or civil partner?	A adawodd {0} unrhyw asedion I briod neu bartner sifil?
+page.iht.filter.filter.choice.main.continue	I want to continue an estate report that I have already started	Rwyf am barhau ag adroddiad ynghylch ystâd yr wyf eisoes wedi dechrau
+page.iht.filter.paperform.northern.ireland.p1	Reporting the estate value in Northern Ireland is completed by using a paper form.	Cwblheir y broses o hysbysu ynghylch gwerth ystâd yng Ngogledd Iwerddon drwy ddefnyddio ffurflen bapur.
+page.iht.filter.paperform.scotland.link.text	Scottish Courts and Tribunals guidance	Arweiniad ynghylch Llysoedd a Thribiwnlysoedd yr Alban
+page.iht.filter.paperform.million.p1	Because you think the person who has died’s estate might be worth more than £1 million, you will need to report their estate value by filling in an	Gan eich bod o'r farn bod gwerth ystâd y person sydd wedi marw, o bosibl, dros £1 miliwn, bydd angen i chi rhoi gwybod beth yw gwerth yr ystâd drwy lenwi
+page.iht.filter.paperform.northern.ireland.iht205.link.text	IHT-205 form	ffurflen IHT-205
+page.iht.filter.paperform.northern.ireland.p2.sentence2.end	first.	yn gyntaf.
+page.iht.filter.agent.content	There is no change to how agents report estate values to HMRC. You must continue to use either an IHT-205 or an IHT-400 paper form.	Nid oes newid i'r modd y mae asiantau'n hysbysu CThEM ynghylch gwerth ystadau. Mae'n rhaid i chi barhau i ddefnyddio naill ai ffurflen bapur IHT-205 neu ffurflen bapur IHT-400.
+page.iht.filter.paperform.other.country.p2	Only assets that are in the UK should be included. This includes any UK property or bank accounts.	Dim ond asedion sydd yn y DU dylid eu cynnwys. Mae hyn yn cynnwys unrhyw eiddo neu gyfrif banc yn y DU.
+page.iht.filter.paperform.northern.ireland.p3	You can read more about applying for probate in Northern Ireland on	Gallwch ddarllen mwy am wneud cais ar gyfer profiant yng Ngogledd Iwerddon yn
+page.iht.filter.useService.paragraphFinal	You will need to register to use the service first, but before that, you will need to confirm who you are with HMRC.	Yn gyntaf, bydd angen i chi gofrestru er mwyn defnyddio'r gwasanaeth ond cyn hynny, bydd angen i chi gadarnhau pwy ydych gyda CThEM.
+page.iht.filter.paperform.scotland.p2.end	to find out what forms to use in Scotland.	i weld pa ffurflenni i'w defnyddio yn yr Alban.
+page.iht.filter.paperform.northern.ireland.nidirect.link.text	NIDIRECT.GOV.UK	NIDIRECT.GOV.UK
+page.iht.filter.domicile.choice.other	Other country	Gwlad arall
+page.iht.filter.paperform.northern.ireland.p2.sentence1.start	If you already know that the estate has Inheritance Tax to pay, complete the	Os ydych eisoes yn gwybod bod Treth Etifeddiant i'w thalu gan yr ystâd, llenwch y
+page.iht.filter.paperform.scotland.p1	Reporting the estate value in Scotland is completed by using a paper form.	Cwblheir y broses o hysbysu ynghylch gwerth ystâd yn yr Alban drwy ddefnyddio ffurflen bapur.
+page.iht.filter.useService.between325000And1Million.paragraph1	The service will work out the estate value for you. If the value is above £325,000, you will be able to claim any estate exemptions or transfer the unused threshold if there was a spouse or civil partner whose death was before the person who has died.	Bydd y gwasanaeth yn cyfrifo gwerth yr ystâd ar eich rhan. Os yw'r gwerth dros £325,000, byddwch yn gallu gwneud cais am unrhyw eithriadau neu drosglwyddo'r trothwy sydd heb ei ddefnyddio os oedd yna briod neu bartner sifil, a bu farw cyn yr ymadawedig.
+page.iht.filter.filter.choice.main.alreadyStarted	I have already started registration and want to continue	Rwyf eisoes wedi dechrau'r cofrestriad ac eisiau parhau
+page.iht.filter.estimate.choice.over	More than £1 million	Dros £1 miliwn
+page.iht.filter.paperform.iht400.link.text	IHT-400 form	ffurflen IHT-400
+page.iht.filter.paperform.million.exit	Exit to the IHT-400 form	Gadael ac i'r ffurflen IHT-400
+page.iht.filter.estimate.choice.under	Under £325,000	o dan £325,000
+page.iht.filter.filter.choice.main.agent	I am an agent and reporting on behalf of a client	Rwyf yn asiant ac yn hysbysu ar ran cleient
+page.iht.filter.useService.between325000And1Million.paragraph0	Because you think the estate might be worth between £325,000 and £1 million, you can use the online service to report the estate value to HMRC.	Gan eich bod o'r farn bod gwerth yr ystâd, o bosibl, rhwng £325,000 ac £1 miliwn, gallwch ddefnyddio'r gwasanaeth ar-lein i roi gwybod i CThEM beth yw gwerth yr ystâd.
+page.iht.filter.filter.choice.main.register	I want to register so I can tell HMRC about a person’s estate	Rwyf eisiau cgofrestru er mwyn i mi allu rhoi gwybod i CThEM am ystâd person
+page.iht.filter.previous.answers	Previous answers	Atebion blaenorol
+page.iht.filter.domicile.return.link	Return to what do you want to do	Yn ôl i'r hyn yr ydych am ei wneud
+page.iht.filter.estimate.choice.between	Between £325,000 and £1 million	Rhwng £325,000 ac £1 miliwn
+page.iht.filter.paperform.other.country.p1.sentence2.start	You must also fill in an	Mae'n rhaid i chi hefyd lenwi
+page.iht.filter.paperform.northern.ireland.p2.sentence2.start	If you are not sure of the estate value, start filling in the	Os nad ydych yn siŵr beth yw gwerth yr ystâd, dechreuwch lenwi'r
+page.iht.filter.filter.choice.main.register.hint	You will be asked a couple of questions first to make sure you are using the right service.	Gofynnir ychydig o gwestiynau i chi i ddechrau, er mwyn gwneud yn siŵr eich bod y defnyddio'r gwasanaeth cywir.
+page.iht.filter.paperform.scotland.p2.start	You can read the	Gallwch ddarllen y
+page.iht.filter.useService.under325000.paragraph0	Because you think the estate might be worth less than £325,000, you can use the online service to report the estate value to HMRC.	Gan eich bod o'r farn bod gwerth yr ystâd, o bosibl, yn llai na £325,000 gallwch ddefnyddio'r gwasanaeth ar-lein er mwyn rhoi gwybod i CThEM beth yw gwerth yr ystâd.
+page.iht.filter.paperform.other.country.p1.sentence1.start	Reporting the estate value when the deceased had their permanent home outside of the UK is done by filling in an	Pan fo cartref parhaol yr ymadawedig tu allan i'r DU, hysbysir gwerth yr ystâd drwy lenwi
+page.iht.filter.paperform.million.p2	This form is used when the estate value is more than £1 million. The form will guide you through what details you need to give and will tell you if there is any Inheritance Tax to pay.	Defnyddir y ffurflen hon pan fod gwerth yr ystâd yn fwy na £1 miliwn. Bydd y ffurflen yn eich arwain drwy ba fanylion sydd angen arnoch ac yn rhoi gwybod a oes unrhyw Dreth Etifeddiant i'w thalu.
+page.iht.filter.paperform.other.country.iht401.link.text	IHT-401 paper form	ffurflen papur IHT-401
