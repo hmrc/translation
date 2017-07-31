@@ -34,7 +34,6 @@ page.iht.application.assets.overview.other.screenReader.link.noValue	Give an ans
 page.iht.registration.registrationSummary.applicantInfo.dateOfBirth.data.screenReader	Your date of birth is {0}. This cannot be changed	Eich dyddiad geni yw {0}. Ni ellir newid hwn	Unchanged.
 page.iht.application.assets.overview.heldInTrust.screenReader.link.moreDetail	Give more details for assets held in a trust		Unchanged.
 page.iht.application.assets.insurance.policies.overview.deceased.yes.screenReader.link.value	Yes, {0} had insurance policies in their own name that were to pay out to them or there were policies paying out to their estate. Change this answer.		Unchanged.
-global.error.InternalServerError500.message	Please try again in a few moments.	Rhowch gynnig arall arni mewn ychydig.	Unchanged.
 page.iht.application.assets.deceased-permanent-home.question2.hint	You can find out how a property was owned from the Land Registry. Joint tenants and tenants in common are names that describe how a property is owned with another person.		Unchanged.
 page.iht.application.exemptions.partner.name.browserTitle	Partner’s name	Enw'r partner	Unchanged.
 page.iht.registration.questionnaire.p1	Any details you have entered have not been saved. You need to complete registration in one go.	Nid oes unrhyw fanylion a roddwyd gennych wedi'u cadw. Mae angen i chi gwblhau'r broses gofrestru mewn un tro.	Unchanged.
@@ -379,9 +378,6 @@ page.iht.application.assets.moneyOwed.description.p1	This is any money owed to {
 iht.timeout.signBackToGG	Sign back in to Government Gateway	Mewngofnodwch yn ôl i Borth y Llywodraeth	Unchanged.
 iht.estateReport.exemptions.guidance.claimingEstateExemptions	Claiming estate exemptions	Gwneud cais am eithriadau'r ystâd	Unchanged.
 page.iht.application.debts.overview.funeralExpenses.screenReader.value	The value of funeral expenses is £{0}	£{0} yw swm y treuliau angladd	Unchanged.
-global.error.badRequest400.title	Bad request - 400	Cais drwg – 400	Unchanged.
-global.error.badRequest400.message  Please check that you have entered the correct web address. Gwiriwch eich bod wedi nodi''r cyfeiriad gwe cywir.
-global.error.pageNotFound404.message  Please check that you have entered the correct web address. Gwiriwch eich bod wedi nodi''r cyfeiriad gwe cywir.
 page.iht.application.exemptions.assetLeftToGncp.screenReader.value	Value of assets left to another qualifying body is £{0}	Swm yr asedion a adawyd i gorff cymwys arall yw £{0}	Unchanged.
 page.iht.application.assets.vehicles.deceased.value	Value of any motor vehicles {0} owned in their own name		Unchanged.
 page.iht.application.debts.debtsOutsideUk.description.p1	This is the value of all debts owed to anyone outside of the UK including anything owed on any foreign assets.	Dyma swm yr holl ddyledion sy'n ddyledus i unrhyw un y tu allan i'r DU, gan gynnwys unrhyw beth sy'n ddyledus ar asedion tramor.	Unchanged.
@@ -602,7 +598,6 @@ iht.estateReport.gifts.kickout.givenInPreviousYears.returnToGiftsGivenAway.linkT
 page.iht.application.tnrbEligibilty.overview.giftsWithReservation.question.screenReader.text.yes	Yes, gifts with the reservation of benefit were given to someone apart from {1}. Change this answer.		Unchanged.
 page.iht.application.overview.exemptions.screenReader.noValue	You have not entered any estate exemptions	Nid ydych wedi nodi unrhyw eithriadau'r ystâd	Unchanged.
 error.dateOfMarriage.giveFull	Give a full date of marriage	Rhowch ddyddiad llawn ar gyfer priodi	Unchanged.
-global.error.badRequest400.heading	Bad request	Cais drwg	Unchanged.
 error.dateOfDeath.giveCorrectMonth	Give a correct month of death using numbers 1 to 12	Rhowch fis cywir ar gyfer y farwolaeth gan ddefnyddio'r rhifau 1 i 12	Unchanged.
 page.iht.application.debts.overview.funeralExpenses.screenReader.link.value	Change the value of funeral expenses	Newidiwch swm y treuliau angladd	Unchanged.
 page.iht.registration.registrationSummary.applicantInfo.email.link.screenReader	Change your email address	Newid eich cyfeiriad e-bost	Unchanged.
@@ -1084,7 +1079,6 @@ page.iht.application.tnrbEligibilty.overview.homeInUk.question.screenReader.text
 site.changeDate	Change date	Newid dyddiad	Unchanged.
 iht.estateReport.assets.propertyAdd	Add a property, building or land		Unchanged.
 error.vehicles.currencyValue.summary	enter a value for motor vehicles using only numbers	nodwch werth ar gyfer cerbydau modur gan ddefnyddio rhifau'n unig	Unchanged.
-global.error.pageNotFound404.title	Page not found - 404	Heb ddod o hyd i'r dudalen – 404	Unchanged.
 site.link.giveDetails	Give details	Rhowch fanylion	Unchanged.
 page.iht.filter.useService.between325000And1Million.paragraph0	Because you think the estate might be worth between £325,000 and £1 million, you can use the online service to report the estate value to HMRC.		Unchanged.
 page.iht.application.debts.mortgage.inputText.value	Value of mortgage		Unchanged.
@@ -1143,7 +1137,6 @@ iht.estateReport.assets.kickOut.foreignAssetsValueMoreThanMax.returnLinkText	ret
 error.address.give	Give an address	Rhowch gyfeiriad	Unchanged.
 page.iht.application.assets.insurances.sevenyearsbefore	Was the policy placed in trust more than seven years before date of death of the deceased?		Unchanged.
 page.iht.application.exemptions.guidance.content4	The estate value could become less than the Inheritance Tax threshold by claiming these exemptions.	Gallai gwerth yr ystâd ddisgyn yn is na'r trothwy Treth Etifeddiant drwy wneud cais am yr eithriadau hyn.	Unchanged.
-global.error.pageNotFound404.heading	This page cannot be found	Ni ellir dod o hyd i'r dudalen hon	Unchanged.
 page.iht.application.assets.money.jointly.owned.input.value.label	Value of {0}’s share of any jointly owned money		Unchanged.
 page.iht.home.applicationList.table.guidance.label.empty	You have not registered to complete an Inheritance Tax estate report.	Nid ydych wedi cofrestru er mwyn llenwi adroddiad Treth Etifeddiant ynghylch yr ystâd.	Unchanged.
 page.iht.registration.applicant.applyingForProbate.p1	If you are applying for probate, you will also be filling in a PA1 - Probate application form.	Os ydych yn gwneud cais am brofiant, byddwch hefyd yn llenwi PA1 - ffurflen gais ar gyfer Profiant.	Unchanged.
@@ -1196,7 +1189,6 @@ error.address.blank	Enter an address	Nodwch gyfeiriad	Unchanged.
 error.length.giftsDetails.value	Enter a value using less than 11 numbers	Nodwch werth gan ddefnyddio llai nag 11 rhif	Unchanged.
 site.noCharityNameGiven	No charity name given	Ni roddwyd enw elusen	Unchanged.
 page.iht.registration.applicantAddress.title	Your address	Eich cyfeiriad	Unchanged.
-global.error.InternalServerError500.title	We are experiencing technical difficulties	Rydym yn profi anawsterau technegol	Unchanged.
 page.iht.registration.co-executor-personal-details.isAddressInUk	Is their address in the UK?	A yw ei gyfeiriad yn y DU?	Unchanged.
 page.iht.application.overview.timeScale.guidance.months	If you do not send the estate report by this time, it will be deleted and you will have to start again.	Os na fyddwch yn anfon yr adroddiad ynghylch yr ystâd erbyn yr adeg hon, caiff ei ddileu a bydd yn rhaid i chi ddechrau o'r newydd.	Unchanged.
 page.iht.application.tnrb.threshold.screenReader	The inheritance tax threshold is £{0}		Unchanged.
@@ -1281,7 +1273,6 @@ page.iht.application.assets.money.overview.description.p2	This includes any mone
 page.iht.application.assets.pensions.isOwned.p1	This does not include their state pension.		Unchanged.
 page.iht.application.declaration_received.subtitle	What happens next	Yr hyn sy'n digwydd nesaf	Unchanged.
 page.iht.application.assets.insurances.coveredbyexemption	Are the premiums covered by the exemption for regular gifts out of income?		Unchanged.
-global.error.InternalServerError500.link.gov-uk-iht.text	Continue to Inheritance Tax overview	Ymlaen i Drosolwg o Dreth Etifeddiant	Unchanged.
 error.isAssetForDeceasedPartner.select	Select an answer for if any assets have been left to the deceased's spouse or civil partner	Dewiswch ateb ar gyfer os oes unrhyw asedion wedi'u gadael i briod neu bartner sifil yr ymadawedig	Unchanged.
 page.iht.application.assets.overview.properties.screenReader.link.value	Change the value for properties, buildings and land		Unchanged.
 page.iht.application.exemptions.overview.partner.dob.title	Date of birth of the spouse or civil partner	Dyddiad geni'r priod neu'r partner sifil	Unchanged.
@@ -1320,7 +1311,6 @@ error.dateOfDeath.giveCorrectYear	Give a correct year of death	Rhowch flwyddyn g
 site.date-hint-text	For example, 31 12 2014	Er enghraifft, 31 12 2014	Unchanged.
 site.noCharityNumberGiven	No charity number given	Ni roddwyd rhif elusen	Unchanged.
 iht.estateReport.exemptions.charities.returnToAssetsLeftToCharities	Return to assets left to charities	Yn ôl i asedion a adawyd i elusennau	Unchanged.
-global.error.InternalServerError500.heading	Sorry, we are experiencing technical difficulties	Mae'n ddrwg gennym, rydym yn profi anawsterau technegol	Unchanged.
 page.iht.application.insurance.policies.section7.guidance	The insurance premiums paid by {0} on a policy that pays out to someone else was a gift to that person.		Unchanged.
 iht.estateReport.exemptions.guidance.provideAssetsDetails	You will need to provide details of these assets in the estate exemptions section. You can save your progress and return to it at any time through the estate overview page.	Bydd rhaid i chi roi manylion yr asedion hyn yn yr adran ynghylch eithriadau'r ystâd. Gallwch gadw'r manylion yr ydych wedi eu nodi a dychwelyd iddynt ar unrhyw adeg drwy'r dudalen drosolwg ar gyfer yr ystâd.	Unchanged.
 page.iht.application.assets.overview.privatePension.screenReader.noValue	You have not given a value for private pensions		Unchanged.
@@ -1555,7 +1545,6 @@ page.iht.application.giftsDetails.browserTitle	Value of gifts for year	Gwerth rh
 iht.registration.deceased.lastContactAddress	{0}’s last contact address	Cyfeiriad cyswllt diwethaf {0}	Unchanged.
 error.assets.insurancePolicy.moreThanMaxValue.select	Select an answer for whether the deceased ever paid more than £3,000 in any year for any insurance policies that were not due to pay out to their estate	Dewiswch ateb ar gyfer a dalodd yr ymadawedig mwy na £3,000 mewn unrhyw flwyddyn am bolisiau yswiriant nad oedd disgwyl iddynt dalu allan i'w ystâd/hystâd	Unchanged.
 iht.giveMoreDetails	Give more details	Rhowch ragor o fanylion	Unchanged.
-global.error.InternalServerError500.link.gov-uk.text	Explore GOV.UK.	Chwilio drwy GOV.UK.	Unchanged.
 iht.estateReport.declaration.title	Declaration	Datganiad	Unchanged.
 iht.estateReport.tnrb.dateOfMarriage.hint	This is the date of {0} between {1} and {2}		Unchanged.
 iht.estateReport.assets.household.deceasedOwnedValue	Value of what {0} owned in their own name		Unchanged.
@@ -1655,4 +1644,14 @@ error.address.giveInLine1And2	Give an address in both address lines 1 and 2	Rhow
 page.iht.application.assets.propertyType.nonResidential.label	Land, non-residential or business building		Unchanged.
 page.iht.application.tnrbEligibilty.partner.additional.label.the.deceased	{0}’s		Unchanged.
 page.iht.registration.checklist.startRegistrationButton	Start registration	Dechrau'r broses gofrestru	Unchanged.
-
+global.error.badRequest400.title	Bad request - 400	Cais drwg – 400	Unchanged.
+global.error.badRequest400.message  Please check that you have entered the correct web address. Gwiriwch eich bod wedi nodi''r cyfeiriad gwe cywir.
+global.error.pageNotFound404.message  Please check that you have entered the correct web address. Gwiriwch eich bod wedi nodi''r cyfeiriad gwe cywir.
+global.error.InternalServerError500.message	Please try again in a few moments.	Rhowch gynnig arall arni mewn ychydig.	Unchanged.
+global.error.badRequest400.heading	Bad request	Cais drwg	Unchanged.
+global.error.pageNotFound404.title	Page not found - 404	Heb ddod o hyd i'r dudalen – 404	Unchanged.
+global.error.pageNotFound404.heading	This page cannot be found	Ni ellir dod o hyd i'r dudalen hon	Unchanged.
+global.error.InternalServerError500.title	We are experiencing technical difficulties	Rydym yn profi anawsterau technegol	Unchanged.
+global.error.InternalServerError500.link.gov-uk-iht.text	Continue to Inheritance Tax overview	Ymlaen i Drosolwg o Dreth Etifeddiant	Unchanged.
+global.error.InternalServerError500.heading	Sorry, we are experiencing technical difficulties	Mae'n ddrwg gennym, rydym yn profi anawsterau technegol	Unchanged.
+global.error.InternalServerError500.link.gov-uk.text	Explore GOV.UK.	Chwilio drwy GOV.UK.	Unchanged.
