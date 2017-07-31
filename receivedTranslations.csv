@@ -1,35 +1,241 @@
-page.iht.filter.filter.choice.main.continue	I want to continue an estate report that I have already started	Rwyf am barhau ag adroddiad ynghylch ystâd yr wyf eisoes wedi dechrau
-page.iht.filter.paperform.northern.ireland.p1	Reporting the estate value in Northern Ireland is completed by using a paper form.	Cwblheir y broses o hysbysu ynghylch gwerth ystâd yng Ngogledd Iwerddon drwy ddefnyddio ffurflen bapur.
-page.iht.filter.paperform.scotland.link.text	Scottish Courts and Tribunals guidance	Arweiniad ynghylch Llysoedd a Thribiwnlysoedd yr Alban
-page.iht.filter.paperform.million.p1	Because you think the person who has died’s estate might be worth more than £1 million, you will need to report their estate value by filling in an	Gan eich bod o'r farn bod gwerth ystâd y person sydd wedi marw, o bosibl, dros £1 miliwn, bydd angen i chi rhoi gwybod beth yw gwerth yr ystâd drwy lenwi
-page.iht.filter.paperform.northern.ireland.iht205.link.text	IHT-205 form	ffurflen IHT-205
-page.iht.filter.paperform.northern.ireland.p2.sentence2.end	first.	yn gyntaf.
-page.iht.filter.agent.content	There is no change to how agents report estate values to HMRC. You must continue to use either an IHT-205 or an IHT-400 paper form.	Nid oes newid i'r modd y mae asiantau'n hysbysu CThEM ynghylch gwerth ystadau. Mae'n rhaid i chi barhau i ddefnyddio naill ai ffurflen bapur IHT-205 neu ffurflen bapur IHT-400.
-page.iht.filter.paperform.other.country.p2	Only assets that are in the UK should be included. This includes any UK property or bank accounts.	Dim ond asedion sydd yn y DU dylid eu cynnwys. Mae hyn yn cynnwys unrhyw eiddo neu gyfrif banc yn y DU.
-page.iht.filter.paperform.northern.ireland.p3	You can read more about applying for probate in Northern Ireland on	Gallwch ddarllen mwy am wneud cais ar gyfer profiant yng Ngogledd Iwerddon yn
-page.iht.filter.useService.paragraphFinal	You will need to register to use the service first, but before that, you will need to confirm who you are with HMRC.	Yn gyntaf, bydd angen i chi gofrestru er mwyn defnyddio'r gwasanaeth ond cyn hynny, bydd angen i chi gadarnhau pwy ydych gyda CThEM.
-page.iht.filter.paperform.scotland.p2.end	to find out what forms to use in Scotland.	i weld pa ffurflenni i'w defnyddio yn yr Alban.
-page.iht.filter.paperform.northern.ireland.nidirect.link.text	NIDIRECT.GOV.UK	NIDIRECT.GOV.UK
-page.iht.filter.domicile.choice.other	Other country	Gwlad arall
-page.iht.filter.paperform.northern.ireland.p2.sentence1.start	If you already know that the estate has Inheritance Tax to pay, complete the	Os ydych eisoes yn gwybod bod Treth Etifeddiant i'w thalu gan yr ystâd, llenwch y
-page.iht.filter.paperform.scotland.p1	Reporting the estate value in Scotland is completed by using a paper form.	Cwblheir y broses o hysbysu ynghylch gwerth ystâd yn yr Alban drwy ddefnyddio ffurflen bapur.
-page.iht.filter.useService.between325000And1Million.paragraph1	The service will work out the estate value for you. If the value is above £325,000, you will be able to claim any estate exemptions or transfer the unused threshold if there was a spouse or civil partner whose death was before the person who has died.	Bydd y gwasanaeth yn cyfrifo gwerth yr ystâd ar eich rhan. Os yw'r gwerth dros £325,000, byddwch yn gallu gwneud cais am unrhyw eithriadau neu drosglwyddo'r trothwy sydd heb ei ddefnyddio os oedd yna briod neu bartner sifil, a bu farw cyn yr ymadawedig.
-page.iht.filter.filter.choice.main.alreadyStarted	I have already started registration and want to continue	Rwyf eisoes wedi dechrau'r cofrestriad ac eisiau parhau
-page.iht.filter.estimate.choice.over	More than £1 million	Dros £1 miliwn
-page.iht.filter.paperform.iht400.link.text	IHT-400 form	ffurflen IHT-400
-page.iht.filter.paperform.million.exit	Exit to the IHT-400 form	Gadael ac i'r ffurflen IHT-400
-page.iht.filter.estimate.choice.under	Under £325,000	o dan £325,000
-page.iht.filter.filter.choice.main.agent	I am an agent and reporting on behalf of a client	Rwyf yn asiant ac yn hysbysu ar ran cleient
-page.iht.filter.useService.between325000And1Million.paragraph0	Because you think the estate might be worth between £325,000 and £1 million, you can use the online service to report the estate value to HMRC.	Gan eich bod o'r farn bod gwerth yr ystâd, o bosibl, rhwng £325,000 ac £1 miliwn, gallwch ddefnyddio'r gwasanaeth ar-lein i roi gwybod i CThEM beth yw gwerth yr ystâd.
-page.iht.filter.filter.choice.main.register	I want to register so I can tell HMRC about a person’s estate	Rwyf eisiau cgofrestru er mwyn i mi allu rhoi gwybod i CThEM am ystâd person
-page.iht.filter.previous.answers	Previous answers	Atebion blaenorol
-page.iht.filter.domicile.return.link	Return to what do you want to do	Yn ôl i'r hyn yr ydych am ei wneud
-page.iht.filter.estimate.choice.between	Between £325,000 and £1 million	Rhwng £325,000 ac £1 miliwn
-page.iht.filter.paperform.other.country.p1.sentence2.start	You must also fill in an	Mae'n rhaid i chi hefyd lenwi
-page.iht.filter.paperform.northern.ireland.p2.sentence2.start	If you are not sure of the estate value, start filling in the	Os nad ydych yn siŵr beth yw gwerth yr ystâd, dechreuwch lenwi'r
-page.iht.filter.filter.choice.main.register.hint	You will be asked a couple of questions first to make sure you are using the right service.	Gofynnir ychydig o gwestiynau i chi i ddechrau, er mwyn gwneud yn siŵr eich bod y defnyddio'r gwasanaeth cywir.
-page.iht.filter.paperform.scotland.p2.start	You can read the	Gallwch ddarllen y
-page.iht.filter.useService.under325000.paragraph0	Because you think the estate might be worth less than £325,000, you can use the online service to report the estate value to HMRC.	Gan eich bod o'r farn bod gwerth yr ystâd, o bosibl, yn llai na £325,000 gallwch ddefnyddio'r gwasanaeth ar-lein er mwyn rhoi gwybod i CThEM beth yw gwerth yr ystâd.
-page.iht.filter.paperform.other.country.p1.sentence1.start	Reporting the estate value when the deceased had their permanent home outside of the UK is done by filling in an	Pan fo cartref parhaol yr ymadawedig tu allan i'r DU, hysbysir gwerth yr ystâd drwy lenwi
-page.iht.filter.paperform.million.p2	This form is used when the estate value is more than £1 million. The form will guide you through what details you need to give and will tell you if there is any Inheritance Tax to pay.	Defnyddir y ffurflen hon pan fod gwerth yr ystâd yn fwy na £1 miliwn. Bydd y ffurflen yn eich arwain drwy ba fanylion sydd angen arnoch ac yn rhoi gwybod a oes unrhyw Dreth Etifeddiant i'w thalu.
-page.iht.filter.paperform.other.country.iht401.link.text	IHT-401 paper form	ffurflen papur IHT-401
+page.iht.application.assets.household.deceased.browserTitle	Own household items owned	Eitemau i'r tŷ, yr oedd yn berchen arnynt
+page.iht.application.assets.household.description.p1	These are items, such as electrical goods and furniture, along with personal items such as jewellery.	Mae'r rhain yn eitemau megis nwyddau trydanol a dodrefn, ynghyd ag eitemau personol megis gemwaith.
+page.iht.application.assets.household.inputLabel1	Value of what the deceased owned on their own	Gwerth yr hyn oedd yr ymadawedig yn berchen arno wrth ei hun
+page.iht.application.assets.household.joint.browserTitle	Joint household items owned	Eitemau i'r tŷ, roedd yn berchen ar y cyd
+page.iht.application.assets.household.overview.deceased.isOwned.screenreader.link.change	Change the answer for household and personal items held in {0}’s name	Newid yr ateb ar gyfer eitemau i'r tŷ ac eitemau personol sydd yn enw {0}
+page.iht.application.assets.household.overview.deceased.isOwned.screenreader.link.noValue	Give an answer for household and personal items held in {0}’s name	Rhowch ateb ar gyfer eitemau i'r tŷ ac eitemau personol sydd yn enw {0}
+page.iht.application.assets.household.overview.deceased.value.screenreader.link.change	Change the answer for value of household and personal items held in {0}’s name	Newid yr ateb ar gyfer gwerth yr eitemau i'r tŷ ac eitemau personol sydd yn enw {0}
+page.iht.application.assets.household.overview.guidance	These are items like electrical goods and furniture, along with personal items like jewellery.	Mae'r rhain yn eitemau megis nwyddau trydanol a dodrefn, ynghyd ag eitemau personol megis gemwaith.
+page.iht.application.assets.household.overview.joint.isOwned.screenreader.link.change	Change the answer for jointly owned household and personal items	Newid yr ateb ar gyfer eitemau i'r tŷ ac eitemau personol yr oedd yn berchen ar y cyd
+page.iht.application.assets.household.overview.joint.isOwned.screenreader.link.noValue	Give an answer for jointly owned household and personal items	Rhowch ateb ar gyfer eitemau i'r tŷ ac eitemau personol yr oedd yn berchen ar y cyd
+page.iht.application.assets.household.overview.joint.value	Value of {0}’s share of any jointly owned household and personal items	Gwerth cyfran {0} o unrhyw eitemau i'r tŷ ac eitemau personol yr oedd yn berchen ar y cyd
+page.iht.application.assets.household.overview.joint.value.screenreader.link.change	Change the answer for value of jointly owned household and personal items	Newid yr ateb ar gyfer gwerth eitemau i'r tŷ ac eitemau personol yr oedd yn berchen ar y cyd
+page.iht.application.assets.household.sectionName	household	tŷ
+page.iht.application.assets.overview.household.screenReader.link.moreDetail	Give more details for household and personal items	Rhowch ragor o fanylion ar gyfer eitemau i'r tŷ ac eitemau personol
+page.iht.application.assets.overview.household.screenReader.link.noValue	Give an answer for household and personal items	Rhowch ateb ar gyfer eitemau i'r tŷ ac eitemau personol
+page.iht.application.assets.overview.household.screenReader.link.value	Change the value for household and personal items	Newid y swm ar gyfer eitemau i'r tŷ ac eitemau personol
+page.iht.application.assets.overview.household.screenReader.noValue	You have not given a value for household and personal items	Nid ydych wedi rhoi gwerth ar gyfer eitemau i'r tŷ ac eitemau personol
+page.iht.application.assets.overview.household.screenReader.value	The value of household and personal items is £{0}	Gwerth yr eitemau i'r tŷ ac eitemau personol yw £{0}
+iht.estateReport.assets.household.deceasedOwnedValue	Value of what {0} owned in their own name	Gwerth yr hyn yr oedd {0} yn berchen arno yn ei enw'i hun
+iht.estateReport.assets.household.joint.question	Did {0} jointly own any household and personal items with any other people?	A oedd {0} yn berchen ar unrhyw eitemau i'r tŷ ac eitemau personol ar y cyd ag unrhyw bobl eraill?
+iht.estateReport.assets.household.ownName.question	Did {0} own any household and personal items in their own name?	A oedd {0} yn berchen ar unrhyw eitemau i'r tŷ ac eitemau personol yn ei enw'i hun?
+iht.estateReport.assets.household.valueOfJointlyOwned	Value of {0}’s share of any jointly owned items	Gwerth cyfran {0} o unrhyw eitemau a oedd berchen ar y cyd
+iht.estateReport.assets.householdAndPersonalItems.title	Household and personal items	Eitemau i'r tŷ ac eitemau personol
+iht.estateReport.assets.householdAndPersonalItemsJointlyOwned.title	Household and personal items {0} owned jointly with other people	Eitemau i'r tŷ ac eitemau personol yr oedd {0} yn berchen arnynt ar y cyd â phobl eraill
+iht.estateReport.assets.householdAndPersonalItemsOwnedByDeceased.title	Household and personal items owned only by {0}	Eitemau i'r tŷ ac eitemau personol yr oedd {0} yn unig yn berchen arnynt
+page.iht.application.assets.insurance.policies.overview.deceased.amount.screenReader.link.novalue	Give a value for all policies owned by {0} and any policies being paid to their estate.	Rhowch y swm ar gyfer yr holl bolisïau roedd {0} yn berchen arnynt ac unrhyw bolisïau sy'n cael eu talu i'r ystâd.
+page.iht.application.assets.insurance.policies.overview.deceased.amount.screenReader.link.value	The value of all policies owned by {0} and any policies being paid to their estate is {1}. Change this value.	Y swm ar gyfer yr holl bolisïau roedd {0} yn berchen arnynt ac unrhyw bolisïau sy'n cael eu talu i'r ystâd yw {1}. Newid y swm hwn.
+page.iht.application.assets.insurance.policies.overview.deceased.giveAnswer.screenReader.link.value	Give an answer for did {0} have any policies in their own name that were to pay out to them.	Rhowch ateb ar gyfer a oedd gan {0} unrhyw bolisïau yn ei enw'i hun a oedd i'w talu iddo.
+page.iht.application.assets.insurance.policies.overview.deceased.no.screenReader.link.value	No, {0} did not have insurance policies in their own name that were to pay out to them or there were policies paying out to their estate. Change this answer.	Nac oedd, nid oedd gan {0} bolisïau yswiriant yn ei enw'i hun a oedd i'w talu neu roedd yna bolisïau a oedd yn talu'r ystâd. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.deceased.yes.screenReader.link.value	Yes, {0} had insurance policies in their own name that were to pay out to them or there were policies paying out to their estate. Change this answer.	Oedd, roedd gan {0} bolisïau yswiriant yn ei enw'i hun a oedd i'w talu neu roedd yna bolisïau a oedd yn talu'r ystâd. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.guidance.bullet1	any life insurance policies or insurance bonds that pay out to the estate	unrhyw bolisïau yswiriant bywyd neu fondiau yswiriant sy'n talu i'r ystâd
+page.iht.application.assets.insurance.policies.overview.guidance.bullet2	policies held in ISAs	polisïau a ddelir mewn ISAs
+page.iht.application.assets.insurance.policies.overview.guidance.bullet3	money paid under a mortgage protection policy	arian a dalir o dan bolisi diogelu morgais
+page.iht.application.assets.insurance.policies.overview.guidance.bullet4	any policies on the life of another person that would pay out to {0}	unrhyw bolisïau ar fywyd person arall a fyddai'n talu i {0}
+page.iht.application.assets.insurance.policies.overview.guidance1	This includes:	Mae hyn yn cynnwys:
+page.iht.application.assets.insurance.policies.overview.joint.amount.screenReader.link.novalue	Give a value for {0}’s share of the jointly owned insurance policies.	Rhowch swm ar gyfer cyfran {0} o'r polisïau yswiriant yr oedd yn berchen ar y cyd.
+page.iht.application.assets.insurance.policies.overview.joint.amount.screenReader.link.value	The value of {0}’s share of the jointly owned insurance policies is {1}. Change this value.	Swm cyfran {0} o'r polisïau yswiriant yr oedd yn berchen ar y cyd yw {1}. Newid y swm hwn.
+page.iht.application.assets.insurance.policies.overview.joint.giveAnswer.screenReader.link.value	Give an answer for did {0} have any insurance policies that were jointly held with someone else?	Rhowch ateb ar gyfer a oedd gan {0} unrhyw bolisïau yswiriant a ddaliwyd ar y cyd â rhywun arall?
+page.iht.application.assets.insurance.policies.overview.joint.no.screenReader.link.value	No, {0} did not jointly own any insurance policies with someone else. Change this answer.	Nac oedd, nid oedd {0} yn berchen ar bolisïau yswiriant ar y cyd â rhywun arall. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.joint.title	Policies that were jointly held with someone else	Polisïau a ddaliwyd ar y cyd â rhywun arall
+page.iht.application.assets.insurance.policies.overview.joint.yes.screenReader.link.value	Yes, {0} jointly owned insurance policies with someone else. Change this answer.	Oedd, roedd {0} yn berchen ar bolisïau yswiriant ar y cyd â rhywun arall. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.other.giveAnswer.screenReader.link.value	Give an answer for insurance premiums paid by {0} for someone else.	Rhowch ateb ar gyfer premiymau yswiriant a dalwyd gan {0} ar gyfer rhywun arall.
+page.iht.application.assets.insurance.policies.overview.other.question1.no.screenReader.link.value.married	No, {0} was not paying insurance premiums on a policy that pays out to someone who is not their spouse or civil partner. Change this answer.	Nac oedd, nid oedd {0} yn talu premiymau yswiriant ar bolisi sy'n talu i rywun sydd ddim yn briod neu'n bartner sifil iddo. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.other.question1.no.screenReader.link.value.notMarried	No, {0} was not paying insurance premiums for a policy that was not due to pay out to their estate. Change this answer.	Nac oedd, nid oedd {0} yn talu premiymau yswiriant ar gyfer polisi nad oedd yn mynd i dalu'r ystâd. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.other.question1.none.screenReader.link.value.married	Give an answer for did {0} ever pay insurance premiums for a policy that was not due to pay out to their estate?	Rhowch ateb ar gyfer a oedd {0} yn talu premiymau yswiriant ar gyfer polisi nad oedd yn mynd i dalu'r ystâd?
+page.iht.application.assets.insurance.policies.overview.other.question1.yes.screenReader.link.value.married	Yes, {0} was paying insurance premiums on a policy that pays out to someone who is not their spouse or civil partner. Change this answer.	Oedd, roedd {0} yn talu premiymau yswiriant ar bolisi sy'n talu i rywun sydd ddim yn briod neu'n bartner sifil iddynt. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.other.question1.yes.screenReader.link.value.notMarried	Yes, {0} was paying insurance premiums for a policy that was not due to pay out to their estate. Change this answer.	Oedd, roedd {0} yn talu premiymau yswiriant ar gyfer polisi nad oedd yn mynd i dalu'r ystâd. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.other.question2.no.screenReader.link.value	No, {0} did not spend over £3,000 in any year on the insurance premiums that were for a policy that was not paying out to their estate. Change this answer.	Na, ni wariodd {0} dros £3,000 yn ystod unrhyw flwyddyn ar y premiymau yswiriant a oedd ar gyfer polisi nad oedd talu'r ystâd. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.other.question2.none.screenReader.link.value	Give an answer for did {0} spend over £3,000 in any year on the insurance premiums that were for a policy that was not paying out to their estate?	Rhowch ateb ar gyfer a wariodd {0} dros £3,000 yn ystod unrhyw flwyddyn ar y premiymau yswiriant a oedd ar gyfer polisi nad oedd yn talu'r ystâd?
+page.iht.application.assets.insurance.policies.overview.other.question2.yes.screenReader.link.value	Yes, {0} spent over £3,000 in any year on the insurance premiums that were for a policy that was not paying out to their estate. Change this answer.	Do, fe wariodd {0} dros £3,000 yn ystod unrhyw flwyddyn ar y premiymau yswiriant a oedd ar gyfer polisi nad oedd yn talu'r ystâd. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.other.question3.no.screenReader.link.value	No, there was not an annuity on a policy being paid for by {0}. Change this answer.	Nac oedd, nid oedd yna flwydd-dal ar bolisi a oedd yn cael ei dalu amdano gan {0}. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.other.question3.none.screenReader.link.value	Give an answer for was any insurance policy that {0} paid for placed in trust in the 7 years before they died?	Rhowch ateb ar gyfer a oedd yna bolisi yswiriant a dalodd {0} amdano y cafodd ei roi mewn ymddiriedolaeth yn y 7 mlynedd cyn y bu farw?
+page.iht.application.assets.insurance.policies.overview.other.question3.yes.screenReader.link.value	Yes, there were policies paid by {0} for someone else that were held in a trust. Change this answer.	Oedd, roedd yna bolisïau y talodd {0} amdanynt ar gyfer rhywun arall a gadwyd mewn ymddiriedolaeth. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.other.question4	Was any insurance policy that {0} paid for placed in trust in the 7 years before they died?	A oedd yna bolisi yswiriant y talodd {0} amdano y cafodd ei roi mewn ymddiriedolaeth yn y 7 mlynedd cyn y bu farw?
+page.iht.application.assets.insurance.policies.overview.other.question4.no.screenReader.link.value	No, there were not any policies paid by {0} for someone else that were held in a trust. Change this answer.	Nac oedd, nid oedd yna bolisïau y talodd {0} amdanynt ar gyfer rhywun arall y cafodd eu cadw mewn ymddiriedolaeth. Newid yr ateb hwn.
+page.iht.application.assets.insurance.policies.overview.other.question4.none.screenReader.link.value	Give an answer for was a policy placed in a trust more than 7 years before {0} died?	Rhowch ateb ar gyfer a oedd yna bolisi y cafodd ei roi mewn ymddiriedolaeth dros 7 mlynedd cyn i {0} farw?
+page.iht.application.assets.insurance.policies.overview.other.question5.none.screenReader.link.value	Give an answer for did {0} buy an annuity at any time in their life?	Rhowch ateb ar gyfer a brynodd {0} blwydd-dal ar unrhyw adeg tra'n fyw?
+page.iht.application.assets.insurance.policies.overview.other.question5.yes.screenReader.link.value	Yes, {0} bought an annuity on a policy that they were paying for. Change this answer.	Do, prynodd {0} flwydd-dal ar bolisi yr oedd yn talu amdano. Newid yr ateb hwn.
+page.iht.application.assets.insurances.coveredbyexemption	Are the premiums covered by the exemption for regular gifts out of income?	A yw'r premiymau wedi eu cwmpasu gan yr eithriad ar gyfer rhoddion rheolaidd allan o incwm?
+page.iht.application.assets.insurances.coveredbyexemption-guidance	Your premiums must be treated as gifts as cash. We will ask you to include that information as a gift.	Mae'n rhaid trin eich premiymau fel rhoddion o arian parod. Byddwn yn gofyn i chi gynnwys yr wybodaeth honno fel rhodd.
+page.iht.application.assets.insurances.inputLabel1	Value of the deceased’s insurance policies held in their own name when they died	Swm polisïau yswiriant yr ymadawedig a oedd wedi ei ddal yn enw ei hun pan fu farw
+page.iht.application.assets.insurances.isintrust	Was the insurance policy held in trust?	A oedd y polisi yswiriant wedi ei ddal mewn ymddiriedolaeth?
+page.iht.application.assets.insurances.isjointlyowned	Were any insurance policies jointly owned?	A oedd unrhyw bolisïau yswiriant mewn perchnogaeth ar y cyd?
+page.iht.application.assets.insurances.sectionName	insurances	yswiriannau
+page.iht.application.assets.insurances.sevenyearsbefore	Was the policy placed in trust more than seven years before date of death of the deceased?	A roddwyd y polisi mewn ymddiriedolaeth dros saith mlynedd cyn y dyddiad pan fu'r ymadawedig farw?
+page.iht.application.assets.overview.insurancePolicy.screenReader.link.moreDetail	Give more details for insurance policies	Rhowch ragor o fanylion am bolisïau yswiriant
+page.iht.application.assets.overview.insurancePolicy.screenReader.link.noValue	Give an answer for insurance policies	Rhowch ateb ar gyfer polisïau yswiriant
+page.iht.application.assets.overview.insurancePolicy.screenReader.link.value	Change the value for insurance policies	Newidiwch y swm ar gyfer polisïau yswiriant
+page.iht.application.assets.overview.insurancePolicy.screenReader.noValue	You have not given a value for insurance policies	Nid ydych wedi rhoi swm ar gyfer polisïau yswiriant
+page.iht.application.assets.overview.insurancePolicy.screenReader.value	The value of insurance policies is £{0}	£{0} yw swm y polisïau yswiriant
+page.iht.application.insurance.policies.section1.browserTitle	Own insurance policies	Polisïau yswiriant yr unigolyn
+page.iht.application.insurance.policies.section1.guidance	These are all of the insurance policies that were owned in {0}’s own name and were paying out to them. You should also include any policies that anyone else had and were paying out only to {1}.	Y rhain yw pob un polisi yswiriant a berchnogwyd yn enw {0} ei hun ac yr oeddynt yn cael eu talu i'r unigolyn. Dylech hefyd gynnwys unrhyw bolisiau yr oedd gan unrhyw un arall ac oedd yn talu i {1} yn unig.
+page.iht.application.insurance.policies.section2.browserTitle	Joint insurance policies	Polisïau yswiriant ar y cyd
+page.iht.application.insurance.policies.section2.guidance	These are all of the policies that were jointly in the names of {0} and any other person. This could be a life assurance policy or a mortgage protection policy on a house that {1} jointly owned.	Dyma bob un polisi a oedd yn enwau {0} ac unrhyw berson arall ar y cyd. Gallai hynny fod yn bolisi aswiriant bywyd neu bolisi diogelu morgais ar dŷ roedd {1} yn berchen arno ar y cyd.
+page.iht.application.insurance.policies.section2.guidance2	Only include {0}’s share of the policy value. You will need to take the total value of the insurance policy and work out how much of that the deceased owned.	Dylech dim ond gynnwys cyfran {0} o werth y polisi. Bydd angen i chi gymryd cyfanswm gwerth y polisi yswiriant a chyfrifo faint sydd ar yr ymadawedig.
+page.iht.application.insurance.policies.section2.title	Policies that were jointly held with other people	Polisïau oedd wedi'u dal ar y cyd â phobl eraill
+page.iht.application.insurance.policies.section3.browserTitle	Premiums paid for someone else	Premiymau a dalwyd ar gyfer rhywun arall
+page.iht.application.insurance.policies.section4.browserTitle	Policies placed in trust	Polisïau a gadwyd mewn ymddiriedolaeth
+page.iht.application.insurance.policies.section4.title	Was an insurance policy that {0} was paying for placed in trust in the 7 years before they died?	A oedd polisi yswiriant yr oedd {0} yn talu amdano wedi'i roi mewn ymddiriedolaeth yn y 7 mlynedd cyn y bu farw?
+page.iht.application.insurance.policies.section5.question	Was an insurance policy placed in the trust more than 7 years before the deceased died?	A roddwyd polisi yswiriant yn yr ymddiriedolaeth dros 7 mlynedd cyn y bu'r ymadawedig farw?
+page.iht.application.insurance.policies.section5.title	Was a policy placed in a trust more than 7 years before the deceased died?	A roddwyd polisi mewn ymddiriedolaeth dros 7 mlynedd cyn y bu'r ymadawedig farw?
+page.iht.application.insurance.policies.section6.browserTitle	Any annuities bought	Unrhyw flwydd-daliadau a brynwyd
+page.iht.application.insurance.policies.section6.guidance	An annuity pays out through a number of regular payments. Sometimes this could be from an insurance company where someone receives a regular payment instead of one single payment. You should take your time to check with different financial providers to check if an annuity was bought.	Caiff blwydd-dal ei dalu drwy gyfrwng nifer o daliadau rheolaidd. Gall hynny, weithiau, fod oddi wrth gwmni yswiriant pan fo rhywun yn cael taliad rheolaidd yn hytrach na un taliad sengl. Dylech gymryd eich amser i wirio gyda darparwyr ariannol gwahanol i weld a brynwyd blwydd-dal.
+page.iht.application.insurance.policies.section7.guidance	The insurance premiums paid by {0} on a policy that pays out to someone else was a gift to that person.	Roedd y premiymau yswiriant a dalwyd gan {0} ar bolisi sy'n talu i rywun arall, yn rhodd i'r person hwnnw.
+page.iht.application.insurance.policies.section7.guidance2	Include these values in the gifts section.	Dylech gynnwys y gwerthoedd hyn yn yr adran rhoddion.
+page.iht.application.insurance.policies.section8.browserTitle	Value of gifted policies	Swm polisïau a roddwyd fel rhodd
+page.iht.application.insurance.policies.validation.summary.endLine	If you do not want to answer at this time, you can choose to return to insurance policies.	Os nad ydych am ateb ar hyn o bryd, gallwch ddewis mynd yn ôl i'r adran polisïau yswiriant.
+page.iht.application.assets.insurance.policies.overview.other.question4.yes.screenReader.link.value	Yes, the policies were placed in a trust more than 7 years before {0} died. Change this answer.	Do, rhoddwyd y polisïau mewn ymddiriedolaeth dros 7 mlynedd cyn y bu {0} farw. Newid yr ateb hwn.
+iht.estateReport.assets.insurancePolicies	Insurance policies	Polisiau yswiriant
+iht.estateReport.assets.insurancePolicies.buyAnnuity.question	Did {0} buy an annuity at any time in their life?	A brynodd {0} flwydd-dal ar unrhyw adeg tra'n fyw?
+iht.estateReport.assets.insurancePolicies.payingOutToDeceased	Policies that are paying out to {0}	Polisïau sy'n talu allan i {0}
+iht.estateReport.assets.insurancePolicies.premiumsPaidByOther	Insurance premiums paid by {0} for someone else	Premiymau yswiriant a dalwyd gan {0} ar gyfer rhywun arall
+iht.estateReport.assets.insurancePolicies.totalValueOfDeceasedsShare	Total value of {0}’s share of all jointly held policies	Cyfanswm cyfran {0} o'r holl bolisïau yswiriant yr oedd yn berchen ar y cyd
+iht.estateReport.assets.insurancePolicies.totalValueOwnedAndPayingOut	Total value of all policies owned by {0} and any policies paying out to their estate	Cyfanswm yr holl bolisïau yr oedd {0} yn berchen arnynt ac unrhyw bolisïau sy'n cael eu talu i'r ystâd
+iht.estateReport.insurancePolicies.jointlyHeld.question	Did {0} have any insurance policies that were jointly held with someone else?	A oedd gan {0} unrhyw bolisïau yswiriant a ddaliwyd ar y cyd â rhywun arall?
+iht.estateReport.insurancePolicies.overLimitNotOwnEstate.question	Did {0} spend over £3,000 in any year on the insurance premiums that were for a policy that was not paying out to their estate?	A wariodd {0} dros £3,000 yn ystod unrhyw flwyddyn ar y premiymau yswiriant a oedd ar gyfer polisi nad oedd yn talu i'r ystâd?
+iht.estateReport.insurancePolicies.ownName.question	Did {0} have any policies in their own name that were to pay out to them or are there any policies that were paying out to their estate?	A oedd gan {0} unrhyw bolisïau yn ei enw'i hun a oedd i'w talu iddo, neu a oes yna bolisïau a oedd yn talu'r ystâd?
+iht.estateReport.insurancePolicies.premiumsNotPayingOut.question	Did {0} ever pay insurance premiums for a policy that was not due to pay out to their estate?	A dalodd {0} bremiymau yswiriant ar unrhyw adeg ar gyfer polisi nad oedd disgwyl y byddai'n talu i'r ystâd?
+iht.estateReport.insurancePolicies.premiumsNotPayingOut.question.hintText1	This could have been at any point in their life and the insurance policy would not have been due to pay out to {0} or to their estate.	Gallai hynny fod wedi bod ar unrhyw adeg tra'r oedd yn fyw, ac ni fyddai disgwyl i'r polisi yswiriant dalu i {0} na'r ystâd.
+iht.estateReport.insurancePolicies.premiumsNotPayingOut.question.hintText2	You can answer no if the policy was due to pay out to {0}’s spouse or civil partner.	Gallwch ateb yn negyddol os oedd y polisi er budd priod neu bartner sifil {0}.
+Business interests	Diddordebau busnes	
+Foreign assets	Asedion tramor	
+Assets held in a trust	Asedion a ddelir mewn ymddiriedolaeth	
+If {0} had the right to live in a house that was held in trust during their lifetime, the value of that property should also be included.	Os oedd gan {0} yr hawl i fyw mewn tŷ a ddaliwyd mewn ymddiriedolaeth tra'r oedd yn fyw, dylid cynnwys gwerth yr eiddo hwnnw'n ogystal.	
+Assets held in trust	Asedion a ddelir mewn ymddiriedolaeth	
+Value of the trust that {0} benefitted from when they died	Gwerth yr ymddiriedolaeth y gwnaeth {0} fuddio ohoni pan fu farw	
+Did {0} own any foreign assets?	A oedd {0} yn berchen ar unrhyw asedion tramor?	
+If {0} owned any assets outside of the UK, you should change the value into British pounds. The Isle of Man and the Channel Islands are not part of the UK.	Os oedd {0} yn berchen ar unrhyw asedion y tu allan i'r DU, dylech newid y gwerth i mewn i bunnoedd Prydeinig. Nid yw Ynys Manaw nac Ynysoedd y Sianel yn rhan o'r Deyrnas Unedig.	
+Value in British pounds of {0}’s foreign assets when they died	Gwerth asedion tramor {0} mewn punnoedd Prydeinig pan fu farw	
+foreign	tramor	
+If the deceased benefitted from a trust during their lifetime, such as regular payments being received or dividends from shares, these need to be included in the value of their estate. This includes assets in a trust that the deceased benefitted from during their lifetime, or was entitled to benefit from.	Os gwnaeth yr ymadawedig fuddio o ymddiriedolaeth tra'r oedd yn fyw, megis derbyn taliadau rheolaidd neu ddifidendau o gyfranddaliadau, mae angen cynnwys y rhain yng ngwerth ei ystâd. Mae hynny'n cynnwys asedion mewn ymddiriedolaeth y gwnaeth yr ymadawedig fuddio ohonynt tra'r oedd yn fyw, neu â'r hawl i fuddio ohonynt.	
+If the deceased had the right to live in a house that was held in a trust during their lifetime, the value of that property should be included.	Os oedd gan yr ymadawedig yr hawl i fyw mewn tŷ a ddaliwyd mewn ymddiriedolaeth tra'r oedd yn fyw, dylid cynnwys gwerth yr eiddo hwnnw.	
+held-in-trust	wedi'i ddal mewn ymddiriedolaeth	
+Money jointly owned with other people	Arian mewn perchnogaeth ar y cyd â phobl eraill	
+money, including any cash, cheques, bank transfers and items that the person who died spent money on	arian, gan gynnwys unrhyw arian parod, sieciau, trosglwyddiadau banc ac eitemau y gwnaeth y person a fu farw wario arian arno	
+Did {0} own any money in their own name?	A oedd {0} yn berchen ar unrhyw arian yn enw'i hun?	
+Money	Arian	
+Value of money owned by {0} only in their name	Gwerth yr arian yr oedd {0} yn berchen arno yn enw'i hun yn unig	
+Money owed to {0}	Arian sy'n ddyledus i {0}	
+Money owned only by {0}	Arian y mae {0} yn unig yn berchen arno	
+Nominated assets	Asedion enwebedig	
+Any other assets not listed	Unrhyw asedion eraill sydd heb eu rhestru	
+Return to private pensions	Yn ôl i bensiynau preifat	
+Value of remaining pension payments being paid to the estate	Gwerth y taliadau pensiwn sy'n weddill sy'n cael eu talu i'r ystâd	
+Private pensions	Pensiynau preifat	
+Stocks and shares	Stociau a chyfranddaliadau	
+Did {0} own any stocks and shares that were listed on an exchange?	A oedd {0} yn berchen ar unrhyw stociau a chyfranddaliadau oedd wedi'u rhestru ar gyfnewidfa?	
+Did {0} own any stocks and shares that were not listed on an exchange?	A oedd {0} yn berchen ar unrhyw stociau a chyfranddaliadau nad oedd wedi'u rhestru ar gyfnewidfa?	
+Value of listed stocks and shares	Gwerth y stociau a chyfranddaliadau oedd wedi'u rhestru	
+Value of stocks and shares not listed	Gwerth y stociau a'r cyfranddaliadau nad oedd wedi'u rhestru	
+Stocks and shares listed on an exchange	Stociau a chyfranddaliadau wedi'u rhestru ar gyfnewidfa	
+Stocks and shares not listed on an exchange	Stociau a chyfranddaliadau heb eu rhestru ar gyfnewidfa	
+These are all the assets that {0} benefitted from, or had the right to benefit from, that were held in trust.	Dyma'r holl asedion y gwnaeth {0} fuddio ohonynt, neu â'r hawl i fuddio ohonynt, oedd wedi'u dal mewn ymddiriedolaeth.	
+Was {0} benefitting from, or have the right to benefit from, more than 1 trust?	A oedd {0} yn buddio o, neu â'r hawl i fuddio o, mwy nag 1 ymddiriedolaeth?	
+If {0} benefitted from a trust during their lifetime, such as getting regular payments or dividends from shares, these need to be included in the value of the estate.	Os gwnaeth {0} fuddio o ymddiriedolaeth tra'r oedd yn fyw, megis derbyn taliadau rheolaidd neu ddifidendau o gyfranddaliadau, mae'n angen cynnwys y rhain yng ngwerth yr ystâd.	
+Did {0} benefit from, or have the right to benefit from, a trust during their lifetime?	A wnaeth {0} fuddio o, neu â'r hawl i fuddio o, ymddiriedolaeth tra'r oedd yn fyw?	
+Motor vehicles	Cerbyd modur	
+Did {0} jointly own any motor vehicles with any other people?	A oedd {0} yn berchen ar unrhyw gerbydau modur y cyd â phobl eraill?	
+Did {0} own any motor vehicles in their own name?	A oedd {0} yn berchen ar unrhyw gerbydau modur yn enw ei hun?	
+Value of {0}’s share of any jointly owned motor vehicles	Gwerth cyfran {0} o unrhyw gerbydau modur a berchnogwyd ar y cyd	
+Motor vehicles owned only by {0}	Cerbydau modur roedd {0} yn unig yn berchen arnynt	
+Business interests owned	Diddordebau busnes a berchnogwyd	
+This should include the value of {0}’s business interests.	Dylai hynny gynnwys gwerth diddordebau busnes {0}.	
+If {0} owned any business properties, buildings or land, you should give these details in the properties, buildings and land section.	Os oedd {0} yn berchen ar unrhyw eiddo busnes, adeiladau neu dir, dylech roi'r manylion hynny yn yr adran eiddo, adeiladau a thir.	
+Do not include any business properties, buildings or land that were owned.	Peidiwch â chynnwys unrhyw eiddo busnes, adeiladau neu dir a berchnogwyd.	
+Value of {0}’s business interests when they died	Gwerth diddordebau busnes {0} pan fu farw	
+Did {0} own any businesses or have any other business interests when they died?	A oedd {0} yn berchen ar unrhyw fusnesau neu a oedd yna unrhyw ddiddordebau busnes eraill pan fu farw?	
+page.iht.application.assets.pensions.changed.browserTitle	Changes to pension	Newidiadau i bensiwn
+page.iht.application.assets.pensions.changed.question	This includes a transfer of any benefits or disposing of any part of a private pension in the 2 years before they died.	Mae hyn yn cynnwys trosglwyddo unrhyw fudd-daliadau neu gwaredi o unrhyw ran o bensiwn preifat yn y 2 flynedd cyn y bu farw.
+page.iht.application.assets.pensions.changed.screenreader.link.change	Change the answer for did the deceased make any changes to a private pension in the 2 years before they died	Newid yr ateb ar gyfer a wnaeth yr ymadawedig unrhyw newidiadau i bensiwn preifat yn y 2 flynedd cyn y bu farw
+page.iht.application.assets.pensions.changed.screenreader.link.noValue	Give an answer for did the deceased make any changes to a private pension in the 2 years before they died	Rhowch ateb ar gyfer a wnaeth yr ymadawedig unrhyw newidiadau i bensiwn preifat yn y 2 flynedd cyn y bu farw
+page.iht.application.assets.pensions.changed.title	Did {0} make any changes to their private pension in the 2 years before they died?	A wnaeth {0} unrhyw newidiadau i bensiwn preifat yn y 2 flynedd cyn y bu farw?
+page.iht.application.assets.pensions.hint	The pension provider will be able to tell you how much is being paid to the estate.	Bydd y darparwr pensiwn yn gallu rhoi gwybod i chi faint sy'n cael ei dalu i'r ystad.
+page.iht.application.assets.pensions.isOwned.p1	This does not include their state pension.	Nid yw hyn yn cynnwys Pensiwn y Wladwriaeth.
+page.iht.application.assets.pensions.overview.description.p1	These are any private pensions that {0} had. This does not include {1}’s state pension.	Rhain yw unrhyw bensiynau preifat a oedd gan {0}. Nid yw hyn yn cynnwys Pensiwn y Wladwriaeth {1}.
+page.iht.application.assets.pensions.overview.description.p2	A private pension could be a personal pension or a pension from {0}’s employer.	Gall pensiwn preifat fod yn bensiwn personol neu'n bensiwn gan gyflogwr {0}.
+page.iht.application.assets.pensions.question	Did {0} have any private pensions?	A oedd gan {0} unrhyw bensiynau preifat?
+page.iht.application.assets.pensions.question.screenreader.link.change	Change the answer for private pensions the deceased had	Newid yr ateb ar gyfer pensiynau preifat a oedd gan yr ymadawedig
+page.iht.application.assets.pensions.question.screenreader.link.noValue	Give an answer for any private pensions the deceased had	Rhowch ateb ar gyfer pensiynau preifat a oedd gan yr ymadawedig
+page.iht.application.assets.pensions.value.browserTitle	Pension value	Gwerth pensiwn
+page.iht.application.assets.pensions.value.screenreader.link.change	Change the answer for the value of remaining pension payments being paid to the estate	Newid yr ateb ar gyfer gwerth y taliadau pensiwn sy'n weddill, sy'n cael eu talu i'r ystâd
+page.iht.application.assets.pensions.value.screenreader.link.noValue	Give a value for the remaining pension payments being paid to the estate	Rhowch ateb ar gyfer gwerth y taliadau pensiwn sy'n weddill, sy'n cael eu talu i'r ystâd
+page.iht.application.pensions.isOwned.browserTitle	Any private pensions	Unrhyw bensiynau preifat
+page.iht.application.pensions.isOwned.title	Did {0} have a private pension?	A oedd gan {0} bensiwn preifat?
+page.iht.application.assets.overview.privatePension.screenReader.link.moreDetail	Give more details for private pensions	Rhowch ragor o fanylion ar gyfer pensiynau preifat
+page.iht.application.assets.overview.privatePension.screenReader.link.noValue	Give an answer for private pensions	Rhowch ateb ar gyfer pensiynau preifat
+page.iht.application.assets.overview.privatePension.screenReader.link.value	Change the value for private pensions	Newid y gwerth ar gyfer pensiynau preifat
+page.iht.application.assets.overview.privatePension.screenReader.noValue	You have not given a value for private pensions	Nid ydych wedi rhoi gwerth ar gyfer pensiynau preifat
+page.iht.application.assets.overview.privatePension.screenReader.value	The value of private pensions is £{0}	£{0} yw gwerth y pensiynau preifat
+Change the answer for did the deceased own any properties, buildings or land in the UK	Newid yr ateb ar gyfer a oedd yr ymadawedig yn berchen ar unrhyw eiddo, adeiladau neu dir yn y DU	
+Give an answer for did the deceased own any properties, buildings or land in the UK	Rhowch ateb ar gyfer a oedd yr ymadawedig yn berchen ar unrhyw eiddo, adeiladau neu dir yn y DU	
+These are all UK properties, buildings or land owned by {0}, either on their own or jointly with other people. This also includes any business properties, buildings or land.	Mae'r rhain i gyd yn eiddo, adeiladau neu dir yn y DU yr oedd {0} yn berchen arnynt, naill ai wrth ei hun neu ar y cyd â phobl eraill. Mae hynny hefyd yn cynnwys unrhyw eiddo, adeiladau neu dir busnes.	
+Did {0} own any properties, buildings or land in the UK?	A oedd {0} yn berchen ar unrhyw eiddo, adeiladau neu dir yn y DU?	
+Property address	Cyfeiriad yr eiddo	
+Change details for property {0}	Newid y manylion ar gyfer eiddo {0}	
+Delete property {0}	Dileu eiddo {0}	
+Give details for property {0}	Rhowch fanylion ar gyfer eiddo {0}	
+Property {0}	Eiddo {0}	
+Change address details	Newid manylion cyfeiriad	
+Give details for the address	Rhowch fanylion ar gyfer y cyfeiriad	
+Change whether this property was owned freehold or leasehold	Newid a oedd yr eiddo hwn mewn perchnogaeth rhydd-ddaliol neu brydlesol	
+Give details about whether this property was owned freehold or leasehold	Rhowch fanylion ar gyfer a oedd yr eiddo hwn mewn perchnogaeth rhydd-ddaliol neu brydlesol	
+Change the kind of property	Newid y math o eiddo	
+Give details of the kind of property	Rhowch fanylion ar gyfer y math o eiddo	
+If you want to add a mortgage for this property, building or land you can do this in debts owed from the estate.	Os ydych eisiau ychwanegu morgais ar gyfer yr eiddo, adeilad neu'r tir hwn, gallwch wneud hynny yn yr adran dyledion sy'n ddyledus o'r ystâd.	
+Change the details of how this property was owned by {0}	Newid manylion sut oedd {0} yn berchen ar yr eiddo hwn	
+Give details of how this property was owned by {0}	Rhowch fanylion ar gyfer sut oedd {0} yn berchen ar yr eiddo hwn	
+Return to properties, buildings and land	Yn ôl i eiddo, adeiladau a thir	
+Change the value of the share owned in this property, building or land	Newid gwerth y gyfran o berchnogaeth yn yr eiddo, adeilad neu dir hwn	
+Give a value for the property, building or land	Rhowch werth ar gyfer yr eiddo, adeilad neu dir	
+How property was owned	Beth oedd perchnogaeth yr eiddo	
+how a property, building or land was owned.	beth oedd perchnogaeth eiddo, adeilad neu dir.	
+If there was a mortgage, the provider of the mortgage is not counted as an owner.	Os oedd morgais, ni chaiff darparwr y morgais ei gyfrif fel bod yn berchennog.	
+If there are no properties, buildings or land owned by {0} then there will be no mortgages owed as a debt from the estate.	Os nad oedd {0} yn berchen ar eiddo, adeiladau neu dir, yna ni fydd morgeisi'n ddyledus fel dyled o'r ystâd.	
+Freehold or leasehold property	Eiddo rhydd-ddaliol neu brydlesol	
+if a property was freehold or leasehold.	a oedd eiddo'n rhydd-ddaliol neu brydlesol.	
+Type of property	Math o eiddo	
+If {0} lived in a property that they did not own, you should choose home if this property was both the last one they lived in and owned.	Os oedd {0} yn byw mewn eiddo nad oedd yn berchen arno, dylech ddewis cartref os mai'r eiddo hwn oedd yr un diwethaf roedd yn byw ynddo ac yn berchen arno.	
+This could be if {0} moved to an assisted living property owned by someone else but they still owned their old home. You would choose that old home as their home.	Gallai hynny fod petai {0} wedi symud i eiddo cymorth i fyw (assisted living property) yr oedd rhywun arall yn berchen arno, ond roedd yn dal i fod yn berchen ar ei hen gartref. Yr hen gartref hwnnw y byddech yn ei ddewis fel y cartref.	
+The value of {0}{1} is £{2}	Gwerth {0}{1} yw £{2}	
+Home	Cartref	
+Land, non-residential or business building	Tir, adeilad dibreswyl neu fusnes	
+Other residential building	Adeilad preswyl arall	
+{0} owned the property and the land it stands on.	Roedd {0} yn berchen ar yr eiddo a'r tir y mae'n sefyll arno.	
+Freehold	Rhydd-ddaliad	
+{0} owned the property but not the land it stands on. Leaseholders have a contract with the landowner. This could be a flat in a bigger building.	Roedd {0} yn berchen ar yr eiddo ond nid y tir y mae'n sefyll arno. Mae gan ddeiliad prydles gytundeb gyda'r tirfeddiannwr. Gallai hwn fod yn fflat mewn adeilad mwy o faint.	
+Leasehold	Prydles	
+The property was owned in full by {0}.	Roedd {0} yn berchen ar yr eiddo'n llwyr.	
+Only by {0}	Dim ond gan {0}	
+{0} owned some of this property but their share does not automatically transfer to another joint owner. This property can be left to someone else in a will.	Roedd {0} yn berchen ar ychydig o'r eiddo hwn ond nid yw'r gyfran honno'n trosglwyddo'n awtomatig i aelod arall ar y cyd. Gellir gadael yr eiddo hwn i rywun arall mewn ewyllys.	
+Tenants in common	Tenantiaid yn gyffredin	
+{0} owned some of this property and their share automatically transfers to another joint owner. This property can not be left to anyone else in a will.	Roedd {0} yn berchen ar ychydig o'r eiddo hwn ac mae'r gyfran honno'n trosglwyddo'n awtomatig i aelod arall ar y cyd. Ni ellir gadael yr eiddo hwn i unrhyw un arall mewn ewyllys.	
+Joint tenants	Cyd denantiaid	
+Property value	Gwerth yr eiddo	
+Give the full value of the property, building or land if {0} owned this on their own. If they owned this with someone else, only include their share of the total property, building or land value.	Rhowch werth llawn yr eiddo, adeilad neu dir os oedd {0} yn berchen arno wrtho'i hun. Os oedd yn berchen ar hwn gyda rhywun arall, dylech dim ond cynnwys cyfran yr unigolyn o gyfanswm gwerth yr eiddo, adeilad neu dir.	
+HMRC recommend that you get a professional valuation for this property, building or land.	Mae CThEM yn awgrymu'ch bod yn cael prisiad proffesiynol ar gyfer yr eiddo, adeilad neu dir hwn.	
+Confirm and delete this property	Cadarnhau a dileu'r eiddo hwn	
+The address of this property is {0}	Cyfeiriad yr eiddo hwn yw {0}	
+Confirm that you want to delete this property	Cadarnhewch eich bod eisiau dileu'r eiddo hwn	
+Was this owned freehold or leasehold?	A oedd y berchnogaeth yn un rhydd-ddaliol neu brydlesol?	
+Return to add a property, building or land	Yn ôl i ychwanegu eiddo, adeilad neu dir	
+What was {0}’s share of the value of this property, building or land?	Beth oedd cyfran {0} o werth yr eiddo, adeilad neu dir hwn?	
+What kind of property, building or land was this?	Pa fath o eiddo, adeilad neu dir oedd hwn?	
+Properties, buildings and land	Eiddo, adeiladau a thir	
+find out from the Land Registry	holi'r Gofrestrfa Dir	
+What is the address?	Beth yw'r cyfeiriad?	
+You can	Gallwch	
+Add a property, building or land	Ychwanegu eiddo, adeilad neu dir	
+This includes {0}’s main address before they died if they owned that property and any other properties that they owned.	Mae hynny'n cynnwys prif gyfeiriad {0} cyn y bu farw, os oedd yn berchen ar yr eiddo hwnnw ac unrhyw eiddo arall roedd yn berchen arno.	
+These could also be any non-residential buildings or any land owned by {0}. This could be business properties such as a shop or a farm. You should also include the value of anything attached to land, such as fishing or shooting rights.	Yn ogystal, gallai hynny fod yn unrhyw adeiladau neu dir dibreswyl roedd {0} yn berchen arnynt. Gallai hynny fod yn eiddo busnes megis siop neu fferm. Dylech hefyd gynnwys gwerth unrhyw beth sy'n gysylltiedig â'r tir, megis hawliau pysgota neu saethu.	
+the address for {0} {1}	y cyfeiriad ar gyfer {0} {1}	
+You can find out how a property was owned from the Land Registry. Joint tenants and tenants in common are names that describe how a property is owned with another person.	Gallwch ddod i wybod beth oedd perchnogaeth yr eiddo drwy holi'r Gofrestrfa Dir. Mae cyd denantiaid a thenantiaid yn gyffredin yn enwau sy'n disgrifio sut y perchnogir ar eiddo gyda pherson arall.	
+You can find out from the Land Registry if a property was freehold or leasehold.	Gallwch holi'r Gofrestrfa Dir a oedd eiddo yn rhydd-ddaliol neu'n brydlesol.	
+If the deceased did not live at a property that they owned, you should choose deceased’s home if this was the last property that they owned and also lived at.	Os nad oedd yr ymadawedig yn byw mewn eiddo roedd yn berchen arno, dylech ddewis cartref yr ymadawedig os mai hwn oedd yr eiddo diwethaf roedd yn berchen arno, a'n byw ynddo'n ogystal.	
+property	eiddo	
+Properties, buildings and land owned	Eiddo, adeiladau a thir mewn perchnogaeth	
+No address added	Heb ychwanegu unrhyw gyfeiriadau	
+You have not added any properties to this estate.	Nid ydych wedi ychwanegu unrhyw eiddo i'r ystâd hon.	
+Properties	Eiddo	
+How was this owned?	Sut berchnogwyd ar hwn?	
+If the other joint owner was not {0}’s spouse or civil partner, you should reduce the value of their share by 10%.	Os nad priod neu bartner sifil {0} oedd y perchennog ar y cyd, dylech ostwng gwerth y gyfran gan 10%.	
