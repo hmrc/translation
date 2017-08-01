@@ -1045,7 +1045,7 @@ site.button.signOut	Save and sign out	Cadw ac allgofnodi	Unchanged.
 iht.needHelp	Need help?	Angen help?	Unchanged.
 page.iht.application.assets.stocksAndShares.overview.listed.screenreader.link.change	Change the answer for any stocks and shares listed on an exchange		Unchanged.
 page.iht.registration.notApplyingForProbate.kickout.summary	This is because you are not applying for probate for {0}’s estate.		Unchanged.
-iht.estateReport.declaration.coExecutors.mayFaceProsecution	You and the other people applying to the Probate Service may face prosecution or have to pay a penalty if you:	Gallech chi a'r bobl eraill sy'n gwneud cais i'r Gwasanaeth Profiant wynebu cael eich erlyn, neu orfod talu cosb, os ydych:	Unchanged.
+iht.estateReport.declaration.coExecutors.mayFaceProsecution	You and the other people applying to the Probate Service may face prosecution or have to pay a penalty if you:	Gallech chi a'r bobl eraill sy'n gwneud cais i'r Gwasanaeth Profiant wynebu cael eich erlyn, neu orfod talu cosb, os ydych yn gweithredu fel a ganlyn:	Unchanged.
 pdf.postSubmission.trusts.assetDescription	Trusts		Unchanged.
 page.iht.application.debts.funeralExpenses.description.p2	If {0} paid for a funeral plan before they died, this would not be a funeral expense. Any travelling or accommodation costs for mourners, or any flowers or refreshments that they gave, cannot be claimed as a funeral expense.	Os talodd {0} am gynllun angladd cyn iddo/iddi farw, ni fyddai hwn yn draul angladd. Ni ellir hawlio costau teithio na chostau llety ar gyfer galarwyr, nac ychwaith unrhyw flodau neu luniaeth a roddwyd ganddynt, fel traul angladd.	Unchanged.
 page.iht.registration.registrationSummary.coExecutorTable.others-are-applying.link.screenReader	and add or remove another person	ac ychwanegu neu ddileu person arall	Unchanged.
@@ -1654,4 +1654,3 @@ page.iht.application.assets.stocks.description.p1	These are any UK stocks and sh
 error.address.giveInLine1And2	Give an address in both address lines 1 and 2	Rhowch gyfeiriad yn llinell 1 a 2	Unchanged.
 page.iht.application.tnrbEligibilty.partner.additional.label.the.deceased	{0}’s		Unchanged.
 page.iht.registration.checklist.startRegistrationButton	Start registration	Dechrau'r broses gofrestru	Unchanged.
-
