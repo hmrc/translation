@@ -1,24 +1,109 @@
-page.iht.application.debts.mortgage.inputText.value	Value of mortgage	Swm y morgais
-page.iht.application.debts.mortgageValue.browserTitle	Any mortgage on property	Unrhyw forgais ar yr eiddo
-page.iht.application.debts.mortgageValue.title	Did {0} have a mortgage on this property?	A oedd gan {0} forgais ar yr eiddo hwn?
-site.link.return.mortgage.overview	Add a mortgage value for a property, building or land	Ychwanegwch swm morgais ar gyfer eiddo, adeilad neu dir
-iht.estateReport.debts.mortgage.valueOfDeceasedsShare	Value of deceased’s share of mortgage	Swm cyfran yr ymadawedig o'r morgais
-iht.estateReport.debts.mortgages	Mortgages	Morgeisi
-page.iht.application.debts.mortgages.description	If {0} had a loan secured against a property they owned, include that value here.	Os oedd gan {0} fenthyciad a warantwyd yn erbyn eiddo yr oedd yn berchen arno, dylech gynnwys y swm hwnnw fan hyn.
-page.iht.application.debts.mortgages.description.p1	You should use the outstanding balance remaining to pay off a mortgage as the value. Some providers might describe this differently so check with them if you are unsure of how much is outstanding on a mortgage.	Dylech ddefnyddio'r gweddill sydd heb ei dalu ar y morgais fel y swm. Mae'n bosibl y bydd rhai darparwyr yn disgrifio hyn yn wahanol, felly gwiriwch gyda nhw os nad ydych yn sicr faint sy'n weddill ar y morgais.
-page.iht.application.debts.mortgages.description.p3	If {0} had a mortgage protection policy which paid out after they died, you should include that value as an asset under insurance policies owned.	Os oedd gan {0} bolisi diogelu morgais a wnaeth dalu allan ar ôl iddo farw, dylech gynnwys y swm hwnnw fel ased o dan bolisïau yswiriant yr oedd yn berchen arnynt.
-page.iht.application.debts.mortgages.noProperties.description	You have not added any properties, buildings or land as an asset.	Nid ydych wedi ychwanegu unrhyw eiddo, adeiladau na thir fel ased.
-page.iht.application.debts.mortgages.noProperties.warning.text	If you have not added a property, building or land as an asset, or the one that you want to add a mortgage against, then you will need to add it as an asset before you can give the mortgage value.	Os nad ydych wedi ychwanegu eiddo, adeilad na thir fel ased, neu'r un yr ydych am ychwanegu morgais yn ei erbyn, bydd angen i chi ei ychwanegu fel ased cyn y gallwch roi swm y morgais.
-page.iht.application.assets.property.address.property.change	Change details for property {0}	Newidiwch fanylion ar gyfer eiddo {0}
-page.iht.application.assets.deceased-permanent-home.table.header	Properties	Eiddo
-iht.estateReport.debts.owedOnJointAssets	Debts owed on any jointly owned assets	Dyledion sy'n ddyledus ar unrhyw asedion a oedd yn cael eu perchen ar y cyd
-iht.estateReport.debts.owedOnJointAssets.value	Value of any debts owed on jointly owned assets	Swm unrhyw ddyledion sy'n ddyledus ar asedion a oedd yn cael eu perchen ar y cyd
-page.iht.application.debts.jointlyOwned.browserTitle	Joint debts	Dyledion ar y cyd
-page.iht.application.debts.jointlyOwned.description.p1	This is if {0} jointly owned any assets and there are debts owed on them. This does not include the mortgage on any jointly owned properties.	Hynny yw, os oedd {0} yn berchen ar unrhyw asedion ar y cyd ac mae dyledion yn ddyledus arnynt. Nid yw hyn yn cynnwys y morgais ar unrhyw eiddo a oedd yn cael ei berchen ar y cyd.
-page.iht.application.debts.jointlyOwned.description.p2	You should only include {0}’s share of any debts owed on jointly owned assets.	Dylech ond gynnwys cyfran {0} o unrhyw ddyledion sy'n ddyledus ar asedion a oedd yn cael eu perchen ar y cyd.
-page.iht.application.debts.jointlyOwned.isOwned	Are there any debts being paid out of the estate that are owed on any jointly owned assets?	A oes unrhyw ddyledion yn cael eu talu allan o'r ystâd sy'n ddyledus ar unrhyw asedion a oedd yn cael eu perchen ar y cyd?
-page.iht.application.debts.overview.mortgages.screenReader.value	The value of mortgages is £{0}	£{0} yw swm y morgeisi
-page.iht.application.debts.overview.mortgages.screenReader.link.moreDetail	Give more details about mortgages	Rhowch ragor o fanylion ynghylch morgeisi
-page.iht.application.debts.overview.mortgages.screenReader.link.noValue	Give a value for mortgages	Rhowch swm ar gyfer morgeisi
-page.iht.application.debts.overview.mortgages.screenReader.link.value	Change the value of mortgages	Newidiwch swm y morgeisi
-page.iht.application.debts.overview.mortgages.screenReader.noValue	You have not given a value for mortgages	Nid ydych wedi rhoi swm ar gyfer morgeisi
+iht.estateReport.tnrb.increasingThreshold	Increasing the threshold	Cynyddu'r trothwy
+iht.estateReport.tnrb.increasingIHTThreshold	Increasing the Inheritance Tax threshold	Cynyddu'r trothwy Treth Etifeddiant
+page.iht.application.tnrb.guidance.p1	It might be possible to increase the Inheritance Tax threshold if {0} had a spouse or civil partner who died before them. This is done by transferring any unused allowance from the estate of that spouse or civil partner.	Mae'n bosibl y gellir cynyddu'r trothwy Treth Etifeddiant os oedd priod neu bartner sifil a fu farw cyn {0}. Gwneir hynny drwy drosglwyddo unrhyw lwfans na chafodd ei ddefnyddio o ystâd y priod neu'r partner sifil hwnnw.
+page.iht.application.tnrb.guidance.panelIndent.text	This is only needed if the estate value is over the Inheritance Tax threshold.	Mae angen gwneud hynny dim ond os yw gwerth yr ystâd dros y trothwy ar gyfer Treth Etifeddiant.
+page.iht.application.tnrb.guidance.p2	If you do not know if the estate value is over the Inheritance Tax threshold, it is not recommended for you to increase the threshold at the moment. You will be able to do this once the assets, gifts, debts and estate exemptions sections have been completed.	Os nad ydych yn gwybod a yw gwerth yr ystâd dros y trothwy ar gyfer Treth Etifeddiant, ni chewch eich argymell i gynyddu'r trothwy ar hyn o bryd. Byddwch yn gallu gwneud hynny unwaith bod yr adrannau ynghylch asedion, rhoddion, dyledion ac eithriadau'r ystâd wedi eu llenwi.
+page.iht.application.tnrb.guidance.p3	If you already know that you need to transfer any unused allowance from another person’s estate, you can increase the threshold.	Os ydych eisoes yn gwybod bod angen i chi drosglwyddo unrhyw lwfans na chafodd ei ddefnyddio o ystâd person arall, gallwch gynyddu'r trothwy.
+page.iht.application.tnrb.guidance.continueLink.text	Continue to increasing the threshold	Mynd ymlaen i gynyddu'r trothwy
+		
+iht.estateReport.tnrb.partner.married	Was {0} {1} at any point in their life and their {2} died?	A oedd {0} {1} ar unrhyw adeg tra'r oedd yn fyw, a bu farw'r {2}?
+iht.estateReport.tnrb.partner.hint	If {0} was {1} more than once in their lifetime and their {2} died first both times, you must choose one estate to transfer the unused threshold from.	Os oedd {0} {1} fwy nag unwaith tra'r oedd yn fyw, a bu farw'r {2} yn gyntaf bob tro, mae'n rhaid i chi ddewis un ystâd i drosglwyddo'r lwfans sydd heb ei ddefnyddio ohoni.
+		
+page.iht.application.tnrbEligibilty.overview.partner.dod.question	Date when {0} died	Y dyddiad pan fu farw {0}
+		
+iht.registration.deceased.locationOfPermanentHome	Location of permanent home	Lleoliad y cartref parhaol
+iht.estateReport.tnrb.permanentHome.question	Did {0} have their permanent home in the UK?	A oedd cartref parhaol {0} yn y DU?
+		
+page.iht.application.TnrbEligibilty.partnerName.label	Name of the {0}	Enw'r {0}
+page.iht.application.TnrbEligibilty.partnerName.hint	This is their name when they died in {0}	Hwn oedd yr enw pan fu farw yn {0}
+		
+		
+iht.estateReport.tnrb.dateOfMarriage	Date of {0}	Dyddiad y {0}
+iht.estateReport.tnrb.dateOfMarriage.hint	This is the date of {0} between {1} and {2}	Hwn yw dyddiad y {0} rhwng {1} a {2}
+		
+page.iht.application.tnrb.estatePassedToDeceasedOrCharity.browserTitle	Fully exempt estate	Ystâd sydd wedi' heithrio'n gyfan gwbl
+page.iht.application.tnrb.estatePassedToDeceasedOrCharity.question	Did all of the estate pass to {0}, a charity or another qualifying body?	A wnaeth yr holl asedion drosglwyddo i {0}, elusen neu gorff cymwys arall?
+		
+page.iht.application.tnrb.jointlyOwnedAssets.browserTitle	Joint assets in estate	Asedion ar y cyd yn yr ystâd
+page.iht.application.tnrb.jointlyOwnedAssets.question	Did all of the jointly owned assets in the estate pass to {0}?	A wnaeth yr holl asedion mewn cydberchnogaeth yn yr ystâd drosglwyddo i {0}?
+		
+page.iht.application.tnrb.stateClaim.browserTitle	Any relief claimed in estate	Unrhyw ryddhad y gwnaed cais amdano yn yr ystâd
+iht.estateReport.tnrb.stateClaim.question	Did the estate claim any business or agricultural relief?	A wnaeth yr ystâd gais am unrhyw ryddhad busnes neu ryddhad amaethyddol?
+		
+page.iht.application.tnrb.benefitFromTrust.browserTitle	Any trust benefitted from in estate	Unrhyw ymddiriedloaeth y buddiwyd ohoni yn yr ystâd
+iht.estateReport.tnrb.benefitFromTrust.question	Did {0} have the right to benefit from a trust during their lifetime?	A oedd {0} â'r hawl i fuddio o ymddiriedolaeth tra'r oedd yn fyw?
+		
+page.iht.application.tnrb.giftsMadeBeforeDeath.browserTitle	Any non-exempt gifts given away	Unrhyw roddion heb eu heithrio, a roddwyd
+iht.estateReport.tnrb.giftsMadeBeforeDeath.question	Were any gifts that were not exempt given away in the 7 years before {0} died?	A chafodd unrhyw roddion heb eu heithrio eu rhoi yn y 7 mlynedd cyn y bu {0} farw?
+page.iht.application.tnrb.giftsMadeBeforeDeath.question.hint1	On {0}’s estate report, IHT-205 or 400, you need to check the value of gifts given away in each year and the amount of exemptions claimed against those gifts.	Ar yr adroddiad ynghylch ystâd {0}, IHT-205 neu 400, mae angen i chi wirio gwerth rhoddion a roddwyd ym mhob blwyddyn, a swm yr eithriadau a hawliwyd yn erbyn y rhoddion hynny.
+page.iht.application.tnrb.spouseOrCivilPartner.hint	{0}’s spouse’s or civil partner	Priod neu bartner sifil {0}
+page.iht.application.tnrb.giftsMadeBeforeDeath.question.hint2	Answer yes if the value of gifts is more than the amount of exemptions that were claimed.	Atebwch yn gadarnhaol os yw gwerth y nwyddau'n fwy na swm yr eithriadau a hawliwyd.
+		
+page.iht.application.tnrb.giftsWithReservationOfBenefit.browserTitle	Type of gifts given away	Math o roddion a roddwyd i ffwrdd
+iht.estateReport.tnrb.giftsWithReservationOfBenefit.question	Were any gifts with the reservation of benefit given to anyone apart from {0}?	A roddwyd rhoddion â budd wedi'i gadw i unrhyw un ar wahân i {0}?
+page.iht.application.tnrb.giftsWithReservationOfBenefit.question.hint	Answer yes if {0} gave a gift with reservation of benefit to anyone apart from {1}. This could have been a house given to a child that {2} continued to live in free of charge.	Atebwch yn gadarnhaol os rhoddodd {0} rodd â budd wedi'i gadw i unrhyw un ar wahân i {1}. Gallai hwn fod yn dŷ a roddwyd i blentyn, ac roedd {2} yn parhau i fyw ynddo yn ddi-dâl.
+iht.estateReport.tnrb.thSouseAndCivilPartner	the spouse or civil partner	y priod neu'r partner sifil
+		
+page.iht.application.tnrbEligibilty.increasedTnrbThreshold.browserTitle	Threshold increased	Trothwy wedi cynyddu
+page.iht.application.tnrbEligibilty.increasedTnrbThreshold.title	The threshold has been increased	Trothwy wedi'i gynyddu
+page.iht.application.tnrbEligibilty.increasedTnrbThreshold.paragraph1	{0}’s Inheritance Tax threshold has increased to £650,000.00 because of the transfer of {1}’s unused threshold.	Mae trothwy Treth Etifeddiant {0} wedi cynyddu i £650,000.00 o ganlyniad i drosglwyddiad trothwy sydd heb ei ddefnyddio {1}.
+page.iht.application.tnrbEligibilty.increasedTnrbThreshold.paragraph2	The estate value is now under the Inheritance Tax threshold and there is no Inheritance Tax to pay.	Mae gwerth yr ystâd bellach o dan y trothwy Treth Etifeddiant ac nid oes Treth Etifeddiant i'w thalu.
+		
+page.iht.application.tnrbEligibilty.overview.guidance1	Based upon the details you have provided, it might be possible to increase the threshold.	Yn seiliedig ar y manylion a roddwyd gennych, mae'n bosibl y gellir cynyddu'r trothwy.
+page.iht.application.tnrbEligibilty.overview.guidance2	All of the details you give on this page should be about {0} who died in {1}	Dylai'r holl fanylion a rowch ar y dudalen hon fod ynghylch {0} a fu farw yn {1}
+page.iht.application.tnrbEligibilty.partner.additional.label.the.deceased	{0}’s	{0}
+iht.estateReport.completeEverySection	You must complete every section.	Mae'n rhaid i chi lenwi pob adran.
+page.iht.application.tnrbEligibilty.partner.additional.label.the	the	y
+		
+iht.estateReport.tnrb.partner.married	Was {0} {1} at any point in their life and their {2} died?	A oedd {0} {1} ar unrhyw adeg tra'r oedd yn fyw, a bu farw'r {2}?
+page.iht.application.tnrbEligibilty.overview.partner.maritalStatus.question.screenReader.text.yes	Yes, {0} had been married or in a civil partnership at a point in their life and their spouse or civil partner died. Change this answer.	Oedd, bu {0} yn briod neu mewn partneriaeth sifil ar adeg pan oedd yn fyw, a bu farw'r priod neu bartner sifil. Newid yr ateb hwn.
+		
+page.iht.application.tnrbEligibilty.overview.partner.dod.question	Date when {0} died	Y dyddiad pan fu farw {0}
+page.iht.application.tnrbEligibilty.overview.partner.dod.question.screenReader.text	The date when {1}’s spouse or civil partner died was {2}. Change this date.	Y dyddiad pan fu farw priod neu bartner sifil {1} oedd {2}. Newid y dyddiad hwn.
+		
+page.iht.application.tnrbEligibilty.overview.partner.personalDetails.heading	Personal details of {0}	Manylion personol {0}
+		
+page.iht.application.tnrbEligibilty.partner.additional.label.name.of.the	Name of the	Enw'r
+page.iht.application.tnrbEligibilty.overview.partner.name.question.screenReader.text.none	Give the name of {1}’s spouse or civil partner.	Rhowch enw priod neu bartner sifil {1}.
+page.iht.application.tnrbEligibilty.overview.partner.name.question.screenReader.text.some	The name of {1}’s spouse or civil partner was {2}. Change this name.	Enw priod neu bartner sifil {1} oedd {2}. Newid yr enw hwn.
+		
+iht.estateReport.tnrb.dateOfMarriage	Date of {0}	Dyddiad y {0}
+page.iht.application.tnrbEligibilty.overview.partner.marriageDate.question.screenReader.text.none	Give the date of marriage between {1} and their spouse or civil partner.	Rhowch ddyddiad y briodas rhwng {1} a'r priod neu bartner sifil.
+page.iht.application.tnrbEligibilty.overview.partner.marriageDate.question.screenReader.text.some	The date of marriage or civil partnership between {1} and their spouse or civil partner was {2}. Change this date.	Dyddiad y briodas neu bartneriaeth sifil rhwng {1} a'r priod neu bartner sifil oedd {2}. Newid y dyddiad hwn.
+		
+iht.estateReport.tnrb.permanentHome.question	Did {0} have their permanent home in the UK?	A oedd cartref parhaol {0} yn y DU?
+page.iht.application.tnrbEligibilty.overview.homeInUk.question.screenReader.text.yes	Yes, the spouse or civil partner had their permanent home in the UK. Change this answer.	Oedd, roedd cartref parhaol y priod neu'r partner sifil yn y DU. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.homeInUk.question.screenReader.text.no	No, the spouse or civil partner did not have their permanent home in the UK. Change this answer.	Nac oedd, nid oedd cartref parhaol y priod neu'r partner sifil yn y DU. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.homeInUk.question.screenReader.text.none	Did {0} have their permanent home in the UK? Give an answer.	A oedd cartref parhaol {0} yn y DU? Rhowch ateb.
+		
+page.iht.application.tnrbEligibilty.overview.partnerEstate.questions.heading	Questions about the estate of {0} who died in {1}	Cwestiynau ynghylch ystâd {0} a fu farw yn {1}
+		
+page.iht.application.tnrbEligibilty.overview.charity.question	Did all of the estate pass to {1}, a charity or another qualifying body?	A wnaeth yr holl asedion drosglwyddo i {1}, elusen neu gorff cymwys arall?
+page.iht.application.tnrbEligibilty.overview.charity.question.screenReader.text.yes	Yes, all of the estate passed to {1}, a charity or another qualifying body. Change this answer.	Do, gwnaeth yr holl asedion drosglwyddo i {1}, elusen neu gorff cymwys arall. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.charity.question.screenReader.text.no	No, all of the estate did not pass to {1}, a charity or another qualifying body. Change this answer.	Na, ni wnaeth yr holl asedion drosglwyddo i {1}, elusen neu gorff cymwys arall. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.charity.question.screenReader.text.none	Did all of the estate pass to {1}, a charity or another qualifying body? Give an answer.	A wnaeth yr holl asedion drosglwyddo i {1}, elusen neu gorff cymwys arall? Rhowch ateb.
+		
+page.iht.application.tnrbEligibilty.overview.jointlyOwned.question	Did all of the jointly owned assets in the estate pass to {1}?	A wnaeth yr holl asedion mewn cydberchnogaeth yn yr ystâd drosglwyddo i {1}?
+page.iht.application.tnrbEligibilty.overview.jointlyOwned.question.screenReader.text.yes	Yes, all of the jointly owned assets in the estate passed to {1}. Change this answer.	Do, gwnaeth yr holl asedion mewn cydberchnogaeth yn yr ystâd drosglwyddo i {1}. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.jointlyOwned.question.screenReader.text.no	No, all of the jointly owned assets in the estate did not pass to {1}. Change this answer.	Na, ni wnaeth yr holl asedion mewn cydberchnogaeth yn yr ystâd drosglwyddo i {1}. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.jointlyOwned.question.screenReader.text.none	Did all of the jointly owned assets in the estate pass to {1}? Give an answer.	A wnaeth yr holl asedion mewn cydberchnogaeth yn yr ystâd drosglwyddo i {1}? Rhowch ateb.
+		
+iht.estateReport.tnrb.stateClaim.question	Did the estate claim any business or agricultural relief?	A wnaeth yr ystâd gais am unrhyw ryddhad busnes neu ryddhad amaethyddol?
+page.iht.application.tnrbEligibilty.overview.stateClaimAnyBusiness.question.screenReader.text.yes	Yes, the estate claimed business or agricultural relief. Change this answer.	Do, gwnaeth yr ystâd gais am ryddhad busnes neu ryddhad amaethyddol. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.stateClaimAnyBusiness.question.screenReader.text.no	No, the estate did not claim any business or agricultural relief. Change this answer.	Na, ni wnaeth yr ystâd wneud cais am unrhyw ryddhad busnes neu ryddhad amaethyddol. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.stateClaimAnyBusiness.question.screenReader.text.none	Did the estate claim any business or agricultural relief? Give an answer.	A wnaeth yr ystâd gais am unrhyw ryddhad busnes neu ryddhad amaethyddol? Rhowch ateb.
+		
+iht.estateReport.tnrb.benefitFromTrust.question	Did {0} have the right to benefit from a trust during their lifetime? Give an answer.	A oedd {0} â'r hawl i fuddio o ymddiriedolaeth tra'r oedd yn fyw? Rhowch ateb.
+page.iht.application.tnrbEligibilty.overview.benefitFromTrust.question.screenReader.text.yes	Yes, {0} had the right to benefit from a trust during their lifetime. Change this answer.	Oedd, roedd {0} â'r hawl i fuddio o ymddiriedolaeth tra'r oedd yn fyw. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.benefitFromTrust.question.screenReader.text.no	No, {0} did not have the right to benefit from a trust during their lifetime. Change this answer.	Na, nid oedd {0} â'r hawl i fuddio o ymddiriedolaeth tra'r oedd yn fyw. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.benefitFromTrust.question.screenReader.text.none	Did {0} have the right to benefit from a trust during their lifetime? Give an answer.	A oedd {0} â'r hawl i fuddio o ymddiriedolaeth tra'r oedd yn fyw? Rhowch ateb.
+		
+iht.estateReport.tnrb.giftsMadeBeforeDeath.question	Were any gifts that were not exempt given away in the 7 years before {0} died?	A chafodd unrhyw roddion heb eu heithrio eu rhoi yn y 7 mlynedd cyn y bu {0} farw?
+page.iht.application.tnrbEligibilty.overview.giftsGivenAway.question.screenReader.text.yes	Yes, gifts that were not exempt were given away in the 7 years before the spouse or civil partner died. Change this answer.	Do, cafodd rhoddion heb eu heithrio eu rhoi yn y 7 mlynedd cyn y bu farw'r priod neu bartner sifil. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.giftsGivenAway.question.screenReader.text.no	No gifts that were exempt were given away in the 7 years before the spouse or civil partner died. Change this answer.	Ni chafodd rhoddion heb eu heithrio eu rhoi yn y 7 mlynedd cyn y bu farw'r priod neu bartner sifil. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.giftsGivenAway.question.screenReader.text.none	Were any gifts that were not exempt given away in the 7 years before {0} died? Give an answer.	A chafodd unrhyw roddion heb eu heithrio eu rhoi yn y 7 mlynedd cyn y bu {0} farw? Rhowch ateb.
+		
+page.iht.application.tnrbEligibilty.overview.giftsWithReservation.question	Were any gifts with the reservation of benefit given to anyone apart from {1}?	A roddwyd rhoddion â budd wedi'i gadw i unrhyw un ar wahân i {1}?
+page.iht.application.tnrbEligibilty.overview.giftsWithReservation.question.screenReader.text.yes	Yes, gifts with the reservation of benefit were given to someone apart from {1}. Change this answer.	Do, roddwyd rhoddion â budd wedi'i gadw i unrhyw un ar wahân i {1}. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.giftsWithReservation.question.screenReader.text.no	No gifts with the reservation of benefit were given to someone apart from {1}. Change this answer.	Na, ni roddwyd rhoddion â budd wedi'i gadw i unrhyw un ar wahân i {1}. Newid yr ateb hwn.
+page.iht.application.tnrbEligibilty.overview.giftsWithReservation.question.screenReader.text.none	Were any gifts with the reservation of benefit given to anyone apart from {1}? Give an answer.	A roddwyd rhoddion â budd wedi'i gadw i unrhyw un ar wahân i {1}? Rhowch ateb.
