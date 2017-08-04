@@ -2,11 +2,12 @@
 
 
 This tool is intended to make translation of English Play! Framework messages files to other languages (specifically Welsh), simpler.
-It will extract English messages (key/value pairs) into a csv file, for translation.
 
-Once the csv translatiofile has been populated and returned, the tool can extract the Welsh key/value pairs into a messages.cy file.
+It will extract English messages, and any existing Welsh translations into a csv file, for translation.
 
-The tool may then be used to cross-reference the latest English messages file against the previously translated csv file, or against a specified git commit, to ensure sychnonisation. It will apply comments against each line, to indicate:
+Once the translation file has been populated and returned, the tool can extract the Welsh key/value pairs into a messages.cy file.
+
+The tool may then be used to cross-reference the latest English messages file against a previous messages, within a specified git commit, to ensure sychnonisation. It will apply comments against each line, to indicate:
  - a new, untranslated English message
  - an existing, changed English message
  - an existing, unchanged English message, which already has a Welsh translation
@@ -16,17 +17,11 @@ The tool may then be used to cross-reference the latest English messages file ag
 > sbt run
 
 
-## Csv to Messages || Messages to Csv
-1. Select your project directory
-2. Select Mode, to covert from messages to csv, or csv to messages
-3. Check the input and output files. (NB: the application will overwrite files, without confirmation)
-4. Click the button at the bottom, to create the desired output file type.
-
-
 
 ## Git Msg to Csv (Compare current message versions, with a previous git commit)
-1. Poplate the fields, to speficy which project/versions you want to compare.
-2. Click the button at the bottom, to create the desired output file type.
+1. Specify the git project you want to examine.
+2. Specift the commit reference of the last time the Welsh translations were updated. If there are no previous Welsh translations, just put __master__, instead.
+3. Click the button at the bottom, to create the csv file.
 
 # Example Output csv
 
@@ -40,16 +35,26 @@ The tool may then be used to cross-reference the latest English messages file ag
 | coc.end-reason.SYSTEM	| Ended by HMRC	|	| No Welsh translation found |
 
 
+## Csv to Messages
+1. Select Mode, to covert from csv to messages
+2. Select the input and output files. (NB: the application will overwrite files, without confirmation)
+3. Click the button at the bottom, to create the Welsh messages file.
+
+
 
 # Process
  1. Create application, using Play i18n, with text in Messages file(s)
  2. Run **Message to Csv** conversion, to create a csv file, from the English Messages file.
- 3. Send csv file to translators.
- 4. Receive csv back, with translations populated.
- 5. Extract the (Welsh) translations from the file, using **Csv to Messages**.
- 7. In future, Run **Git Msg to Csv** against the current code, and the git commit ref, where the Welsh translations were last updated. If the newly created csv highlights any changes, this indicates that additional translations are required. I.e. the English file has changed since the specified git commit.
+ 3. Convert the csv file to a spreadsheet, using your favourite spreasheet application. You may need to adjust column widths, to make the file more readable.
+ 4. Send spreadsheet to translators.
+ 5. Receive spreadsheet back, with translations populated.
+ 6. Using your favourite spreadsheet application, export the spreadsheet to csv, using __TABs__ to separate fields.
+ 7. Extract the (Welsh) translations from the csv file, using **Csv to Messages**.
+ 8. In future, Run **Message to Csv** against the git commit ref, where the Welsh translations were last updated. If the newly created csv highlights any changes, this indicates that additional translations are required. I.e. the English file has changed since the specified git commit.
  
  
 # Notes:
  1. Messages.en is the definitive hand-crafted list of messages in the project, so never auto generated.
- 4. Messages.cy is always a straight generation from a csv file. New/Untranslated En messages are ignored (for now).
+ 2. Messages.cy is a straight generation from a csv/spreadsheet file.
+ 3. This application uses some native code. To date it has only been tested on Linux. It should work with any Bash shell, but does not yet support Windoze.
+ 
