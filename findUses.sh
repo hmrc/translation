@@ -101,5 +101,6 @@ do
     echo -en "\rNot used: $SURENOTUSEDCOUNTER   Probably not used: $MAYBENOTUSEDCOUNTER  [ $[$SURENOTUSEDCOUNTER+$MAYBENOTUSEDCOUNTER] / $NOTFOUNDCOUNTER ]"
 done < $NOTFOUNDFILE
 echo
+echo
 echo total that really look like they\'re not used: $SURENOTUSEDCOUNTER
-echo total that proably are not used: $MAYBENOTUSEDCOUNTER
+echo total that may not be used: $MAYBENOTUSEDCOUNTER
