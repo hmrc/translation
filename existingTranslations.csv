@@ -569,7 +569,7 @@ page.iht.application.assets.stocksAndShares.overview.listed.screenreader.link.no
 error.deceasedPermanentHome.selectLocation	Select the location of the deceased’s permanent home	Dewiswch leoliad cartref parhaol yr ymadawedig	Unchanged.
 page.iht.application.debts.overview.other.screenReader.link.value	Change the value of any other debts not listed	Newidiwch swm unrhyw ddyledion eraill sydd heb eu rhestru	Unchanged.
 page.iht.application.debts.overview.debtsFromTrust.screenReader.noValue	You have not given a value for debts owed from a trust	Nid ydych wedi rhoi swm ar gyfer dyledion sy'n ddyledus o ymddiriedolaeth	Unchanged.
-site.noDebts	No debts owed	Dim dyledion	Unchanged.
+site.noDebts	No debts owed	Dim dyledion yn ddyledus	Changed manually.
 error.report.redo	Select the estate report through the Your Inheritance Tax estate reports page and send the details again.	Dewiswch yr adroddiad ystâd drwy'r tudalennau Eich adroddiadau ystâd o ran Treth Etifeddiant ac anfonwch y manylion eto.	Unchanged.
 page.iht.application.debts.funeralExpenses.isOwned	Are there any funeral expenses being paid out of the estate?	A oes treuliau angladd yn cael eu talu allan o'r ystâd?	Unchanged.
 iht.estateReport.declaration.youMayFaceProsecution	You may face prosecution or have to pay a penalty if you:	Gallech fod yn wynebu cael eich erlyn neu gorfod talu cosb os ydych:	Unchanged.
