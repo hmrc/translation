@@ -783,7 +783,7 @@ iht.estateReport.insurancePolicies.premiumsNotPayingOut.question	Did {0} ever pa
 page.iht.application.gifts.kickout.givenInPast.summary	This is because {0} gave away a gift that was not:	Y rheswm dros hynny yw rhoddodd {0} anrheg i ffwrdd nad oedd yn:	Unchanged.
 error.funeralExpenses.currencyValue.length.summary	enter a value for funeral costs using less than 11 numbers	Nodwch werth ar gyfer costau angladd gan ddefnyddio llai na 11 rhif	Unchanged.
 page.iht.application.assets.moneyOwed.isOwned	Was any money owed to {0}?		Unchanged.
-iht.estateReport.gifts.withReservation.title	Gifts with reservation of benefit		Unchanged.
+iht.estateReport.gifts.withReservation.title	Gifts given away that {0} still benefited from		Unchanged.
 iht.address.lowerCaseInitial	address	cyfeiriad	Unchanged.
 iht.complete	Complete	Cwblhau	Unchanged.
 error.applicantProbateLocation.select	Select where you are applying for probate	Dewiswch ymhle'r ydych yn gwneud cais am brofiant	Unchanged.
@@ -1654,4 +1654,3 @@ error.address.giveInLine1And2	Give an address in both address lines 1 and 2	Rhow
 page.iht.application.assets.propertyType.nonResidential.label	Land, non-residential or business building	Tir, adeilad dibreswyl neu fusnes	Unchanged.
 page.iht.application.tnrbEligibilty.partner.additional.label.the.deceased	{0}’s	{0}	Unchanged.
 page.iht.registration.checklist.startRegistrationButton	Start registration	Dechrau'r broses gofrestru	Unchanged.
-
