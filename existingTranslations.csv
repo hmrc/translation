@@ -1,9 +1,32 @@
-page.iht.application.overview.common.viewcopy	View a copy of this estate report (PDF, size is less than 500KB)	Bwrw golwg ar gopi o'r adroddiad hwn ynghylch yr ystâd (PDF, mae'r maint yn llai na 500KB)	English not updated. Welsh not updated.
-page.iht.application.overview.common.viewcertificate	View clearance certificate (PDF, size is less than 500KB)	Bwrw golwg ar dystysgrif clirio (PDF, mae'r maint yn llai na 500KB)	English not updated. Welsh not updated.
-page.iht.application.declaration_received.paragraph5.link	You can save a copy of this estate report by downloading it (PDF, size is less than 500KB)	Gallwch gadw copi o'r adroddiad hwn ynghylch yr ystâd drwy ei lawrlwytho (PDF, mae'r maint yn llai na 500KB)	English not updated. Welsh not updated.
-iht.estateReport.copyOfTheEstateReportAndPrint	You should open a copy of the estate report and print it off. (PDF, size is less than 500KB)	Dylech agor copi o'r adroddiad ynghylch yr ystâd a'i argraffu. (PDF, mae'r maint yn llai na 500KB)	English not updated. Welsh not updated.
-page.iht.application.kickout.final.getCopy.guidance2.saveAndPrint	save or print a copy of the estate report (PDF, size is less than 500KB)	cadwch neu argraffwch gopi o'r adroddiad ynghylch yr ystâd (PDF, mae'r maint yn llai na 500KB)	English not updated. Welsh not updated.
+page.iht.application.assets.nominated.description.p3	The provider will be able to tell you if the asset was nominated to pass to someone.	Gall y darparwr rhoi gwybod i chi os oedd yr ased wedi'i benodi i'w basio i rywun.	English not updated. Welsh updated.
+page.iht.application.assets.vehicles.overview.guidance	These are all cars and motorbikes that {0} owned. You must also include any caravans or boats that {1} had.	Mae'r rhain i gyd yn geir a beiciau modur yr oedd {0} yn berchen arnynt. Rhaid i chi hefyd gynnwys unrhyw garafanau neu gychod oedd gan {1}.	English not updated. Welsh updated.
+page.iht.application.assets.money.overview.description.p1	This is the value of any money that {0} had.	Dyma werth unrhyw arian oedd gan {0}.	English not updated. Welsh updated.
+page.iht.application.assets.vehicles.deceased.value	Value of any motor vehicles {0} owned in their own name	Gwerth unrhyw gerbydau modur yr oedd {0} yn berchen arno yn ei enw'i hun	English not updated. Welsh updated.
+page.iht.application.assets.nominated.inputLabel1	Value of the nominated assets when {0} died	Gwerth yr asedion wedi'u penodi pan fu farw {0}	English not updated. Welsh updated.
+page.iht.application.assets.money.deceased.guidance	This is the value of any money that {0} had, including any in an account in the UK. This includes banks, building societies, National Savings investments, ISAs and safety deposit boxes.	Dyma werth unrhyw arian oedd gan {0}, gan gynnwys unrhyw beth oedd mewn cyfrif yn y DU. Mae hyn yn cynnwys banciau, cymdeithasau adeiladu, buddsoddiadau Cynilion Cenedlaethol, ISAs a blychau storio diogel.	English not updated. Welsh updated.
+page.iht.application.assets.overview.total	Total value of assets added to the estate value	Cyfanswm gwerth yr asedion a ychwanegwyd at werth yr ystâd	English not updated. Welsh updated.
+page.iht.application.assets.nominated.description.p2	Nominated assets could have been set up when an account was opened with friendly societies, or industrial and provident societies. Before 1 March 1981, National Savings certificates and accounts could also be nominated to pass to someone.	Gellid asedion wedi'u penodi fod wedi'u sefydlu pan agorwyd cyfrif gyda chymdeithasau cyfeillgar, neu gymdeithasau diwydiannol a darbodus. Cyn 1 Mawrth 1981 gellid enwi tystysgrifau a chyfrifon Cynilion Cenedlaethol i'w pasio i rywun.	English not updated. Welsh updated.
+iht.estateReport.gifts.withReservation.title	Gifts given away that {0} still benefited from	Rhoddion a roddwyd i ffwrdd gan {0} yr oedd yn dal i gael budd ohonynt	English not updated. Welsh updated.
+page.iht.application.assets.nominated.question	Did {0} have any nominated assets?	A oedd gan {0} unrhyw asedion wedi'u penodi?	English not updated. Welsh updated.
+iht.estateReport.gifts.totalOverSevenYears	Total over 7 years	Cyfanswm dros 7 mlynedd	Added.
+page.iht.application.assets.money.jointly.owned.guidance.p2	This includes any of {0}’s money provided into a joint account, either by them or by someone else like their employer.	Mae hyn yn cynnwys unrhyw arian o eiddo {0} a roddwyd mewn cyfrif ar y cyd, naill ai ei hun neu gan rywun arall fel y cyflogwr.	English not updated. Welsh updated.
+page.iht.application.assets.money.overview.description.p3	If {0} had any foreign cash in the UK, you should change the value to British pounds using the exchange rate on the date of death and include that amount here.	Os oedd gan {0} unrhyw arian tramor yn y DU dylech newid y gwerth i bunnoedd Prydeinig gan ddefnyddio'r gyfradd gyfnewid ar ddyddiad y farwolaeth.	English not updated. Welsh updated.
+page.iht.application.assets.overview.guidance1	An asset is anything {0} owned that has a value. These are added to the estate report.	Ased yw unrhyw beth yr oedd {0} yn berchen arno sydd â gwerth. Caiff y rhain eu hychwanegu at adroddiad yr ystâd.	English not updated. Welsh updated.
+page.iht.application.assets.overview.title	{0}’s assets	Asedion {0}	English not updated. Welsh updated.
+page.iht.application.assets.nominated.description.p1	These are assets that {0} had nominated to pass to someone when they died. These should not be confused with an asset being left to someone in a will. If something is left to someone in a will, this is not a nominated asset.	Mae'r rhain yn asedion yr oedd {0} wedi'u penodi i'w pasio i rywun pan fu farw. Ni ddylid drysu'r rhain gydag ased sy'n cael ei adael i rywun mewn ewyllys. Os gadewir rhywbeth i rywun mewn ewyllys, nid yw hyn yn ased wedi'i benodi.	English not updated. Welsh updated.
+iht.to	to	i	Added.
+page.iht.application.assets.money.jointly.owned.input.value.label	Value of {0}’s share of any jointly owned money	Gwerth cyfran {0} o unrhyw arian a oedd berchen ar y cyd	English not updated. Welsh updated.
+page.iht.application.assets.money.jointly.owned.guidance.p3	Only include {0}’s share of the money. If they provided all of the money into a joint account, include the full amount. If {1} was only named on a joint account but provided no money, do not include that account as part of their estate.	Dylech dim ond cynnwys cyfran {0} o'r arian. Os mai'r ymadawedig a roddodd yr holl arian i mewn i gyfrif ar y cyd, dylech gynnwys y cyfanswm llawn. Os oedd enw {1} ar gyfrif ar y cyd ond heb roi dim arian, peidiwch â chynnwys y cyfrif hwnnw fel rhan o'r ystâd.	English not updated. Welsh updated.
+page.iht.application.assets.stocksAndShares.overview.guidance2	You will need to split any stocks and shares listed on an exchange from those that were unlisted.	Bydd angen i chi wahanu unrhyw stociau a chyfranddaliadau wedi'u rhestru ar gyfnewidfa oddi wrth rhai nad oeddynt wedi'u rhestru.	English not updated. Welsh updated.
+page.iht.application.assets.money.jointly.owned.question	Did {0} jointly own any money with any other people?	A oedd {0} yn berchen ar unrhyw arian ar y cyd â phobl eraill?	English not updated. Welsh updated.
+page.iht.application.assets.vehicles.jointly.owned.title	Motor vehicles jointly owned with other people	Cerbydau modur mewn perchnogaeth ar y cyd â phobl eraill	English not updated. Welsh updated.
+page.iht.application.assets.money.overview.description.p2	This includes any money in banks, building societies, National Savings investments, ISAs and safety deposit boxes. You should also include any cash {0} had in notes and coins.	Mae hyn yn cynnwys unrhyw arian mewn banciau, cymdeithasau adeiladu, buddsoddiadau Cynilion Cenedlaethol, ISAs a blychau storio diogel. Dylech hefyd gynnwys unrhyw arian parod oedd gan {0} mewn papur a darnau arian.	English not updated. Welsh updated.
+page.iht.application.return.to.assetsOf	Return to {0}’s assets	Yn ôl i asedion {0}	English not updated. Welsh updated.
+page.iht.application.assets.nominated.description.p4	Do not include pension benefits that were nominated to pass to someone. You should include that value with private pensions.	Peidiwch â chynnwys budd-daliadau pensiwn a oedd wedi'u penodi i'w pasio i rywun. Dylech gynnwys y gwerth hynny gyda phensiynau preifat.	English not updated. Welsh updated.
+iht.estateReport.assets.getProfessionalValuation	HMRC recommend that you get a professional valuation for anything that might be worth more than £500. Any estimates should be made on an open market value and not an insurance or replacement value.	Mae CThEM yn argymell eich bod yn cael prisiad proffesiynol o unrhyw beth all fod yn werth mwy na £500. Dylid gwneud amcangyfrif ar y gwerth ar farchnad agored ac nid gwerth yswiriant neu adnewyddu.	Added.
+page.iht.application.assets.money.jointly.owned.guidance.p1	This is the value of any money that {0} had which was jointly owned with any other people.	Dyma werth unrhyw arian oedd gan {0} a oedd yn berchen arno ar y cyd ag unrhyw bobl eraill.	English not updated. Welsh updated.
 page.iht.application.assets.insurance.policies.overview.other.question4.yes.screenReader.link.value	Yes, the policies were placed in a trust more than 7 years before {0} died. Change this answer.	Do, rhoddwyd y polisïau mewn ymddiriedolaeth dros 7 mlynedd cyn y bu {0} farw. Newid yr ateb hwn.	Unchanged.
+page.iht.application.overview.common.viewcopy	View a copy of this estate report (PDF, size is less than 500KB)	Bwrw golwg ar gopi o'r adroddiad hwn ynghylch yr ystâd (PDF, mae'r maint yn llai na 500KB)	Unchanged.
 page.iht.application.assets.property.detailsOverview.address.screenReader.link.noValue	Give details for the address	Rhowch fanylion ar gyfer y cyfeiriad	Unchanged.
 error.stockAndShare.currencyValue.length.summary	enter a value for stocks and shares using less than 11 numbers	nodwch werth ar gyfer stoc a chyfranddaliadau gan ddefnyddio llai nag 11 rhif	Unchanged.
 site.phoneNo.hint	This can be a mobile or a landline. HMRC might need to contact them about any of the details you provide.	Gall hwn fod yn ffôn symudol neu'n llinell dir. Mae'n bosibl y bydd angen i CThEM cysylltu â nhw ynghylch y manylion yr ydych yn eu rhoi.	Unchanged.
@@ -16,6 +39,7 @@ iht.estateReport.assets.household.valueOfJointlyOwned	Value of {0}’s share of 
 site.link.add.property	Add a property, building or land owned by the deceased	Ychwanegu eiddo, adeilad neu dir yr oedd yr ymadawedig yn berchen arno	Unchanged.
 site.button.save.return.mortgages	Save and return to mortgages	Cadw ac yn ôl i forgeisi	Unchanged.
 error.assets.money.deceasedOwned.select	Select an answer for whether there is any money owned only be the deceased	Dewiswch ateb ar gyfer a oes unrhyw arian yn ddyledus gan yr ymadawedig yn unig	Unchanged.
+page.iht.application.overview.common.viewcertificate	View clearance certificate (PDF, size is less than 500KB)	Bwrw golwg ar dystysgrif clirio (PDF, mae'r maint yn llai na 500KB)	Unchanged.
 page.iht.application.exemptions.assetLeftToCharity.screenreader.ident	Charity {0}.	Elusen {0}.	Unchanged.
 page.iht.application.assets.vehicles.sectionName	vehicles		Unchanged.
 page.iht.application.exemptions.charityName.sectionTitle	What is the charity’s name?	Beth yw enw'r elusen?	Unchanged.
@@ -59,6 +83,7 @@ page.iht.registration.applicantTellUsAboutYourself.question.label	Do you live in
 page.iht.registration.multipleExecutors.warning.p2	By confirming this change, you will also be changing the role to {0} of anyone else who is applying for probate.	Drwy gadarnhau'r newid hwn, byddwch hefyd yn newid rôl unrhyw un arall sy'n gwneud cais am brofiant, i {0}.	Unchanged.
 error.assets.insurancePolicy.deceasedOwned.select	Select an answer for whether there are any insurance policies owned by the deceased in the estate	Dewiswch ateb ar gyfer a oes unrhyw bolisïau yswiriant yr oedd yr ymadawedig yn berchen arnynt yn yr ystâd	Unchanged.
 page.iht.filter.paperform.northern.ireland.p1	Reporting the estate value in Northern Ireland is completed by using a paper form.	Cwblheir y broses o hysbysu ynghylch gwerth ystâd yng Ngogledd Iwerddon drwy ddefnyddio ffurflen bapur.	Unchanged.
+page.iht.application.declaration_received.paragraph5.link	You can save a copy of this estate report by downloading it (PDF, size is less than 500KB)	Gallwch gadw copi o'r adroddiad hwn ynghylch yr ystâd drwy ei lawrlwytho (PDF, mae'r maint yn llai na 500KB)	Unchanged.
 page.iht.application.assets.insurance.policies.overview.other.question1.yes.screenReader.link.value.notMarried	Yes, {0} was paying insurance premiums for a policy that was not due to pay out to their estate. Change this answer.	Oedd, roedd {0} yn talu premiymau yswiriant ar gyfer polisi nad oedd yn mynd i dalu'r ystâd. Newid yr ateb hwn.	Unchanged.
 error.businessInterest.currencyValue.length.summary	enter a value for businesses owned using less than 11 numbers	nodwch werth ar gyfer busnesau mewn perchenogaeth gan ddefnyddio llai nag 11 rhif	Unchanged.
 page.iht.registration.registrationSummary.coExecutorTable.name.data.screenReader	An additional{0}’s name is {1}	Enw {0} ychwanegol yw {1}	Unchanged.
@@ -148,7 +173,6 @@ page.iht.application.exemptions.overview.partner.dob.screenreader.link.value	Cha
 iht.estateReport.gifts.withReservation.p3	This could be where someone gives away their home to a family member but still lives there. Other kinds of gifts where a person still benefits from them afterwards include a caravan given away but the person still has holidays in it or a painting still being displayed in the home of the person who gave it away.	Gall hyn fod pan mae rhywun yn rhoi ei gartref i aelod o'r teulu ond yn parhau i fyw ynddo. Mae mathau eraill o roddion pan fo person yn cael budd ohonynt ar ol eu rhoi i ffwrdd yn cynnwys carafán a roddir i ffwrdd ond mae'r person yn parhau i'w defnyddio ar gyfer gwyliau neu baentiad sy'n dal ar ddangos yng nghartref y person a'i rhoddodd i ffwrdd.	Unchanged.
 page.iht.application.assets.vehicles.deceased.browserTitle	Motor vehicles owned		Unchanged.
 page.iht.registration.timeout.p2	You will need to sign back in to Government Gateway and start to register to use Inheritance Tax Online again.	Bydd angen i chi fewngofnodi eto i Borth y Llywodraeth a dechrau cofrestru i ddefnyddio Treth Etifeddiant Ar-lein eto.	Unchanged.
-page.iht.application.assets.nominated.description.p3	The provider will be able to tell you if the asset was nominated to pass to someone.		Unchanged.
 page.iht.application.assets.vehicles.overview.joint.title	Motor vehicles {0} owned with other people		Unchanged.
 page.iht.application.assets.household.overview.guidance	These are items like electrical goods and furniture, along with personal items like jewellery.	Mae'r rhain yn eitemau megis nwyddau trydanol a dodrefn, ynghyd ag eitemau personol megis gemwaith.	Unchanged.
 page.iht.application.tnrb.estatePassedToDeceasedOrCharity.browserTitle	Fully exempt estate	Ystâd sydd wedi' heithrio'n gyfan gwbl	Unchanged.
@@ -233,7 +257,6 @@ page.iht.application.estateOverview.otherDetailsNeeded	Other details needed	Many
 page.iht.application.assets.insurance.policies.overview.joint.no.screenReader.link.value	No, {0} did not jointly own any insurance policies with someone else. Change this answer.	Nac oedd, nid oedd {0} yn berchen ar bolisïau yswiriant ar y cyd â rhywun arall. Newid yr ateb hwn.	Unchanged.
 error.address.giveUsing35CharsOrLess	Give an address using 35 characters or less	Rhowch gyfeiriad gan ddefnyddio hyd at 35 o gymeriadau	Unchanged.
 page.iht.application.exemptions.charityDelete.browserTitle	Delete charity	Dileu elusen	Unchanged.
-page.iht.application.assets.vehicles.overview.guidance	These are all cars and motorbikes that {0} owned. You must also include any caravans or boats that {1} had.		Unchanged.
 iht.address.upperCaseInitial	Address	Cyfeiriad	Unchanged.
 page.iht.application.assets.overview.stockAndShare.screenReader.link.noValue	Give an answer for stocks and shares		Unchanged.
 page.iht.application.tnrbEligibilty.overview.benefitFromTrust.question.screenReader.text.yes	Yes, {0} had the right to benefit from a trust during their lifetime. Change this answer.	Oedd, roedd {0} â'r hawl i fuddio o ymddiriedolaeth tra'r oedd yn fyw. Newid yr ateb hwn.	Unchanged.
@@ -342,7 +365,6 @@ page.iht.application.assets.stocksAndShares.overview.listed.screenreader.link.va
 iht.estateReport.declaration.checkedEverything.question	Have you finished finding out what was in {0}’s estate?	A ydych wedi gorffen dod i wybod beth oedd yn ystâd {0}?	Unchanged.
 site.application.title	Complete an estate report	Llenwi adroddiad ystâd	Unchanged.
 page.iht.application.overview.inreview.helptext	It could take HMRC up to 2 months to review this estate report from the date you sent it. HMRC will contact you if they have any questions about this estate report.	Gallai gymryd hyd ar 2 fis i CThEM adolygu'r adroddiad ynghylch yr ystâd o'r dyddiad y gwnaethoch ei anfon. Bydd CThEM yn cysylltu â chi os oes ganddynt gwestiynau ynglŷn â'r adroddiad hwn ynghylch yr ystâd.	Unchanged.
-page.iht.application.assets.money.overview.description.p1	This is the value of any money that {0} had.		Unchanged.
 error.giftsGivenAway.select	Select an answer for if more than £3,000 was gifted away in any of the 7 years before death	Dewiswch ateb ar gyfer os rhoddwyd mwy na £3,000 i ffwrdd yn ystod unrhyw un o'r 7 mlynedd cyn marwolaeth	Unchanged.
 page.iht.registration.deceasedDetails.title.hint	Enter Mr, Mrs, Miss, Ms or other title	Nodwch Mr, Mrs, Miss, Ms neu deitl arall	Unchanged.
 page.iht.registration.notApplyingForProbate.kickout.p2 = If you want to change your answer	you can return to the last page you visited.	gallwch ddychwelyd i'r dudalen ddiwethaf y gwnaethoch ymweld â hi.	Unchanged.
@@ -378,7 +400,6 @@ iht.estateReport.exemptions.guidance.claimingEstateExemptions	Claiming estate ex
 page.iht.application.debts.overview.funeralExpenses.screenReader.value	The value of funeral expenses is £{0}	£{0} yw swm y treuliau angladd	Unchanged.
 global.error.badRequest400.title	Bad request - 400	Cais drwg – 400	Unchanged.
 page.iht.application.exemptions.assetLeftToGncp.screenReader.value	Value of assets left to another qualifying body is £{0}	Swm yr asedion a adawyd i gorff cymwys arall yw £{0}	Unchanged.
-page.iht.application.assets.vehicles.deceased.value	Value of any motor vehicles {0} owned in their own name		Unchanged.
 page.iht.application.debts.debtsOutsideUk.description.p1	This is the value of all debts owed to anyone outside of the UK including anything owed on any foreign assets.	Dyma swm yr holl ddyledion sy'n ddyledus i unrhyw un y tu allan i'r DU, gan gynnwys unrhyw beth sy'n ddyledus ar asedion tramor.	Unchanged.
 page.iht.application.overview.assets.screenReader.noValue.link	Start giving details about assets in the estate	Dechreuwch roi fanylion ar gyfer asedion yn yr ystâd	Unchanged.
 page.iht.application.tnrbEligibilty.overview.benefitFromTrust.question.screenReader.text.none	Did {0} have the right to benefit from a trust during their lifetime? Give an answer.	A oedd {0} â'r hawl i fuddio o ymddiriedolaeth tra'r oedd yn fyw? Rhowch ateb.	Unchanged.
@@ -420,7 +441,6 @@ error.assets.property.tenure.select	Select if this property, building or land wa
 page.iht.application.insurance.policies.section4.browserTitle	Policies placed in trust	Polisïau a gadwyd mewn ymddiriedolaeth	Unchanged.
 error.assets.property.type.select	Select what kind of property, building or land this is	Dewiswch pa fath o eiddo, adeilad neu dir ydoedd	Unchanged.
 page.iht.registration.checklist.label1	You will need to have all of the details listed below before you start.	Bydd angen i chi gael yr holl fanylion a restrir isod cyn i chi ddechrau arni.	Unchanged.
-page.iht.application.assets.nominated.inputLabel1	Value of the nominated assets when {0} died		Unchanged.
 page.iht.application.tnrb.stateClaim.browserTitle	Any relief claimed in estate	Unrhyw ryddhad y gwnaed cais amdano yn yr ystâd	Unchanged.
 page.iht.application.debts.mortgages.noProperties.description	You have not added any properties, buildings or land as an asset.	Nid ydych wedi ychwanegu unrhyw eiddo, adeiladau na thir fel ased.	Unchanged.
 pdf.totalassets.text	Total Assets		Unchanged.
@@ -548,7 +568,6 @@ error.isPartnerHomeInUK.select	Select an answer for if the deceased's spouse or 
 page.iht.application.assets.stocksAndShares.overview.listed.screenreader.link.noValue	Give an answer for stocks and shares listed on an exchange		Unchanged.
 error.deceasedPermanentHome.selectLocation	Select the location of the deceased’s permanent home	Dewiswch leoliad cartref parhaol yr ymadawedig	Unchanged.
 page.iht.application.debts.overview.other.screenReader.link.value	Change the value of any other debts not listed	Newidiwch swm unrhyw ddyledion eraill sydd heb eu rhestru	Unchanged.
-page.iht.application.assets.money.deceased.guidance	This is the value of any money that {0} had, including any in an account in the UK. This includes banks, building societies, National Savings investments, ISAs and safety deposit boxes.		Unchanged.
 page.iht.application.debts.overview.debtsFromTrust.screenReader.noValue	You have not given a value for debts owed from a trust	Nid ydych wedi rhoi swm ar gyfer dyledion sy'n ddyledus o ymddiriedolaeth	Unchanged.
 site.noDebts	No debts owed	Dim dyledion	Unchanged.
 error.report.redo	Select the estate report through the Your Inheritance Tax estate reports page and send the details again.	Dewiswch yr adroddiad ystâd drwy'r tudalennau Eich adroddiadau ystâd o ran Treth Etifeddiant ac anfonwch y manylion eto.	Unchanged.
@@ -655,7 +674,6 @@ page.iht.filter.paperform.northern.ireland.p3	You can read more about applying f
 page.iht.application.assets.trusts.question.screenreader.link.value	Change the answer for did the deceased benefit from, or have the right to benefit from, a trust during their lifetime		Unchanged.
 iht.estateReport.tnrb.giftsWithReservationOfBenefit.question	Were any gifts with the reservation of benefit given to anyone apart from {0}?	A roddwyd rhoddion â budd wedi'i gadw i unrhyw un ar wahân i {0}?	Unchanged.
 page.iht.application.assets.overview.nominated.screenReader.link.moreDetail	Give more details for nominated assets		Unchanged.
-page.iht.application.assets.overview.total	Total value of assets added to the estate value		Unchanged.
 site.link.return.trusts	Return to assets held in trust	Yn ôl i asedion a ddelir mewn ymddiriedolaeth	Unchanged.
 page.iht.application.assets.money.overview.deceased.isOwned.screenReader.link.change	Change the answer for money owned only by {0}		Unchanged.
 error.money.currencyValue.length.summary	enter a value for money owned using less than 11 numbers	nodwch werth ar gyfer arian mewn perchenogaeth gan ddefnyddio llai nag 11 rhif	Unchanged.
@@ -709,7 +727,6 @@ page.iht.application.debts.overview.debtsFromTrust.screenReader.link.noValue	Giv
 page.iht.application.assets.household.overview.joint.isOwned.screenreader.link.change	Change the answer for jointly owned household and personal items	Newid yr ateb ar gyfer eitemau i'r tŷ ac eitemau personol yr oedd yn berchen ar y cyd	Unchanged.
 page.iht.application.assets.property.type.label2	This could be if {0} moved to an assisted living property owned by someone else but they still owned their old home. You would choose that old home as their home.	Gallai hynny fod petai {0} wedi symud i eiddo cymorth i fyw (assisted living property) yr oedd rhywun arall yn berchen arno, ond roedd yn dal i fod yn berchen ar ei hen gartref. Yr hen gartref hwnnw y byddech yn ei ddewis fel y cartref.	Unchanged.
 page.iht.application.assets.money.jointly.owned.browserTitle	Joint money owned		Unchanged.
-page.iht.application.assets.nominated.description.p2	Nominated assets could have been set up when an account was opened with friendly societies, or industrial and provident societies. Before 1 March 1981, National Savings certificates and accounts could also be nominated to pass to someone.		Unchanged.
 error.widowed.select	Select an answer for if the deceased was married at any point in their life and their spouse of civil partner died	Dewiswch ateb ar gyfer os oedd yr ymadawedig wedi priodi ar unrhyw adeg a bod ei briod/phriod neu'i bartner/phartner sifil wedi marw	Unchanged.
 iht.estateReport.assets.heldInTrust.valueOfTrust	Value of the trust that {0} benefitted from when they died	Gwerth yr ymddiriedolaeth y gwnaeth {0} fuddio ohoni pan fu farw	Unchanged.
 page.iht.application.debts.subtitle1	A debt is anything that {0} was responsible for paying. Only include debts that are being paid out of {1}’s estate.	Dyled yw unrhyw beth yr oedd {0} yn gyfrifol am ei dalu. Dylech ond gynnwys dyledion sy'n cael eu talu allan o ystâd {1}.	Unchanged.
@@ -783,7 +800,6 @@ iht.estateReport.insurancePolicies.premiumsNotPayingOut.question	Did {0} ever pa
 page.iht.application.gifts.kickout.givenInPast.summary	This is because {0} gave away a gift that was not:	Y rheswm dros hynny yw rhoddodd {0} anrheg i ffwrdd nad oedd yn:	Unchanged.
 error.funeralExpenses.currencyValue.length.summary	enter a value for funeral costs using less than 11 numbers	Nodwch werth ar gyfer costau angladd gan ddefnyddio llai na 11 rhif	Unchanged.
 page.iht.application.assets.moneyOwed.isOwned	Was any money owed to {0}?		Unchanged.
-iht.estateReport.gifts.withReservation.title	Gifts given away that {0} still benefited from		Unchanged.
 iht.address.lowerCaseInitial	address	cyfeiriad	Unchanged.
 iht.complete	Complete	Cwblhau	Unchanged.
 error.applicantProbateLocation.select	Select where you are applying for probate	Dewiswch ymhle'r ydych yn gwneud cais am brofiant	Unchanged.
@@ -824,7 +840,6 @@ iht.estateReport.exemptions.qualifyingBodies.confirmDeleteQualifyingBody	Confirm
 iht.estateReport.exemptions.charities.returnToAddACharity	Return to add a charity	Yn ôl i ychwanegwch elusen	Unchanged.
 iht.estateReport.assets.vehicles.valueOfJointlyOwned	Value of {0}’s share of any jointly owned motor vehicles	Gwerth cyfran {0} o unrhyw gerbydau modur a berchnogwyd ar y cyd	Unchanged.
 iht.estateReport.declaration.checkedEverything.p2	If you have made all of the checks that you can and are happy that you have given everything in the estate report, select yes to go to the declaration.	Os ydych wedi gwneud yr holl wiriadau ag y gallwch a'ch bod yn hapus eich bod wedi rhoi popeth yn yr adroddiad ynghylch yr ystâd, atebwch yn gadarnhaol er mwyn mynd i'r datganiad.	Unchanged.
-page.iht.application.assets.nominated.question	Did {0} have any nominated assets?		Unchanged.
 iht.estateReport.goToEstateReports	Go to your Inheritance Tax estate reports	Ewch i'ch adroddiadau Treth Etifeddiant ynghylch yr ystâd	Unchanged.
 page.iht.registration.checklist.applicant.reveal.label1	The location where you are planning to apply to the Probate Service is where you are sending your PA1 - Probate application form. There are different places throughout the UK but you can only use this service if you are planning to apply in England or Wales.	Y lleoliad lle rydych yn bwriadu gwneud cais i'r Gwasanaeth Profiant yw'r man lle rydych yn anfon eich PA1 - ffurflen gais ar gyfer Profiant. Mae gwahanol lefydd ar draws y DU ond gallwch ond ddefnyddio'r gwasanaeth hwn os ydych yn bwriadu gwneud cais yng Nghymru neu Loegr.	Unchanged.
 page.iht.filter.useService.between325000And1Million.paragraph1	The service will work out the estate value for you. If the value is above £325,000, you will be able to claim any estate exemptions or transfer the unused threshold if there was a spouse or civil partner whose death was before the person who has died.	Bydd y gwasanaeth yn cyfrifo gwerth yr ystâd ar eich rhan. Os yw'r gwerth dros £325,000, byddwch yn gallu gwneud cais am unrhyw eithriadau neu drosglwyddo'r trothwy sydd heb ei ddefnyddio os oedd yna briod neu bartner sifil, a bu farw cyn yr ymadawedig.	Unchanged.
@@ -874,7 +889,6 @@ global.error.badRequest400.message	Please check that you have entered the correc
 page.iht.application.assets.kickout.trustValueMoreThanMax.summary	This is because the value of the trust that {0} was able to benefit from was worth more than £150,000.	Y rheswm dros hynny yw bod gwerth yr ymddiriedolaeth yr oedd {0} yn gallu buddio ohoni yn fwy na £150,000.	Unchanged.
 error.currencyValue.length.summary	enter a value using less than 11 numbers	nodwch werth gan ddefnyddio llai nag 11 rhif	Unchanged.
 page.iht.application.tnrbEligibilty.overview.partner.marriageDate.question.screenReader.text.some	The date of marriage or civil partnership between {1} and their spouse or civil partner was {2}. Change this date.	Dyddiad y briodas neu bartneriaeth sifil rhwng {1} a'r priod neu bartner sifil oedd {2}. Newid y dyddiad hwn.	Unchanged.
-page.iht.application.assets.money.jointly.owned.guidance.p2	This includes any of {0}’s money provided into a joint account, either by them or by someone else like their employer.		Unchanged.
 iht.estateReport.declaration.declaringThat	By sending this estate report you are declaring that:	Wrth anfon yr adroddiad hwn ynghylch yr ystâd, rydych yn datgan y canlynol:	Unchanged.
 site.nameDetails	{0}’s details	Manylion {0}	Unchanged.
 page.iht.registration.co-executor-personal-details.title	Personal details for the other executor	Manylion personol ar gyfer yr ysgutor arall	Unchanged.
@@ -1015,7 +1029,6 @@ page.iht.application.tnrbEligibilty.overview.partner.marriageDate.question.scree
 error.charityName.enterName	Enter the name of the charity	Nodwch enw'r elusen	Unchanged.
 page.iht.application.debts.overview.mortgages.screenReader.link.value	Change the value of mortgages	Newidiwch swm y morgeisi	Unchanged.
 page.iht.application.assets.vehicles.jointly.owned.screenreader.link.noValue	Give an answer for jointly owned motor vehicles		Unchanged.
-page.iht.application.assets.money.overview.description.p3	If {0} had any foreign cash in the UK, you should change the value to British pounds using the exchange rate on the date of death and include that amount here.		Unchanged.
 page.iht.application.assets.overview.heldInTrust.screenReader.link.value	Change the value for assets held in a trust		Unchanged.
 iht.estateReport.declaration.didntUseAnyOfThreshold	the previous spouse or civil partner did not use any of their Inheritance Tax threshold	ni wnaeth y priod neu'r partner sifil blaenorol ddefnyddio unrhyw faint o'i drothwy Treth Etifeddiant	Unchanged.
 page.iht.application.debts.overview.mortgages.screenReader.value	The value of mortgages is £{0}	£{0} yw swm y morgeisi	Unchanged.
@@ -1031,13 +1044,11 @@ page.iht.application.debts.mortgages.description	If {0} had a loan secured again
 page.iht.application.assets.insurance.policies.overview.guidance.bullet2	policies held in ISAs	polisïau a ddelir mewn ISAs	Unchanged.
 page.iht.application.assets.held-in-trust.description.p1	If the deceased benefitted from a trust during their lifetime, such as regular payments being received or dividends from shares, these need to be included in the value of their estate. This includes assets in a trust that the deceased benefitted from during their lifetime, or was entitled to benefit from.	Os gwnaeth yr ymadawedig fuddio o ymddiriedolaeth tra'r oedd yn fyw, megis derbyn taliadau rheolaidd neu ddifidendau o gyfranddaliadau, mae angen cynnwys y rhain yng ngwerth ei ystâd. Mae hynny'n cynnwys asedion mewn ymddiriedolaeth y gwnaeth yr ymadawedig fuddio ohonynt tra'r oedd yn fyw, neu â'r hawl i fuddio ohonynt.	Unchanged.
 site.headers.overview.action	Action	Gweithred	Unchanged.
-page.iht.application.assets.overview.guidance1	An asset is anything {0} owned that has a value. These are added to the estate report.		Unchanged.
 page.iht.registration.executor-overview.othersApplyingStatement.are	There are other people applying for probate	Mae pobl eraill yn gwneud cais am brofiant	Unchanged.
 page.iht.application.debts.overview.other.screenReader.value	The value of any other debts not listed is £{0}	£{0} yw swm unrhyw ddyledion eraill sydd heb eu rhestru	Unchanged.
 iht.notStarted.screenreader	{0} is not started	Mae {0} heb ddechrau	Unchanged.
 page.iht.registration.duplicateRegistration.title	You have already registered these details	Rydych eisoes wedi cofrestru'r manylion hyn	Unchanged.
 page.iht.registration.deceasedAddressQuestion.p1	This is the last address where {0} could have been contacted before they died.	Dyma'r cyfeiriad diwethaf lle y gellid bod wedi cysylltu â {0} cyn y bu farw.	Unchanged.
-page.iht.application.assets.overview.title	{0}’s assets		Unchanged.
 page.iht.registration.applicantTellUsAboutYourself.value.label	What is your phone number?	Beth yw eich rhif ffôn?	Unchanged.
 page.iht.application.debts.mortgages.noProperties.warning.text	If you have not added a property, building or land as an asset, or the one that you want to add a mortgage against, then you will need to add it as an asset before you can give the mortgage value.	Os nad ydych wedi ychwanegu eiddo, adeilad na thir fel ased, neu'r un yr ydych am ychwanegu morgais yn ei erbyn, bydd angen i chi ei ychwanegu fel ased cyn y gallwch roi swm y morgais.	Unchanged.
 site.button.continue.iht.app.page	Continue to your Inheritance Tax estate reports page	Ymlaen i'ch tudalen adroddiadau ystâd o ran Treth Etifeddiant	Unchanged.
@@ -1045,7 +1056,6 @@ page.iht.questionnaire.fullName.p2	This will help improve the service. If you wo
 page.iht.application.propertyDetails.deleteProperty.title	Confirm that you want to delete this property	Cadarnhewch eich bod eisiau dileu'r eiddo hwn	Unchanged.
 error.deceasedDateOfBirth.giveBeforeDateOfDeath	Give a date of birth that is before the date of death	Rhowch ddyddiad geni sydd cyn dyddiad y farwolaeth	Unchanged.
 page.iht.application.tnrbEligibilty.overview.homeInUk.question.screenReader.text.yes	Yes, the spouse or civil partner had their permanent home in the UK. Change this answer.	Oedd, roedd cartref parhaol y priod neu'r partner sifil yn y DU. Newid yr ateb hwn.	Unchanged.
-page.iht.application.assets.nominated.description.p1	These are assets that {0} had nominated to pass to someone when they died. These should not be confused with an asset being left to someone in a will. If something is left to someone in a will, this is not a nominated asset.		Unchanged.
 page.iht.application.charity.add.name	Name of charity	Enw'r elusen	Unchanged.
 page.iht.questionnaire.feelingAboutExperience.dissatisfied	Dissatisfied	Anfodlon	Unchanged.
 page.iht.application.assets.property.address.browserTitle	Property address	Cyfeiriad yr eiddo	Unchanged.
@@ -1145,7 +1155,6 @@ error.address.give	Give an address	Rhowch gyfeiriad	Unchanged.
 page.iht.application.assets.insurances.sevenyearsbefore	Was the policy placed in trust more than seven years before date of death of the deceased?	A roddwyd y polisi mewn ymddiriedolaeth dros saith mlynedd cyn y dyddiad pan fu'r ymadawedig farw?	Unchanged.
 page.iht.application.exemptions.guidance.content4	The estate value could become less than the Inheritance Tax threshold by claiming these exemptions.	Gallai gwerth yr ystâd ddisgyn yn is na'r trothwy Treth Etifeddiant drwy wneud cais am yr eithriadau hyn.	Unchanged.
 global.error.pageNotFound404.heading	This page cannot be found	Ni ellir dod o hyd i'r dudalen hon	Unchanged.
-page.iht.application.assets.money.jointly.owned.input.value.label	Value of {0}’s share of any jointly owned money		Unchanged.
 page.iht.home.applicationList.table.guidance.label.empty	You have not registered to complete an Inheritance Tax estate report.	Nid ydych wedi cofrestru er mwyn llenwi adroddiad Treth Etifeddiant ynghylch yr ystâd.	Unchanged.
 page.iht.registration.applicant.applyingForProbate.p1	If you are applying for probate, you will also be filling in a PA1 - Probate application form.	Os ydych yn gwneud cais am brofiant, byddwch hefyd yn llenwi PA1 - ffurflen gais ar gyfer Profiant.	Unchanged.
 page.iht.application.assets.insurance.policies.overview.joint.amount.screenReader.link.novalue	Give a value for {0}’s share of the jointly owned insurance policies.	Rhowch swm ar gyfer cyfran {0} o'r polisïau yswiriant yr oedd yn berchen ar y cyd.	Unchanged.
@@ -1188,7 +1197,6 @@ iht.estateReport.assets.heldInTrust.title	Assets held in trust	Asedion a ddelir 
 page.iht.application.assets.overview.properties.screenReader.value	The value of properties, buildings and land is £{0}		Unchanged.
 page.iht.application.exemptions.deleteGNCP.screenReader	The name of the qualifying body you may wish to delete is {0}	Enw'r corff cymwys y mae'n bosibl y byddwch am ei ddileu yw {0}	Unchanged.
 page.iht.application.tnrbEligibilty.overview.stateClaimAnyBusiness.question.screenReader.text.none	Did the estate claim any business or agricultural relief? Give an answer.	A wnaeth yr ystâd gais am unrhyw ryddhad busnes neu ryddhad amaethyddol? Rhowch ateb.	Unchanged.
-page.iht.application.assets.money.jointly.owned.guidance.p3	Only include {0}’s share of the money. If they provided all of the money into a joint account, include the full amount. If {1} was only named on a joint account but provided no money, do not include that account as part of their estate.		Unchanged.
 page.iht.application.assets.insurances.coveredbyexemption-guidance	Your premiums must be treated as gifts as cash. We will ask you to include that information as a gift.	Mae'n rhaid trin eich premiymau fel rhoddion o arian parod. Byddwn yn gofyn i chi gynnwys yr wybodaeth honno fel rhodd.	Unchanged.
 page.iht.application.insurance.policies.section6.browserTitle	Any annuities bought	Unrhyw flwydd-daliadau a brynwyd	Unchanged.
 page.iht.registration.registrationSummary.coExecutorTable.phoneNumber.link.screenReader	Change {0}’s phone number	Newid rhif ffôn {0}	Unchanged.
@@ -1203,7 +1211,6 @@ page.iht.application.overview.timeScale.guidance.months	If you do not send the e
 page.iht.application.tnrb.threshold.screenReader	The inheritance tax threshold is £{0}	Y trothwy Treth Etifeddiant yw £{0}	Unchanged.
 error.postcode.invalid.character	This line contains an invalid character. Valid characters are: A-Z a-z 0-9 space	Mae'r llinell hon yn cynnwys cymeriad annilys. Dyma'r cymeriadau dilys: A-Z a-z 0-9 - ’ , / & bwlch	Unchanged.
 iht.estateReport.exemptions.charities.charityNo.question	What is the registered charity number?	Beth yw rhif yr elusen gofrestredig?	Unchanged.
-page.iht.application.assets.stocksAndShares.overview.guidance2	You will need to split any stocks and shares listed on an exchange from those that were unlisted.		Unchanged.
 error.debts.trusts.select	Select an answer for if there are any debts from a trust that {0} benefitted from	Dewiswch ateb ar gyfer a oes unrhyw ddyledion o ymddiriedolaeth y bu {0} yn elwa ohoni	Unchanged.
 iht.registration.kickout.returnToTheDateOfDeath	return to the date of death	dychwelyd i ddyddiad y farwolaeth	Unchanged.
 pdf.clearanceCertificate.lastParagraph.line1	This certificate does not itself constitute a determination of values of individual items for any other HM Revenue & Customs purposes		Unchanged.
@@ -1274,11 +1281,8 @@ iht.estateReport.assets.insurancePolicies.payingOutToDeceased	Policies that are 
 page.iht.application.exemptions.partner.nino.browserTitle	Partner’s National Insurance number	Rhif Yswiriant Gwladol y partner	Unchanged.
 error.privatePension.currencyValue.length.summary	enter a value for pensions using less than 11 numbers	nodwch werth ar gyfer pensiynau gan ddefnyddio llai nag 11 rhif	Unchanged.
 page.iht.application.exemptions.overview.charity.screenReader.link.noValue	Give an answer for assets left to charities	Rhowch ateb ar gyfer asedion a adawyd i elusennau	Unchanged.
-page.iht.application.assets.money.jointly.owned.question	Did {0} jointly own any money with any other people?		Unchanged.
 iht.estateReport.debts.mortgage.valueOfDeceasedsShare	Value of deceased’s share of mortgage	Swm cyfran yr ymadawedig o'r morgais	Unchanged.
-page.iht.application.assets.vehicles.jointly.owned.title	Motor vehicles jointly owned with other people		Unchanged.
 site.button.details.correct.exitToGovK	The details given are correct – exit to GOV.UK	Mae'r manylion a roddwyd yn gywir – gadael, ac ymlaen i GOV.UK	Unchanged.
-page.iht.application.assets.money.overview.description.p2	This includes any money in banks, building societies, National Savings investments, ISAs and safety deposit boxes. You should also include any cash {0} had in notes and coins.		Unchanged.
 page.iht.application.assets.pensions.isOwned.p1	This does not include their state pension.	Nid yw hyn yn cynnwys Pensiwn y Wladwriaeth.	Unchanged.
 page.iht.application.declaration_received.subtitle	What happens next	Yr hyn sy'n digwydd nesaf	Unchanged.
 page.iht.application.assets.insurances.coveredbyexemption	Are the premiums covered by the exemption for regular gifts out of income?	A yw'r premiymau wedi eu cwmpasu gan yr eithriad ar gyfer rhoddion rheolaidd allan o incwm?	Unchanged.
@@ -1325,7 +1329,6 @@ global.error.InternalServerError500.heading	Sorry, we are experiencing technical
 page.iht.application.insurance.policies.section7.guidance	The insurance premiums paid by {0} on a policy that pays out to someone else was a gift to that person.	Roedd y premiymau yswiriant a dalwyd gan {0} ar bolisi sy'n talu i rywun arall, yn rhodd i'r person hwnnw.	Unchanged.
 iht.estateReport.exemptions.guidance.provideAssetsDetails	You will need to provide details of these assets in the estate exemptions section. You can save your progress and return to it at any time through the estate overview page.	Bydd rhaid i chi roi manylion yr asedion hyn yn yr adran ynghylch eithriadau'r ystâd. Gallwch gadw'r manylion yr ydych wedi eu nodi a dychwelyd iddynt ar unrhyw adeg drwy'r dudalen drosolwg ar gyfer yr ystâd.	Unchanged.
 page.iht.application.assets.overview.privatePension.screenReader.noValue	You have not given a value for private pensions	Nid ydych wedi rhoi gwerth ar gyfer pensiynau preifat	Unchanged.
-page.iht.application.return.to.assetsOf	Return to {0}’s assets		Unchanged.
 page.iht.application.assets.property.ownership.guidance1b	how a property, building or land was owned.	beth oedd perchnogaeth eiddo, adeilad neu dir.	Unchanged.
 page.iht.application.assets.insurance.policies.overview.other.question3.none.screenReader.link.value	Give an answer for was any insurance policy that {0} paid for placed in trust in the 7 years before they died?	Rhowch ateb ar gyfer a oedd yna bolisi yswiriant a dalodd {0} amdano y cafodd ei roi mewn ymddiriedolaeth yn y 7 mlynedd cyn y bu farw?	Unchanged.
 page.iht.registration.registrationSummary.deceasedInfo.dateOfBirth.data.screenReader	Deceased’s date of birth is {0}	Dyddiad geni'r ymadawedig yw {0}	Unchanged.
@@ -1334,6 +1337,7 @@ page.iht.application.debts.overview.debtsOutsideUk.screenReader.link.noValue	Giv
 page.iht.application.assets.overview.moneyOwed.screenReader.noValue	You have not given a value for money owed to the deceased		Unchanged.
 page.iht.application.insurance.policies.validation.summary.endLine	If you do not want to answer at this time, you can choose to return to insurance policies.	Os nad ydych am ateb ar hyn o bryd, gallwch ddewis mynd yn ôl i'r adran polisïau yswiriant.	Unchanged.
 page.iht.application.debts.other.isOwned	Are there any other debts to be paid out of the estate?	A oes unrhyw ddyledion eraill i'w talu allan o'r ystâd?	Unchanged.
+iht.estateReport.copyOfTheEstateReportAndPrint	You should open a copy of the estate report and print it off. (PDF, size is less than 500KB)	Dylech agor copi o'r adroddiad ynghylch yr ystâd a'i argraffu. (PDF, mae'r maint yn llai na 500KB)	Unchanged.
 error.currency.assets.policies	Enter a value using only numbers	Nodwch werth gan ddefnyddio rhifau'n unig	Unchanged.
 page.iht.registration.registrationSummary.deceasedInfo.address.data.screenReader	Deceased’s address is {0}	Cyfeiriad yr ymadawedig yw {0}	Unchanged.
 iht.estateReport.tnrb.kickout.nextSteps	You should complete the Inheritance Tax estate report by completing an IHT-400 form. You will also need to complete an IHT-402 form to increase the threshold. When you finish this service, you will be given a copy of the form.	Dylech gwblhau'r adroddiad Treth Etifeddiant ynghylch yr ystâd drwy lenwi ffurflen IHT-400. Bydd yn rhaid i chi hefyd lenwi ffurflen IHT-402 i gynyddu'r trothwy. Pan fyddwch wedi gorffen ar y gwasanaeth hwn, byddwch yn cael copi o'r ffurflen.	Unchanged.
@@ -1362,7 +1366,6 @@ page.iht.application.exemptions.charityNumber.p2	on the Charity Commission websi
 page.iht.application.tnrbEligibilty.increasedTnrbThreshold.browserTitle	Threshold increased	Trothwy wedi cynyddu	Unchanged.
 page.iht.application.assets.pensions.overview.description.p1	These are any private pensions that {0} had. This does not include {1}’s state pension.	Rhain yw unrhyw bensiynau preifat a oedd gan {0}. Nid yw hyn yn cynnwys Pensiwn y Wladwriaeth {1}.	Unchanged.
 iht.estateReport.tnrb.permanentHome.question	Did {0} have their permanent home in the UK?	A oedd cartref parhaol {0} yn y DU?	Unchanged.
-page.iht.application.assets.nominated.description.p4	Do not include pension benefits that were nominated to pass to someone. You should include that value with private pensions.		Unchanged.
 page.iht.application.assets.overview.money.screenReader.noValue	You have not given a value for money		Unchanged.
 page.iht.filter.domicile.return.link	Return to what do you want to do	Yn ôl i'r hyn yr ydych am ei wneud	Unchanged.
 page.iht.application.tnrb.guidance.system.p1	It might be possible to increase the Inheritance Tax threshold up to £650,000 if {0} was married or in a civil partnership at any time and their spouse or civil partner died.		Unchanged.
@@ -1566,6 +1569,7 @@ page.iht.application.debts.jointlyOwned.isOwned	Are there any debts being paid o
 iht.comma	,	,	Unchanged.
 page.iht.iv.failure.preconditionFailed.title	You are unable to sign in	Nid ydych yn gallu mewngofnodi	Unchanged.
 iht.estateReport.assets.trusts.question	Did {0} benefit from, or have the right to benefit from, a trust during their lifetime?	A wnaeth {0} fuddio o, neu â'r hawl i fuddio o, ymddiriedolaeth tra'r oedd yn fyw?	Unchanged.
+page.iht.application.kickout.final.getCopy.guidance2.saveAndPrint	save or print a copy of the estate report (PDF, size is less than 500KB)	cadwch neu argraffwch gopi o'r adroddiad ynghylch yr ystâd (PDF, mae'r maint yn llai na 500KB)	Unchanged.
 page.iht.application.overview.gifts.screenReader.noValue.link	Start giving details about gifts given away	Dechreuwch roi fanylion ar gyfer rhoddion a rhoddwyd i ffwrdd	Unchanged.
 page.iht.application.exemptions.assetLeftToCharity.p2	You should add each individual charity that received assets and the total value of assets they received.	Dylech ychwanegu bob elusen unigol a gafodd asedion a chyfanswm yr asedion a gawsant.	Unchanged.
 error.blank.qualifyingBody.name	Enter the name of who received assets	Nodwch enw'r sawl a gafodd asedion	Unchanged.
@@ -1639,7 +1643,6 @@ pdf.meta.author	HM Revenue & Customs		Unchanged.
 iht.next	Next	Nesaf	Unchanged.
 page.iht.application.assets.deceased-permanent-home.typeofownership.label	How was this owned?	Sut berchnogwyd ar hwn?	Unchanged.
 error.postcode.blank	Enter a postcode	Nodwch god post	Unchanged.
-page.iht.application.assets.money.jointly.owned.guidance.p1	This is the value of any money that {0} had which was jointly owned with any other people.		Unchanged.
 page.iht.application.estateOverview.declaration.allSectionsNotComplete.guidance.text2	You must give an answer for every part of the estate report.	Mae'n rhaid i chi roi ateb ar gyfer pob rhan o'r adroddiad ynghylch yr ystâd.	Unchanged.
 error.nino.incorrect	Enter a valid National Insurance number	Nodwch rif Yswiriant Gwladol dilys	Unchanged.
 error.dateOfMarriage.incorrect.summary	enter a valid date of marriage or civil partnership	nodwch ddyddiad dilys ar gyfer priodi neu ffurfio partneriaeth sifil	Unchanged.
@@ -1654,3 +1657,4 @@ error.address.giveInLine1And2	Give an address in both address lines 1 and 2	Rhow
 page.iht.application.assets.propertyType.nonResidential.label	Land, non-residential or business building	Tir, adeilad dibreswyl neu fusnes	Unchanged.
 page.iht.application.tnrbEligibilty.partner.additional.label.the.deceased	{0}’s	{0}	Unchanged.
 page.iht.registration.checklist.startRegistrationButton	Start registration	Dechrau'r broses gofrestru	Unchanged.
+
