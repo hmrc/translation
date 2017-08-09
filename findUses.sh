@@ -22,7 +22,7 @@ while read -r NAME VALUE
 do
     if [[ ! -z "${NAME// }" ]] && [[ $NAME != \#* ]]; then
         MESSAGECOUNT=$[$MESSAGECOUNT +1]
-        echo -en "\rCounting records to process: $MESSAGECOUNT"
+        echo -en "\rRecords to process: $MESSAGECOUNT"
     fi
 done < ./conf/messages
 echo
@@ -56,7 +56,7 @@ echo Checking messages which were not directly referenced in the source code, to
 echo Messages that I really think are not used any more will be logged to $SURENOTUSED.
 echo Messages that aren\'t used, but their parent is \(i.e. might be concatenated at run time\) are logged to $MAYBENOTUSED.
 echo I assume that the delimiter between key sections is a full stop. e.g. site.new.invalidDate has three sections.
-echo If a key has $MINIMUM_MESSAGE_SECTIONS or fewer sections, I will not check for dynamically concatenated keys, and will just assume that it isn\'t used.
+echo If a not directly referenced key has $MINIMUM_MESSAGE_SECTIONS or fewer sections, I will not check for dynamically concatenated keys, and will just assume that it isn\'t used.
 echo if you have dynamic keys that are based on a grandparent \(two or more dynamic sections\), then I will not find them. Please check them yourself. :oP
 echo
 
@@ -101,7 +101,21 @@ do
    fi
     echo -en "\rNot used: $SURENOTUSEDCOUNTER   Might not be used: $MAYBENOTUSEDCOUNTER  [ $[$SURENOTUSEDCOUNTER+$MAYBENOTUSEDCOUNTER] / $NOTFOUNDCOUNTER ]"
 done < $NOTFOUNDFILE
+
+echo
+echo Checking for duplicates....
+while read -r NAME
+do
+    FOUND=$(grep -x "\<$NAME\>" $SURENOTUSED)
+    if [[ ! -z "${FOUND// }" ]] && [[ $FOUND != $NAME ]]; then
+       echo Found a duplicate: $NAME
+    fi
+done < $SURENOTUSED
+
+
 echo
 echo
 echo Total that really look like they\'re not used: $SURENOTUSEDCOUNTER
 echo Total that might not be used: $MAYBENOTUSEDCOUNTER
+
+
