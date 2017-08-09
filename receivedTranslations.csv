@@ -1,4 +1,4 @@
-error.assets.insurancePolicy.isAnnuitiesBought.select	Select an answer for whether {0} ever bought an annuity at any time in their life	Dewiswch ateb ar gyfer a brynodd yr ymadawedig flwydd-dal ar unrhyw adeg tra’n fyw
-error.assets.heldInTrust.moreThanOne.select	Select an answer for whether {0} benefited from, had the right to benefit from, a trust during their lifetime	Dewiswch ateb ar gyfer a bu'r ymadawedig elwa o ymddiriedolaeth, neu â'r hawl i elwa o ymddiriedolaeth, tra'n fyw
-error.assets.insurancePolicy.payedToSomeoneElse.select	Select an answer for whether {0} ever paid for any insurance policies that were not due to pay out to their estate	Dewiswch ateb ar gyfer a dalodd yr ymadawedig am unrhyw bolisïau yswiriant nad oedd disgwyl iddynt dalu i'r ystâd
-error.assets.insurancePolicy.isInTrust.select	Select an answer for whether {0} ever paid for an insurance policies that was placed in trust in the 7 years before they died	Dewiswch ateb ar gyfer a dalodd yr ymadawedig am unrhyw bolisiau yswiriant a roddwyd mewn ymddiriedolaeth yn y 7 mlynedd cyn y bu farw.
+iht.back	Back	Yn ôl
+iht.roughEstimateEstateWorth	How much do you think the estate is worth?	Gan ddefnyddio amcangyfrif o unrhyw arian mewn cyfrifon banc, neu dai, a all yr ymadawedig fod yn berchen arno/arnynt, yn eich barn chi faint yw gwerth ystad yr ymadawedig?
+page.iht.filter.estimate.choice.under	Under £325,000	O dan £325,000
+page.iht.filter.filter.choice.main.register	I want to register so I can tell HMRC about a person’s estate	Rwyf eisiau cofrestru er mwyn i mi allu rhoi gwybod i CThEM am ystâd person
