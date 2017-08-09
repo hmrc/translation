@@ -82,8 +82,8 @@ trait GitMessage2Csv extends KeyValueParser with FileReader with WrappedPrintWri
     val pr = System.getProperties()
     // Windows / Linux / MacOS / Other
     pr.get("os.name") match {
-      case "Linux" => executeCommand(s"./gitRetrieve.sh $projectDir $gitCloneRef $gitCommitRef")
-      case "MacOS" => executeCommand(s"./gitRetrieve.sh $projectDir $gitCloneRef $gitCommitRef")
+      case "Linux" => executeCommand(s"./git-retrieve.sh $projectDir $gitCloneRef $gitCommitRef")
+      case "MacOS" => executeCommand(s"./git-retrieve.sh $projectDir $gitCloneRef $gitCommitRef")
       case "Windows" => println("Only Bash script created so far. Windows bat file will be added, or please feel free to add it! :)")
       case _ => println("Only Bash script created so far. ")
     }
