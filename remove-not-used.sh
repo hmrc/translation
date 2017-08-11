@@ -27,21 +27,15 @@ do
     if [[ -z "${NAME// }" ]] || [[ $NAME == \#* ]]; then
         echo $NAME >> $OUTPUTFILE
     else
-        echo >> temp.txt
-        echo Name-: $NAME >> temp.txt
         FOUND=$(grep -x "\<$NAME\>" $SURENOTUSED)
-
-        echo Found: $FOUND >> temp.txt
         if [ -z "${FOUND// }" ]; then
             KEEPCOUNT=$[$KEEPCOUNT +1]
             echo $NAME=$VALUE >> $OUTPUTFILE
-            echo Keep >> temp.txt
         else
             REMOVECOUNT=$[$REMOVECOUNT +1]
-            echo Remove >> temp.txt
         fi
     fi
-    echo -en "\rKeep Count: $KEEPCOUNT    Remove Count: $REMOVECOUNT [ $[$KEEPCOUNT+$REMOVECOUNT] ]"
+    echo -en "\rKeep Count: $KEEPCOUNT    Remove Count: $REMOVECOUNT [ Total: $[$KEEPCOUNT+$REMOVECOUNT] ]"
 done < $MESSAGESFILE
 
 echo
