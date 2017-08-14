@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+MESSAGESFILE="./conf/messages"
 NOTFOUNDFILE="messages_not_directly_used.log"
 SURENOTUSED="sure_not_used.log"
 MAYBENOTUSED="maybe_not_used.log"
@@ -22,9 +23,15 @@ while read -r NAME VALUE
 do
     if [[ ! -z "${NAME// }" ]] && [[ $NAME != \#* ]]; then
         MESSAGECOUNT=$[$MESSAGECOUNT +1]
-        echo -en "\rRecords to process: $MESSAGECOUNT"
+        echo -en "\rCounting records to process: $MESSAGECOUNT"
+
+        FOUND=$(grep -c "^$NAME=" $MESSAGESFILE)
+        if [[ $FOUND -gt 1 ]]; then
+          echo
+          echo Found a duplicate message: $NAME
+        fi
     fi
-done < ./conf/messages
+done < $MESSAGESFILE
 echo
 
 
@@ -34,16 +41,15 @@ while read -r NAME VALUE
 do
     if [[ ! -z "${NAME// }" ]] && [[ $NAME != \#* ]]; then
        STRINGCOUNT=$[$STRINGCOUNT +1]
-       xname="${NAME//+([[:space:]])/}"
-       found=$(grep -r --include=*.{html,htm,scala} "$xname")
-       if [[ -z "${found// }" ]]; then
+       XNAME="${NAME//+([[:space:]])/}"
+       echo -en "\rRecords processed: $STRINGCOUNT / $MESSAGECOUNT. Looking for $XNAME                                                   "
+       FOUND=$(grep -r --include=*.{html,htm,scala} "$XNAME")
+       if [[ -z "${FOUND// }" ]]; then
           echo $NAME >> $NOTFOUNDFILE
           NOTFOUNDCOUNTER=$[$NOTFOUNDCOUNTER +1]
-          #echo -e ".\c"
-          echo -en "\rRecords processed: $STRINGCOUNT / $MESSAGECOUNT"
        fi
     fi
-done < ./conf/messages
+done < $MESSAGESFILE
 
 
 
@@ -76,10 +82,10 @@ fi
 while read -r NAME
 do
    IFS=$MESSAGE_DELIMITER
-   tokens=( $NAME )
+   TOKENS=( $NAME )
    IFS='='
-   TOKEN_COUNT=${#tokens[@]}
-   LAST_TOKEN=${tokens[$[$TOKEN_COUNT-1]]}
+   TOKEN_COUNT=${#TOKENS[@]}
+   LAST_TOKEN=${TOKENS[$[$TOKEN_COUNT-1]]}
    LEN_LAST_TOKEN=${#LAST_TOKEN}
    NAME_LEN=${#NAME}
    REMAINING_LEN=$[$NAME_LEN-$LEN_LAST_TOKEN-1]
@@ -87,8 +93,8 @@ do
    SEARCHSTRING="$REMAINING.\""
 
    if [ "$TOKEN_COUNT" -gt $MINIMUM_MESSAGE_SECTIONS ]; then
-      found=$(grep -r --include=*.{html,htm,scala} "$SEARCHSTRING")
-      if [[ -z "${found// }" ]]; then
+      FOUND=$(grep -r --include=*.{html,htm,scala} "$SEARCHSTRING")
+      if [[ -z "${FOUND// }" ]]; then
          SURENOTUSEDCOUNTER=$[$SURENOTUSEDCOUNTER +1]
          echo $NAME >> $SURENOTUSED
       else
@@ -102,8 +108,9 @@ do
     echo -en "\rNot used: $SURENOTUSEDCOUNTER   Might not be used: $MAYBENOTUSEDCOUNTER  [ $[$SURENOTUSEDCOUNTER+$MAYBENOTUSEDCOUNTER] / $NOTFOUNDCOUNTER ]"
 done < $NOTFOUNDFILE
 
+
 echo
-echo Checking for duplicates....
+echo Checking for duplicates in $SURENOTUSED....
 while read -r NAME
 do
     FOUND=$(grep -x "\<$NAME\>" $SURENOTUSED)
