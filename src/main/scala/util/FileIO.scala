@@ -16,7 +16,8 @@
 
 package util
 
-import java.io.PrintWriter
+import java.io.{File, PrintWriter}
+
 import scala.io.Source
 
 trait KeyValueParser{
@@ -26,11 +27,29 @@ trait KeyValueParser{
     } else {
       val cols = line.split(token).toList
       val key = cols.headOption.getOrElse("").trim
-      val value1 = cols.tail.headOption.getOrElse("").trim
-      val value2 = cols.tail.tail.headOption.getOrElse("").trim
-      Map(key -> (value1, value2))
+
+      val values = cols.tail
+      val value1 = cols.tail.headOption
+      val value2 = if(value1.isDefined){
+                     cols.tail.tail.headOption
+                   }else{ None }
+
+      Map(key -> (value1.getOrElse("").trim, value2.getOrElse("").trim))
     }
   }
+
+  def splitKeyValue(line:String, token:String): Map[String, String] = {
+    if (line.trim.isEmpty || line.trim.startsWith("#")) {
+      Map.empty
+    } else {
+      val cols = line.split(token).toList
+      val key = cols.headOption.getOrElse("").trim
+      val value = cols.tail.headOption.getOrElse("").trim
+      Map(key -> value)
+    }
+  }
+
+
 }
 
 
@@ -63,5 +82,21 @@ trait WrappedPrintWriter{
     val pw = new PrintWriter(fileName)
     pw.println(content)
     pw.close()
+  }
+}
+
+
+trait PathParser {
+  def extractPath(fileName: String): String = {
+    val maybeDir = new File(fileName)
+    if (maybeDir.isDirectory) {fileName}
+    else {
+      val slashIndex = fileName.lastIndexOf("/")
+      val lastSlash = if (slashIndex < 0) 0 else slashIndex
+      val dir = fileName.substring(0, lastSlash)
+      val file = new File(dir)
+      if (file.exists()) {dir}
+      else {"."}
+    }
   }
 }

@@ -16,34 +16,19 @@ package translate
  * limitations under the License.
  */
 
-import util.{WrappedPrintWriter, CsvReader}
-import scala.swing._
+
+import javax.swing.SwingUtilities
+
+import translate.ui.UI
 
 object ConvertMessages extends ConvertMessages with App {}
 
-class UI extends MainFrame {
-  title = "Messages Translation"
-  preferredSize = new Dimension(320, 240)
-  contents = new Label("Contents to go here!")
-}
 
-class ConvertMessages extends CsvReader with WrappedPrintWriter{
+class ConvertMessages {
 
-//    val ui = new UI
-//    ui.visible = true
-
-  val cwd = System.getProperty("user.dir")
-
-    //compares messages.en with existingTranslations.csv, to create a new, marked-up out.csv
-
-  val receivedTranslationsFile = s"$cwd/receivedTranslations.csv"
-  val existingTranslationsFile = s"$cwd/existingTranslations.csv"
-
-  //val outFile = s"$cwd/out.csv"
-  val msgFile = s"$cwd/messages.cy"
-
-    CompareCsv.csv2csv(receivedTranslationsFile, existingTranslationsFile, existingTranslationsFile)
-
-    //creates _messages.cy, from Translations.csv
-    Csv2Message.csv2Messages(existingTranslationsFile, msgFile)
+  SwingUtilities.invokeLater(new Runnable(){
+    def run(): Unit = {
+      new UI
+    }
+  })
 }
