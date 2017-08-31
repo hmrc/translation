@@ -1,6 +1,0 @@
-error.assets.insurancePolicy.isAnnuitiesBought.select	Select an answer for whether {0} ever bought an annuity at any time in their life	Dewiswch ateb ar gyfer p'un a brynodd {0} blwydd-dal ar unrhyw adeg tra bu'n fyw	Added.
-error.assets.heldInTrust.moreThanOne.select	Select an answer for whether {0} benefited from, had the right to benefit from, a trust during their lifetime	Dewiswch ateb ar gyfer p'un a oedd gan {0} yr hawl i  fuddio o, neu a wnaeth fuddio o, ymddiriedolaeth tra bu'n fyw	Added.
-error.assets.insurancePolicy.payedToSomeoneElse.select	Select an answer for whether {0} ever paid for any insurance policies that were not due to pay out to their estate	Dewiswch ateb ar gyfer p'un a wnaeth {0} erioed talu premiymau yswiriant ar gyfer polisi nad oedd disgwyl y byddai'n talu i'r ystâd	Added.
-error.assets.insurancePolicy.isInTrust.select	Select an answer for whether {0} ever paid for an insurance policies that was placed in trust in the 7 years before they died	Dewiswch ateb ar gyfer p'un a dalodd {0} am bolisïau yswiriant a gafodd eu rhoi mewn ymddiriedolaeth yn ystod y 7 mlynedd cyn y bu farw	Added.
-=			Unchanged.
-
