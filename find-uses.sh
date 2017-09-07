@@ -42,7 +42,10 @@ do
     if [[ ! -z "${NAME// }" ]] && [[ $NAME != \#* ]]; then
        STRINGCOUNT=$[$STRINGCOUNT +1]
        XNAME="${NAME//+([[:space:]])/}"
-       echo -en "\rRecords processed: $STRINGCOUNT / $MESSAGECOUNT"
+
+       PC=$[$STRINGCOUNT*100/$MESSAGECOUNT]
+       echo -en "\rRecords processed: $STRINGCOUNT / $MESSAGECOUNT  [$PC%]"
+
        FOUND=$(grep -r --include=*.{html,htm,scala} "$XNAME")
        if [[ -z "${FOUND// }" ]]; then
           echo $NAME >> $NOTFOUNDFILE
