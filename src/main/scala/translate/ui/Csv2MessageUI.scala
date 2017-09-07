@@ -18,7 +18,7 @@ package translate.ui
 
 import java.io.File
 
-import translate.{CompareCsv, Csv2Message}
+import translate.Csv2Message
 import util.PathParser
 
 import scala.swing._
