@@ -72,9 +72,6 @@ trait Csv2MessageUI extends PathParser{
   val go2MessagesButton = new Button {
     action = Action("open"){
       println("###### " + tfExistingCsv.text)
-      val cwd = System.getProperty("user.dir")
-      val existingTranslationsFile = s"$cwd/existingTranslations.csv"
-      CompareCsv.csv2csv(tfExistingCsv.text, existingTranslationsFile, existingTranslationsFile)
       Csv2Message.csv2Messages(tfExistingCsv.text, tfMessagesOut.text)
     }
     text = "Create Messages File"
