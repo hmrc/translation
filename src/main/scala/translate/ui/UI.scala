@@ -49,10 +49,21 @@ class UI extends MainFrame {
     tooltip = "Compares previous messages files with with current message files, to create a csv report, for possible translation"
   }
 
+  val btnChooseCsv2Csv = new Button {
+    action = Action("select"){
+      showCsv2Csv()
+      updateButons(this)
+    }
+    text = "Merge Csv files"
+    enabled = true
+    tooltip = "Merges the newly received csv file and existing csv file, into the specified output file"
+  }
+
 
   def updateButons(current: Button):Unit = {
     btnChooseCsv2Msg.enabled = true
     btnChooseGitMsg2Csv.enabled = true
+    btnChooseCsv2Csv.enabled = true
     current.enabled = false
   }
 
@@ -61,6 +72,7 @@ class UI extends MainFrame {
     contents += new Label("Choose a mode: ")
     contents += btnChooseGitMsg2Csv
     contents += btnChooseCsv2Msg
+    contents += btnChooseCsv2Csv
   }
 
   val projectAndModePanel = new BorderPanel {
@@ -85,6 +97,16 @@ class UI extends MainFrame {
       layout(GitMessage2CsvUI.panelButtons) = Position.West
       layout(GitMessage2CsvUI.panelTextFields) = Position.Center
       layout(GitMessage2CsvUI.goPanel) = Position.South
+    }
+    contents = borderPanel
+  }
+
+  def showCsv2Csv(): Unit = {
+    val borderPanel = new BorderPanel {
+      layout(projectAndModePanel) = Position.North
+      layout(CompareCsvUI.panelButtons) = Position.West
+      layout(CompareCsvUI.panelTextFields) = Position.Center
+      layout(CompareCsvUI.goPanel) = Position.South
     }
     contents = borderPanel
   }
