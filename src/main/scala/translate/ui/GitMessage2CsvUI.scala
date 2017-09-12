@@ -74,7 +74,6 @@ trait GitMessage2CsvUI extends PathParser{
       val lastPeriod:Int = tfGitRefIn.text.lastIndexOf('.')
       val lastSlash:Int = tfGitRefIn.text.lastIndexOf('/')
       val projectName = tfGitRefIn.text.substring(lastSlash+1, lastPeriod)
-      println("")
       GitMessage2Csv.fetchGitFiles(projectName, tfGitRefIn.text, tfGitCommitRef.text)
       GitMessage2Csv.messages2csv(tfOuputCsv.text)
     }

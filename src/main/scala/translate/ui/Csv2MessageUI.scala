@@ -71,7 +71,6 @@ trait Csv2MessageUI extends PathParser{
   // ## Build and assemble the action buttons...
   val go2MessagesButton = new Button {
     action = Action("open"){
-      println("###### " + tfExistingCsv.text)
       Csv2Message.csv2Messages(tfExistingCsv.text, tfMessagesOut.text)
     }
     text = "Create Messages File"

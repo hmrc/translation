@@ -86,14 +86,13 @@ trait CompareCsvUI extends PathParser{
   // ## Build and assemble the action buttons...
   val go2MessagesButton = new Button {
     action = Action("open"){
-      println("###### " + tfExistingCsv.text)
       val cwd = System.getProperty("user.dir")
       CompareCsv.csv2csv(tfNewCsv.text, tfExistingCsv.text, tfExistingCsv.text )
       Csv2Message.csv2Messages(tfExistingCsv.text, tfOutputMsg.text)
     }
     text = "Merge existing and new csv Files"
     enabled = true
-    tooltip = "Merges the newly received csv file and existing csv file, into the specified output file"
+    tooltip = "Merges the newly received csv file and existing csv file, into the existing csv file; generates messages file"
   }
 
   val goPanel = new FlowPanel(){
