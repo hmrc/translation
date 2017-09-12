@@ -54,16 +54,16 @@ trait CompareCsvUI extends PathParser{
   }
 
   // #### Output Csv file...
-  val tfOutputCsv = new TextField()
-  val buttonCsvOut = new Button {
+  val tfOutputMsg = new TextField()
+  val buttonMsgOut = new Button {
     action = Action("open"){
-      val fcMessagesOut = new FileChooser(new File(extractPath(tfOutputCsv.text)))
-      fcMessagesOut.showOpenDialog(tfOutputCsv)
-      if(fcMessagesOut.selectedFile != null) {tfOutputCsv.text = fcMessagesOut.selectedFile.toString}
+      val fcMessagesOut = new FileChooser(new File(extractPath(tfOutputMsg.text)))
+      fcMessagesOut.showOpenDialog(tfOutputMsg)
+      if(fcMessagesOut.selectedFile != null) {tfOutputMsg.text = fcMessagesOut.selectedFile.toString}
     }
-    text = "Output csv file..."
+    text = "Output messages file..."
     enabled = true
-    tooltip = "Select the csv file you'd like to output to"
+    tooltip = "Select the messages file you'd like to output to"
   }
 
 
@@ -73,13 +73,13 @@ trait CompareCsvUI extends PathParser{
   val panelButtons = new GridPanel(3,1){
     contents += buttonExistingCsv
     contents += buttonNewCsv
-    contents += buttonCsvOut
+    contents += buttonMsgOut
   }
 
   val panelTextFields = new GridPanel(3,1){
     contents += tfExistingCsv
     contents += tfNewCsv
-    contents += tfOutputCsv
+    contents += tfOutputMsg
   }
 
 
@@ -88,7 +88,8 @@ trait CompareCsvUI extends PathParser{
     action = Action("open"){
       println("###### " + tfExistingCsv.text)
       val cwd = System.getProperty("user.dir")
-      CompareCsv.csv2csv(tfNewCsv.text, tfExistingCsv.text, tfOutputCsv.text )
+      CompareCsv.csv2csv(tfNewCsv.text, tfExistingCsv.text, tfExistingCsv.text )
+      Csv2Message.csv2Messages(tfExistingCsv.text, tfOutputMsg.text)
     }
     text = "Merge existing and new csv Files"
     enabled = true
