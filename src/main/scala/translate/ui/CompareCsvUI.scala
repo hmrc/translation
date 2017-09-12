@@ -18,14 +18,14 @@ package translate.ui
 
 import java.io.File
 
-import translate.Csv2Message
+import translate.{CompareCsv, Csv2Message}
 import util.PathParser
 
 import scala.swing._
 
-object Csv2MessageUI extends Csv2MessageUI
+object CompareCsvUI extends CompareCsvUI
 
-trait Csv2MessageUI extends PathParser{
+trait CompareCsvUI extends PathParser{
 
   // #### Input Csv Input file...
   val tfExistingCsv = new TextField()
@@ -35,22 +35,35 @@ trait Csv2MessageUI extends PathParser{
       fcExistingCsv.showOpenDialog(tfExistingCsv)
       if(fcExistingCsv.selectedFile != null){tfExistingCsv.text = fcExistingCsv.selectedFile.toString}
     }
-    text = "Input Csv file..."
+    text = "Existing Csv file..."
     enabled = true
-    tooltip = "Select the csv with Welsh translations, to extract the messages from"
+    tooltip = "Select the existing csv with Welsh translations"
   }
 
-  // #### Messages file...
-  val tfMessagesOut = new TextField()
-  val buttonMessagesOut = new Button {
+  // #### New Csv file...
+  val tfNewCsv = new TextField()
+  val buttonNewCsv = new Button {
     action = Action("open"){
-      val fcMessagesOut = new FileChooser(new File(extractPath(tfMessagesOut.text)))
-      fcMessagesOut.showOpenDialog(tfMessagesOut)
-      if(fcMessagesOut.selectedFile != null) {tfMessagesOut.text = fcMessagesOut.selectedFile.toString}
+      val fcNewCsv = new FileChooser(new File(extractPath(tfNewCsv.text)))
+      fcNewCsv.showOpenDialog(tfNewCsv)
+      if(fcNewCsv.selectedFile != null) {tfNewCsv.text = fcNewCsv.selectedFile.toString}
     }
-    text = "Output Message file..."
+    text = "New Csv file..."
     enabled = true
-    tooltip = "Select the Welsh messages file you'd like to output to"
+    tooltip = "Select the newly received csv with Welsh translations"
+  }
+
+  // #### Output Csv file...
+  val tfOutputMsg = new TextField()
+  val buttonMsgOut = new Button {
+    action = Action("open"){
+      val fcMessagesOut = new FileChooser(new File(extractPath(tfOutputMsg.text)))
+      fcMessagesOut.showOpenDialog(tfOutputMsg)
+      if(fcMessagesOut.selectedFile != null) {tfOutputMsg.text = fcMessagesOut.selectedFile.toString}
+    }
+    text = "Output messages file..."
+    enabled = true
+    tooltip = "Select the messages file you'd like to output to"
   }
 
 
@@ -59,23 +72,27 @@ trait Csv2MessageUI extends PathParser{
   // ### Assemble button and Textfield panels...
   val panelButtons = new GridPanel(3,1){
     contents += buttonExistingCsv
-    contents += buttonMessagesOut
+    contents += buttonNewCsv
+    contents += buttonMsgOut
   }
 
   val panelTextFields = new GridPanel(3,1){
     contents += tfExistingCsv
-    contents += tfMessagesOut
+    contents += tfNewCsv
+    contents += tfOutputMsg
   }
 
 
   // ## Build and assemble the action buttons...
   val go2MessagesButton = new Button {
     action = Action("open"){
-      Csv2Message.csv2Messages(tfExistingCsv.text, tfMessagesOut.text)
+      val cwd = System.getProperty("user.dir")
+      CompareCsv.csv2csv(tfNewCsv.text, tfExistingCsv.text, tfExistingCsv.text )
+      Csv2Message.csv2Messages(tfExistingCsv.text, tfOutputMsg.text)
     }
-    text = "Create Messages File"
+    text = "Merge existing and new csv Files"
     enabled = true
-    tooltip = "Extracts the Welsh translations from a csv file, to create a Welsh Play! messages file."
+    tooltip = "Merges the newly received csv file and existing csv file, into the existing csv file; generates messages file"
   }
 
   val goPanel = new FlowPanel(){
@@ -85,7 +102,7 @@ trait Csv2MessageUI extends PathParser{
 
   def projectUpdated(projDir: String):Unit = {
     tfExistingCsv.text = projDir+"/conf/existingMessages.csv"
-    tfMessagesOut.text = projDir+"/conf/messages_created.cy"
+    tfNewCsv.text = projDir+"/conf/messages_created.cy"
   }
 
 }
