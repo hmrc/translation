@@ -17,14 +17,40 @@ NOTFOUNDCOUNTER=0
 STRINGCOUNT=0
 IFS="="
 
-#echo Logging messages that are not directly referenced in the source code \(htm/html and scala\) to :  $NOTFOUNDFILE
+# Tidy up old files....
 if [ -e $NOTFOUNDFILE ]
 then
     rm $NOTFOUNDFILE
 fi
 
+if [ -e $PARENTNOTUSED ]
+then
+    rm $PARENTNOTUSED
+fi
 
- Count records in messages file....
+if [ -e $PARENTUSED ]
+then
+    rm $PARENTUSED
+fi
+
+if [ -e $SHORTNOTUSED ]
+then
+    rm $SHORTNOTUSED
+fi
+
+if [ -e $GRANDPARENTNOTUSED ]
+then
+    rm $GRANDPARENTNOTUSED
+fi
+
+if [ -e $GRANDPARENTUSED ]
+then
+    rm $GRANDPARENTUSED
+fi
+
+
+echo Logging messages that are not directly referenced in the source code \(htm/html and scala\) to :  $NOTFOUNDFILE
+# Count records in messages file....
 while read -r NAME VALUE
 do
     if [[ ! -z "${NAME// }" ]] && [[ $NAME != \#* ]]; then
@@ -64,30 +90,26 @@ done < $MESSAGESFILE
 
 
 echo
-echo total not found: $NOTFOUNDCOUNTER
+echo total not found: $NOTFOUNDCOUNTER \(logged to $NOTFOUNDFILE \)
 echo out of $STRINGCOUNT messages
 echo
 echo
 echo Checking for message keys which were not directly referenced in the source code, to see if the key may be created at execution time.
 echo I assume that the delimiter between key sections is a full stop. e.g. site.new.invalidDate has three sections.
-echo If a key has $MINIMUM_MESSAGE_SECTIONS or fewer sections and is not directly referenced, I will not check for dynamically concatenated keys, and will log it to $SHORTNOTUSED.
+echo If a key has $MINIMUM_MESSAGE_SECTIONS sections or fewer and is not directly referenced, I will not check for dynamically concatenated keys, and will log it to $SHORTNOTUSED.
 echo if there are dynamic keys that are based on a great grandparent \(three or more dynamic sections\), then sorry, I will not find them,
-echo the messages will be assumed to be unused and also logged to $PARENTNOTUSED. :\(
+echo the messages will be assumed to be unused and so logged to $PARENTNOTUSED. :\(
+echo I.e.
+echo If message key is: page.tcs.personal.change_telephone_number.landing_page_definition
+echo Then parent key is: page.tcs.personal.change_telephone_number
+echo Grandparent key is: page.tcs.personal
+echo Greatgrandparent key is: page.tcs
 echo
 
 PARENTUSEDCOUNTER=0
 PARENTNOTUSEDCOUNTER=0
 SHORTNOTUSEDCOUNTER=0
 
-if [ -e $PARENTNOTUSED ]
-then
-    rm $PARENTNOTUSED
-fi
-
-if [ -e $PARENTUSED ]
-then
-    rm $PARENTUSED
-fi
 
 # Check if parent of message key is referenced in the codebase...
 while read -r NAME
@@ -118,7 +140,7 @@ do
       SHORTNOTUSEDCOUNTER=$[$SHORTNOTUSEDCOUNTER +1]
       echo $NAME >> $SHORTNOTUSED
    fi
-    echo -en "\rParent not used: $PARENTNOTUSEDCOUNTER   Parent used: $PARENTUSEDCOUNTER   Short and not used: $SHORTNOTUSEDCOUNTER [ $[$PARENTNOTUSEDCOUNTER+$PARENTUSEDCOUNTER+$SHORTNOTUSEDCOUNTER] / $NOTFOUNDCOUNTER ]"
+    echo -en "\rParent not found: $PARENTNOTUSEDCOUNTER   Parent found: $PARENTUSEDCOUNTER   Short and not found: $SHORTNOTUSEDCOUNTER [ $[$PARENTNOTUSEDCOUNTER+$PARENTUSEDCOUNTER+$SHORTNOTUSEDCOUNTER] / $NOTFOUNDCOUNTER ]"
 done < $NOTFOUNDFILE
 
 
@@ -154,7 +176,7 @@ do
       echo $NAME >> $GRANDPARENTUSED
    fi
 
-    echo -en "\rGrandparent not used: $GRANDPARENTNOTUSEDCOUNTER   Grandparent used: $GRANDPARENTUSEDCOUNTER   [ $[$GRANDPARENTNOTUSEDCOUNTER+$GRANDPARENTUSEDCOUNTER] / $PARENTNOTUSEDCOUNTER ]"
+    echo -en "\rGrandparent not found: $GRANDPARENTNOTUSEDCOUNTER   Grandparent found: $GRANDPARENTUSEDCOUNTER   [ $[$GRANDPARENTNOTUSEDCOUNTER+$GRANDPARENTUSEDCOUNTER] / $PARENTNOTUSEDCOUNTER ]"
 done < $PARENTNOTUSED
 
 
