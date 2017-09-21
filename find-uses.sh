@@ -2,23 +2,29 @@
 
 
 MESSAGESFILE="./conf/messages"
-NOTFOUNDFILE="messages_not_directly_used.log"
-SURENOTUSED="sure_not_used.log"
-MAYBENOTUSED="maybe_not_used.log"
+NOTFOUNDFILE="all_messages_not_directly_used.log"
+PARENTNOTUSED="parent_not_used.log"
+GRANDPARENTNOTUSED="grandparent_not_used.log"
+GRANDPARENTUSED="grandparent_used.log"
+PARENTUSED="parent_used.log"
+SHORTNOTUSED="short_not_used.log"
 MESSAGE_DELIMITER="."
-MINIMUM_MESSAGE_SECTIONS=2
+MINIMUM_MESSAGE_SECTIONS=4
 
 MESSAGECOUNT=0
+FOUNDCOUNTER=0
 NOTFOUNDCOUNTER=0
 STRINGCOUNT=0
 IFS="="
 
-echo Logging messages that are not directly referenced in the source code \(htm/html and scala\) to :  $NOTFOUNDFILE
+#echo Logging messages that are not directly referenced in the source code \(htm/html and scala\) to :  $NOTFOUNDFILE
 if [ -e $NOTFOUNDFILE ]
 then
     rm $NOTFOUNDFILE
 fi
 
+
+ Count records in messages file....
 while read -r NAME VALUE
 do
     if [[ ! -z "${NAME// }" ]] && [[ $NAME != \#* ]]; then
@@ -36,20 +42,21 @@ echo
 
 
 
-
+# Check if message key is referenced in the codebase...
 while read -r NAME VALUE
 do
     if [[ ! -z "${NAME// }" ]] && [[ $NAME != \#* ]]; then
        STRINGCOUNT=$[$STRINGCOUNT +1]
-       XNAME="${NAME//+([[:space:]])/}"
-
+       NAME_TRIMMED="$(echo -e "${NAME}" | sed -e 's/[[:space:]]*$//')"
        PC=$[$STRINGCOUNT*100/$MESSAGECOUNT]
        echo -en "\rRecords processed: $STRINGCOUNT / $MESSAGECOUNT  [$PC%]"
 
-       FOUND=$(grep -r --include=*.{html,htm,scala} "$XNAME")
+       FOUND=$(grep -r --exclude-dir=target --include=*.{html,htm,scala} "$NAME_TRIMMED")
        if [[ -z "${FOUND// }" ]]; then
-          echo $NAME >> $NOTFOUNDFILE
+          echo $NAME_TRIMMED >> $NOTFOUNDFILE
           NOTFOUNDCOUNTER=$[$NOTFOUNDCOUNTER +1]
+       else
+          FOUNDCOUNTER=$[$FOUNDCOUNTER +1]
        fi
     fi
 done < $MESSAGESFILE
@@ -61,27 +68,28 @@ echo total not found: $NOTFOUNDCOUNTER
 echo out of $STRINGCOUNT messages
 echo
 echo
-echo Checking messages which were not directly referenced in the source code, to see if the key may be created at execution time.
-echo Messages that I really think are not used any more will be logged to $SURENOTUSED.
-echo Messages that aren\'t used, but their parent is \(i.e. might be concatenated at run time\) are logged to $MAYBENOTUSED.
+echo Checking for message keys which were not directly referenced in the source code, to see if the key may be created at execution time.
 echo I assume that the delimiter between key sections is a full stop. e.g. site.new.invalidDate has three sections.
-echo If a not directly referenced key has $MINIMUM_MESSAGE_SECTIONS or fewer sections, I will not check for dynamically concatenated keys, and will just assume that it isn\'t used.
-echo if you have dynamic keys that are based on a grandparent \(two or more dynamic sections\), then I will not find them. Please check them yourself. :oP
+echo If a key has $MINIMUM_MESSAGE_SECTIONS or fewer sections and is not directly referenced, I will not check for dynamically concatenated keys, and will log it to $SHORTNOTUSED.
+echo if there are dynamic keys that are based on a great grandparent \(three or more dynamic sections\), then sorry, I will not find them,
+echo the messages will be assumed to be unused and also logged to $PARENTNOTUSED. :\(
 echo
 
-MAYBENOTUSEDCOUNTER=0
-SURENOTUSEDCOUNTER=0
+PARENTUSEDCOUNTER=0
+PARENTNOTUSEDCOUNTER=0
+SHORTNOTUSEDCOUNTER=0
 
-if [ -e $SURENOTUSED ]
+if [ -e $PARENTNOTUSED ]
 then
-    rm $SURENOTUSED
+    rm $PARENTNOTUSED
 fi
 
-if [ -e $MAYBENOTUSED ]
+if [ -e $PARENTUSED ]
 then
-    rm $MAYBENOTUSED
+    rm $PARENTUSED
 fi
 
+# Check if parent of message key is referenced in the codebase...
 while read -r NAME
 do
    IFS=$MESSAGE_DELIMITER
@@ -91,41 +99,79 @@ do
    LAST_TOKEN=${TOKENS[$[$TOKEN_COUNT-1]]}
    LEN_LAST_TOKEN=${#LAST_TOKEN}
    NAME_LEN=${#NAME}
-   REMAINING_LEN=$[$NAME_LEN-$LEN_LAST_TOKEN-1]
-   REMAINING=${NAME:0:$REMAINING_LEN}
-   SEARCHSTRING="$REMAINING.\""
+   PARENT_LEN=$[$NAME_LEN-$LEN_LAST_TOKEN-1]
+   PARENT=${NAME:0:$PARENT_LEN}
+   SEARCHSTRING="$PARENT."
+
+
 
    if [ "$TOKEN_COUNT" -gt $MINIMUM_MESSAGE_SECTIONS ]; then
-      FOUND=$(grep -r --include=*.{html,htm,scala} "$SEARCHSTRING")
+      FOUND=$(grep -r --exclude-dir=target --include=*.{html,htm,scala} "$SEARCHSTRING")
       if [[ -z "${FOUND// }" ]]; then
-         SURENOTUSEDCOUNTER=$[$SURENOTUSEDCOUNTER +1]
-         echo $NAME >> $SURENOTUSED
+         PARENTNOTUSEDCOUNTER=$[$PARENTNOTUSEDCOUNTER +1]
+         echo $NAME >> $PARENTNOTUSED
       else
-         MAYBENOTUSEDCOUNTER=$[$MAYBENOTUSEDCOUNTER +1]
-         echo $NAME >> $MAYBENOTUSED
+         PARENTUSEDCOUNTER=$[$PARENTUSEDCOUNTER +1]
+         echo $NAME >> $PARENTUSED
       fi
    else
-      SURENOTUSEDCOUNTER=$[$SURENOTUSEDCOUNTER +1]
-      echo $NAME >> $SURENOTUSED
+      SHORTNOTUSEDCOUNTER=$[$SHORTNOTUSEDCOUNTER +1]
+      echo $NAME >> $SHORTNOTUSED
    fi
-    echo -en "\rNot used: $SURENOTUSEDCOUNTER   Might not be used: $MAYBENOTUSEDCOUNTER  [ $[$SURENOTUSEDCOUNTER+$MAYBENOTUSEDCOUNTER] / $NOTFOUNDCOUNTER ]"
+    echo -en "\rParent not used: $PARENTNOTUSEDCOUNTER   Parent used: $PARENTUSEDCOUNTER   Short and not used: $SHORTNOTUSEDCOUNTER [ $[$PARENTNOTUSEDCOUNTER+$PARENTUSEDCOUNTER+$SHORTNOTUSEDCOUNTER] / $NOTFOUNDCOUNTER ]"
 done < $NOTFOUNDFILE
 
 
+
+
 echo
-echo Checking for duplicates in $SURENOTUSED....
+# Check if grandparent of message key is referenced in the codebase...
+GRANDPARENTUSEDCOUNTER=0
+GRANDPARENTNOTUSEDCOUNTER=0
 while read -r NAME
 do
-    FOUND=$(grep -x "\<$NAME\>" $SURENOTUSED)
-    if [[ ! -z "${FOUND// }" ]] && [[ $FOUND != $NAME ]]; then
-       echo Found a duplicate: $NAME
-    fi
-done < $SURENOTUSED
+   IFS=$MESSAGE_DELIMITER
+   TOKENS=( $NAME )
+   IFS='='
+   TOKEN_COUNT=${#TOKENS[@]}
+   LAST_TOKEN=${TOKENS[$[$TOKEN_COUNT-1]]}
+   LEN_LAST_TOKEN=${#LAST_TOKEN}
+   PENULTIMATE_TOKEN=${TOKENS[$[$TOKEN_COUNT-2]]}
+   LEN_PENULTIMATE_TOKEN=${#PENULTIMATE_TOKEN}
+   NAME_LEN=${#NAME}
+   GRANDPARENT_LEN=$[$NAME_LEN-$LEN_LAST_TOKEN-$LEN_PENULTIMATE_TOKEN-1]
+   GRANDPARENT=${NAME:0:$GRANDPARENT_LEN}
+   SEARCHSTRING="$GRANDPARENT."
+
+
+
+   FOUND=$(grep -r --exclude-dir=target --include=*.{html,htm,scala} "$SEARCHSTRING")
+   if [[ -z "${FOUND// }" ]]; then
+      GRANDPARENTNOTUSEDCOUNTER=$[$GRANDPARENTNOTUSEDCOUNTER +1]
+      echo $NAME >> $GRANDPARENTNOTUSED
+   else
+      GRANDPARENTUSEDCOUNTER=$[$GRANDPARENTUSEDCOUNTER +1]
+      echo $NAME >> $GRANDPARENTUSED
+   fi
+
+    echo -en "\rGrandparent not used: $GRANDPARENTNOTUSEDCOUNTER   Grandparent used: $GRANDPARENTUSEDCOUNTER   [ $[$GRANDPARENTNOTUSEDCOUNTER+$GRANDPARENTUSEDCOUNTER] / $PARENTNOTUSEDCOUNTER ]"
+done < $PARENTNOTUSED
+
+
 
 
 echo
 echo
-echo Total that really look like they\'re not used: $SURENOTUSEDCOUNTER
-echo Total that might not be used: $MAYBENOTUSEDCOUNTER
-
-
+echo Total that look like they are still being used: $FOUNDCOUNTER
+echo Total that are not directly referenced, but their parent key is: $PARENTUSEDCOUNTER   \(logged to $PARENTUSED\)
+echo Total that are not directly referenced, but their grandparent key is: $GRANDPARENTUSEDCOUNTER      \(logged to $GRANDPARENTUSED\)
+echo Total that neither they, their parent, nor their grandparent key is referenced: $GRANDPARENTNOTUSEDCOUNTER  \(logged to $GRANDPARENTNOTUSED\)
+echo Total that have short keys that are not referenced: $SHORTNOTUSEDCOUNTER   \(logged to $SHORTNOTUSED\)
+echo
+echo Recommendations...
+echo Check and remove messages in $SHORTNOTUSED
+echo It is also worth checking messages in  $GRANDPARENTNOTUSED
+echo
+echo Some messages in $PARENTUSED and $GRANDPARENTUSED could still be unused, but it is less likely.
+echo
+echo
