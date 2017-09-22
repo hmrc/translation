@@ -191,6 +191,7 @@ echo Total that neither they, their parent, nor their grandparent key is referen
 echo Total that have short keys that are not referenced: $SHORTNOTUSEDCOUNTER   \(logged to $SHORTNOTUSED\)
 echo
 echo Recommendations...
+echo Resolve any duplicate messages
 echo Check and remove messages in $SHORTNOTUSED
 echo It is also worth checking messages in  $GRANDPARENTNOTUSED
 echo
