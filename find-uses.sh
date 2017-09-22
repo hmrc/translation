@@ -15,6 +15,8 @@ MESSAGECOUNT=0
 FOUNDCOUNTER=0
 NOTFOUNDCOUNTER=0
 STRINGCOUNT=0
+DUPLICATES=""
+DUPLICATECOUNT=0
 IFS="="
 
 # Tidy up old files....
@@ -59,12 +61,14 @@ do
 
         FOUND=$(grep -c "^$NAME=" $MESSAGESFILE)
         if [[ $FOUND -gt 1 ]]; then
-          echo
-          echo Found a duplicate message: $NAME
+#          echo
+#          echo Found a duplicate message: $NAME
+          DUPLICATES="${DUPLICATES}
+          ${NAME}"
+          DUPLICATECOUNT=$[$DUPLICATECOUNT +1]
         fi
     fi
 done < $MESSAGESFILE
-echo
 
 
 
@@ -191,10 +195,22 @@ echo Total that neither they, their parent, nor their grandparent key is referen
 echo Total that have short keys that are not referenced: $SHORTNOTUSEDCOUNTER   \(logged to $SHORTNOTUSED\)
 echo
 echo Recommendations...
-echo Resolve any duplicate messages
-echo Check and remove messages in $SHORTNOTUSED
-echo It is also worth checking messages in  $GRANDPARENTNOTUSED
-echo
-echo Some messages in $PARENTUSED and $GRANDPARENTUSED could still be unused, but it is less likely.
+if [ "$DUPLICATECOUNT" -gt 0 ]; then
+    echo Resolve $DUPLICATECOUNT duplicate messages:
+    echo $DUPLICATES
+    echo
+fi
+if [ "$SHORTNOTUSEDCOUNTER" -gt 0 ]; then
+    echo Check and remove the $SHORTNOTUSEDCOUNTER messages in $SHORTNOTUSED
+fi
+if [ "$GRANDPARENTNOTUSEDCOUNTER" -gt 0 ]; then
+    echo It is also worth checking the $GRANDPARENTNOTUSEDCOUNTER messages in $GRANDPARENTNOTUSED
+fi
+if [ "$PARENTUSEDCOUNTER" -gt 0 ]; then
+    echo Some messages in $PARENTUSED \($PARENTUSEDCOUNTER\) could still be unused, but it is less likely.
+fi
+if [ "$GRANDPARENTUSEDCOUNTER" -gt 0 ]; then
+    echo Some messages in $GRANDPARENTUSED \($GRANDPARENTUSEDCOUNTER\) could still be unused, but it is less likely.
+fi
 echo
 echo
