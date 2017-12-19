@@ -18,26 +18,45 @@ package translate.ui
 
 import java.io.File
 
-import translate.GitMessage2Csv
+import translate.Message2Csv
 import util.PathParser
 
 import scala.swing._
 
-object GitMessage2CsvUI extends GitMessage2CsvUI
+object Message2CsvUI extends Message2CsvUI
 
-trait GitMessage2CsvUI extends PathParser{
+trait Message2CsvUI extends PathParser{
 
 
-  val tfGitRefIn = new TextField("https://github.com/hmrc/xxxxxxxxx.git")
-  val lbGitRefIn = new Label("Git Clone Uri:"){
-    tooltip = "The git project uri, to be examined"
+  // #### Csv Input file...
+  val tfInputCsv = new TextField("previous_messages.csv")
+  val buttonInputCsv = new Button {
+    action = Action("open"){
+      val fcInputCsv = new FileChooser(new File(extractPath(tfInputCsv.text)))
+      fcInputCsv.showOpenDialog(tfInputCsv)
+      if(fcInputCsv.selectedFile != null) {tfInputCsv.text = fcInputCsv.selectedFile.toString}
+    }
+    text = "Previous Csv file..."
+    enabled = true
+    tooltip = "Select the file to read your previous csv from."
   }
 
 
-  val tfGitCommitRef = new TextField("aa12345")
-  val lbGitCommitRef= new Label("Git Commit Ref:"){
-    tooltip = "The commit where your messages were last translated into Welsh"
+  // #### Csv Input file...
+  val tfInputMessage = new TextField("messages")
+  val buttonInputMessage = new Button {
+    action = Action("open"){
+      val fcInputMessage = new FileChooser(new File(extractPath(tfInputMessage.text)))
+      fcInputMessage.showOpenDialog(tfInputMessage)
+      if(fcInputMessage.selectedFile != null) {tfInputMessage.text = fcInputMessage.selectedFile.toString}
+    }
+    text = "Current messages file..."
+    enabled = true
+    tooltip = "Select your current English messsages file."
   }
+
+
+
 
 
   // #### Output Csv Output file...
@@ -48,21 +67,21 @@ trait GitMessage2CsvUI extends PathParser{
       fcOuputCsv.showOpenDialog(tfOuputCsv)
       if(fcOuputCsv.selectedFile != null) {tfOuputCsv.text = fcOuputCsv.selectedFile.toString}
     }
-    text = "Ouput Csv file..."
+    text = "Output Csv file..."
     enabled = true
     tooltip = "Select the file to output your csv to."
   }
 
   // ### Assemble label and Textfield panels...
   val panelButtons = new GridPanel(3,1){
-    contents += lbGitRefIn
-    contents += lbGitCommitRef
+    contents += buttonInputCsv
+    contents += buttonInputMessage
     contents += buttonOuputCsv
   }
 
   val panelTextFields = new GridPanel(3,1){
-    contents += tfGitRefIn
-    contents += tfGitCommitRef
+    contents += tfInputCsv
+    contents += tfInputMessage
     contents += tfOuputCsv
   }
 
@@ -70,16 +89,11 @@ trait GitMessage2CsvUI extends PathParser{
   // ## Build and assemble the go Panel...
   val go2CsvButton = new Button {
     action = Action("go"){
-
-      val lastPeriod:Int = tfGitRefIn.text.lastIndexOf('.')
-      val lastSlash:Int = tfGitRefIn.text.lastIndexOf('/')
-      val projectName = tfGitRefIn.text.substring(lastSlash+1, lastPeriod)
-      GitMessage2Csv.fetchGitFiles(projectName, tfGitRefIn.text, tfGitCommitRef.text)
-      GitMessage2Csv.messages2csv(tfOuputCsv.text)
+      Message2Csv.messages2csv(tfInputMessage.text, tfInputCsv.text, tfOuputCsv.text)
     }
     text = "Create Csv file"
     enabled = true
-    tooltip = "Compares current/previous English & Welsh messages from specified project, in order to create a new marked-up Csv, for translation."
+    tooltip = "Compares specified English messages with a specified translated cvs file, in order to create a new marked-up Csv."
   }
 
   val goPanel = new FlowPanel(){

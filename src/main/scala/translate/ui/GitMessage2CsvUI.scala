@@ -41,14 +41,14 @@ trait GitMessage2CsvUI extends PathParser{
 
 
   // #### Output Csv Output file...
-  val tfOuputCsv = new TextField("messages_compared.csv")
-  val buttonOuputCsv = new Button {
+  val tfOutputCsv = new TextField("messages_compared.csv")
+  val buttonOutputCsv = new Button {
     action = Action("open"){
-      val fcOuputCsv = new FileChooser(new File(extractPath(tfOuputCsv.text)))
-      fcOuputCsv.showOpenDialog(tfOuputCsv)
-      if(fcOuputCsv.selectedFile != null) {tfOuputCsv.text = fcOuputCsv.selectedFile.toString}
+      val fcOutputCsv = new FileChooser(new File(extractPath(tfOutputCsv.text)))
+      fcOutputCsv.showOpenDialog(tfOutputCsv)
+      if(fcOutputCsv.selectedFile != null) {tfOutputCsv.text = fcOutputCsv.selectedFile.toString}
     }
-    text = "Ouput Csv file..."
+    text = "Output Csv file..."
     enabled = true
     tooltip = "Select the file to output your csv to."
   }
@@ -57,13 +57,13 @@ trait GitMessage2CsvUI extends PathParser{
   val panelButtons = new GridPanel(3,1){
     contents += lbGitRefIn
     contents += lbGitCommitRef
-    contents += buttonOuputCsv
+    contents += buttonOutputCsv
   }
 
   val panelTextFields = new GridPanel(3,1){
     contents += tfGitRefIn
     contents += tfGitCommitRef
-    contents += tfOuputCsv
+    contents += tfOutputCsv
   }
 
 
@@ -75,7 +75,7 @@ trait GitMessage2CsvUI extends PathParser{
       val lastSlash:Int = tfGitRefIn.text.lastIndexOf('/')
       val projectName = tfGitRefIn.text.substring(lastSlash+1, lastPeriod)
       GitMessage2Csv.fetchGitFiles(projectName, tfGitRefIn.text, tfGitCommitRef.text)
-      GitMessage2Csv.messages2csv(tfOuputCsv.text)
+      GitMessage2Csv.messages2csv(tfOutputCsv.text)
     }
     text = "Create Csv file"
     enabled = true
