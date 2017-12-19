@@ -44,7 +44,7 @@ class Message2CsvSpec extends FlatSpec with Matchers {
 
     override def fetchMessages(lang:String):Map[String, String] = {
       Map(("key 1" -> "English message 1"),
-          ("key 2" -> "English updated message 2"),
+          ("key 2" -> "English updated message=2"),
           ("key 3" -> "English message 3"),
           ("key 4" -> "English message 4"))
     }
@@ -56,7 +56,7 @@ class Message2CsvSpec extends FlatSpec with Matchers {
     val result = FakeMessage2Csv.messages2csv("fake","fake","fake")
     FakeMessage2Csv.output shouldBe "Key\tEnglish\tWelsh\tComments\n" +
                                             "key 1\tEnglish message 1\tWelsh message 1\tEnglish message unchanged\n" +    // Already translated
-                                            "key 2\tEnglish updated message 2\t\tMessage changed (previous message was: English message 2 / Welsh message 2)\n" +   // Message changed
+                                            "key 2\tEnglish updated message=2\t\tMessage changed (previous message was: English message 2 / Welsh message 2)\n" +   // Message changed
                                             "key 3\tEnglish message 3\t\tNo Welsh translation found\n" +                  // Welsh empty in csv
                                             "key 4\tEnglish message 4\t\tNo Welsh translation found\n"                    // New Message
   }

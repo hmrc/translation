@@ -44,11 +44,10 @@ trait KeyValueParser{
     } else {
       val cols = line.split(token).toList
       val key = cols.headOption.getOrElse("").trim
-      val value = cols.tail.headOption.getOrElse("").trim
+      val value = cols.tail.mkString("=").trim
       Map(key -> value)
     }
   }
-
 
 }
 
