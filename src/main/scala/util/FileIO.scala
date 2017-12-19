@@ -44,7 +44,7 @@ trait KeyValueParser{
     } else {
       val cols = line.split(token).toList
       val key = cols.headOption.getOrElse("").trim
-      val value = cols.tail.mkString("=").trim
+      val value = cols.tail.mkString(token).trim
       Map(key -> value)
     }
   }
