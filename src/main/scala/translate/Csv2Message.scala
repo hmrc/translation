@@ -33,9 +33,19 @@ trait Csv2Message extends CsvReader with WrappedPrintWriter{
     val existingTranslations = readFromCsv(csvFilename)
 
     val content = existingTranslations.filter(line => line._2._2.length > 0).map{translation =>
-      translation._1 + delimiter  + translation._2._2  + newLine
+      translation._1 + delimiter  + removeQuotes(translation._2._2)  + newLine
     }
 
     writeFile(outputFileName, content.fold("")((key,value) => key + value))
+  }
+
+
+  def removeQuotes(str: String) : String = {
+    if (str.length() >= 2 && str.charAt(0) == '"' && str.charAt(str.length() - 1) == '"') {
+      str.substring(1, str.length() - 1)
+    }
+    else {
+      str
+    }
   }
 }

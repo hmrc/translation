@@ -37,7 +37,7 @@ class Csv2MessageSpec extends FlatSpec with Matchers {
     override def linesFromFile(fileName: String):Iterator[String] = {
       val line1 = "key 1 \t English 1 \t Welsh 1"
       val line2 = "key 2 \t English 2"
-      val line3 = "key 300 \t English 3 \t Welsh 3"
+      val line3 = "key 300 \t English 3 \t \"Welsh 3\""
       Iterator(line1, line2, line3)
     }
   }
@@ -49,12 +49,12 @@ class Csv2MessageSpec extends FlatSpec with Matchers {
       result shouldBe Map(
         "key 1" -> ("English 1", "Welsh 1"),
         "key 2" ->   ("English 2", ""),
-        "key 300" -> ("English 3", "Welsh 3"))
+        "key 300" -> ("English 3", "\"Welsh 3\""))
   }
 
 
   "translate.Csv2Message" should
-    "write to message files from values in the csv file values" in {
+    "write to message files from values in the csv file values, removing any quotes on Welsh translation" in {
     val result = testCsv2Message.csv2Messages(inputCsvFile, outputMsgFile)
     testCsv2Message.output shouldBe "key 1=Welsh 1\n" +
                                     "key 300=Welsh 3\n"
