@@ -55,12 +55,19 @@ trait KeyValueParser{
 trait FileReader {
   lazy val source = Source
 
-  def linesFromFile(fileName: String): Iterator[String] = {
+  def linesFromFile(fileName: String, mustExist: Boolean): Iterator[String] = {
     try {
       source.fromFile(fileName).getLines()
     }
     catch{
-      case _: Throwable => println(s"Couldn't open file: $fileName"); Iterator(" = ")
+      case _: Throwable => {
+        if (mustExist) {
+          println(s"Error: Couldn't open file: $fileName :(")
+        } else{
+          println(s"Warning: Couldn't open file: $fileName, but it may just not exist yet. :) ")
+        }
+        Iterator(" = ")
+      }
     }
   }
 }
@@ -68,7 +75,7 @@ trait FileReader {
 
 trait CsvReader extends FileReader with KeyValueParser {
   def readFromCsv(translations:String):Map[String, (String, String)] = {
-    val lines = for (line <- linesFromFile(translations)) yield line
+    val lines = for (line <- linesFromFile(translations, true)) yield line
      lines.flatMap{ line =>
        splitKeyValues(line, "\t")
     }.toMap

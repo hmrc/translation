@@ -34,7 +34,7 @@ class Csv2MessageSpec extends FlatSpec with Matchers {
 
   object testCsv2Message extends Csv2Message with FakeWrappedPrintWriter{
 
-    override def linesFromFile(fileName: String):Iterator[String] = {
+    override def linesFromFile(fileName: String, mustExist: Boolean):Iterator[String] = {
       val line1 = "key 1 \t English 1 \t Welsh 1"
       val line2 = "key 2 \t English 2"
       val line3 = "key 300 \t English 3 \t \"Welsh 3\""

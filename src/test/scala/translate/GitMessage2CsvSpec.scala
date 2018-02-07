@@ -36,7 +36,7 @@ class GitMessage2CsvSpec extends FlatSpec with Matchers {
 
   object FakeGitMessage2Csv extends GitMessage2Csv with FakeWrappedPrintWriter {
 
-    override def fetchMessages(lang:String):Map[String, String] = {
+    override def fetchMessages(lang:String, mustExist: Boolean):Map[String, String] = {
 
       lang match{
         case `currentEnglishMessages` =>
