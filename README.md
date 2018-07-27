@@ -1,7 +1,7 @@
 # translation
 
 
-This tool is intended to make translation of English Play! Framework messages files to other languages (specifically Welsh), simpler.
+This tool is intended to make translation of English Play! Framework message files to other languages (specifically Welsh), simpler.
 
 It will extract English messages, and any existing Welsh translations into a csv file, for translation.
 
@@ -9,8 +9,8 @@ Once the translation file has been populated and returned, the tool can extract 
 
 The tool may then be used to cross-reference the latest English messages file against a previous messages, within a specified git commit, to ensure sychnonisation. It will apply comments against each line, to indicate:
  - a new, untranslated English message
- - an existing, changed English message
- - an existing, unchanged English message, which already has a Welsh translation
+ - an existing changed English message
+ - an existing unchanged English message, which already has a Welsh translation
 
 # Executing
 
@@ -20,7 +20,7 @@ The tool may then be used to cross-reference the latest English messages file ag
 
 ## Git Msg to Csv (Compare current message versions, with a previous git commit)
 1. Specify the git project you want to examine.
-2. Specift the commit reference of the last time the Welsh translations were updated. If there are no previous Welsh translations, just put __master__, instead.
+2. Specify the commit reference of the last time the Welsh translations were updated. If there are no previous Welsh translations, just put __master__, instead.
 3. Click the button at the bottom, to create the csv file.
 
 # Example Output csv
@@ -36,7 +36,7 @@ The tool may then be used to cross-reference the latest English messages file ag
 
 
 ## Csv to Messages
-1. Select Mode, to covert from csv to messages
+1. Select Mode, to convert from csv to messages
 2. Select the input and output files. (NB: the application will overwrite files, without confirmation)
 3. Click the button at the bottom, to create the Welsh messages file.
 
@@ -56,5 +56,5 @@ The tool may then be used to cross-reference the latest English messages file ag
 # Notes:
  1. Messages.en is the definitive hand-crafted list of messages in the project, so never auto generated.
  2. Messages.cy is a straight generation from a csv/spreadsheet file.
- 3. This application uses some native code. To date, it has only been tested on Linux. It should work with any Bash shell, but does not yet support Windoze (unless you have Cywin or Windows Bash shell installed).
+ 3. This application uses some native code. To date, it has only been tested on Linux and Mac (thanks to Callum Cooper c33-cooper-hmrc). It should work with any Bash shell, but does not yet support Windoze (unless you have Cywin or Windows Bash shell installed).
  
