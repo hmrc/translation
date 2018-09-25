@@ -214,5 +214,3 @@ if [ "$GRANDPARENTUSEDCOUNTER" -gt 0 ]; then
 fi
 echo
 echo
-echo
-
