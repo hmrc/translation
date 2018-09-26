@@ -27,18 +27,20 @@ trait Csv2Message extends CsvReader with WrappedPrintWriter{
   val newLine = "\n"
   val delimiter = "="
 
+  private def firstLine(line: (String, (String, String))): Boolean = {
+    line._1.equalsIgnoreCase("key") && line._2._2.equalsIgnoreCase("welsh")
+  }
 
   def csv2Messages(csvFilename:String, outputFileName: String):Unit = {
 
     val existingTranslations = readFromCsv(csvFilename)
 
-    val content = existingTranslations.filter(line => line._2._2.length > 0).map{translation =>
+    val content = existingTranslations.filter(line => line._2._2.length > 0 && !firstLine(line)).map{translation =>
       translation._1 + delimiter  + removeQuotes(translation._2._2)  + newLine
     }
 
     writeFile(outputFileName, content.fold("")((key,value) => key + value))
   }
-
 
   def removeQuotes(str: String) : String = {
     if (str.length() >= 2 && str.charAt(0) == '"' && str.charAt(str.length() - 1) == '"') {

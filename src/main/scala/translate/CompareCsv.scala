@@ -49,7 +49,7 @@ trait CompareCsv extends CsvReader with WrappedPrintWriter{
       result + newLine
     }
     )
-    val unaffectedItems: Map[String, (String, String)] = existingMap.filter(existingItem => !receivedMap.exists(receivedItem => receivedItem._1 == existingItem._1))
+    val unaffectedItems: List[(String, (String, String))] = existingMap.filter(existingItem => !receivedMap.exists(receivedItem => receivedItem._1 == existingItem._1))
     val existingLinesUnaffected = unaffectedItems.map( xx => outputLine( xx._1, xx._2._1, xx._2._2, "Unchanged." ) + newLine)
 
     val ee = receivedLines.fold("")((key, value) => key + value) +
