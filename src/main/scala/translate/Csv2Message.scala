@@ -36,10 +36,15 @@ trait Csv2Message extends CsvReader with WrappedPrintWriter{
     val existingTranslations = readFromCsv(csvFilename)
 
     val content = existingTranslations.filter(line => line._2._2.length > 0 && !firstLine(line)).map{translation =>
-      translation._1 + delimiter  + removeQuotes(translation._2._2)  + newLine
+      translation._1 + delimiter  + performPunctuationChanges(translation._2._2)  + newLine
     }
 
     writeFile(outputFileName, content.fold("")((key,value) => key + value))
+  }
+
+  def performPunctuationChanges(str: String): String ={
+    val sanitisedString = removeQuotes(str)
+    applyApostrophesForMessagesFile(sanitisedString)
   }
 
   def removeQuotes(str: String) : String = {
@@ -49,5 +54,9 @@ trait Csv2Message extends CsvReader with WrappedPrintWriter{
     else {
       str
     }
+  }
+
+  def applyApostrophesForMessagesFile(str: String) : String = {
+    str.replaceAll("''","'").replaceAll("'","''")
   }
 }

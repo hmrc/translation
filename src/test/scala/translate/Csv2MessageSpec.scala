@@ -84,6 +84,33 @@ class Csv2MessageSpec extends FlatSpec with Matchers with CommonMethods {
       "ggg.aaa.fff=hwn yw testun Saesneg 18\n"
   }
 
+  val punctuationFile: String = file("translationsWithPunctuation.csv")
+
+  "translate.Csv2Message" should
+    "write to message files from values in the csv file values when punctuation is there" +
+      "if single apostrophe add another one, if two already present leave as two" in {
+    val result = testCsv2Message.csv2Messages(punctuationFile, outputMsgFile)
+    testCsv2Message.output shouldBe "" +
+      "aaa.bbb.ccc=hwn yw testun Saesneg 1\n" +
+      "aaa.ccc.ddd=hwn yw testun Saesneg 2\n" +
+      "aaa.ddd.eee=hwn yw testun Saesneg 3\n" +
+      "aaa.eee.fff=hwn yw testun Saesneg 4\n" +
+      "aaa.fff.ggg=hwn yw testun Saesneg 5\n" +
+      "aaa.ggg.hhh=hwn yw testun Saesneg 6\n" +
+      "aaa.hhh.iii=hwn yw testun Saesneg 7\n" +
+      "aaa.iii.jjj=hwn yw testun Saesneg 8\n" +
+      "bbb.aaa.bbb=hwn yw testun Saesneg 9\n" +
+      "bbb.bbb.ccc=hwn yw testun Saesneg 10\n" +
+      "bbb.ccc.ddd=hwn yw testun Saesneg 11\n" +
+      "bbb.ddd.eee=hwn yw testun Saesneg 12\n" +
+      "bbb.eee.fff=hwn yw testun Saesneg 13\n" +
+      "ccc.aaa.bbb=hwn yw testun Saesneg 4\n" +
+      "ggg.aaa.bbb=hwn yw testun Saesneg 15\n" +
+      "ggg.aaa.ccc=hwn yw testun Saesneg 16\n" +
+      "ggg.aaa.eee=Gwasanaeth Un Cam ar gyfer TAW - Busnesau y tu allan i''r UE\n" +
+      "ggg.aaa.fff=Adding apost''rophes all over'' place''\n"
+  }
+
   val existingCsvFilePath: String = file("existingTranslations.csv")
 
   "translate.Csv2Message" should
