@@ -22,9 +22,6 @@ import util.WrappedPrintWriter
 
 class GitMessage2CsvSpec extends FlatSpec with Matchers {
 
-//  val inputCsvFile = "existingTranslations.csv"
-//  val inputMessagesFile = "Messages.en"
-
   trait FakeWrappedPrintWriter extends WrappedPrintWriter {
     var output: String = ""
 
@@ -33,40 +30,84 @@ class GitMessage2CsvSpec extends FlatSpec with Matchers {
     }
   }
 
+  object FakeGitMessage2Csv extends GitMessage2Csv with FakeWrappedPrintWriter with CommonMethods {
 
-  object FakeGitMessage2Csv extends GitMessage2Csv with FakeWrappedPrintWriter {
-
-    override def fetchMessages(lang:String, mustExist: Boolean):Map[String, String] = {
-
-      lang match{
-        case `currentEnglishMessages` =>
-          Map("key 1" -> "English message 1",
-              "key 2" -> "Changed English message 2",
-              "key 4" -> "English message 4",
-              "key 5" -> "New English message 5")
-        case `currentWelshMessages` =>
-          Map("key 1" -> "Welsh message 1",
-              "key 2" -> "Welsh message 2",
-              "key 3" -> "Welsh message 3",
-              "key 4" -> "Welsh message 4")
-        case `oldEnglishMessages` =>
-          Map("key 1" -> "English message 1",
-              "key 2" -> "English message 2",
-              "key 3" -> "English message 3",
-              "key 4" -> "English message 4")
-      }
-    }
+    override val currentEnglishMessages:String = file(s"test_current_messages")
+    override val currentWelshMessages:String = file(s"test_current_messages.cy")
+    override val oldEnglishMessages:String = file(s"test_old_messages")
   }
 
+  object NewContent extends GitMessage2Csv with FakeWrappedPrintWriter with CommonMethods {
+
+    override val currentEnglishMessages:String =  file(s"test_current_changes_messages")
+    override val currentWelshMessages:String = file(s"test_current_messages.cy")
+    override val oldEnglishMessages:String = file(s"test_old_messages")
+
+  }
+
+  object UpdatedEnglishContent extends GitMessage2Csv with FakeWrappedPrintWriter with CommonMethods {
+
+    override val currentEnglishMessages:String =  file(s"test_updated_content_messages")
+    override val currentWelshMessages:String = file(s"test_current_messages.cy")
+    override val oldEnglishMessages:String = file(s"test_old_messages")
+
+  }
 
   "Message2csv" should
   "read the current and old English message file and current Welsh message file, compare and write the result into a csv file " in {
-    val result = FakeGitMessage2Csv.messages2csv("fake")
-    FakeGitMessage2Csv.output shouldBe "Key\tEnglish\tWelsh\tComments\n" +
-                                            "key 1\tEnglish message 1\tWelsh message 1\tEnglish message unchanged\n" +    // Already translated
-                                            "key 2\tChanged English message 2\t\tMessage changed (previous message was: English message 2 / Welsh message 2)\n" +   // Message changed
-                                            "key 4\tEnglish message 4\tWelsh message 4\tEnglish message unchanged\n" +                  // Welsh empty in csv
-                                            "key 5\tNew English message 5\t\tNo Welsh translation found\n"                    // New Message
+
+    FakeGitMessage2Csv.messages2csv("")
+    FakeGitMessage2Csv.output shouldBe "" +
+      "Key\tEnglish\tWelsh\tComments\n" +
+      "tractorBoots\tSisyphus off-the-runway lace up tractor boots\tSisyphus les i fyny esgidiau tractor oddi ar y rhedfa\tEnglish message unchanged\n" +
+      "tractorSock\tSisyphus tractor sock sneakers\tHyfforddwyr sanau tractor Sisyphus\tEnglish message unchanged\n" +
+      "dirtSandals\tSisyphus hiking sandals\tSandalau heicio Sisyphus\tEnglish message unchanged\n" +
+      "obliqueSock\tSisyphus oblique runner stretch sock sneakers\tSisyphus hyfforddwyr sanau oblique ymestyn rhedwr\tEnglish message unchanged\n" +
+      "geos\tSisyphus geobaskets\tGeobaskets Sisyphus\tEnglish message unchanged\n" +
+      "creepers\tSisyphus lace-up creeper boots\tSisyphus esgidiau crafu tywallt\tEnglish message unchanged\n" +
+      "stooges\tStooges cropped jacket\tSiaced croen Stooges\tEnglish message unchanged\n" +
+      "bullet\tForever bullet jacket\tDaw'r siaced bwled\tEnglish message unchanged\n" +
+      "intarsia\tForever intarsia high neck jacket\tSiaced gwddf uchel intarsia i gyd\tEnglish message unchanged\n" +
+      "puffer\tSisyphus jumbo duvet coat\tCôt duvet Sisyphus jumbo\tEnglish message unchanged\n"
+  }
+
+  "Message2csv" should
+  "read the current and old English message file and current Welsh message file, compare and write the result into a csv file" +
+    "when there are changes to the current messages" in {
+
+    NewContent.messages2csv("")
+    NewContent.output shouldBe "" +
+      "Key\tEnglish\tWelsh\tComments\n" +
+      "tractorBoots\tSisyphus off-the-runway lace up tractor boots\tSisyphus les i fyny esgidiau tractor oddi ar y rhedfa\tEnglish message unchanged\n" +
+      "tractorSock\tSisyphus tractor sock sneakers\tHyfforddwyr sanau tractor Sisyphus\tEnglish message unchanged\n" +
+      "dirtSandals\tSisyphus hiking sandals\tSandalau heicio Sisyphus\tEnglish message unchanged\n" +
+      "obliqueSock\tSisyphus oblique runner stretch sock sneakers\tSisyphus hyfforddwyr sanau oblique ymestyn rhedwr\tEnglish message unchanged\n" +
+      "geos\tSisyphus geobaskets\tGeobaskets Sisyphus\tEnglish message unchanged\n" +
+      "creepers\tSisyphus lace-up creeper boots\tSisyphus esgidiau crafu tywallt\tEnglish message unchanged\n" +
+      "sockWedges\tSisyphus ruhlmann sock wedges\t\tNo Welsh translation found\n" +                                //Additional new content
+      "stooges\tStooges cropped jacket\tSiaced croen Stooges\tEnglish message unchanged\n" +
+      "bullet\tForever bullet jacket\tDaw'r siaced bwled\tEnglish message unchanged\n" +
+      "intarsia\tForever intarsia high neck jacket\tSiaced gwddf uchel intarsia i gyd\tEnglish message unchanged\n" +
+      "puffer\tSisyphus jumbo duvet coat\tCôt duvet Sisyphus jumbo\tEnglish message unchanged\n"
+  }
+
+  "Message2csv" should
+  "read the current and old English message file and current Welsh message file, compare and write the result into a csv file" +
+    "when existing content has changed" in {
+
+    UpdatedEnglishContent.messages2csv("")
+    UpdatedEnglishContent.output shouldBe "" +
+      "Key\tEnglish\tWelsh\tComments\n" +
+      "tractorBoots\tSisyphus off-the-runway lace up tractor boots\tSisyphus les i fyny esgidiau tractor oddi ar y rhedfa\tEnglish message unchanged\n" +
+      "tractorSock\tSisyphus tractor sock sneakers\tHyfforddwyr sanau tractor Sisyphus\tEnglish message unchanged\n" +
+      "dirtSandals\tSisyphus hiking sandals\tSandalau heicio Sisyphus\tEnglish message unchanged\n" +
+      "obliqueSock\tSisyphus oblique runner stretch sock sneakers\tSisyphus hyfforddwyr sanau oblique ymestyn rhedwr\tEnglish message unchanged\n" +
+      "geos\tSisyphus geobaskets\tGeobaskets Sisyphus\tEnglish message unchanged\n" +
+      "creepers\tSisyphus lace-up creeper boots\tSisyphus esgidiau crafu tywallt\tEnglish message unchanged\n" +
+      "stooges\tStooges FW18 cropped jacket\t\tMessage changed (previous message was: Stooges cropped jacket / Siaced croen Stooges)\n" +    //Updated content
+      "bullet\tForever bullet jacket\tDaw'r siaced bwled\tEnglish message unchanged\n" +
+      "intarsia\tForever intarsia high neck jacket\tSiaced gwddf uchel intarsia i gyd\tEnglish message unchanged\n" +
+      "puffer\tSisyphus jumbo puffer jacket\t\tMessage changed (previous message was: Sisyphus jumbo duvet coat / Côt duvet Sisyphus jumbo)\n"  //Updated content
   }
 }
 

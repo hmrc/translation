@@ -40,8 +40,8 @@ trait Message2Csv extends KeyValueParser with FileReader with CsvReader with Wra
   def messages2csv(englishMessagesFileName: String, csvInputFileName: String, csvOutputFileName: String): Unit = {
 
     val enMap = fetchMessages(englishMessagesFileName)
-    val existingTranslations = readFromCsv(csvInputFileName)
 
+    val existingTranslations = readFromCsv(csvInputFileName)
 
     val csvLines = enMap.map { enMessage =>
 
@@ -70,10 +70,11 @@ trait Message2Csv extends KeyValueParser with FileReader with CsvReader with Wra
   }
 
 
-  def fetchMessages(lang: String): Map[String, String] = {
+  def fetchMessages(lang: String): List[(String, String)] = {
     val lines = for (line <- linesFromFile(lang, mustExist = true)) yield line
+
     lines.flatMap { line =>
       splitKeyValue(line, token).map(line => line._1 -> line._2)
-    }.toMap
+    }.toList
   }
 }

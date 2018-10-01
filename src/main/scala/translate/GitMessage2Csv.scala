@@ -42,15 +42,14 @@ trait GitMessage2Csv extends KeyValueParser with FileReader with WrappedPrintWri
 
   def messages2csv(csvOutputFileName: String):Unit = {
 
-    val enMap = fetchMessages(currentEnglishMessages, mustExist = true)
-    val cyMap = fetchMessages(currentWelshMessages, mustExist = false)
-    val oldEnMap = fetchMessages(oldEnglishMessages, mustExist = true)
+    val enList = fetchMessages(currentEnglishMessages, mustExist = true)
+    val cyList = fetchMessages(currentWelshMessages, mustExist = false)
+    val oldEnList = fetchMessages(oldEnglishMessages, mustExist = true)
 
+    val outputCsvLines = enList.map{ enMessage =>
 
-    val outputCsvLines = enMap.map{ enMessage =>
-
-      val oOldEnMsg = oldEnMap.find(oldEnMessage => enMessage._1 == oldEnMessage._1)
-      val oCyMsg = cyMap.find(cyMessage => enMessage._1 == cyMessage._1).map(cyMsg => cyMsg._2)
+      val oOldEnMsg = oldEnList.find(oldEnMessage => enMessage._1 == oldEnMessage._1)
+      val oCyMsg = cyList.find(cyMessage => enMessage._1 == cyMessage._1).map(cyMsg => cyMsg._2)
 
       oCyMsg.fold(enMessage._1 + delimiter + enMessage._2 + delimiter + delimiter + noWelshFound)
       {cyMsg =>
@@ -89,11 +88,11 @@ trait GitMessage2Csv extends KeyValueParser with FileReader with WrappedPrintWri
     }
   }
 
-  def fetchMessages(lang:String, mustExist: Boolean):Map[String, String] = {
+  def fetchMessages(lang:String, mustExist: Boolean):List[(String, String)] = {
     val lines = for (line <- linesFromFile(lang, mustExist)) yield line
     lines.flatMap{ line =>
       splitKeyValue(line, token).map(line => line._1 -> line._2)
-    }.toMap
+    }.toList
   }
 
 }

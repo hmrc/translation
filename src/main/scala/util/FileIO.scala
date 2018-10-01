@@ -21,9 +21,9 @@ import java.io.{File, PrintWriter}
 import scala.io.Source
 
 trait KeyValueParser{
-  def splitKeyValues(line:String, token:String): Map[String, (String, String)] = {
+  def splitKeyValues(line:String, token:String): List[(String, (String, String))] = {
     if (line.trim.isEmpty || line.trim.startsWith("#")) {
-      Map.empty
+      List.empty
     } else {
       val cols = line.split(token).toList
       val key = cols.headOption.getOrElse("").trim
@@ -34,18 +34,18 @@ trait KeyValueParser{
                      cols.tail.tail.headOption
                    }else{ None }
 
-      Map(key -> (value1.getOrElse("").trim, value2.getOrElse("").trim))
+      List(key -> (value1.getOrElse("").trim, value2.getOrElse("").trim))
     }
   }
 
-  def splitKeyValue(line:String, token:String): Map[String, String] = {
+  def splitKeyValue(line:String, token:String): List[(String, String)] = {
     if (line.trim.isEmpty || line.trim.startsWith("#")) {
-      Map.empty
+      List.empty
     } else {
       val cols = line.split(token).toList
       val key = cols.headOption.getOrElse("").trim
       val value = cols.tail.mkString(token).trim
-      Map(key -> value)
+      List(key -> value)
     }
   }
 
@@ -74,11 +74,11 @@ trait FileReader {
 
 
 trait CsvReader extends FileReader with KeyValueParser {
-  def readFromCsv(translations:String):Map[String, (String, String)] = {
+  def readFromCsv(translations:String):List[(String, (String, String))] = {
     val lines = for (line <- linesFromFile(translations, true)) yield line
-     lines.flatMap{ line =>
-       splitKeyValues(line, "\t")
-    }.toMap
+    lines.flatMap { line =>
+      splitKeyValues(line, "\t")
+    }.toList
   }
 }
 
