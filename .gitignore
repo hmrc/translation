@@ -35,3 +35,9 @@ test-result
 tmp
 .idea_modules
 bin
+# ignore generated files
+current_messages
+current_messages.*
+old_messages
+old_messages.*
+messages_compared.csv

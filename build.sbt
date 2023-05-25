@@ -2,17 +2,15 @@ import Dependencies._
 
 lazy val root = (project in file(".")).
   settings(
+    name := "welsh-translation-tool",
     inThisBuild(List(
-      organization := "com.example",
-      scalaVersion := "2.11.7",
-      version      := "0.1.0-SNAPSHOT"
+      organization := "uk.gov.hmrc",
+      scalaVersion := "2.12.15",
+      version      := "0.2.0"
     )),
-    name := "Translation",
-//    resolvers += "jgit-repo" at "http://download.eclipse.org/jgit/maven",
     libraryDependencies += scalaTest % Test,
     libraryDependencies += swing % Compile
-//    libraryDependencies += "org.eclipse.jgit" % "org.eclipse.jgit" % "[2.1,)"
   )
 
-mainClass in Compile := Some("translate.ConvertMessages")
-fork in run := true
+Compile / mainClass := Some("translate.ConvertMessages")
+run / fork := true
