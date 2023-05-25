@@ -1,4 +1,4 @@
-# translation
+# welsh-translation-tool
 
 
 This tool is intended to make translation of English Play! Framework message files to other languages (specifically Welsh), simpler.
@@ -12,7 +12,8 @@ The tool may then be used to cross-reference the latest English messages file ag
  - an existing changed English message
  - an existing unchanged English message, which already has a Welsh translation
 
-# Executing
+
+# Running the app
 
 > sbt run
 
@@ -23,7 +24,7 @@ The tool may then be used to cross-reference the latest English messages file ag
 2. Specify the commit reference of the last time the Welsh translations were updated. If there are no previous Welsh translations, just put __master__, instead.
 3. Click the button at the bottom, to create the csv file.
 
-# Example Output csv
+### Example Output csv
 
 | Key | English | Welsh | Comments |
 | ----------|----------|----------|----------|
