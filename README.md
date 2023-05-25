@@ -12,6 +12,9 @@ The tool may then be used to cross-reference the latest English messages file ag
  - an existing changed English message
  - an existing unchanged English message, which already has a Welsh translation
 
+## Pre-requisites to run
+- Java 11
+- sbt 1.x
 
 # Running the app
 
