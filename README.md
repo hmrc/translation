@@ -59,7 +59,9 @@ The tool may then be used to cross-reference the latest English messages file ag
  2. Messages.cy is a straight generation from a csv/spreadsheet file.
  3. This application uses some native code. To date, it has only been tested on Linux and Mac (thanks to Callum Cooper c33-cooper-hmrc). It should work with any Bash shell, but does not yet support Windoze (unless you have Cywin or Windows Bash shell installed).
 
+# Running the tests
 
+    sbt test
 
 ### License
 

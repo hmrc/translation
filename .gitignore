@@ -40,3 +40,4 @@ current_messages
 current_messages.*
 old_messages
 old_messages.*
+messages_compared.csv
